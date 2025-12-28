@@ -30,8 +30,8 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          # 強制安裝 lxml 與 html5lib 以支援 pd.read_html
-          pip install requests pandas pandas_ta openpyxl lxml html5lib
+          # 移除 pandas_ta，保留必要的資料處理與 HTML 解析套件
+          pip install requests pandas openpyxl lxml html5lib
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
       - name: Install Playwright browsers
