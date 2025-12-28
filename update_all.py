@@ -642,6 +642,7 @@ def export_change_rankings(
                         # 加入您要求的細項欄位
                         "foreign_ratio_diff": float(row.get("f_diff", 0)), # 外資今日買賣比例
                         "trust_ratio_diff": float(row.get("t_diff", 0))    # 投信今日買賣比例
+                        "dealer_ratio_diff": float(row.get("s_diff", 0))  # 加入自營商差值
                     }
                 )
             return records
