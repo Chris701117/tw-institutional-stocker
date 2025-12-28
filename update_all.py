@@ -134,39 +134,50 @@ def fetch_twse_t86(trade_date: date) -> pd.DataFrame:
 # ---------- TPEX: 三大法人 daily flows ----------
 
 def fetch_tpex_flows(trade_date: date) -> pd.DataFrame:
-    """上櫃股票三大法人買賣明細 (強化欄位抓取)."""
+    """上櫃股票三大法人買賣明細 (修正 MultiIndex 問題)."""
     roc = f"{trade_date.year - 1911}/{trade_date.month:02d}/{trade_date.day:02d}"
     url = "https://www.tpex.org.tw/web/stock/3insti/daily_trade/3itrade_hedge_result.php"
     params = {"d": roc, "l": "zh-tw", "o": "htm"}
     resp = requests.get(url, params=params, timeout=20)
     
-    # 使用 StringIO 包裝
+    # 讀取 HTML 表格
     tables = pd.read_html(StringIO(resp.text))
     if not tables: return pd.DataFrame()
     
     df = tables[0]
     
-    # 解決多層表頭問題：將所有欄位名稱轉為字串，並只取最後一部分
-    # 或是直接使用模糊搜尋關鍵字
-    cols = df.columns.astype(str).tolist()
+    # 1. 處理 MultiIndex：將多層表頭壓平為單一層級的字串
+    if isinstance(df.columns, pd.MultiIndex):
+        # 將每一層的欄位名稱接起來，例如 ('代號', '代號') -> '代號'
+        df.columns = [
+            '_'.join([str(c) for c in col if 'Unnamed' not in str(c)]) 
+            for col in df.columns.values
+        ]
+    else:
+        df.columns = df.columns.astype(str)
+
+    # 取得處理後的欄位清單
+    cols = df.columns.tolist()
     
     def find_tpex_col(keywords):
-        """專為 TPEX 混亂欄位設計的搜尋工具"""
+        """模糊搜尋包含關鍵字的欄位名稱"""
         for c in cols:
             if any(k in c for k in keywords):
                 return c
         return None
 
+    # 2. 定義模糊比對關鍵字
     code_col = find_tpex_col(["代號"])
     name_col = find_tpex_col(["名稱"])
     f_net_col = find_tpex_col(["外資及陸資買賣超股數", "外資及陸資(不含外資自營商)買賣超股數"])
     t_net_col = find_tpex_col(["投信買賣超股數"])
-    s_net_col = find_tpex_col(["自營商買賣超股數"]) # 這是合計欄位
+    s_net_col = find_tpex_col(["自營商買賣超股數"]) # 取得合計欄位
 
     if not all([code_col, name_col, f_net_col, t_net_col, s_net_col]):
         print(f"[WARN] TPEX 欄位匹配不完全: {cols}")
         return pd.DataFrame()
 
+    # 3. 建立輸出資料
     out = pd.DataFrame({
         "date": trade_date,
         "code": df[code_col].astype(str).str.strip().str.zfill(4),
