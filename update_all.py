@@ -607,10 +607,11 @@ def export_change_rankings(
 ):
     latest_date = pd.to_datetime(merged["date"]).dt.date.max()
     
-    # 這裡我們先算出每一檔股票跟前一天的差額
+    # 計算單日變化量
     merged = merged.sort_values(["code", "date"])
     merged["f_diff"] = merged.groupby("code")["foreign_ratio"].diff().fillna(0.0)
     merged["t_diff"] = merged.groupby("code")["trust_ratio_est"].diff().fillna(0.0)
+    merged["s_diff"] = merged.groupby("code")["dealer_ratio_est"].diff().fillna(0.0)
     
     latest = merged[merged["date"] == latest_date].copy()
 
@@ -629,7 +630,6 @@ def export_change_rankings(
         down = tmp.sort_values(col, ascending=True).head(200)
 
         def to_dict_list(df: pd.DataFrame):
-            # 增加讀取欄位：f_diff (外資當日變化), t_diff (投信當日變化)
             records = []
             for _, row in df.iterrows():
                 records.append(
@@ -639,10 +639,9 @@ def export_change_rankings(
                         "market": row["market"],
                         "three_inst_ratio": float(row["three_inst_ratio_est"]),
                         "change": float(row[col]),
-                        # 加入您要求的細項欄位
-                        "foreign_ratio_diff": float(row.get("f_diff", 0)), # 外資今日買賣比例
-                        "trust_ratio_diff": float(row.get("t_diff", 0))    # 投信今日買賣比例
-                        "dealer_ratio_diff": float(row.get("s_diff", 0))  # 加入自營商差值
+                        "foreign_ratio_diff": float(row.get("f_diff", 0)), # 注意這裡要有逗點
+                        "trust_ratio_diff": float(row.get("t_diff", 0)),   # 注意這裡要有逗點
+                        "dealer_ratio_diff": float(row.get("s_diff", 0))   # 最後一項可以加也可以不加
                     }
                 )
             return records
