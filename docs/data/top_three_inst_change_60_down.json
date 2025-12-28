@@ -6,7 +6,8 @@
     "three_inst_ratio": -0.22527066396638576,
     "change": -0.22527066396638576,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": -0.1254027816091821
+    "trust_ratio_diff": -0.1254027816091821,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00657K",
@@ -15,43 +16,8 @@
     "three_inst_ratio": 0.0,
     "change": 0.0,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "00668K",
-    "name": "國泰美國道瓊+U",
-    "market": "TWSE",
-    "three_inst_ratio": 0.0,
-    "change": 0.0,
-    "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "02001L",
-    "name": "富邦蘋果正二N",
-    "market": "TWSE",
-    "three_inst_ratio": 0.0,
-    "change": 0.0,
-    "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "00664R",
-    "name": "國泰臺灣加權反1",
-    "market": "TWSE",
-    "three_inst_ratio": 0.0,
-    "change": 0.0,
-    "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "00684R",
-    "name": "期元大美元指反1",
-    "market": "TWSE",
-    "three_inst_ratio": 0.0,
-    "change": 0.0,
-    "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00636K",
@@ -60,16 +26,8 @@
     "three_inst_ratio": 0.0,
     "change": 0.0,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "00641R",
-    "name": "富邦日本反1",
-    "market": "TWSE",
-    "three_inst_ratio": 0.0,
-    "change": 0.0,
-    "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00654R",
@@ -78,7 +36,58 @@
     "three_inst_ratio": 0.0,
     "change": 0.0,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "02001L",
+    "name": "富邦蘋果正二N",
+    "market": "TWSE",
+    "three_inst_ratio": 0.0,
+    "change": 0.0,
+    "foreign_ratio_diff": 0.0,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "00684R",
+    "name": "期元大美元指反1",
+    "market": "TWSE",
+    "three_inst_ratio": 0.0,
+    "change": 0.0,
+    "foreign_ratio_diff": 0.0,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "00668K",
+    "name": "國泰美國道瓊+U",
+    "market": "TWSE",
+    "three_inst_ratio": 0.0,
+    "change": 0.0,
+    "foreign_ratio_diff": 0.0,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "00664R",
+    "name": "國泰臺灣加權反1",
+    "market": "TWSE",
+    "three_inst_ratio": 0.0,
+    "change": 0.0,
+    "foreign_ratio_diff": 0.0,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "00641R",
+    "name": "富邦日本反1",
+    "market": "TWSE",
+    "three_inst_ratio": 0.0,
+    "change": 0.0,
+    "foreign_ratio_diff": 0.0,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00656R",
@@ -87,7 +96,8 @@
     "three_inst_ratio": 0.02,
     "change": 0.02,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2881B",
@@ -96,7 +106,8 @@
     "three_inst_ratio": 0.02,
     "change": 0.02,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00671R",
@@ -105,7 +116,8 @@
     "three_inst_ratio": 0.06,
     "change": 0.06,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00669R",
@@ -114,7 +126,8 @@
     "three_inst_ratio": 0.07,
     "change": 0.07,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00686R",
@@ -123,7 +136,8 @@
     "three_inst_ratio": 0.08,
     "change": 0.08,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00711B",
@@ -132,7 +146,8 @@
     "three_inst_ratio": 0.08,
     "change": 0.08,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6931",
@@ -141,7 +156,8 @@
     "three_inst_ratio": 0.1,
     "change": 0.1,
     "foreign_ratio_diff": -0.009999999999999995,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00706L",
@@ -150,7 +166,8 @@
     "three_inst_ratio": 0.16,
     "change": 0.16,
     "foreign_ratio_diff": -0.01999999999999999,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00692",
@@ -159,7 +176,8 @@
     "three_inst_ratio": 0.16,
     "change": 0.16,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00690",
@@ -168,7 +186,8 @@
     "three_inst_ratio": 0.17,
     "change": 0.17,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6952",
@@ -177,7 +196,8 @@
     "three_inst_ratio": 0.18,
     "change": 0.18,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00940",
@@ -186,7 +206,8 @@
     "three_inst_ratio": 0.19,
     "change": 0.19,
     "foreign_ratio_diff": 0.01999999999999999,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "1235",
@@ -195,7 +216,8 @@
     "three_inst_ratio": 0.19,
     "change": 0.19,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00670L",
@@ -204,34 +226,8 @@
     "three_inst_ratio": 0.2,
     "change": 0.2,
     "foreign_ratio_diff": -0.009999999999999981,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "1583",
-    "name": "程泰",
-    "market": "TWSE",
-    "three_inst_ratio": 0.22,
-    "change": 0.22,
-    "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "00971",
-    "name": "野村美國研發龍頭",
-    "market": "TWSE",
-    "three_inst_ratio": 0.22,
-    "change": 0.22,
-    "foreign_ratio_diff": 0.010000000000000009,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "2910",
-    "name": "統領",
-    "market": "TWSE",
-    "three_inst_ratio": 0.22,
-    "change": 0.22,
-    "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00882",
@@ -240,7 +236,38 @@
     "three_inst_ratio": 0.22,
     "change": 0.22,
     "foreign_ratio_diff": 0.03,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "00971",
+    "name": "野村美國研發龍頭",
+    "market": "TWSE",
+    "three_inst_ratio": 0.22,
+    "change": 0.22,
+    "foreign_ratio_diff": 0.010000000000000009,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "1583",
+    "name": "程泰",
+    "market": "TWSE",
+    "three_inst_ratio": 0.22,
+    "change": 0.22,
+    "foreign_ratio_diff": 0.0,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "2910",
+    "name": "統領",
+    "market": "TWSE",
+    "three_inst_ratio": 0.22,
+    "change": 0.22,
+    "foreign_ratio_diff": 0.0,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00685L",
@@ -249,7 +276,8 @@
     "three_inst_ratio": 0.23,
     "change": 0.23,
     "foreign_ratio_diff": 0.04000000000000001,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00652",
@@ -258,7 +286,8 @@
     "three_inst_ratio": 0.23,
     "change": 0.23,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "1525",
@@ -267,16 +296,8 @@
     "three_inst_ratio": 0.232288860912858,
     "change": 0.232288860912858,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": -0.017711139087142006
-  },
-  {
-    "code": "1725",
-    "name": "元禎",
-    "market": "TWSE",
-    "three_inst_ratio": 0.24,
-    "change": 0.24,
-    "foreign_ratio_diff": -0.010000000000000009,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": -0.017711139087142006,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00905",
@@ -285,7 +306,18 @@
     "three_inst_ratio": 0.24,
     "change": 0.24,
     "foreign_ratio_diff": 0.009999999999999981,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "1725",
+    "name": "元禎",
+    "market": "TWSE",
+    "three_inst_ratio": 0.24,
+    "change": 0.24,
+    "foreign_ratio_diff": -0.010000000000000009,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00876",
@@ -294,16 +326,8 @@
     "three_inst_ratio": 0.25,
     "change": 0.25,
     "foreign_ratio_diff": -0.010000000000000009,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "00674R",
-    "name": "期元大S&P黃金反1",
-    "market": "TWSE",
-    "three_inst_ratio": 0.27,
-    "change": 0.27,
-    "foreign_ratio_diff": -0.019999999999999962,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6969",
@@ -312,7 +336,18 @@
     "three_inst_ratio": 0.27,
     "change": 0.27,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "00674R",
+    "name": "期元大S&P黃金反1",
+    "market": "TWSE",
+    "three_inst_ratio": 0.27,
+    "change": 0.27,
+    "foreign_ratio_diff": -0.019999999999999962,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "7732",
@@ -321,25 +356,8 @@
     "three_inst_ratio": 0.28,
     "change": 0.28,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "8481",
-    "name": "政伸",
-    "market": "TWSE",
-    "three_inst_ratio": 0.29,
-    "change": 0.29,
-    "foreign_ratio_diff": 0.009999999999999953,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "4585",
-    "name": "達明",
-    "market": "TWSE",
-    "three_inst_ratio": 0.29,
-    "change": 0.29,
-    "foreign_ratio_diff": -0.010000000000000009,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6771",
@@ -348,16 +366,28 @@
     "three_inst_ratio": 0.29,
     "change": 0.29,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
-    "code": "00770",
-    "name": "國泰北美科技",
+    "code": "4585",
+    "name": "達明",
     "market": "TWSE",
-    "three_inst_ratio": 0.3,
-    "change": 0.3,
-    "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "three_inst_ratio": 0.29,
+    "change": 0.29,
+    "foreign_ratio_diff": -0.010000000000000009,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "8481",
+    "name": "政伸",
+    "market": "TWSE",
+    "three_inst_ratio": 0.29,
+    "change": 0.29,
+    "foreign_ratio_diff": 0.009999999999999953,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00926",
@@ -366,7 +396,18 @@
     "three_inst_ratio": 0.3,
     "change": 0.3,
     "foreign_ratio_diff": 0.010000000000000009,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "00770",
+    "name": "國泰北美科技",
+    "market": "TWSE",
+    "three_inst_ratio": 0.3,
+    "change": 0.3,
+    "foreign_ratio_diff": 0.0,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6958",
@@ -375,7 +416,8 @@
     "three_inst_ratio": 0.3,
     "change": 0.3,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00904",
@@ -384,16 +426,8 @@
     "three_inst_ratio": 0.3043494675987376,
     "change": 0.3043494675987376,
     "foreign_ratio_diff": 0.03,
-    "trust_ratio_diff": 0.0006771977033573073
-  },
-  {
-    "code": "00892",
-    "name": "富邦台灣半導體",
-    "market": "TWSE",
-    "three_inst_ratio": 0.31,
-    "change": 0.31,
-    "foreign_ratio_diff": 0.04999999999999999,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0006771977033573073,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2722",
@@ -402,7 +436,18 @@
     "three_inst_ratio": 0.31,
     "change": 0.31,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "00892",
+    "name": "富邦台灣半導體",
+    "market": "TWSE",
+    "three_inst_ratio": 0.31,
+    "change": 0.31,
+    "foreign_ratio_diff": 0.04999999999999999,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00675L",
@@ -411,7 +456,8 @@
     "three_inst_ratio": 0.34,
     "change": 0.34,
     "foreign_ratio_diff": 0.050000000000000044,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00771",
@@ -420,7 +466,8 @@
     "three_inst_ratio": 0.34,
     "change": 0.34,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2258",
@@ -429,7 +476,8 @@
     "three_inst_ratio": 0.3402297115856187,
     "change": 0.3402297115856187,
     "foreign_ratio_diff": 0.050000000000000044,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "1454",
@@ -438,25 +486,8 @@
     "three_inst_ratio": 0.35,
     "change": 0.35,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "00712",
-    "name": "復華富時不動產",
-    "market": "TWSE",
-    "three_inst_ratio": 0.36,
-    "change": 0.36,
-    "foreign_ratio_diff": 0.13999999999999999,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "9105",
-    "name": "泰金寶-DR",
-    "market": "TWSE",
-    "three_inst_ratio": 0.36,
-    "change": 0.36,
-    "foreign_ratio_diff": -0.06,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "1465",
@@ -465,25 +496,28 @@
     "three_inst_ratio": 0.36,
     "change": 0.36,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
-    "code": "00907",
-    "name": "永豐優息存股",
+    "code": "9105",
+    "name": "泰金寶-DR",
     "market": "TWSE",
-    "three_inst_ratio": 0.37,
-    "change": 0.37,
-    "foreign_ratio_diff": 0.010000000000000009,
-    "trust_ratio_diff": 0.0
+    "three_inst_ratio": 0.36,
+    "change": 0.36,
+    "foreign_ratio_diff": -0.06,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
-    "code": "6794",
-    "name": "向榮生技",
+    "code": "00712",
+    "name": "復華富時不動產",
     "market": "TWSE",
-    "three_inst_ratio": 0.37,
-    "change": 0.37,
-    "foreign_ratio_diff": 0.02999999999999997,
-    "trust_ratio_diff": 0.0
+    "three_inst_ratio": 0.36,
+    "change": 0.36,
+    "foreign_ratio_diff": 0.13999999999999999,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00709",
@@ -492,7 +526,28 @@
     "three_inst_ratio": 0.37,
     "change": 0.37,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "00907",
+    "name": "永豐優息存股",
+    "market": "TWSE",
+    "three_inst_ratio": 0.37,
+    "change": 0.37,
+    "foreign_ratio_diff": 0.010000000000000009,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "6794",
+    "name": "向榮生技",
+    "market": "TWSE",
+    "three_inst_ratio": 0.37,
+    "change": 0.37,
+    "foreign_ratio_diff": 0.02999999999999997,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00673R",
@@ -501,16 +556,8 @@
     "three_inst_ratio": 0.38,
     "change": 0.38,
     "foreign_ratio_diff": -0.010000000000000009,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "00763U",
-    "name": "期街口道瓊銅",
-    "market": "TWSE",
-    "three_inst_ratio": 0.39,
-    "change": 0.39,
-    "foreign_ratio_diff": -1.0299999999999998,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00730",
@@ -519,7 +566,8 @@
     "three_inst_ratio": 0.39,
     "change": 0.39,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00927",
@@ -528,7 +576,18 @@
     "three_inst_ratio": 0.39,
     "change": 0.39,
     "foreign_ratio_diff": 0.13,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "00763U",
+    "name": "期街口道瓊銅",
+    "market": "TWSE",
+    "three_inst_ratio": 0.39,
+    "change": 0.39,
+    "foreign_ratio_diff": -1.0299999999999998,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00915",
@@ -537,25 +596,8 @@
     "three_inst_ratio": 0.3979164490461272,
     "change": 0.3979164490461272,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 4.5875757715661825e-05
-  },
-  {
-    "code": "2440",
-    "name": "太空梭",
-    "market": "TWSE",
-    "three_inst_ratio": 0.4,
-    "change": 0.4,
-    "foreign_ratio_diff": 0.06,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "6916",
-    "name": "華凌",
-    "market": "TWSE",
-    "three_inst_ratio": 0.4,
-    "change": 0.4,
-    "foreign_ratio_diff": -0.019999999999999962,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 4.5875757715661825e-05,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00896",
@@ -564,7 +606,28 @@
     "three_inst_ratio": 0.4,
     "change": 0.4,
     "foreign_ratio_diff": 0.17,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "2440",
+    "name": "太空梭",
+    "market": "TWSE",
+    "three_inst_ratio": 0.4,
+    "change": 0.4,
+    "foreign_ratio_diff": 0.06,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "6916",
+    "name": "華凌",
+    "market": "TWSE",
+    "three_inst_ratio": 0.4,
+    "change": 0.4,
+    "foreign_ratio_diff": -0.019999999999999962,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6674",
@@ -573,7 +636,8 @@
     "three_inst_ratio": 0.41,
     "change": 0.41,
     "foreign_ratio_diff": -0.010000000000000009,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00660",
@@ -582,25 +646,8 @@
     "three_inst_ratio": 0.41,
     "change": 0.41,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "00924",
-    "name": "復華S&P500成長",
-    "market": "TWSE",
-    "three_inst_ratio": 0.42,
-    "change": 0.42,
-    "foreign_ratio_diff": 0.019999999999999962,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "2701",
-    "name": "萬企",
-    "market": "TWSE",
-    "three_inst_ratio": 0.42,
-    "change": 0.42,
-    "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "1474",
@@ -609,7 +656,28 @@
     "three_inst_ratio": 0.42,
     "change": 0.42,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "2701",
+    "name": "萬企",
+    "market": "TWSE",
+    "three_inst_ratio": 0.42,
+    "change": 0.42,
+    "foreign_ratio_diff": 0.0,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "00924",
+    "name": "復華S&P500成長",
+    "market": "TWSE",
+    "three_inst_ratio": 0.42,
+    "change": 0.42,
+    "foreign_ratio_diff": 0.019999999999999962,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2007",
@@ -618,7 +686,8 @@
     "three_inst_ratio": 0.42,
     "change": 0.42,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "3164",
@@ -627,7 +696,8 @@
     "three_inst_ratio": 0.43,
     "change": 0.43,
     "foreign_ratio_diff": 0.010000000000000009,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "1236",
@@ -636,7 +706,8 @@
     "three_inst_ratio": 0.43,
     "change": 0.43,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00984A",
@@ -645,7 +716,8 @@
     "three_inst_ratio": 0.43,
     "change": 0.43,
     "foreign_ratio_diff": 0.010000000000000009,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00850",
@@ -654,16 +726,8 @@
     "three_inst_ratio": 0.43666272105089843,
     "change": 0.43666272105089843,
     "foreign_ratio_diff": 0.010000000000000009,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "1456",
-    "name": "怡華",
-    "market": "TWSE",
-    "three_inst_ratio": 0.44,
-    "change": 0.44,
-    "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "1438",
@@ -672,7 +736,8 @@
     "three_inst_ratio": 0.44,
     "change": 0.44,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "8463",
@@ -681,7 +746,8 @@
     "three_inst_ratio": 0.44,
     "change": 0.44,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "1453",
@@ -690,7 +756,18 @@
     "three_inst_ratio": 0.44,
     "change": 0.44,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "1456",
+    "name": "怡華",
+    "market": "TWSE",
+    "three_inst_ratio": 0.44,
+    "change": 0.44,
+    "foreign_ratio_diff": 0.0,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00878",
@@ -699,7 +776,8 @@
     "three_inst_ratio": 0.4407555619988204,
     "change": 0.4407555619988204,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 7.135250285267899e-08
+    "trust_ratio_diff": 7.135250285267899e-08,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00713",
@@ -708,7 +786,8 @@
     "three_inst_ratio": 0.4410658625205186,
     "change": 0.4410658625205186,
     "foreign_ratio_diff": 0.06,
-    "trust_ratio_diff": 5.245705234106779e-05
+    "trust_ratio_diff": 5.245705234106779e-05,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2438",
@@ -717,16 +796,8 @@
     "three_inst_ratio": 0.45,
     "change": 0.45,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "1432",
-    "name": "大魯閣",
-    "market": "TWSE",
-    "three_inst_ratio": 0.46,
-    "change": 0.46,
-    "foreign_ratio_diff": -0.009999999999999953,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00899",
@@ -735,7 +806,18 @@
     "three_inst_ratio": 0.46,
     "change": 0.46,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "1432",
+    "name": "大魯閣",
+    "market": "TWSE",
+    "three_inst_ratio": 0.46,
+    "change": 0.46,
+    "foreign_ratio_diff": -0.009999999999999953,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "1805",
@@ -744,43 +826,8 @@
     "three_inst_ratio": 0.47,
     "change": 0.47,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "1439",
-    "name": "雋揚",
-    "market": "TWSE",
-    "three_inst_ratio": 0.48,
-    "change": 0.48,
-    "foreign_ratio_diff": -0.010000000000000009,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "7721",
-    "name": "微程式",
-    "market": "TWSE",
-    "three_inst_ratio": 0.48,
-    "change": 0.48,
-    "foreign_ratio_diff": 0.010000000000000009,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "3229",
-    "name": "晟鈦",
-    "market": "TWSE",
-    "three_inst_ratio": 0.48,
-    "change": 0.48,
-    "foreign_ratio_diff": 0.019999999999999962,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "00932",
-    "name": "兆豐永續高息等權",
-    "market": "TWSE",
-    "three_inst_ratio": 0.48,
-    "change": 0.48,
-    "foreign_ratio_diff": 0.02999999999999997,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00861",
@@ -789,7 +836,48 @@
     "three_inst_ratio": 0.48,
     "change": 0.48,
     "foreign_ratio_diff": 0.10999999999999999,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "00932",
+    "name": "兆豐永續高息等權",
+    "market": "TWSE",
+    "three_inst_ratio": 0.48,
+    "change": 0.48,
+    "foreign_ratio_diff": 0.02999999999999997,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "1439",
+    "name": "雋揚",
+    "market": "TWSE",
+    "three_inst_ratio": 0.48,
+    "change": 0.48,
+    "foreign_ratio_diff": -0.010000000000000009,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "3229",
+    "name": "晟鈦",
+    "market": "TWSE",
+    "three_inst_ratio": 0.48,
+    "change": 0.48,
+    "foreign_ratio_diff": 0.019999999999999962,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "7721",
+    "name": "微程式",
+    "market": "TWSE",
+    "three_inst_ratio": 0.48,
+    "change": 0.48,
+    "foreign_ratio_diff": 0.010000000000000009,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "7765",
@@ -798,7 +886,8 @@
     "three_inst_ratio": 0.4865430095631438,
     "change": 0.4865430095631438,
     "foreign_ratio_diff": -0.020000000000000018,
-    "trust_ratio_diff": 0.02704230892150355
+    "trust_ratio_diff": 0.02704230892150355,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2444",
@@ -807,7 +896,8 @@
     "three_inst_ratio": 0.49,
     "change": 0.49,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2025",
@@ -816,7 +906,8 @@
     "three_inst_ratio": 0.49,
     "change": 0.49,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "1475",
@@ -825,7 +916,8 @@
     "three_inst_ratio": 0.5,
     "change": 0.5,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "1506",
@@ -834,16 +926,8 @@
     "three_inst_ratio": 0.51,
     "change": 0.51,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "0051",
-    "name": "元大中型100",
-    "market": "TWSE",
-    "three_inst_ratio": 0.51,
-    "change": 0.51,
-    "foreign_ratio_diff": -0.010000000000000009,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6928",
@@ -852,7 +936,18 @@
     "three_inst_ratio": 0.51,
     "change": 0.51,
     "foreign_ratio_diff": -0.020000000000000018,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "0051",
+    "name": "元大中型100",
+    "market": "TWSE",
+    "three_inst_ratio": 0.51,
+    "change": 0.51,
+    "foreign_ratio_diff": -0.010000000000000009,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6918",
@@ -861,7 +956,8 @@
     "three_inst_ratio": 0.52,
     "change": 0.52,
     "foreign_ratio_diff": -0.020000000000000018,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "0056",
@@ -870,16 +966,8 @@
     "three_inst_ratio": 0.5246695591700168,
     "change": 0.5246695591700168,
     "foreign_ratio_diff": 0.010000000000000009,
-    "trust_ratio_diff": -0.00021489692688669848
-  },
-  {
-    "code": "4440",
-    "name": "宜新實業",
-    "market": "TWSE",
-    "three_inst_ratio": 0.53,
-    "change": 0.53,
-    "foreign_ratio_diff": -0.030000000000000027,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": -0.00021489692688669848,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "3150",
@@ -888,16 +976,18 @@
     "three_inst_ratio": 0.53,
     "change": 0.53,
     "foreign_ratio_diff": -0.010000000000000009,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
-    "code": "00638R",
-    "name": "元大滬深300反1",
+    "code": "4440",
+    "name": "宜新實業",
     "market": "TWSE",
     "three_inst_ratio": 0.53,
     "change": 0.53,
-    "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "foreign_ratio_diff": -0.030000000000000027,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2432",
@@ -906,7 +996,18 @@
     "three_inst_ratio": 0.53,
     "change": 0.53,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "00638R",
+    "name": "元大滬深300反1",
+    "market": "TWSE",
+    "three_inst_ratio": 0.53,
+    "change": 0.53,
+    "foreign_ratio_diff": 0.0,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "1776",
@@ -915,7 +1016,8 @@
     "three_inst_ratio": 0.54,
     "change": 0.54,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00946",
@@ -924,7 +1026,8 @@
     "three_inst_ratio": 0.54,
     "change": 0.54,
     "foreign_ratio_diff": -0.029999999999999916,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00930",
@@ -933,16 +1036,8 @@
     "three_inst_ratio": 0.55,
     "change": 0.55,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "00929",
-    "name": "復華台灣科技優息",
-    "market": "TWSE",
-    "three_inst_ratio": 0.56,
-    "change": 0.56,
-    "foreign_ratio_diff": 0.010000000000000009,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00980A",
@@ -951,7 +1046,8 @@
     "three_inst_ratio": 0.56,
     "change": 0.56,
     "foreign_ratio_diff": 0.16000000000000003,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6645",
@@ -960,34 +1056,18 @@
     "three_inst_ratio": 0.56,
     "change": 0.56,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
-    "code": "6901",
-    "name": "鑽石投資",
+    "code": "00929",
+    "name": "復華台灣科技優息",
     "market": "TWSE",
-    "three_inst_ratio": 0.57,
-    "change": 0.57,
-    "foreign_ratio_diff": -0.040000000000000036,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "00676R",
-    "name": "富邦臺灣加權反1",
-    "market": "TWSE",
-    "three_inst_ratio": 0.57,
-    "change": 0.57,
-    "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "00680L",
-    "name": "元大美債20正2",
-    "market": "TWSE",
-    "three_inst_ratio": 0.57,
-    "change": 0.57,
-    "foreign_ratio_diff": 0.019999999999999907,
-    "trust_ratio_diff": 0.0
+    "three_inst_ratio": 0.56,
+    "change": 0.56,
+    "foreign_ratio_diff": 0.010000000000000009,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "0055",
@@ -996,7 +1076,38 @@
     "three_inst_ratio": 0.57,
     "change": 0.57,
     "foreign_ratio_diff": 0.019999999999999907,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "00676R",
+    "name": "富邦臺灣加權反1",
+    "market": "TWSE",
+    "three_inst_ratio": 0.57,
+    "change": 0.57,
+    "foreign_ratio_diff": 0.0,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "00680L",
+    "name": "元大美債20正2",
+    "market": "TWSE",
+    "three_inst_ratio": 0.57,
+    "change": 0.57,
+    "foreign_ratio_diff": 0.019999999999999907,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "6901",
+    "name": "鑽石投資",
+    "market": "TWSE",
+    "three_inst_ratio": 0.57,
+    "change": 0.57,
+    "foreign_ratio_diff": -0.040000000000000036,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6226",
@@ -1005,7 +1116,8 @@
     "three_inst_ratio": 0.58,
     "change": 0.58,
     "foreign_ratio_diff": 0.029999999999999916,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00688L",
@@ -1014,16 +1126,8 @@
     "three_inst_ratio": 0.6,
     "change": 0.6,
     "foreign_ratio_diff": 0.020000000000000018,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "6552",
-    "name": "易華電",
-    "market": "TWSE",
-    "three_inst_ratio": 0.6,
-    "change": 0.6,
-    "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00918",
@@ -1032,7 +1136,18 @@
     "three_inst_ratio": 0.6,
     "change": 0.6,
     "foreign_ratio_diff": 0.07999999999999996,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "6552",
+    "name": "易華電",
+    "market": "TWSE",
+    "three_inst_ratio": 0.6,
+    "change": 0.6,
+    "foreign_ratio_diff": 0.0,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "1530",
@@ -1041,7 +1156,8 @@
     "three_inst_ratio": 0.61,
     "change": 0.61,
     "foreign_ratio_diff": -0.010000000000000009,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00912",
@@ -1050,7 +1166,8 @@
     "three_inst_ratio": 0.62,
     "change": 0.62,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6936",
@@ -1059,7 +1176,8 @@
     "three_inst_ratio": 0.62,
     "change": 0.62,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00895",
@@ -1068,7 +1186,8 @@
     "three_inst_ratio": 0.6206947215672048,
     "change": 0.6206947215672048,
     "foreign_ratio_diff": 0.07,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2028",
@@ -1077,7 +1196,8 @@
     "three_inst_ratio": 0.63,
     "change": 0.63,
     "foreign_ratio_diff": 0.010000000000000009,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "3043",
@@ -1086,7 +1206,8 @@
     "three_inst_ratio": 0.64,
     "change": 0.64,
     "foreign_ratio_diff": -0.05999999999999994,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2524",
@@ -1095,7 +1216,8 @@
     "three_inst_ratio": 0.6500024591269534,
     "change": 0.6500024591269534,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "3308",
@@ -1104,16 +1226,8 @@
     "three_inst_ratio": 0.66,
     "change": 0.66,
     "foreign_ratio_diff": 0.010000000000000009,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "00919",
-    "name": "群益台灣精選高息",
-    "market": "TWSE",
-    "three_inst_ratio": 0.67,
-    "change": 0.67,
-    "foreign_ratio_diff": -0.010000000000000009,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "1324",
@@ -1122,7 +1236,18 @@
     "three_inst_ratio": 0.67,
     "change": 0.67,
     "foreign_ratio_diff": -0.010000000000000009,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "00919",
+    "name": "群益台灣精選高息",
+    "market": "TWSE",
+    "three_inst_ratio": 0.67,
+    "change": 0.67,
+    "foreign_ratio_diff": -0.010000000000000009,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "1906",
@@ -1131,34 +1256,8 @@
     "three_inst_ratio": 0.68,
     "change": 0.68,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "3447",
-    "name": "展達",
-    "market": "TWSE",
-    "three_inst_ratio": 0.7,
-    "change": 0.7,
-    "foreign_ratio_diff": -0.030000000000000027,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "5484",
-    "name": "慧友",
-    "market": "TWSE",
-    "three_inst_ratio": 0.7,
-    "change": 0.7,
-    "foreign_ratio_diff": 0.010000000000000009,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "8438",
-    "name": "昶昕",
-    "market": "TWSE",
-    "three_inst_ratio": 0.7,
-    "change": 0.7,
-    "foreign_ratio_diff": 0.019999999999999907,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00648R",
@@ -1167,7 +1266,38 @@
     "three_inst_ratio": 0.7,
     "change": 0.7,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "8438",
+    "name": "昶昕",
+    "market": "TWSE",
+    "three_inst_ratio": 0.7,
+    "change": 0.7,
+    "foreign_ratio_diff": 0.019999999999999907,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "3447",
+    "name": "展達",
+    "market": "TWSE",
+    "three_inst_ratio": 0.7,
+    "change": 0.7,
+    "foreign_ratio_diff": -0.030000000000000027,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "5484",
+    "name": "慧友",
+    "market": "TWSE",
+    "three_inst_ratio": 0.7,
+    "change": 0.7,
+    "foreign_ratio_diff": 0.010000000000000009,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00985A",
@@ -1176,7 +1306,8 @@
     "three_inst_ratio": 0.71,
     "change": 0.71,
     "foreign_ratio_diff": 0.18999999999999995,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2465",
@@ -1185,7 +1316,8 @@
     "three_inst_ratio": 0.72,
     "change": 0.72,
     "foreign_ratio_diff": -0.020000000000000018,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2483",
@@ -1194,7 +1326,8 @@
     "three_inst_ratio": 0.72,
     "change": 0.72,
     "foreign_ratio_diff": -0.010000000000000009,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00710B",
@@ -1203,7 +1336,8 @@
     "three_inst_ratio": 0.7285266888931319,
     "change": 0.7285266888931319,
     "foreign_ratio_diff": 0.03,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00921",
@@ -1212,7 +1346,8 @@
     "three_inst_ratio": 0.73,
     "change": 0.73,
     "foreign_ratio_diff": 0.05999999999999994,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00939",
@@ -1221,16 +1356,8 @@
     "three_inst_ratio": 0.73,
     "change": 0.73,
     "foreign_ratio_diff": 0.06999999999999995,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "00865B",
-    "name": "國泰US短期公債",
-    "market": "TWSE",
-    "three_inst_ratio": 0.74,
-    "change": 0.74,
-    "foreign_ratio_diff": -0.3999999999999999,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2460",
@@ -1239,16 +1366,8 @@
     "three_inst_ratio": 0.74,
     "change": 0.74,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "00894",
-    "name": "中信小資高價30",
-    "market": "TWSE",
-    "three_inst_ratio": 0.74,
-    "change": 0.74,
-    "foreign_ratio_diff": 0.07999999999999996,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00693U",
@@ -1257,7 +1376,28 @@
     "three_inst_ratio": 0.74,
     "change": 0.74,
     "foreign_ratio_diff": -0.6000000000000001,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "00865B",
+    "name": "國泰US短期公債",
+    "market": "TWSE",
+    "three_inst_ratio": 0.74,
+    "change": 0.74,
+    "foreign_ratio_diff": -0.3999999999999999,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "00894",
+    "name": "中信小資高價30",
+    "market": "TWSE",
+    "three_inst_ratio": 0.74,
+    "change": 0.74,
+    "foreign_ratio_diff": 0.07999999999999996,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00655L",
@@ -1266,7 +1406,8 @@
     "three_inst_ratio": 0.7418427826688875,
     "change": 0.7418427826688875,
     "foreign_ratio_diff": 0.13,
-    "trust_ratio_diff": -0.1081572173311125
+    "trust_ratio_diff": -0.1081572173311125,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00662",
@@ -1275,25 +1416,8 @@
     "three_inst_ratio": 0.7449995823294225,
     "change": 0.7449995823294225,
     "foreign_ratio_diff": 0.040000000000000036,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "00901",
-    "name": "永豐智能車供應鏈",
-    "market": "TWSE",
-    "three_inst_ratio": 0.76,
-    "change": 0.76,
-    "foreign_ratio_diff": 0.050000000000000044,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "9103",
-    "name": "美德醫療-DR",
-    "market": "TWSE",
-    "three_inst_ratio": 0.76,
-    "change": 0.76,
-    "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "3040",
@@ -1302,7 +1426,8 @@
     "three_inst_ratio": 0.76,
     "change": 0.76,
     "foreign_ratio_diff": 0.030000000000000027,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "3321",
@@ -1311,7 +1436,8 @@
     "three_inst_ratio": 0.76,
     "change": 0.76,
     "foreign_ratio_diff": -0.12,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2748",
@@ -1320,7 +1446,28 @@
     "three_inst_ratio": 0.76,
     "change": 0.76,
     "foreign_ratio_diff": 0.010000000000000009,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "9103",
+    "name": "美德醫療-DR",
+    "market": "TWSE",
+    "three_inst_ratio": 0.76,
+    "change": 0.76,
+    "foreign_ratio_diff": 0.0,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "00901",
+    "name": "永豐智能車供應鏈",
+    "market": "TWSE",
+    "three_inst_ratio": 0.76,
+    "change": 0.76,
+    "foreign_ratio_diff": 0.050000000000000044,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2373",
@@ -1329,16 +1476,8 @@
     "three_inst_ratio": 0.7740300132617552,
     "change": 0.7740300132617552,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.04403001326175532
-  },
-  {
-    "code": "00661",
-    "name": "元大日經225",
-    "market": "TWSE",
-    "three_inst_ratio": 0.78,
-    "change": 0.78,
-    "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.04403001326175532,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00949",
@@ -1347,16 +1486,18 @@
     "three_inst_ratio": 0.78,
     "change": 0.78,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
-    "code": "8104",
-    "name": "錸寶",
+    "code": "00661",
+    "name": "元大日經225",
     "market": "TWSE",
-    "three_inst_ratio": 0.8,
-    "change": 0.8,
-    "foreign_ratio_diff": 0.040000000000000036,
-    "trust_ratio_diff": 0.0
+    "three_inst_ratio": 0.78,
+    "change": 0.78,
+    "foreign_ratio_diff": 0.0,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00728",
@@ -1365,7 +1506,18 @@
     "three_inst_ratio": 0.8,
     "change": 0.8,
     "foreign_ratio_diff": -0.010000000000000009,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "8104",
+    "name": "錸寶",
+    "market": "TWSE",
+    "three_inst_ratio": 0.8,
+    "change": 0.8,
+    "foreign_ratio_diff": 0.040000000000000036,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "8201",
@@ -1374,7 +1526,8 @@
     "three_inst_ratio": 0.8,
     "change": 0.8,
     "foreign_ratio_diff": -0.010000000000000009,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00893",
@@ -1383,7 +1536,8 @@
     "three_inst_ratio": 0.8072384407535476,
     "change": 0.8072384407535476,
     "foreign_ratio_diff": 0.21999999999999997,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "3652",
@@ -1392,7 +1546,8 @@
     "three_inst_ratio": 0.81,
     "change": 0.81,
     "foreign_ratio_diff": 0.010000000000000009,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6152",
@@ -1401,7 +1556,8 @@
     "three_inst_ratio": 0.82,
     "change": 0.82,
     "foreign_ratio_diff": 0.029999999999999916,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6951",
@@ -1410,25 +1566,8 @@
     "three_inst_ratio": 0.83,
     "change": 0.83,
     "foreign_ratio_diff": 0.039999999999999925,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "2365",
-    "name": "昆盈",
-    "market": "TWSE",
-    "three_inst_ratio": 0.85,
-    "change": 0.85,
-    "foreign_ratio_diff": 0.08999999999999997,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "2433",
-    "name": "互盛電",
-    "market": "TWSE",
-    "three_inst_ratio": 0.85,
-    "change": 0.85,
-    "foreign_ratio_diff": -0.010000000000000009,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "8162",
@@ -1437,7 +1576,28 @@
     "three_inst_ratio": 0.85,
     "change": 0.85,
     "foreign_ratio_diff": -0.010000000000000009,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "2433",
+    "name": "互盛電",
+    "market": "TWSE",
+    "three_inst_ratio": 0.85,
+    "change": 0.85,
+    "foreign_ratio_diff": -0.010000000000000009,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "2365",
+    "name": "昆盈",
+    "market": "TWSE",
+    "three_inst_ratio": 0.85,
+    "change": 0.85,
+    "foreign_ratio_diff": 0.08999999999999997,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00642U",
@@ -1446,34 +1606,8 @@
     "three_inst_ratio": 0.86,
     "change": 0.86,
     "foreign_ratio_diff": 0.010000000000000009,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "1418",
-    "name": "東華",
-    "market": "TWSE",
-    "three_inst_ratio": 0.88,
-    "change": 0.88,
-    "foreign_ratio_diff": 0.010000000000000009,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "1535",
-    "name": "中宇",
-    "market": "TWSE",
-    "three_inst_ratio": 0.88,
-    "change": 0.88,
-    "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "1471",
-    "name": "首利",
-    "market": "TWSE",
-    "three_inst_ratio": 0.88,
-    "change": 0.88,
-    "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "8476",
@@ -1482,7 +1616,38 @@
     "three_inst_ratio": 0.88,
     "change": 0.88,
     "foreign_ratio_diff": 0.010000000000000009,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "1418",
+    "name": "東華",
+    "market": "TWSE",
+    "three_inst_ratio": 0.88,
+    "change": 0.88,
+    "foreign_ratio_diff": 0.010000000000000009,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "1535",
+    "name": "中宇",
+    "market": "TWSE",
+    "three_inst_ratio": 0.88,
+    "change": 0.88,
+    "foreign_ratio_diff": 0.0,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "1471",
+    "name": "首利",
+    "market": "TWSE",
+    "three_inst_ratio": 0.88,
+    "change": 0.88,
+    "foreign_ratio_diff": 0.0,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "7736",
@@ -1491,7 +1656,8 @@
     "three_inst_ratio": 0.89,
     "change": 0.89,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2033",
@@ -1500,7 +1666,8 @@
     "three_inst_ratio": 0.89,
     "change": 0.89,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "1417",
@@ -1509,7 +1676,8 @@
     "three_inst_ratio": 0.9,
     "change": 0.9,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00962",
@@ -1518,7 +1686,8 @@
     "three_inst_ratio": 0.91,
     "change": 0.91,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00636",
@@ -1527,25 +1696,8 @@
     "three_inst_ratio": 0.9157641459545215,
     "change": 0.9157641459545215,
     "foreign_ratio_diff": 0.030000000000000027,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "6183",
-    "name": "關貿",
-    "market": "TWSE",
-    "three_inst_ratio": 0.92,
-    "change": 0.92,
-    "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "1339",
-    "name": "昭輝",
-    "market": "TWSE",
-    "three_inst_ratio": 0.92,
-    "change": 0.92,
-    "foreign_ratio_diff": 0.020000000000000018,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00717",
@@ -1554,7 +1706,28 @@
     "three_inst_ratio": 0.92,
     "change": 0.92,
     "foreign_ratio_diff": -1.62,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "1339",
+    "name": "昭輝",
+    "market": "TWSE",
+    "three_inst_ratio": 0.92,
+    "change": 0.92,
+    "foreign_ratio_diff": 0.020000000000000018,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "6183",
+    "name": "關貿",
+    "market": "TWSE",
+    "three_inst_ratio": 0.92,
+    "change": 0.92,
+    "foreign_ratio_diff": 0.0,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "1419",
@@ -1563,7 +1736,8 @@
     "three_inst_ratio": 0.93,
     "change": 0.93,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2482",
@@ -1572,7 +1746,8 @@
     "three_inst_ratio": 0.93,
     "change": 0.93,
     "foreign_ratio_diff": 0.040000000000000036,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "9944",
@@ -1581,7 +1756,8 @@
     "three_inst_ratio": 0.94,
     "change": 0.94,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00981T",
@@ -1590,7 +1766,8 @@
     "three_inst_ratio": 0.94,
     "change": 0.94,
     "foreign_ratio_diff": 0.029999999999999916,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00645",
@@ -1599,16 +1776,8 @@
     "three_inst_ratio": 0.96,
     "change": 0.96,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "4989",
-    "name": "榮科",
-    "market": "TWSE",
-    "three_inst_ratio": 0.97,
-    "change": 0.97,
-    "foreign_ratio_diff": -0.96,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00851",
@@ -1617,7 +1786,18 @@
     "three_inst_ratio": 0.97,
     "change": 0.97,
     "foreign_ratio_diff": -0.020000000000000018,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "4989",
+    "name": "榮科",
+    "market": "TWSE",
+    "three_inst_ratio": 0.97,
+    "change": 0.97,
+    "foreign_ratio_diff": -0.96,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "4155",
@@ -1626,7 +1806,8 @@
     "three_inst_ratio": 0.99,
     "change": 0.99,
     "foreign_ratio_diff": 0.010000000000000009,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00963",
@@ -1635,7 +1816,8 @@
     "three_inst_ratio": 1.0,
     "change": 1.0,
     "foreign_ratio_diff": 0.07999999999999996,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00897",
@@ -1644,16 +1826,8 @@
     "three_inst_ratio": 1.01,
     "change": 1.01,
     "foreign_ratio_diff": 0.19000000000000006,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "00898",
-    "name": "國泰基因免疫革命",
-    "market": "TWSE",
-    "three_inst_ratio": 1.03,
-    "change": 1.03,
-    "foreign_ratio_diff": 0.16000000000000003,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "9906",
@@ -1662,7 +1836,18 @@
     "three_inst_ratio": 1.03,
     "change": 1.03,
     "foreign_ratio_diff": -0.030000000000000027,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "00898",
+    "name": "國泰基因免疫革命",
+    "market": "TWSE",
+    "three_inst_ratio": 1.03,
+    "change": 1.03,
+    "foreign_ratio_diff": 0.16000000000000003,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "1615",
@@ -1671,7 +1856,8 @@
     "three_inst_ratio": 1.053729020518489,
     "change": 1.053729020518489,
     "foreign_ratio_diff": 0.07000000000000006,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00913",
@@ -1680,7 +1866,8 @@
     "three_inst_ratio": 1.06,
     "change": 1.06,
     "foreign_ratio_diff": 0.030000000000000027,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "9908",
@@ -1689,7 +1876,8 @@
     "three_inst_ratio": 1.07,
     "change": 1.07,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "4108",
@@ -1698,7 +1886,8 @@
     "three_inst_ratio": 1.07,
     "change": 1.07,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00632R",
@@ -1707,7 +1896,8 @@
     "three_inst_ratio": 1.0771228010342964,
     "change": 1.0771228010342964,
     "foreign_ratio_diff": -0.030000000000000027,
-    "trust_ratio_diff": -0.0007657093200804932
+    "trust_ratio_diff": -0.0007657093200804932,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00739",
@@ -1716,7 +1906,8 @@
     "three_inst_ratio": 1.08,
     "change": 1.08,
     "foreign_ratio_diff": 0.010000000000000009,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "1731",
@@ -1725,7 +1916,8 @@
     "three_inst_ratio": 1.08,
     "change": 1.08,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00900",
@@ -1734,7 +1926,8 @@
     "three_inst_ratio": 1.0906287603869587,
     "change": 1.0906287603869587,
     "foreign_ratio_diff": 0.15000000000000002,
-    "trust_ratio_diff": 0.007717200767781603
+    "trust_ratio_diff": 0.007717200767781603,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00943",
@@ -1743,7 +1936,8 @@
     "three_inst_ratio": 1.1,
     "change": 1.1,
     "foreign_ratio_diff": 0.020000000000000018,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "9943",
@@ -1752,7 +1946,8 @@
     "three_inst_ratio": 1.1,
     "change": 1.1,
     "foreign_ratio_diff": 0.010000000000000009,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00936",
@@ -1761,7 +1956,8 @@
     "three_inst_ratio": 1.1,
     "change": 1.1,
     "foreign_ratio_diff": 0.040000000000000036,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00637L",
@@ -1770,7 +1966,8 @@
     "three_inst_ratio": 1.12,
     "change": 1.12,
     "foreign_ratio_diff": 0.32000000000000006,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "0053",
@@ -1779,7 +1976,8 @@
     "three_inst_ratio": 1.13,
     "change": 1.13,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "1472",
@@ -1788,7 +1986,8 @@
     "three_inst_ratio": 1.14,
     "change": 1.14,
     "foreign_ratio_diff": -0.050000000000000044,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6776",
@@ -1797,6 +1996,7 @@
     "three_inst_ratio": 1.15,
     "change": 1.15,
     "foreign_ratio_diff": -0.010000000000000009,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   }
 ]

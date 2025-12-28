@@ -6,7 +6,8 @@
     "three_inst_ratio": 9.9,
     "change": -7.0699999999999985,
     "foreign_ratio_diff": 0.2400000000000002,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "8039",
@@ -15,7 +16,8 @@
     "three_inst_ratio": 15.241711001989904,
     "change": -4.898051829130031,
     "foreign_ratio_diff": -0.7700000000000014,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "8021",
@@ -24,7 +26,8 @@
     "three_inst_ratio": 7.413191202670395,
     "change": -4.690132404135166,
     "foreign_ratio_diff": -3.9799999999999995,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "4977",
@@ -33,7 +36,8 @@
     "three_inst_ratio": 16.491649497845994,
     "change": -4.41,
     "foreign_ratio_diff": 0.26000000000000156,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "3592",
@@ -42,7 +46,8 @@
     "three_inst_ratio": 8.969803477745884,
     "change": -3.2079496429158354,
     "foreign_ratio_diff": 0.6999999999999993,
-    "trust_ratio_diff": -1.2988953457208074
+    "trust_ratio_diff": -1.2988953457208074,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00982D",
@@ -51,7 +56,8 @@
     "three_inst_ratio": 5.45,
     "change": -2.9300000000000006,
     "foreign_ratio_diff": -0.03000000000000025,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2402",
@@ -60,7 +66,8 @@
     "three_inst_ratio": 15.44721131759003,
     "change": -2.7329359849745085,
     "foreign_ratio_diff": -0.5399999999999991,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2027",
@@ -69,7 +76,8 @@
     "three_inst_ratio": 20.73010703945585,
     "change": -2.717850769126084,
     "foreign_ratio_diff": -0.509999999999998,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "3702",
@@ -78,7 +86,8 @@
     "three_inst_ratio": 22.312353278347903,
     "change": -2.69580081888747,
     "foreign_ratio_diff": -0.8000000000000007,
-    "trust_ratio_diff": -0.059438131002204075
+    "trust_ratio_diff": -0.059438131002204075,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "3450",
@@ -87,7 +96,8 @@
     "three_inst_ratio": 16.068003950978444,
     "change": -2.6819657443941622,
     "foreign_ratio_diff": 1.2100000000000009,
-    "trust_ratio_diff": 0.06864295123175079
+    "trust_ratio_diff": 0.06864295123175079,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "3025",
@@ -96,7 +106,8 @@
     "three_inst_ratio": 2.15,
     "change": -2.35,
     "foreign_ratio_diff": -0.07000000000000028,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6442",
@@ -105,7 +116,8 @@
     "three_inst_ratio": 40.064000645539345,
     "change": -2.078582544646082,
     "foreign_ratio_diff": -0.29999999999999716,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6426",
@@ -114,7 +126,8 @@
     "three_inst_ratio": 8.05,
     "change": -1.9399999999999995,
     "foreign_ratio_diff": -0.5099999999999998,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00738U",
@@ -123,7 +136,8 @@
     "three_inst_ratio": 4.05,
     "change": -1.6400000000000006,
     "foreign_ratio_diff": -0.2999999999999998,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "3481",
@@ -132,7 +146,8 @@
     "three_inst_ratio": 22.552032010465535,
     "change": -1.621626192572542,
     "foreign_ratio_diff": -0.2699999999999996,
-    "trust_ratio_diff": 0.005307166441318817
+    "trust_ratio_diff": 0.005307166441318817,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "8033",
@@ -141,7 +156,8 @@
     "three_inst_ratio": 1.750621169755377,
     "change": -1.3199999999999998,
     "foreign_ratio_diff": 0.16999999999999993,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00945B",
@@ -150,7 +166,8 @@
     "three_inst_ratio": 4.873945529377816,
     "change": -1.2565698044421367,
     "foreign_ratio_diff": -2.33,
-    "trust_ratio_diff": 0.09135034428127042
+    "trust_ratio_diff": 0.09135034428127042,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00717",
@@ -159,7 +176,8 @@
     "three_inst_ratio": 0.92,
     "change": -1.25,
     "foreign_ratio_diff": -1.62,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "3413",
@@ -168,7 +186,8 @@
     "three_inst_ratio": 17.23307962236195,
     "change": -1.241851459153935,
     "foreign_ratio_diff": -0.5399999999999991,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6139",
@@ -177,7 +196,8 @@
     "three_inst_ratio": 34.197799927342416,
     "change": -1.175969703597886,
     "foreign_ratio_diff": 0.21000000000000085,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00763U",
@@ -186,7 +206,8 @@
     "three_inst_ratio": 0.39,
     "change": -1.1600000000000001,
     "foreign_ratio_diff": -1.0299999999999998,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "3447",
@@ -195,7 +216,8 @@
     "three_inst_ratio": 0.7,
     "change": -1.1500000000000001,
     "foreign_ratio_diff": -0.030000000000000027,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2357",
@@ -204,7 +226,8 @@
     "three_inst_ratio": 45.99129062798026,
     "change": -1.1467898261872662,
     "foreign_ratio_diff": -0.5600000000000023,
-    "trust_ratio_diff": 0.02598415736501103
+    "trust_ratio_diff": 0.02598415736501103,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00675L",
@@ -213,7 +236,8 @@
     "three_inst_ratio": 0.34,
     "change": -1.14,
     "foreign_ratio_diff": 0.050000000000000044,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6005",
@@ -222,7 +246,8 @@
     "three_inst_ratio": 18.221657488004663,
     "change": -1.1195755040016309,
     "foreign_ratio_diff": -0.4499999999999993,
-    "trust_ratio_diff": 0.0386474213790724
+    "trust_ratio_diff": 0.0386474213790724,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6706",
@@ -231,7 +256,8 @@
     "three_inst_ratio": 8.591947968949011,
     "change": -1.0698849549452074,
     "foreign_ratio_diff": -0.6199999999999992,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00865B",
@@ -240,7 +266,8 @@
     "three_inst_ratio": 0.74,
     "change": -1.05,
     "foreign_ratio_diff": -0.3999999999999999,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "5284",
@@ -249,7 +276,8 @@
     "three_inst_ratio": 56.45608454224187,
     "change": -1.0481761618068717,
     "foreign_ratio_diff": -0.18999999999999773,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2006",
@@ -258,7 +286,8 @@
     "three_inst_ratio": 15.91773154881602,
     "change": -1.0427143706009705,
     "foreign_ratio_diff": -0.11000000000000121,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "9938",
@@ -267,7 +296,8 @@
     "three_inst_ratio": 19.0790658559707,
     "change": -0.9634365598420693,
     "foreign_ratio_diff": -0.030000000000001137,
-    "trust_ratio_diff": -0.01644494506586236
+    "trust_ratio_diff": -0.01644494506586236,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2377",
@@ -276,7 +306,8 @@
     "three_inst_ratio": 12.938308852510414,
     "change": -0.9538519147209357,
     "foreign_ratio_diff": -0.21000000000000085,
-    "trust_ratio_diff": -0.026631751091644063
+    "trust_ratio_diff": -0.026631751091644063,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6757",
@@ -285,7 +316,8 @@
     "three_inst_ratio": 1.9906539290144276,
     "change": -0.9471187952908409,
     "foreign_ratio_diff": -0.13000000000000034,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "4572",
@@ -294,7 +326,8 @@
     "three_inst_ratio": 28.95525,
     "change": -0.870000000000001,
     "foreign_ratio_diff": -0.9700000000000024,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "4949",
@@ -303,7 +336,8 @@
     "three_inst_ratio": 4.72,
     "change": -0.8700000000000001,
     "foreign_ratio_diff": -0.1800000000000006,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "3653",
@@ -312,7 +346,8 @@
     "three_inst_ratio": 34.77332881035359,
     "change": -0.8526791290816291,
     "foreign_ratio_diff": -0.16000000000000014,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2236",
@@ -321,7 +356,8 @@
     "three_inst_ratio": 51.79,
     "change": -0.8400000000000034,
     "foreign_ratio_diff": -0.9299999999999997,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2421",
@@ -330,7 +366,8 @@
     "three_inst_ratio": 41.39462832851324,
     "change": -0.8263066242722203,
     "foreign_ratio_diff": -0.5700000000000003,
-    "trust_ratio_diff": -0.07423832511551054
+    "trust_ratio_diff": -0.07423832511551054,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2441",
@@ -339,7 +376,8 @@
     "three_inst_ratio": 15.101927013694805,
     "change": -0.8252668248103667,
     "foreign_ratio_diff": 0.010000000000001563,
-    "trust_ratio_diff": 0.021271137848240418
+    "trust_ratio_diff": 0.021271137848240418,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6691",
@@ -348,7 +386,8 @@
     "three_inst_ratio": 18.487707082150514,
     "change": -0.8114014300056915,
     "foreign_ratio_diff": -0.2900000000000027,
-    "trust_ratio_diff": -0.004938791539774279
+    "trust_ratio_diff": -0.004938791539774279,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "3090",
@@ -357,7 +396,8 @@
     "three_inst_ratio": 8.351680795250779,
     "change": -0.7855932275296382,
     "foreign_ratio_diff": -0.009999999999999787,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2382",
@@ -366,7 +406,8 @@
     "three_inst_ratio": 22.012957620977204,
     "change": -0.7556331072419056,
     "foreign_ratio_diff": -0.10999999999999943,
-    "trust_ratio_diff": 0.0019416835125919962
+    "trust_ratio_diff": 0.0019416835125919962,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2903",
@@ -375,7 +416,8 @@
     "three_inst_ratio": 11.423539376716944,
     "change": -0.7493892813102274,
     "foreign_ratio_diff": -0.28000000000000114,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6155",
@@ -384,7 +426,8 @@
     "three_inst_ratio": 6.55,
     "change": -0.7400000000000002,
     "foreign_ratio_diff": -0.1900000000000004,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2313",
@@ -393,7 +436,8 @@
     "three_inst_ratio": 35.559298965307605,
     "change": -0.7337606825568983,
     "foreign_ratio_diff": -0.7899999999999991,
-    "trust_ratio_diff": 0.015019039077869056
+    "trust_ratio_diff": 0.015019039077869056,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6278",
@@ -402,7 +446,8 @@
     "three_inst_ratio": 23.05495260645329,
     "change": -0.7312384313601115,
     "foreign_ratio_diff": -0.13000000000000256,
-    "trust_ratio_diff": 0.045827891513465335
+    "trust_ratio_diff": 0.045827891513465335,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "5243",
@@ -411,7 +456,8 @@
     "three_inst_ratio": 57.5889545271801,
     "change": -0.7287612870467939,
     "foreign_ratio_diff": -0.6199999999999974,
-    "trust_ratio_diff": -0.12876128704679546
+    "trust_ratio_diff": -0.12876128704679546,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00963",
@@ -420,16 +466,8 @@
     "three_inst_ratio": 1.0,
     "change": -0.72,
     "foreign_ratio_diff": 0.07999999999999996,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "6672",
-    "name": "騰輝電子-KY",
-    "market": "TWSE",
-    "three_inst_ratio": 22.65,
-    "change": -0.7100000000000009,
-    "foreign_ratio_diff": -0.0400000000000027,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2486",
@@ -438,7 +476,18 @@
     "three_inst_ratio": 8.44,
     "change": -0.7100000000000009,
     "foreign_ratio_diff": -0.16999999999999993,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "6672",
+    "name": "騰輝電子-KY",
+    "market": "TWSE",
+    "three_inst_ratio": 22.65,
+    "change": -0.7100000000000009,
+    "foreign_ratio_diff": -0.0400000000000027,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "3037",
@@ -447,7 +496,8 @@
     "three_inst_ratio": 46.13976656164094,
     "change": -0.6984954148185238,
     "foreign_ratio_diff": -0.010000000000005116,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "3443",
@@ -456,7 +506,8 @@
     "three_inst_ratio": 31.29965762192586,
     "change": -0.6965310284247792,
     "foreign_ratio_diff": -0.0799999999999983,
-    "trust_ratio_diff": -0.09327529102991461
+    "trust_ratio_diff": -0.09327529102991461,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "1802",
@@ -465,7 +516,8 @@
     "three_inst_ratio": 4.72600958274325,
     "change": -0.6879767795776477,
     "foreign_ratio_diff": 0.009999999999999787,
-    "trust_ratio_diff": 0.006533563534847797
+    "trust_ratio_diff": 0.006533563534847797,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6271",
@@ -474,7 +526,8 @@
     "three_inst_ratio": 25.041717398419493,
     "change": -0.6853518133319767,
     "foreign_ratio_diff": -0.28999999999999915,
-    "trust_ratio_diff": -0.009088385911463492
+    "trust_ratio_diff": -0.009088385911463492,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6770",
@@ -483,7 +536,8 @@
     "three_inst_ratio": 14.902247858155812,
     "change": -0.6781914874124695,
     "foreign_ratio_diff": -1.6799999999999997,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "8271",
@@ -492,7 +546,8 @@
     "three_inst_ratio": 5.343650091150916,
     "change": -0.6715609236378519,
     "foreign_ratio_diff": 0.009999999999999787,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00991A",
@@ -501,7 +556,8 @@
     "three_inst_ratio": 0.14,
     "change": -0.65,
     "foreign_ratio_diff": -2.09,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "4764",
@@ -510,7 +566,8 @@
     "three_inst_ratio": 25.31,
     "change": -0.6400000000000006,
     "foreign_ratio_diff": 0.23000000000000043,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2481",
@@ -519,7 +576,8 @@
     "three_inst_ratio": 18.541827372998696,
     "change": -0.622809659330585,
     "foreign_ratio_diff": -0.040000000000000924,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "8163",
@@ -528,7 +586,8 @@
     "three_inst_ratio": 8.310886068889692,
     "change": -0.6181621427565638,
     "foreign_ratio_diff": -0.020000000000000462,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00917",
@@ -537,7 +596,8 @@
     "three_inst_ratio": 1.94,
     "change": -0.6099999999999999,
     "foreign_ratio_diff": 0.010000000000000009,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "4956",
@@ -546,7 +606,8 @@
     "three_inst_ratio": 8.84,
     "change": -0.6099999999999994,
     "foreign_ratio_diff": 0.08999999999999986,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2451",
@@ -555,7 +616,8 @@
     "three_inst_ratio": 12.203627117888502,
     "change": -0.6055327483924913,
     "foreign_ratio_diff": 0.3800000000000008,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "3708",
@@ -564,7 +626,8 @@
     "three_inst_ratio": 4.850672463801134,
     "change": -0.5909321790433681,
     "foreign_ratio_diff": -0.3100000000000005,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "1786",
@@ -573,7 +636,8 @@
     "three_inst_ratio": 2.4,
     "change": -0.5900000000000003,
     "foreign_ratio_diff": -0.22999999999999998,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6164",
@@ -582,7 +646,8 @@
     "three_inst_ratio": 1.2,
     "change": -0.5900000000000001,
     "foreign_ratio_diff": 0.2899999999999999,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "4736",
@@ -591,7 +656,8 @@
     "three_inst_ratio": 6.12178289307173,
     "change": -0.5899999999999999,
     "foreign_ratio_diff": 0.020000000000000462,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "3042",
@@ -600,7 +666,8 @@
     "three_inst_ratio": 12.5669997441726,
     "change": -0.5862714239995306,
     "foreign_ratio_diff": -0.15000000000000036,
-    "trust_ratio_diff": -0.04227491880584344
+    "trust_ratio_diff": -0.04227491880584344,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2393",
@@ -609,7 +676,8 @@
     "three_inst_ratio": 20.41238565082181,
     "change": -0.5726242806140611,
     "foreign_ratio_diff": 0.7600000000000016,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00631L",
@@ -618,7 +686,8 @@
     "three_inst_ratio": 1.86,
     "change": -0.5700000000000001,
     "foreign_ratio_diff": 0.4600000000000002,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00693U",
@@ -627,7 +696,8 @@
     "three_inst_ratio": 0.74,
     "change": -0.5700000000000001,
     "foreign_ratio_diff": -0.6000000000000001,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6409",
@@ -636,7 +706,8 @@
     "three_inst_ratio": 58.9939328766126,
     "change": -0.5668862227045892,
     "foreign_ratio_diff": -0.20999999999999375,
-    "trust_ratio_diff": 0.0011401030967868597
+    "trust_ratio_diff": 0.0011401030967868597,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "3022",
@@ -645,7 +716,8 @@
     "three_inst_ratio": 15.159025034231743,
     "change": -0.5591069384277105,
     "foreign_ratio_diff": -0.16000000000000014,
-    "trust_ratio_diff": -0.1325044894389675
+    "trust_ratio_diff": -0.1325044894389675,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6239",
@@ -654,7 +726,8 @@
     "three_inst_ratio": 36.12271189700092,
     "change": -0.5498852155089651,
     "foreign_ratio_diff": 0.28000000000000114,
-    "trust_ratio_diff": 0.011723690261399078
+    "trust_ratio_diff": 0.011723690261399078,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2467",
@@ -663,7 +736,8 @@
     "three_inst_ratio": 14.804679196016968,
     "change": -0.5406379367675545,
     "foreign_ratio_diff": 0.010000000000001563,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "4915",
@@ -672,7 +746,8 @@
     "three_inst_ratio": 48.9543809993379,
     "change": -0.5288675940016034,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": -0.06494845817708986
+    "trust_ratio_diff": -0.06494845817708986,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2211",
@@ -681,7 +756,8 @@
     "three_inst_ratio": 11.055204806073913,
     "change": -0.527797245972403,
     "foreign_ratio_diff": -0.5300000000000002,
-    "trust_ratio_diff": 0.5396897802245357
+    "trust_ratio_diff": 0.5396897802245357,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "1732",
@@ -690,7 +766,8 @@
     "three_inst_ratio": 4.78,
     "change": -0.5199999999999996,
     "foreign_ratio_diff": -0.13999999999999968,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "4536",
@@ -699,7 +776,8 @@
     "three_inst_ratio": 15.41371724289804,
     "change": -0.5055053952873827,
     "foreign_ratio_diff": -0.120000000000001,
-    "trust_ratio_diff": -0.004404316229905336
+    "trust_ratio_diff": -0.004404316229905336,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "4739",
@@ -708,7 +786,8 @@
     "three_inst_ratio": 7.255739975186868,
     "change": -0.493257438442372,
     "foreign_ratio_diff": -0.1999999999999993,
-    "trust_ratio_diff": 0.008428201947034336
+    "trust_ratio_diff": 0.008428201947034336,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00735",
@@ -717,7 +796,8 @@
     "three_inst_ratio": 4.27,
     "change": -0.4900000000000002,
     "foreign_ratio_diff": -0.8200000000000003,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00956",
@@ -726,7 +806,8 @@
     "three_inst_ratio": 1.27,
     "change": -0.49,
     "foreign_ratio_diff": -0.050000000000000044,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2376",
@@ -735,7 +816,8 @@
     "three_inst_ratio": 16.672868602331164,
     "change": -0.4833040310509027,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.01627135518710486
+    "trust_ratio_diff": 0.01627135518710486,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2379",
@@ -744,7 +826,8 @@
     "three_inst_ratio": 47.807323675163786,
     "change": -0.4830071800897997,
     "foreign_ratio_diff": -0.10999999999999943,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "8046",
@@ -753,7 +836,8 @@
     "three_inst_ratio": 13.72316649367873,
     "change": -0.479876302245156,
     "foreign_ratio_diff": -0.13000000000000078,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "1303",
@@ -762,7 +846,8 @@
     "three_inst_ratio": 28.710682994697233,
     "change": -0.4683780294695019,
     "foreign_ratio_diff": 0.05000000000000071,
-    "trust_ratio_diff": 0.008586752234403416
+    "trust_ratio_diff": 0.008586752234403416,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2105",
@@ -771,7 +856,8 @@
     "three_inst_ratio": 11.800780958902642,
     "change": -0.4585134454171378,
     "foreign_ratio_diff": -0.05000000000000071,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2201",
@@ -780,7 +866,8 @@
     "three_inst_ratio": 5.668416415374826,
     "change": -0.4570093609825143,
     "foreign_ratio_diff": -0.08000000000000007,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2520",
@@ -789,7 +876,8 @@
     "three_inst_ratio": 7.971254943685356,
     "change": -0.447917949897251,
     "foreign_ratio_diff": 0.5800000000000001,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "9904",
@@ -798,7 +886,8 @@
     "three_inst_ratio": 42.63574085968453,
     "change": -0.43189613617004596,
     "foreign_ratio_diff": -0.07000000000000028,
-    "trust_ratio_diff": -0.004411584230666232
+    "trust_ratio_diff": -0.004411584230666232,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6405",
@@ -807,16 +896,8 @@
     "three_inst_ratio": 2.05,
     "change": -0.43000000000000016,
     "foreign_ratio_diff": -0.1200000000000001,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "00985B",
-    "name": "群益ESG投等債0-5",
-    "market": "TWSE",
-    "three_inst_ratio": 4.59,
-    "change": -0.4299999999999997,
-    "foreign_ratio_diff": 0.07000000000000028,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6533",
@@ -825,7 +906,18 @@
     "three_inst_ratio": 15.23712613717846,
     "change": -0.4299999999999997,
     "foreign_ratio_diff": -0.2699999999999996,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "00985B",
+    "name": "群益ESG投等債0-5",
+    "market": "TWSE",
+    "three_inst_ratio": 4.59,
+    "change": -0.4299999999999997,
+    "foreign_ratio_diff": 0.07000000000000028,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2356",
@@ -834,7 +926,8 @@
     "three_inst_ratio": 12.874971988329355,
     "change": -0.4203553336640802,
     "foreign_ratio_diff": -0.10999999999999943,
-    "trust_ratio_diff": 0.008418176975282132
+    "trust_ratio_diff": 0.008418176975282132,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6443",
@@ -843,7 +936,8 @@
     "three_inst_ratio": 10.58,
     "change": -0.41999999999999993,
     "foreign_ratio_diff": 0.17999999999999972,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2388",
@@ -852,7 +946,8 @@
     "three_inst_ratio": 13.788939048107192,
     "change": -0.41964002940736655,
     "foreign_ratio_diff": -0.1999999999999993,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2887I",
@@ -861,7 +956,8 @@
     "three_inst_ratio": 6.53,
     "change": -0.41000000000000014,
     "foreign_ratio_diff": -0.019999999999999574,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00908",
@@ -870,7 +966,8 @@
     "three_inst_ratio": 2.21,
     "change": -0.41000000000000014,
     "foreign_ratio_diff": -0.010000000000000231,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "3563",
@@ -879,7 +976,8 @@
     "three_inst_ratio": 12.212050092886496,
     "change": -0.4057759021931808,
     "foreign_ratio_diff": -0.4299999999999997,
-    "trust_ratio_diff": 0.2642240978068182
+    "trust_ratio_diff": 0.2642240978068182,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "3665",
@@ -888,7 +986,8 @@
     "three_inst_ratio": 50.64832654858689,
     "change": -0.40229669810839397,
     "foreign_ratio_diff": -0.36999999999999744,
-    "trust_ratio_diff": 0.028354985028052226
+    "trust_ratio_diff": 0.028354985028052226,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6781",
@@ -897,7 +996,8 @@
     "three_inst_ratio": 79.20479508136268,
     "change": -0.401649094028258,
     "foreign_ratio_diff": 0.3200000000000074,
-    "trust_ratio_diff": 0.07843708374200453
+    "trust_ratio_diff": 0.07843708374200453,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00634R",
@@ -906,7 +1006,8 @@
     "three_inst_ratio": 5.8,
     "change": -0.40000000000000036,
     "foreign_ratio_diff": -0.03000000000000025,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00637L",
@@ -915,7 +1016,8 @@
     "three_inst_ratio": 1.12,
     "change": -0.3899999999999999,
     "foreign_ratio_diff": 0.32000000000000006,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6165",
@@ -924,7 +1026,8 @@
     "three_inst_ratio": 6.73,
     "change": -0.3899999999999997,
     "foreign_ratio_diff": -0.2999999999999998,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2375",
@@ -933,7 +1036,8 @@
     "three_inst_ratio": 8.13807911020545,
     "change": -0.3819208897945501,
     "foreign_ratio_diff": 0.010000000000001563,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6285",
@@ -942,7 +1046,8 @@
     "three_inst_ratio": 17.63607996825689,
     "change": -0.38024707091564736,
     "foreign_ratio_diff": -0.15000000000000036,
-    "trust_ratio_diff": -0.01363578245339614
+    "trust_ratio_diff": -0.01363578245339614,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "4912",
@@ -951,16 +1056,8 @@
     "three_inst_ratio": 27.33,
     "change": -0.38000000000000256,
     "foreign_ratio_diff": -0.11000000000000298,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "1721",
-    "name": "三晃",
-    "market": "TWSE",
-    "three_inst_ratio": 2.47,
-    "change": -0.3799999999999999,
-    "foreign_ratio_diff": 0.15000000000000036,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "4916",
@@ -969,7 +1066,18 @@
     "three_inst_ratio": 1.7574154746394535,
     "change": -0.3799999999999999,
     "foreign_ratio_diff": 0.17000000000000015,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "1721",
+    "name": "三晃",
+    "market": "TWSE",
+    "three_inst_ratio": 2.47,
+    "change": -0.3799999999999999,
+    "foreign_ratio_diff": 0.15000000000000036,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2753",
@@ -978,7 +1086,8 @@
     "three_inst_ratio": 12.16310927983034,
     "change": -0.3715004922514886,
     "foreign_ratio_diff": -0.16999999999999993,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "9802",
@@ -987,7 +1096,8 @@
     "three_inst_ratio": 45.89347767850064,
     "change": -0.37020730480710284,
     "foreign_ratio_diff": 0.00999999999999801,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2454",
@@ -996,7 +1106,8 @@
     "three_inst_ratio": 57.61601072456971,
     "change": -0.3680111538675206,
     "foreign_ratio_diff": -0.05999999999999517,
-    "trust_ratio_diff": -0.008042834355129314
+    "trust_ratio_diff": -0.008042834355129314,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "3661",
@@ -1005,7 +1116,8 @@
     "three_inst_ratio": 53.37441452268761,
     "change": -0.36525043783248634,
     "foreign_ratio_diff": 0.0799999999999983,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6753",
@@ -1014,7 +1126,8 @@
     "three_inst_ratio": 4.8569307258866425,
     "change": -0.3639343718926087,
     "foreign_ratio_diff": -0.20000000000000018,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "4961",
@@ -1023,7 +1136,8 @@
     "three_inst_ratio": 15.485125015542836,
     "change": -0.35429945937359264,
     "foreign_ratio_diff": 0.25,
-    "trust_ratio_diff": -0.4940059389410474
+    "trust_ratio_diff": -0.4940059389410474,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "5203",
@@ -1032,7 +1146,8 @@
     "three_inst_ratio": 17.472414549904677,
     "change": -0.34999999999999787,
     "foreign_ratio_diff": -0.120000000000001,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6449",
@@ -1041,7 +1156,8 @@
     "three_inst_ratio": 8.850771960042783,
     "change": -0.3483685306313813,
     "foreign_ratio_diff": 0.06999999999999984,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "1414",
@@ -1050,7 +1166,8 @@
     "three_inst_ratio": 1.4227272727272728,
     "change": -0.34090909090909083,
     "foreign_ratio_diff": 0.040000000000000036,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2417",
@@ -1059,7 +1176,8 @@
     "three_inst_ratio": 2.01,
     "change": -0.3400000000000003,
     "foreign_ratio_diff": -0.3700000000000001,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "1310",
@@ -1068,7 +1186,8 @@
     "three_inst_ratio": 5.55,
     "change": -0.33999999999999986,
     "foreign_ratio_diff": -0.0600000000000005,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00655L",
@@ -1077,7 +1196,8 @@
     "three_inst_ratio": 0.7418427826688875,
     "change": -0.3281572173311126,
     "foreign_ratio_diff": 0.13,
-    "trust_ratio_diff": -0.1081572173311125
+    "trust_ratio_diff": -0.1081572173311125,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2352",
@@ -1086,7 +1206,8 @@
     "three_inst_ratio": 10.65089384950048,
     "change": -0.3266012253457955,
     "foreign_ratio_diff": -0.11999999999999922,
-    "trust_ratio_diff": 0.03454588755393955
+    "trust_ratio_diff": 0.03454588755393955,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "1215",
@@ -1095,7 +1216,8 @@
     "three_inst_ratio": 46.77565250383681,
     "change": -0.3216607127014228,
     "foreign_ratio_diff": -0.6099999999999994,
-    "trust_ratio_diff": 0.03154787105501722
+    "trust_ratio_diff": 0.03154787105501722,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2353",
@@ -1104,7 +1226,8 @@
     "three_inst_ratio": 15.276393400241503,
     "change": -0.3214877005315504,
     "foreign_ratio_diff": -0.14000000000000057,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "5521",
@@ -1113,7 +1236,8 @@
     "three_inst_ratio": 16.51,
     "change": -0.31999999999999673,
     "foreign_ratio_diff": -0.0799999999999983,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "7749",
@@ -1122,7 +1246,8 @@
     "three_inst_ratio": 23.364419166243884,
     "change": -0.3100000000000023,
     "foreign_ratio_diff": -0.14000000000000057,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2458",
@@ -1131,7 +1256,8 @@
     "three_inst_ratio": 16.94518559552207,
     "change": -0.3058615804339233,
     "foreign_ratio_diff": -0.22000000000000064,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6670",
@@ -1140,7 +1266,8 @@
     "three_inst_ratio": 23.16688004932857,
     "change": -0.2999770535227846,
     "foreign_ratio_diff": 0.3000000000000007,
-    "trust_ratio_diff": -0.3399012043973437
+    "trust_ratio_diff": -0.3399012043973437,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "1102",
@@ -1149,7 +1276,8 @@
     "three_inst_ratio": 21.305668108302182,
     "change": -0.2936741200839279,
     "foreign_ratio_diff": -0.17999999999999972,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2852",
@@ -1158,7 +1286,8 @@
     "three_inst_ratio": 5.708838918560009,
     "change": -0.2922728496464906,
     "foreign_ratio_diff": -0.0699999999999994,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2328",
@@ -1167,7 +1296,8 @@
     "three_inst_ratio": 8.574150054615421,
     "change": -0.29019292122558227,
     "foreign_ratio_diff": -0.129999999999999,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2630",
@@ -1176,7 +1306,8 @@
     "three_inst_ratio": 3.36,
     "change": -0.29000000000000004,
     "foreign_ratio_diff": -0.010000000000000231,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2912",
@@ -1185,7 +1316,8 @@
     "three_inst_ratio": 19.72803006679575,
     "change": -0.2885063032341506,
     "foreign_ratio_diff": 0.03999999999999915,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2316",
@@ -1194,7 +1326,8 @@
     "three_inst_ratio": 31.273856031592246,
     "change": -0.2747750469551029,
     "foreign_ratio_diff": -0.26000000000000156,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2465",
@@ -1203,7 +1336,8 @@
     "three_inst_ratio": 0.72,
     "change": -0.27,
     "foreign_ratio_diff": -0.020000000000000018,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "4164",
@@ -1212,7 +1346,8 @@
     "three_inst_ratio": 28.181546599856684,
     "change": -0.2699999999999996,
     "foreign_ratio_diff": 0.019999999999999574,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2327",
@@ -1221,7 +1356,8 @@
     "three_inst_ratio": 46.42907852170954,
     "change": -0.26695964991839105,
     "foreign_ratio_diff": 0.00999999999999801,
-    "trust_ratio_diff": 0.06512408390795366
+    "trust_ratio_diff": 0.06512408390795366,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6890",
@@ -1230,7 +1366,8 @@
     "three_inst_ratio": 88.10935044105854,
     "change": -0.26131515637530356,
     "foreign_ratio_diff": 0.009999999999990905,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2374",
@@ -1239,16 +1376,8 @@
     "three_inst_ratio": 5.488989619058475,
     "change": -0.26122521210059,
     "foreign_ratio_diff": 0.1900000000000004,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "6625",
-    "name": "必應",
-    "market": "TWSE",
-    "three_inst_ratio": 3.75,
-    "change": -0.2599999999999998,
-    "foreign_ratio_diff": -0.040000000000000036,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "3027",
@@ -1257,7 +1386,18 @@
     "three_inst_ratio": 2.29,
     "change": -0.2599999999999998,
     "foreign_ratio_diff": -0.040000000000000036,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "6625",
+    "name": "必應",
+    "market": "TWSE",
+    "three_inst_ratio": 3.75,
+    "change": -0.2599999999999998,
+    "foreign_ratio_diff": -0.040000000000000036,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00923",
@@ -1266,7 +1406,8 @@
     "three_inst_ratio": -0.22527066396638576,
     "change": -0.2504926129246762,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": -0.1254027816091821
+    "trust_ratio_diff": -0.1254027816091821,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6152",
@@ -1275,7 +1416,8 @@
     "three_inst_ratio": 0.82,
     "change": -0.2500000000000001,
     "foreign_ratio_diff": 0.029999999999999916,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2332",
@@ -1284,7 +1426,8 @@
     "three_inst_ratio": 12.29,
     "change": -0.25,
     "foreign_ratio_diff": -0.2900000000000009,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "4976",
@@ -1293,7 +1436,8 @@
     "three_inst_ratio": 5.65,
     "change": -0.25,
     "foreign_ratio_diff": -0.27999999999999936,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "3013",
@@ -1302,7 +1446,8 @@
     "three_inst_ratio": 9.695869795167598,
     "change": -0.24948543555335867,
     "foreign_ratio_diff": 0.030000000000001137,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "3023",
@@ -1311,7 +1456,8 @@
     "three_inst_ratio": 36.6309843839322,
     "change": -0.2487014884811387,
     "foreign_ratio_diff": -0.030000000000001137,
-    "trust_ratio_diff": -0.022493531797485034
+    "trust_ratio_diff": -0.022493531797485034,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "4526",
@@ -1320,7 +1466,8 @@
     "three_inst_ratio": 4.37,
     "change": -0.2400000000000002,
     "foreign_ratio_diff": -0.11000000000000032,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2634",
@@ -1329,7 +1476,8 @@
     "three_inst_ratio": 3.1952896122124983,
     "change": -0.23611127941923948,
     "foreign_ratio_diff": -0.040000000000000036,
-    "trust_ratio_diff": 0.0246319252210509
+    "trust_ratio_diff": 0.0246319252210509,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2409",
@@ -1338,7 +1486,8 @@
     "three_inst_ratio": 16.17341176585275,
     "change": -0.2360608691643904,
     "foreign_ratio_diff": -0.0600000000000005,
-    "trust_ratio_diff": 0.009990593773811174
+    "trust_ratio_diff": 0.009990593773811174,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "1476",
@@ -1347,7 +1496,8 @@
     "three_inst_ratio": 32.18699269115386,
     "change": -0.23598571903904286,
     "foreign_ratio_diff": -0.05000000000000071,
-    "trust_ratio_diff": 0.0010934255162966255
+    "trust_ratio_diff": 0.0010934255162966255,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "3041",
@@ -1356,7 +1506,8 @@
     "three_inst_ratio": 8.926163129390009,
     "change": -0.23383687060999137,
     "foreign_ratio_diff": 0.08999999999999986,
-    "trust_ratio_diff": 0.16616312939000938
+    "trust_ratio_diff": 0.16616312939000938,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6768",
@@ -1365,7 +1516,8 @@
     "three_inst_ratio": 59.682893368567456,
     "change": -0.23256226384317813,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6269",
@@ -1374,16 +1526,8 @@
     "three_inst_ratio": 17.703503149388283,
     "change": -0.23000000000000043,
     "foreign_ratio_diff": -0.3200000000000003,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "6949",
-    "name": "沛爾生醫-創",
-    "market": "TWSE",
-    "three_inst_ratio": 1.51,
-    "change": -0.22999999999999998,
-    "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "1325",
@@ -1392,7 +1536,18 @@
     "three_inst_ratio": 2.61,
     "change": -0.22999999999999998,
     "foreign_ratio_diff": 0.029999999999999805,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "6949",
+    "name": "沛爾生醫-創",
+    "market": "TWSE",
+    "three_inst_ratio": 1.51,
+    "change": -0.22999999999999998,
+    "foreign_ratio_diff": 0.0,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "4569",
@@ -1401,7 +1556,8 @@
     "three_inst_ratio": 67.51,
     "change": -0.22999999999998977,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6189",
@@ -1410,7 +1566,8 @@
     "three_inst_ratio": 7.750606421821225,
     "change": -0.2273462699589448,
     "foreign_ratio_diff": -0.09999999999999964,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00953B",
@@ -1419,7 +1576,8 @@
     "three_inst_ratio": 2.7500441498411456,
     "change": -0.22560298733372797,
     "foreign_ratio_diff": 0.050000000000000044,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "3014",
@@ -1428,7 +1586,8 @@
     "three_inst_ratio": 22.094475353602313,
     "change": -0.22022576419711726,
     "foreign_ratio_diff": -0.14000000000000057,
-    "trust_ratio_diff": 0.09035049269087404
+    "trust_ratio_diff": 0.09035049269087404,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "1720",
@@ -1437,7 +1596,8 @@
     "three_inst_ratio": 5.159878199124996,
     "change": -0.22000000000000064,
     "foreign_ratio_diff": -0.0600000000000005,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6558",
@@ -1446,7 +1606,8 @@
     "three_inst_ratio": 1.23,
     "change": -0.21999999999999997,
     "foreign_ratio_diff": -0.06000000000000005,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "1477",
@@ -1455,7 +1616,8 @@
     "three_inst_ratio": 17.142511082031508,
     "change": -0.2191452533693088,
     "foreign_ratio_diff": 0.2900000000000027,
-    "trust_ratio_diff": 0.04783259312327948
+    "trust_ratio_diff": 0.04783259312327948,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6414",
@@ -1464,7 +1626,8 @@
     "three_inst_ratio": 28.264376190383405,
     "change": -0.21549374391630138,
     "foreign_ratio_diff": -0.41000000000000014,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6698",
@@ -1473,16 +1636,8 @@
     "three_inst_ratio": 3.38,
     "change": -0.20999999999999996,
     "foreign_ratio_diff": -0.0900000000000003,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "3694",
-    "name": "海華",
-    "market": "TWSE",
-    "three_inst_ratio": 6.593904390455361,
-    "change": -0.20999999999999908,
-    "foreign_ratio_diff": 0.009999999999999787,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00647L",
@@ -1491,7 +1646,18 @@
     "three_inst_ratio": 4.252128397917872,
     "change": -0.20999999999999908,
     "foreign_ratio_diff": -0.10999999999999988,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "3694",
+    "name": "海華",
+    "market": "TWSE",
+    "three_inst_ratio": 6.593904390455361,
+    "change": -0.20999999999999908,
+    "foreign_ratio_diff": 0.009999999999999787,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2890",
@@ -1500,7 +1666,8 @@
     "three_inst_ratio": 27.76145876590306,
     "change": -0.20955473841516437,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2645",
@@ -1509,7 +1676,8 @@
     "three_inst_ratio": 10.473949015246943,
     "change": -0.2079056799389587,
     "foreign_ratio_diff": -0.7300000000000004,
-    "trust_ratio_diff": 0.6778421868163926
+    "trust_ratio_diff": 0.6778421868163926,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "0050",
@@ -1518,7 +1686,8 @@
     "three_inst_ratio": 4.377563750363596,
     "change": -0.20753730834670225,
     "foreign_ratio_diff": 0.13999999999999968,
-    "trust_ratio_diff": 0.0006525933388019656
+    "trust_ratio_diff": 0.0006525933388019656,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2495",
@@ -1527,25 +1696,8 @@
     "three_inst_ratio": 4.532586433712539,
     "change": -0.20109668548089132,
     "foreign_ratio_diff": 0.35000000000000053,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "3588",
-    "name": "通嘉",
-    "market": "TWSE",
-    "three_inst_ratio": 2.11,
-    "change": -0.20000000000000018,
-    "foreign_ratio_diff": 0.029999999999999805,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "6168",
-    "name": "宏齊",
-    "market": "TWSE",
-    "three_inst_ratio": 4.12,
-    "change": -0.20000000000000018,
-    "foreign_ratio_diff": 0.03000000000000025,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6133",
@@ -1554,7 +1706,28 @@
     "three_inst_ratio": 4.13,
     "change": -0.20000000000000018,
     "foreign_ratio_diff": 0.31000000000000005,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "6168",
+    "name": "宏齊",
+    "market": "TWSE",
+    "three_inst_ratio": 4.12,
+    "change": -0.20000000000000018,
+    "foreign_ratio_diff": 0.03000000000000025,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "3588",
+    "name": "通嘉",
+    "market": "TWSE",
+    "three_inst_ratio": 2.11,
+    "change": -0.20000000000000018,
+    "foreign_ratio_diff": 0.029999999999999805,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2547",
@@ -1563,16 +1736,8 @@
     "three_inst_ratio": 15.947581104334354,
     "change": -0.1999999999999993,
     "foreign_ratio_diff": -0.129999999999999,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "3576",
-    "name": "聯合再生",
-    "market": "TWSE",
-    "three_inst_ratio": 9.55,
-    "change": -0.1999999999999993,
-    "foreign_ratio_diff": -0.129999999999999,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6657",
@@ -1581,7 +1746,18 @@
     "three_inst_ratio": 8.59,
     "change": -0.1999999999999993,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "3576",
+    "name": "聯合再生",
+    "market": "TWSE",
+    "three_inst_ratio": 9.55,
+    "change": -0.1999999999999993,
+    "foreign_ratio_diff": -0.129999999999999,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "4766",
@@ -1590,7 +1766,8 @@
     "three_inst_ratio": 17.942820386498287,
     "change": -0.19417155300811828,
     "foreign_ratio_diff": 0.010000000000001563,
-    "trust_ratio_diff": -0.08128005807045446
+    "trust_ratio_diff": -0.08128005807045446,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "7799",
@@ -1599,7 +1776,8 @@
     "three_inst_ratio": 3.350897835290359,
     "change": -0.19195143382059277,
     "foreign_ratio_diff": 0.06000000000000005,
-    "trust_ratio_diff": -0.04281492131959421
+    "trust_ratio_diff": -0.04281492131959421,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "3138",
@@ -1608,7 +1786,8 @@
     "three_inst_ratio": 1.94,
     "change": -0.18999999999999995,
     "foreign_ratio_diff": 0.050000000000000044,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6415",
@@ -1617,7 +1796,8 @@
     "three_inst_ratio": 79.8278950623254,
     "change": -0.1891238380923994,
     "foreign_ratio_diff": 0.029999999999986926,
-    "trust_ratio_diff": -0.004020036987896547
+    "trust_ratio_diff": -0.004020036987896547,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "9907",
@@ -1626,7 +1806,8 @@
     "three_inst_ratio": 20.2639461382143,
     "change": -0.18697266230482157,
     "foreign_ratio_diff": -0.4499999999999993,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "1710",
@@ -1635,7 +1816,8 @@
     "three_inst_ratio": 5.5632733455064205,
     "change": -0.1867266544935795,
     "foreign_ratio_diff": -0.009999999999999787,
-    "trust_ratio_diff": -0.0667266544935797
+    "trust_ratio_diff": -0.0667266544935797,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "1522",
@@ -1644,7 +1826,8 @@
     "three_inst_ratio": 4.81298976364752,
     "change": -0.18367212458047977,
     "foreign_ratio_diff": 0.10999999999999943,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2204",
@@ -1653,7 +1836,8 @@
     "three_inst_ratio": 20.82612283274808,
     "change": -0.18344887836509471,
     "foreign_ratio_diff": -0.08999999999999986,
-    "trust_ratio_diff": -0.08146376962427437
+    "trust_ratio_diff": -0.08146376962427437,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6446",
@@ -1662,7 +1846,8 @@
     "three_inst_ratio": 21.059511604970023,
     "change": -0.18236720321982247,
     "foreign_ratio_diff": 0.010000000000001563,
-    "trust_ratio_diff": -0.000789599666915386
+    "trust_ratio_diff": -0.000789599666915386,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2312",
@@ -1671,7 +1856,8 @@
     "three_inst_ratio": 8.895769527751892,
     "change": -0.18093033195159158,
     "foreign_ratio_diff": 0.020000000000000462,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00876",
@@ -1680,7 +1866,8 @@
     "three_inst_ratio": 0.25,
     "change": -0.18,
     "foreign_ratio_diff": -0.010000000000000009,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "1722",
@@ -1689,7 +1876,8 @@
     "three_inst_ratio": 8.28684193877551,
     "change": -0.1733673469387771,
     "foreign_ratio_diff": -0.030000000000001137,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "3036",
@@ -1698,7 +1886,8 @@
     "three_inst_ratio": 23.628233863216565,
     "change": -0.1726491269114483,
     "foreign_ratio_diff": -0.21000000000000085,
-    "trust_ratio_diff": 0.04204836388429012
+    "trust_ratio_diff": 0.04204836388429012,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2855",
@@ -1707,7 +1896,8 @@
     "three_inst_ratio": 10.378846776892946,
     "change": -0.17181089907693448,
     "foreign_ratio_diff": -0.08999999999999986,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "4545",
@@ -1716,16 +1906,8 @@
     "three_inst_ratio": 31.34,
     "change": -0.1700000000000017,
     "foreign_ratio_diff": -0.14000000000000057,
-    "trust_ratio_diff": 0.0
-  },
-  {
-    "code": "3518",
-    "name": "柏騰",
-    "market": "TWSE",
-    "three_inst_ratio": 5.69,
-    "change": -0.16999999999999993,
-    "foreign_ratio_diff": 0.010000000000000675,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6994",
@@ -1734,7 +1916,18 @@
     "three_inst_ratio": 2.02,
     "change": -0.16999999999999993,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
+  },
+  {
+    "code": "3518",
+    "name": "柏騰",
+    "market": "TWSE",
+    "three_inst_ratio": 5.69,
+    "change": -0.16999999999999993,
+    "foreign_ratio_diff": 0.010000000000000675,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2929",
@@ -1743,7 +1936,8 @@
     "three_inst_ratio": 17.73,
     "change": -0.16999999999999815,
     "foreign_ratio_diff": -0.05999999999999872,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2850",
@@ -1752,7 +1946,8 @@
     "three_inst_ratio": 10.428658540406433,
     "change": -0.16867305475034655,
     "foreign_ratio_diff": -0.02999999999999936,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "5234",
@@ -1761,7 +1956,8 @@
     "three_inst_ratio": 10.661286589669638,
     "change": -0.16698307470592333,
     "foreign_ratio_diff": -0.040000000000000036,
-    "trust_ratio_diff": 0.017524062070578772
+    "trust_ratio_diff": 0.017524062070578772,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "6854",
@@ -1770,7 +1966,8 @@
     "three_inst_ratio": 33.9,
     "change": -0.1600000000000037,
     "foreign_ratio_diff": -0.05000000000000426,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "00702",
@@ -1779,7 +1976,8 @@
     "three_inst_ratio": 17.39,
     "change": -0.16000000000000014,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
     "code": "2106",
@@ -1788,15 +1986,17 @@
     "three_inst_ratio": 8.550214684413913,
     "change": -0.16000000000000014,
     "foreign_ratio_diff": -0.03999999999999915,
-    "trust_ratio_diff": 0.0
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   },
   {
-    "code": "3057",
-    "name": "喬鼎",
+    "code": "6491",
+    "name": "晶碩",
     "market": "TWSE",
-    "three_inst_ratio": 1.96,
+    "three_inst_ratio": 8.40231282051282,
     "change": -0.16000000000000014,
-    "foreign_ratio_diff": -0.28000000000000025,
-    "trust_ratio_diff": 0.0
+    "foreign_ratio_diff": -0.009999999999999787,
+    "trust_ratio_diff": 0.0,
+    "dealer_ratio_diff": 0.0
   }
 ]
