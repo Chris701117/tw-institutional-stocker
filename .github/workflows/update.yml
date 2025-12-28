@@ -2,8 +2,7 @@ name: Update TW Institutional Data
 
 on:
   schedule:
-    # 台北時間 18:30 (18:30 - 8 = 10:30 UTC)
-    - cron: "30 10 * * *"  
+    - cron: "30 10 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -12,34 +11,25 @@ permissions:
 jobs:
   update-data:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-
       - name: Install Playwright browsers
         run: |
           playwright install chromium
           playwright install-deps chromium
-
       - name: Run update_all.py
-        run: |
-          python update_all.py
-
+        run: python update_all.py
       - name: Run update_broker.py
-        run: |
-          python update_broker.py
-
+        run: python update_broker.py
       - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
