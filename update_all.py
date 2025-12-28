@@ -134,27 +134,52 @@ def fetch_twse_t86(trade_date: date) -> pd.DataFrame:
 # ---------- TPEX: 三大法人 daily flows ----------
 
 def fetch_tpex_flows(trade_date: date) -> pd.DataFrame:
+    """上櫃股票三大法人買賣明細 (強化欄位抓取)."""
     roc = f"{trade_date.year - 1911}/{trade_date.month:02d}/{trade_date.day:02d}"
     url = "https://www.tpex.org.tw/web/stock/3insti/daily_trade/3itrade_hedge_result.php"
     params = {"d": roc, "l": "zh-tw", "o": "htm"}
     resp = requests.get(url, params=params, timeout=20)
+    
+    # 使用 StringIO 包裝
     tables = pd.read_html(StringIO(resp.text))
     if not tables: return pd.DataFrame()
-    df = normalize_columns(tables[0])
-    code_col = find_col_any(df, ["代號"])
-    name_col = find_col_any(df, ["名稱"])
-    col_trust_net = find_col_any(df, ["投信買賣超股數"])
-    col_dealer_net = find_col_any(df, ["自營商買賣超股數合計"])
-    df["code"] = df[code_col].astype(str).str.strip().str.zfill(4)
+    
+    df = tables[0]
+    
+    # 解決多層表頭問題：將所有欄位名稱轉為字串，並只取最後一部分
+    # 或是直接使用模糊搜尋關鍵字
+    cols = df.columns.astype(str).tolist()
+    
+    def find_tpex_col(keywords):
+        """專為 TPEX 混亂欄位設計的搜尋工具"""
+        for c in cols:
+            if any(k in c for k in keywords):
+                return c
+        return None
+
+    code_col = find_tpex_col(["代號"])
+    name_col = find_tpex_col(["名稱"])
+    f_net_col = find_tpex_col(["外資及陸資買賣超股數", "外資及陸資(不含外資自營商)買賣超股數"])
+    t_net_col = find_tpex_col(["投信買賣超股數"])
+    s_net_col = find_tpex_col(["自營商買賣超股數"]) # 這是合計欄位
+
+    if not all([code_col, name_col, f_net_col, t_net_col, s_net_col]):
+        print(f"[WARN] TPEX 欄位匹配不完全: {cols}")
+        return pd.DataFrame()
+
     out = pd.DataFrame({
-        "date": trade_date, "code": df["code"], "name": df[name_col].astype(str).str.strip(),
-        "foreign_net": numeric_series(df[find_col_any(df, ["外資及陸資買賣超股數"])]),
-        "trust_net": numeric_series(df[col_trust_net]),
-        "dealer_net": numeric_series(df[col_dealer_net]),
+        "date": trade_date,
+        "code": df[code_col].astype(str).str.strip().str.zfill(4),
+        "name": df[name_col].astype(str).str.strip(),
+        "foreign_net": numeric_series(df[f_net_col]),
+        "trust_net": numeric_series(df[t_net_col]),
+        "dealer_net": numeric_series(df[s_net_col]),
         "market": "TPEX"
     })
-    return out[out["code"].str.match(r"^\d{4,5}[A-Z]*$")]
-
+    
+    # 排除非股票代號 (例如合計列)
+    mask = out["code"].str.match(r"^\d{4,5}[A-Z]*$")
+    return out[mask]
 # ---------- 外資持股 (TWSE/TPEX) ----------
 
 def fetch_twse_mi_qfiis(trade_date: date) -> pd.DataFrame:
