@@ -4,7 +4,8 @@
 - 自動抓 TWSE/TPEX 三大法人日交易 + 外資持股；
 - 抓取 TWSE/TPEX 每日收盤行情與成交量 (含盤中預估)；
 - 以 inst_baseline.csv 為基準點，校正投信 / 自營商持股；
-- 計算低檔爆量指標 (量比 > 2.5 且 股價位階 < 25%)。
+- 計算低檔爆量指標 (量比 > 2.5 且 股價位階 < 25%)；
+- 強力容錯：處理 NAType 與 API 空值問題。
 """
 import json
 import os
@@ -14,6 +15,7 @@ from zoneinfo import ZoneInfo
 import math
 import requests
 import pandas as pd
+import numpy as np
 
 from utils_columns import find_col_any, normalize_columns
 
@@ -49,10 +51,19 @@ def numeric_series(series: pd.Series, to_float: bool = False) -> pd.Series:
     s = s.str.replace("\u2212", "-", regex=False).str.replace("\uFF0D", "-", regex=False).str.replace("\uFF0B", "+", regex=False).str.strip()
     mask_paren = s.str.match(r"^\([\d\.]+\)$")
     s.loc[mask_paren] = "-" + s.loc[mask_paren].str.strip("()")
-    missing_tokens = {"", "nan", "NaN", "None", "--", "X"}
+    missing_tokens = {"", "nan", "NaN", "None", "--", "X", "<NA>"}
     s = s.where(~s.isin(missing_tokens), "0")
     if to_float: return pd.to_numeric(s, errors="coerce").fillna(0.0)
     return pd.to_numeric(s, errors="coerce").fillna(0).astype("Int64")
+
+# 新增：安全浮點數轉換 (解決 NAType 錯誤)
+def safe_float(val) -> float:
+    if pd.isna(val) or val is pd.NA:
+        return 0.0
+    try:
+        return float(val)
+    except (ValueError, TypeError):
+        return 0.0
 
 # ---------- 價格量能抓取 (含防錯處理) ----------
 def fetch_twse_price_vol(trade_date: date) -> pd.DataFrame:
@@ -82,7 +93,6 @@ def fetch_tpex_price_vol(trade_date: date) -> pd.DataFrame:
     try:
         resp = requests.get(url, timeout=20)
         if resp.status_code != 200: return pd.DataFrame()
-        # 增加 JSON 解析保護，避免非交易日崩潰
         data = resp.json().get('aaData', [])
         if not data: return pd.DataFrame()
         df = pd.DataFrame(data)
@@ -136,7 +146,6 @@ def fetch_tpex_flows(trade_date: date) -> pd.DataFrame:
         cols = df.columns.tolist()
         def find_tpex_col(keywords):
             for c in cols:
-                # 模糊匹配：只要欄位結尾包含關鍵字
                 if any(c.endswith(k) for k in keywords): return c
             return None
         code_col = find_tpex_col(["代號"])
@@ -191,6 +200,7 @@ def build_estimated_holdings(flows, foreign_master):
     if flows.empty or foreign_master.empty: return pd.DataFrame()
     merged = flows.merge(foreign_master[["date", "code", "total_shares", "foreign_ratio"]], on=["date", "code"], how="left")
     merged["total_shares"] = pd.to_numeric(merged["total_shares"], errors="coerce").fillna(0.0)
+    
     def accumulate(g):
         g = g.sort_values("date")
         g["trust_cum"] = g["trust_net"].cumsum()
@@ -198,6 +208,8 @@ def build_estimated_holdings(flows, foreign_master):
         g["trust_ratio_est"] = (g["trust_cum"] / g["total_shares"] * 100).fillna(0.0)
         g["dealer_ratio_est"] = (g["dealer_cum"] / g["total_shares"] * 100).fillna(0.0)
         return g
+    
+    # 修正 FutureWarning
     merged = merged.groupby("code", group_keys=False).apply(accumulate)
     merged["three_inst_ratio_est"] = merged["foreign_ratio"].fillna(0.0) + merged["trust_ratio_est"] + merged["dealer_ratio_est"]
     return merged
@@ -213,6 +225,7 @@ def calculate_low_heavy_vol(merged, price_vol_history):
         min_p = max(1, min(270, (now.hour - 9) * 60 + now.minute))
         time_w = 270 / min_p
     else: time_w = 1.0
+    
     def calc(g):
         g["est_vol"] = g["vol"] * time_w
         g["vol_ma5"] = g["vol"].shift(1).rolling(5).mean()
@@ -220,9 +233,11 @@ def calculate_low_heavy_vol(merged, price_vol_history):
         low_60, hi_60 = g["close"].rolling(60).min(), g["close"].rolling(60).max()
         g["price_pos"] = ((g["close"] - low_60) / (hi_60 - low_60)).fillna(0.5)
         return g
+    
+    # 修正 FutureWarning
     return df.groupby("code", group_keys=False).apply(calc)
 
-# ---------- JSON 輸出 ----------
+# ---------- JSON 輸出 (使用 safe_float 修正報錯) ----------
 def export_change_rankings(merged, windows, out_dir=DOCS_DIR):
     if merged.empty: return
     latest_date = merged["date"].max()
@@ -230,17 +245,26 @@ def export_change_rankings(merged, windows, out_dir=DOCS_DIR):
     merged["f_diff"] = merged.groupby("code")["foreign_ratio"].diff().fillna(0.0)
     merged["t_diff"] = merged.groupby("code")["trust_ratio_est"].diff().fillna(0.0)
     merged["s_diff"] = merged.groupby("code")["dealer_ratio_est"].diff().fillna(0.0)
+    
     latest = merged[merged["date"] == latest_date].copy()
+    
     for w in windows:
         col = f"three_inst_ratio_change_{w}"
         if col not in latest.columns: latest[col] = 0.0
         up = latest[latest["code"].str.len() == 4].sort_values(col, ascending=False).head(200)
+        
+        # 這裡使用 safe_float 來處理所有數值，避免 NAType 錯誤
         records = [{
-            "code": r["code"], "name": r["name"], "three_inst_ratio": float(r["three_inst_ratio_est"]),
-            "change": float(r.get(col, 0)), "foreign_ratio_diff": float(r["f_diff"]),
-            "trust_ratio_diff": float(r["t_diff"]), "dealer_ratio_diff": float(r["s_diff"]),
-            "vol_ratio": float(r.get("vol_ratio", 0)), "price_pos": float(r.get("price_pos", 0.5))
+            "code": r["code"], "name": r["name"], 
+            "three_inst_ratio": safe_float(r["three_inst_ratio_est"]),
+            "change": safe_float(r.get(col, 0)), 
+            "foreign_ratio_diff": safe_float(r["f_diff"]),
+            "trust_ratio_diff": safe_float(r["t_diff"]), 
+            "dealer_ratio_diff": safe_float(r["s_diff"]),
+            "vol_ratio": safe_float(r.get("vol_ratio", 0)), 
+            "price_pos": safe_float(r.get("price_pos", 0.5))
         } for _, r in up.iterrows()]
+        
         with open(os.path.join(out_dir, f"top_three_inst_change_{w}_up.json"), "w", encoding="utf-8") as f:
             json.dump(records, f, ensure_ascii=False, indent=2)
 
