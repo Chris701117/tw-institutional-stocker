@@ -1702,7 +1702,7 @@
   {
     "code": "00935",
     "name": "野村臺灣新科技50",
-    "change": 1121.093,
+    "change": 0.0,
     "three_inst_ratio": 0,
     "foreign_ratio_diff": 1019.999,
     "trust_ratio_diff": 0.0,
@@ -10792,7 +10792,7 @@
   {
     "code": "048164",
     "name": "燿華凱基56購01",
-    "change": 226.0,
+    "change": 0.0,
     "three_inst_ratio": 0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -13342,7 +13342,7 @@
   {
     "code": "048103",
     "name": "奇鋐中信56購01",
-    "change": 183.0,
+    "change": 0.0,
     "three_inst_ratio": 0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -16182,7 +16182,7 @@
   {
     "code": "040552",
     "name": "臺股指富邦5A購03",
-    "change": 145.0,
+    "change": 0.0,
     "three_inst_ratio": 0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -20652,7 +20652,7 @@
   {
     "code": "084904",
     "name": "中砂元大51購03",
-    "change": 101.0,
+    "change": 0.0,
     "three_inst_ratio": 0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -29072,7 +29072,7 @@
   {
     "code": "3583",
     "name": "辛耘",
-    "change": 58.038,
+    "change": 0.0,
     "three_inst_ratio": 0,
     "foreign_ratio_diff": 30.02,
     "trust_ratio_diff": 0.0,
@@ -29522,7 +29522,7 @@
   {
     "code": "043496",
     "name": "士電元大55購04",
-    "change": 56.0,
+    "change": 0.0,
     "three_inst_ratio": 0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -30642,7 +30642,7 @@
   {
     "code": "038622",
     "name": "富華新凱基54購01",
-    "change": 52.0,
+    "change": 0.0,
     "three_inst_ratio": 0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -32402,7 +32402,7 @@
   {
     "code": "00897",
     "name": "富邦基因免疫生技",
-    "change": 48.579,
+    "change": 0.0,
     "three_inst_ratio": 0,
     "foreign_ratio_diff": 201.0,
     "trust_ratio_diff": 0.0,
@@ -35202,7 +35202,7 @@
   {
     "code": "046993",
     "name": "台虹富邦57購01",
-    "change": 40.0,
+    "change": 0.0,
     "three_inst_ratio": 0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -40592,7 +40592,7 @@
   {
     "code": "040124",
     "name": "昇貿群益54購06",
-    "change": 28.0,
+    "change": 0.0,
     "three_inst_ratio": 0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -46252,7 +46252,7 @@
   {
     "code": "2488",
     "name": "漢平",
-    "change": 20.0,
+    "change": 0.0,
     "three_inst_ratio": 0,
     "foreign_ratio_diff": 20.0,
     "trust_ratio_diff": 0.0,
@@ -53962,7 +53962,7 @@
   {
     "code": "047633",
     "name": "晶豪科凱基56購02",
-    "change": 10.0,
+    "change": 0.0,
     "three_inst_ratio": 0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -54272,7 +54272,7 @@
   {
     "code": "06967U",
     "name": "台光電元大55售07",
-    "change": 10.0,
+    "change": 0.0,
     "three_inst_ratio": 0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -64542,7 +64542,7 @@
   {
     "code": "031909",
     "name": "世芯元富53購04",
-    "change": 4.0,
+    "change": 0.0,
     "three_inst_ratio": 0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -66662,7 +66662,7 @@
   {
     "code": "086670",
     "name": "世芯統一55購03",
-    "change": 3.0,
+    "change": 0.0,
     "three_inst_ratio": 0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -160382,70 +160382,70 @@
   {
     "code": "說明:",
     "name": "nan",
-    "change": NaN,
+    "change": 0.0,
     "three_inst_ratio": 0,
-    "foreign_ratio_diff": NaN,
-    "trust_ratio_diff": NaN,
+    "foreign_ratio_diff": 0.0,
+    "trust_ratio_diff": 0.0,
     "vol_ratio": 0.0,
     "price_pos": 0.5
   },
   {
     "code": "自營商表示證券自營商專戶。",
     "name": "nan",
-    "change": NaN,
+    "change": 0.0,
     "three_inst_ratio": 0,
-    "foreign_ratio_diff": NaN,
-    "trust_ratio_diff": NaN,
+    "foreign_ratio_diff": 0.0,
+    "trust_ratio_diff": 0.0,
     "vol_ratio": 0.0,
     "price_pos": 0.5
   },
   {
     "code": "投信表示本國投資信託基金。",
     "name": "nan",
-    "change": NaN,
+    "change": 0.0,
     "three_inst_ratio": 0,
-    "foreign_ratio_diff": NaN,
-    "trust_ratio_diff": NaN,
+    "foreign_ratio_diff": 0.0,
+    "trust_ratio_diff": 0.0,
     "vol_ratio": 0.0,
     "price_pos": 0.5
   },
   {
     "code": "外資及陸資表示依「華僑及外國人投資證券管理辦法」及「大陸地區投資人來臺從事證券投資及期貨交易管理辦法」辦理登記等投資人。",
     "name": "nan",
-    "change": NaN,
+    "change": 0.0,
     "three_inst_ratio": 0,
-    "foreign_ratio_diff": NaN,
-    "trust_ratio_diff": NaN,
+    "foreign_ratio_diff": 0.0,
+    "trust_ratio_diff": 0.0,
     "vol_ratio": 0.0,
     "price_pos": 0.5
   },
   {
     "code": "本統計資訊含一般、零股、盤後定價、鉅額，不含拍賣、標購。",
     "name": "nan",
-    "change": NaN,
+    "change": 0.0,
     "three_inst_ratio": 0,
-    "foreign_ratio_diff": NaN,
-    "trust_ratio_diff": NaN,
+    "foreign_ratio_diff": 0.0,
+    "trust_ratio_diff": 0.0,
     "vol_ratio": 0.0,
     "price_pos": 0.5
   },
   {
     "code": "本資訊以當日原始成交情形統計，不以證券商申報錯帳、更正帳號等調整後資料統計。",
     "name": "nan",
-    "change": NaN,
+    "change": 0.0,
     "three_inst_ratio": 0,
-    "foreign_ratio_diff": NaN,
-    "trust_ratio_diff": NaN,
+    "foreign_ratio_diff": 0.0,
+    "trust_ratio_diff": 0.0,
     "vol_ratio": 0.0,
     "price_pos": 0.5
   },
   {
     "code": "ETF證券代號第六碼為K、M、S、C者，表示該ETF以外幣交易。",
     "name": "nan",
-    "change": NaN,
+    "change": 0.0,
     "three_inst_ratio": 0,
-    "foreign_ratio_diff": NaN,
-    "trust_ratio_diff": NaN,
+    "foreign_ratio_diff": 0.0,
+    "trust_ratio_diff": 0.0,
     "vol_ratio": 0.0,
     "price_pos": 0.5
   }
