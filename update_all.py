@@ -251,7 +251,7 @@ def export_change_rankings(merged, windows, out_dir=DOCS_DIR):
     for w in windows:
         col = f"three_inst_ratio_change_{w}"
         if col not in latest.columns: latest[col] = 0.0
-        up = latest[latest["code"].str.len() == 4].sort_values(col, ascending=False).head(200)
+        up = latest[latest["code"].str.len() == 4].sort_values(col, ascending=False).head(500)
         
         # 這裡使用 safe_float 來處理所有數值，避免 NAType 錯誤
         records = [{
