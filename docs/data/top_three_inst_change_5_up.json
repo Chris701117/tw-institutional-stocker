@@ -7,7 +7,7 @@
     "foreign_ratio_diff": 5.129999999999999,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 5.322384677267678,
+    "vol_ratio": 4.257907741814141,
     "price_pos": 1.0
   },
   {
@@ -18,8 +18,8 @@
     "foreign_ratio_diff": -1.2399999999999984,
     "trust_ratio_diff": -0.0011769789323594626,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.7385568452508608,
-    "price_pos": 0.9601593625498008
+    "vol_ratio": 0.5908454762006887,
+    "price_pos": 0.5
   },
   {
     "code": "5907",
@@ -29,8 +29,8 @@
     "foreign_ratio_diff": 4.399999999999999,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 95.70994643622168,
-    "price_pos": 0.241379310344827
+    "vol_ratio": 76.56795714897734,
+    "price_pos": 0.008668730650154778
   },
   {
     "code": "1727",
@@ -40,8 +40,8 @@
     "foreign_ratio_diff": -0.10000000000000053,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.6543251249526734,
-    "price_pos": 0.72992700729927
+    "vol_ratio": 0.5234600999621386,
+    "price_pos": 0.8897168405365126
   },
   {
     "code": "2009",
@@ -51,7 +51,7 @@
     "foreign_ratio_diff": 3.29,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 5.954298432281093,
+    "vol_ratio": 4.763438745824875,
     "price_pos": 1.0
   },
   {
@@ -62,7 +62,7 @@
     "foreign_ratio_diff": 1.3599999999999999,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.7910822983496972,
+    "vol_ratio": 1.4328658386797577,
     "price_pos": 1.0
   },
   {
@@ -73,8 +73,8 @@
     "foreign_ratio_diff": 1.1199999999999992,
     "trust_ratio_diff": 0.09717166483604978,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.226832731315278,
-    "price_pos": 0.891304347826087
+    "vol_ratio": 3.381466185052222,
+    "price_pos": 0.9447513812154696
   },
   {
     "code": "4722",
@@ -84,8 +84,8 @@
     "foreign_ratio_diff": -0.2200000000000002,
     "trust_ratio_diff": 0.02374846598515612,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.5562374700973107,
-    "price_pos": 0.553030303030303
+    "vol_ratio": 0.4449899760778487,
+    "price_pos": 0.8372413793103448
   },
   {
     "code": "6531",
@@ -95,8 +95,8 @@
     "foreign_ratio_diff": 0.21000000000000085,
     "trust_ratio_diff": -0.0006154140340690617,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.6518141910665314,
-    "price_pos": 0.772972972972973
+    "vol_ratio": 2.9214513528532247,
+    "price_pos": 0.939810834049871
   },
   {
     "code": "6209",
@@ -106,7 +106,7 @@
     "foreign_ratio_diff": 0.6500000000000004,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.2558587040285694,
+    "vol_ratio": 1.0046869632228554,
     "price_pos": 1.0
   },
   {
@@ -117,8 +117,8 @@
     "foreign_ratio_diff": 0.47000000000000064,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.2741862313578076,
-    "price_pos": 0.7009966777408638
+    "vol_ratio": 1.0193489850862463,
+    "price_pos": 0.5
   },
   {
     "code": "6909",
@@ -128,8 +128,8 @@
     "foreign_ratio_diff": -0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.3509391359663209,
-    "price_pos": 0.5418719211822661
+    "vol_ratio": 0.28075130877305676,
+    "price_pos": 0.5
   },
   {
     "code": "2233",
@@ -139,8 +139,8 @@
     "foreign_ratio_diff": 0.8599999999999999,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.645165982483525,
-    "price_pos": 0.5957446808510638
+    "vol_ratio": 2.1161327859868204,
+    "price_pos": 0.5
   },
   {
     "code": "8422",
@@ -150,7 +150,7 @@
     "foreign_ratio_diff": 0.02999999999999936,
     "trust_ratio_diff": 1.2363695317203112,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.5001620675379455,
+    "vol_ratio": 2.000129654030356,
     "price_pos": 0.02509821038847665
   },
   {
@@ -161,7 +161,7 @@
     "foreign_ratio_diff": 1.2199999999999998,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.9114609020578908,
+    "vol_ratio": 1.5291687216463128,
     "price_pos": 1.0
   },
   {
@@ -183,8 +183,8 @@
     "foreign_ratio_diff": 0.21999999999999886,
     "trust_ratio_diff": -0.0025762097126624806,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.7644595645509403,
-    "price_pos": 0.9472759226713533
+    "vol_ratio": 0.6115676516407523,
+    "price_pos": 0.9802215189873418
   },
   {
     "code": "6515",
@@ -194,8 +194,8 @@
     "foreign_ratio_diff": 0.38000000000000256,
     "trust_ratio_diff": 0.7879774178989951,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.9734013240167,
-    "price_pos": 1.0
+    "vol_ratio": 3.1787210592133603,
+    "price_pos": 0.5
   },
   {
     "code": "8028",
@@ -205,8 +205,8 @@
     "foreign_ratio_diff": -0.6600000000000001,
     "trust_ratio_diff": -0.059665859715843594,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.1570202312463076,
-    "price_pos": 0.6385542168674698
+    "vol_ratio": 0.925616184997046,
+    "price_pos": 0.5
   },
   {
     "code": "3167",
@@ -216,8 +216,8 @@
     "foreign_ratio_diff": 3.5199999999999996,
     "trust_ratio_diff": 0.10524911634030243,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.870507267887329,
-    "price_pos": 0.9939759036144579
+    "vol_ratio": 2.2964058143098636,
+    "price_pos": 0.9973375931842385
   },
   {
     "code": "8131",
@@ -227,8 +227,8 @@
     "foreign_ratio_diff": -0.2100000000000004,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.858471663809449,
-    "price_pos": 0.9624765478424016
+    "vol_ratio": 0.6867773310475591,
+    "price_pos": 0.9630314232902033
   },
   {
     "code": "8103",
@@ -238,8 +238,8 @@
     "foreign_ratio_diff": 0.7300000000000004,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.0552850961599465,
-    "price_pos": 0.8256880733944956
+    "vol_ratio": 0.8442280769279574,
+    "price_pos": 0.8789808917197454
   },
   {
     "code": "2605",
@@ -249,7 +249,7 @@
     "foreign_ratio_diff": 0.21999999999999886,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.6528635639634885,
+    "vol_ratio": 0.5222908511707908,
     "price_pos": 0.45312500000000006
   },
   {
@@ -260,8 +260,8 @@
     "foreign_ratio_diff": 0.20000000000000018,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.31362891503466594,
-    "price_pos": 0.16470588235294129
+    "vol_ratio": 0.2509031320277328,
+    "price_pos": 0.7452153110047848
   },
   {
     "code": "3701",
@@ -271,7 +271,7 @@
     "foreign_ratio_diff": 0.3799999999999999,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 7.519933929259544,
+    "vol_ratio": 6.015947143407635,
     "price_pos": 1.0
   },
   {
@@ -282,8 +282,8 @@
     "foreign_ratio_diff": 0.5099999999999998,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.2725547451953956,
-    "price_pos": 1.0
+    "vol_ratio": 1.8180437961563167,
+    "price_pos": 0.21482889733840294
   },
   {
     "code": "1608",
@@ -293,8 +293,8 @@
     "foreign_ratio_diff": 0.96,
     "trust_ratio_diff": -0.00031606885892596125,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 10.605264707095998,
-    "price_pos": 0.9317073170731704
+    "vol_ratio": 8.484211765676799,
+    "price_pos": 0.9763513513513512
   },
   {
     "code": "2368",
@@ -304,7 +304,7 @@
     "foreign_ratio_diff": -0.08999999999999986,
     "trust_ratio_diff": 0.12809056482764625,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.4816984554225163,
+    "vol_ratio": 1.185358764338013,
     "price_pos": 1.0
   },
   {
@@ -315,7 +315,7 @@
     "foreign_ratio_diff": 0.25,
     "trust_ratio_diff": -0.4648288007586281,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.8448017652513989,
+    "vol_ratio": 0.675841412201119,
     "price_pos": 1.0
   },
   {
@@ -326,7 +326,7 @@
     "foreign_ratio_diff": 1.2699999999999996,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.2502221879910667,
+    "vol_ratio": 1.800177750392853,
     "price_pos": 1.0
   },
   {
@@ -337,8 +337,8 @@
     "foreign_ratio_diff": 0.16000000000000014,
     "trust_ratio_diff": 0.183552936701124,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.240379730530514,
-    "price_pos": 0.7297297297297297
+    "vol_ratio": 1.7923037844244112,
+    "price_pos": 0.9721448467966574
   },
   {
     "code": "2485",
@@ -348,8 +348,8 @@
     "foreign_ratio_diff": 1.46,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.7333320389766799,
-    "price_pos": 0.9181818181818181
+    "vol_ratio": 0.5866656311813438,
+    "price_pos": 0.8301369863013698
   },
   {
     "code": "1717",
@@ -359,8 +359,8 @@
     "foreign_ratio_diff": -0.0600000000000005,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.46969459429660165,
-    "price_pos": 0.4747474747474754
+    "vol_ratio": 0.3757556754372814,
+    "price_pos": 0.7851239669421491
   },
   {
     "code": "7610",
@@ -370,8 +370,8 @@
     "foreign_ratio_diff": 0.22000000000000064,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.875487284395837,
-    "price_pos": 1.0
+    "vol_ratio": 2.3003898275166694,
+    "price_pos": 0.5
   },
   {
     "code": "2609",
@@ -381,8 +381,8 @@
     "foreign_ratio_diff": 0.2900000000000009,
     "trust_ratio_diff": -0.0006586286726202317,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.223010058480737,
-    "price_pos": 0.5937500000000002
+    "vol_ratio": 0.9784080467845896,
+    "price_pos": 0.9195876288659794
   },
   {
     "code": "6831",
@@ -392,7 +392,7 @@
     "foreign_ratio_diff": 0.4499999999999993,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.5155845509786294,
+    "vol_ratio": 1.2124676407829034,
     "price_pos": 0.5
   },
   {
@@ -403,8 +403,8 @@
     "foreign_ratio_diff": -0.1299999999999999,
     "trust_ratio_diff": 0.46186303986547084,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.1027942760537293,
-    "price_pos": 0.5250000000000001
+    "vol_ratio": 0.8822354208429833,
+    "price_pos": 0.7528455284552846
   },
   {
     "code": "8110",
@@ -414,8 +414,8 @@
     "foreign_ratio_diff": -0.020000000000000018,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.2756523537694522,
-    "price_pos": 0.9868766404199475
+    "vol_ratio": 1.0205218830155616,
+    "price_pos": 0.9872122762148338
   },
   {
     "code": "3045",
@@ -425,7 +425,7 @@
     "foreign_ratio_diff": -0.129999999999999,
     "trust_ratio_diff": 0.6498602899349,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.2605977492117402,
+    "vol_ratio": 1.008478199369392,
     "price_pos": 0.875
   },
   {
@@ -436,8 +436,8 @@
     "foreign_ratio_diff": 1.0799999999999983,
     "trust_ratio_diff": 0.003940346136641737,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.6143863631200586,
-    "price_pos": 0.8785046728971962
+    "vol_ratio": 2.091509090496047,
+    "price_pos": 0.9363369245837414
   },
   {
     "code": "3715",
@@ -447,8 +447,8 @@
     "foreign_ratio_diff": 0.10999999999999943,
     "trust_ratio_diff": -1.0270316327634343,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.364933934150558,
-    "price_pos": 0.829683698296837
+    "vol_ratio": 1.8919471473204463,
+    "price_pos": 0.5
   },
   {
     "code": "5292",
@@ -458,8 +458,8 @@
     "foreign_ratio_diff": 0.029999999999999805,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.6684206432256541,
-    "price_pos": 0.6764705882352942
+    "vol_ratio": 0.5347365145805233,
+    "price_pos": 0.5
   },
   {
     "code": "6235",
@@ -469,8 +469,8 @@
     "foreign_ratio_diff": 0.33999999999999986,
     "trust_ratio_diff": -0.0010004686895669912,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.7938614885731459,
-    "price_pos": 0.3989637305699484
+    "vol_ratio": 1.4350891908585166,
+    "price_pos": 0.8018787361229719
   },
   {
     "code": "6591",
@@ -480,8 +480,8 @@
     "foreign_ratio_diff": -0.129999999999999,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.958552260047335,
-    "price_pos": 0.35051546391752625
+    "vol_ratio": 0.766841808037868,
+    "price_pos": 0.5
   },
   {
     "code": "6196",
@@ -491,7 +491,7 @@
     "foreign_ratio_diff": 0.41999999999999815,
     "trust_ratio_diff": -0.38673722758269236,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.7928286331922328,
+    "vol_ratio": 0.6342629065537865,
     "price_pos": 1.0
   },
   {
@@ -502,8 +502,8 @@
     "foreign_ratio_diff": 0.120000000000001,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.600015853063247,
-    "price_pos": 0.4375
+    "vol_ratio": 0.48001268245059764,
+    "price_pos": 0.9346167816926989
   },
   {
     "code": "1514",
@@ -513,8 +513,8 @@
     "foreign_ratio_diff": 0.14000000000000057,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.073569212061769,
-    "price_pos": 0.38636363636363635
+    "vol_ratio": 0.8588553696494153,
+    "price_pos": 0.8713673177703668
   },
   {
     "code": "2887",
@@ -524,8 +524,8 @@
     "foreign_ratio_diff": -0.5700000000000003,
     "trust_ratio_diff": 0.5418476505333576,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.7679503347568307,
-    "price_pos": 0.7647058823529419
+    "vol_ratio": 0.6143602678054647,
+    "price_pos": 0.8987341772151902
   },
   {
     "code": "6282",
@@ -535,8 +535,8 @@
     "foreign_ratio_diff": 0.0600000000000005,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.7638891484863659,
-    "price_pos": 0.6272727272727273
+    "vol_ratio": 0.6111113187890928,
+    "price_pos": 0.7607003891050584
   },
   {
     "code": "2548",
@@ -546,8 +546,8 @@
     "foreign_ratio_diff": 0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.45625912662823714,
-    "price_pos": 0.9808429118773946
+    "vol_ratio": 0.36500730130258974,
+    "price_pos": 0.9904942965779467
   },
   {
     "code": "2406",
@@ -557,7 +557,7 @@
     "foreign_ratio_diff": 0.8499999999999996,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.0137917258001299,
+    "vol_ratio": 0.8110333806401038,
     "price_pos": 1.0
   },
   {
@@ -568,8 +568,8 @@
     "foreign_ratio_diff": 0.09999999999999964,
     "trust_ratio_diff": -0.00020569106025458694,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.0259347211915917,
-    "price_pos": 0.3870967741935482
+    "vol_ratio": 0.8207477769532734,
+    "price_pos": 0.8355868036776636
   },
   {
     "code": "1609",
@@ -579,8 +579,8 @@
     "foreign_ratio_diff": 0.3699999999999992,
     "trust_ratio_diff": -0.030563049926687902,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.316818231364837,
-    "price_pos": 0.3130434782608703
+    "vol_ratio": 3.4534545850918694,
+    "price_pos": 0.8647260273972605
   },
   {
     "code": "3535",
@@ -590,8 +590,8 @@
     "foreign_ratio_diff": -0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.7589905579210489,
-    "price_pos": 0.7843137254901958
+    "vol_ratio": 0.607192446336839,
+    "price_pos": 0.9235668789808916
   },
   {
     "code": "8011",
@@ -601,8 +601,8 @@
     "foreign_ratio_diff": 0.020000000000000462,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.93653399966921,
-    "price_pos": 0.5638297872340423
+    "vol_ratio": 0.749227199735368,
+    "price_pos": 0.6719999999999999
   },
   {
     "code": "7769",
@@ -612,7 +612,7 @@
     "foreign_ratio_diff": 0.28999999999999915,
     "trust_ratio_diff": 0.05235369310287363,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.171245233077582,
+    "vol_ratio": 1.7369961864620656,
     "price_pos": 0.5
   },
   {
@@ -623,8 +623,8 @@
     "foreign_ratio_diff": 0.14000000000000057,
     "trust_ratio_diff": -0.03169400444863707,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.5970679608870075,
-    "price_pos": 0.5128205128205128
+    "vol_ratio": 0.477654368709606,
+    "price_pos": 0.9284099472494349
   },
   {
     "code": "3092",
@@ -634,8 +634,8 @@
     "foreign_ratio_diff": 0.15999999999999992,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.5058454020686702,
-    "price_pos": 1.0
+    "vol_ratio": 2.804676321654936,
+    "price_pos": 0.5
   },
   {
     "code": "4737",
@@ -645,8 +645,8 @@
     "foreign_ratio_diff": 0.21999999999999886,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.357200605416789,
-    "price_pos": 0.55
+    "vol_ratio": 1.885760484333431,
+    "price_pos": 0.5871559633027522
   },
   {
     "code": "1216",
@@ -656,7 +656,7 @@
     "foreign_ratio_diff": -0.25,
     "trust_ratio_diff": 0.339897000782885,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.0509523461469386,
+    "vol_ratio": 0.840761876917551,
     "price_pos": 1.0
   },
   {
@@ -667,8 +667,8 @@
     "foreign_ratio_diff": 0.22999999999999954,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.234616048207853,
-    "price_pos": 1.0
+    "vol_ratio": 0.9876928385662823,
+    "price_pos": 0.5
   },
   {
     "code": "1316",
@@ -678,8 +678,8 @@
     "foreign_ratio_diff": -0.16999999999999993,
     "trust_ratio_diff": -0.0008172404634092523,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.6423242887789291,
-    "price_pos": 0.7400000000000005
+    "vol_ratio": 0.5138594310231432,
+    "price_pos": 0.19072164948453624
   },
   {
     "code": "2727",
@@ -689,8 +689,8 @@
     "foreign_ratio_diff": 0.07000000000000028,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.2478005924685784,
-    "price_pos": 0.4
+    "vol_ratio": 0.9982404739748628,
+    "price_pos": 0.8769230769230769
   },
   {
     "code": "3550",
@@ -700,8 +700,8 @@
     "foreign_ratio_diff": 0.2400000000000002,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.29814088815165957,
-    "price_pos": 0.7017543859649124
+    "vol_ratio": 0.23851271052132764,
+    "price_pos": 0.3389830508474576
   },
   {
     "code": "3052",
@@ -711,7 +711,7 @@
     "foreign_ratio_diff": -0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.8508281991964841,
+    "vol_ratio": 1.4806625593571874,
     "price_pos": 1.0
   },
   {
@@ -722,8 +722,8 @@
     "foreign_ratio_diff": -0.010000000000000231,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.5264592992188818,
-    "price_pos": 0.1319444444444445
+    "vol_ratio": 0.42116743937510553,
+    "price_pos": 0.5738636363636364
   },
   {
     "code": "6438",
@@ -733,8 +733,8 @@
     "foreign_ratio_diff": 0.1200000000000001,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.0221742721638356,
-    "price_pos": 0.3389830508474576
+    "vol_ratio": 0.8177394177310684,
+    "price_pos": 0.5
   },
   {
     "code": "8210",
@@ -744,8 +744,8 @@
     "foreign_ratio_diff": -0.16999999999999815,
     "trust_ratio_diff": 0.17078647130130886,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.662035530778062,
-    "price_pos": 0.7991718426501035
+    "vol_ratio": 0.5296284246224496,
+    "price_pos": 0.9054626967496711
   },
   {
     "code": "6257",
@@ -755,8 +755,8 @@
     "foreign_ratio_diff": 1.2100000000000009,
     "trust_ratio_diff": -0.6556972897931468,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.6071493279655695,
-    "price_pos": 0.8127340823970037
+    "vol_ratio": 2.8857194623724554,
+    "price_pos": 0.9393203883495146
   },
   {
     "code": "6830",
@@ -766,8 +766,8 @@
     "foreign_ratio_diff": 0.18999999999999995,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.0320797864393478,
-    "price_pos": 0.8769230769230769
+    "vol_ratio": 0.8256638291514782,
+    "price_pos": 0.5
   },
   {
     "code": "3060",
@@ -777,7 +777,7 @@
     "foreign_ratio_diff": 0.8300000000000001,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.8573740764223152,
+    "vol_ratio": 0.6858992611378523,
     "price_pos": 0.9667896678966788
   },
   {
@@ -788,8 +788,8 @@
     "foreign_ratio_diff": 0.15999999999999837,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.19277682943444,
-    "price_pos": 0.9281767955801105
+    "vol_ratio": 1.754221463547552,
+    "price_pos": 0.5
   },
   {
     "code": "3011",
@@ -799,8 +799,8 @@
     "foreign_ratio_diff": 0.18000000000000016,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.5862745745115423,
-    "price_pos": 0.9508196721311475
+    "vol_ratio": 1.2690196596092338,
+    "price_pos": 0.9817739975698663
   },
   {
     "code": "2323",
@@ -810,8 +810,8 @@
     "foreign_ratio_diff": 0.15000000000000036,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.7611896032949541,
-    "price_pos": 0.7142857142857144
+    "vol_ratio": 0.6089516826359632,
+    "price_pos": 0.9125364431486881
   },
   {
     "code": "1708",
@@ -821,8 +821,8 @@
     "foreign_ratio_diff": 0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.8414128084939828,
-    "price_pos": 0.8354430379746839
+    "vol_ratio": 0.6731302467951862,
+    "price_pos": 0.8645833333333336
   },
   {
     "code": "6117",
@@ -832,8 +832,8 @@
     "foreign_ratio_diff": -0.030000000000000027,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.0120253712508707,
-    "price_pos": 0.7519999999999993
+    "vol_ratio": 0.8096202970006966,
+    "price_pos": 0.9541080680977051
   },
   {
     "code": "6177",
@@ -843,7 +843,7 @@
     "foreign_ratio_diff": 0.35999999999999943,
     "trust_ratio_diff": -0.13160169770937025,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.6555989668465214,
+    "vol_ratio": 1.3244791734772172,
     "price_pos": 1.0
   },
   {
@@ -854,8 +854,8 @@
     "foreign_ratio_diff": 0.16000000000000014,
     "trust_ratio_diff": 0.06683413466150323,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.2828933368889919,
-    "price_pos": 1.0
+    "vol_ratio": 1.0263146695111935,
+    "price_pos": 0.5
   },
   {
     "code": "3607",
@@ -865,8 +865,8 @@
     "foreign_ratio_diff": 0.15000000000000036,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 5.713070807770173,
-    "price_pos": 1.0
+    "vol_ratio": 4.5704566462161385,
+    "price_pos": 0.13615023474178406
   },
   {
     "code": "2466",
@@ -876,7 +876,7 @@
     "foreign_ratio_diff": 0.3000000000000007,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.89076678665001,
+    "vol_ratio": 2.3126134293200082,
     "price_pos": 1.0
   },
   {
@@ -887,7 +887,7 @@
     "foreign_ratio_diff": -0.240000000000002,
     "trust_ratio_diff": 0.4065908247805119,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.0555029517516548,
+    "vol_ratio": 0.8444023614013237,
     "price_pos": 1.0
   },
   {
@@ -898,8 +898,8 @@
     "foreign_ratio_diff": 0.240000000000002,
     "trust_ratio_diff": -0.3257526625849638,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.7196817947757288,
-    "price_pos": 0.9583333333333334
+    "vol_ratio": 0.5757454358205831,
+    "price_pos": 0.9800796812749004
   },
   {
     "code": "4927",
@@ -909,7 +909,7 @@
     "foreign_ratio_diff": -0.8900000000000006,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.99918076442198,
+    "vol_ratio": 0.7993446115375841,
     "price_pos": 1.0
   },
   {
@@ -920,7 +920,7 @@
     "foreign_ratio_diff": 0.0600000000000005,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.6100831365951275,
+    "vol_ratio": 0.48806650927610207,
     "price_pos": 0.9774436090225566
   },
   {
@@ -931,8 +931,8 @@
     "foreign_ratio_diff": 0.13000000000000078,
     "trust_ratio_diff": -0.033386927040343295,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.8517010234659699,
-    "price_pos": 0.719626168224299
+    "vol_ratio": 0.6813608187727759,
+    "price_pos": 0.8295454545454546
   },
   {
     "code": "6214",
@@ -942,8 +942,8 @@
     "foreign_ratio_diff": -0.17999999999999972,
     "trust_ratio_diff": -0.01101956440646315,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.6741597091873668,
-    "price_pos": 0.34210526315789475
+    "vol_ratio": 0.5393277673498935,
+    "price_pos": 0.8368146214099217
   },
   {
     "code": "3356",
@@ -953,8 +953,8 @@
     "foreign_ratio_diff": -0.14999999999999947,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.7745489256717473,
-    "price_pos": 0.3005181347150263
+    "vol_ratio": 0.6196391405373979,
+    "price_pos": 0.45344129554655876
   },
   {
     "code": "1618",
@@ -964,8 +964,8 @@
     "foreign_ratio_diff": 0.27000000000000024,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 7.410129336358845,
-    "price_pos": 0.5470085470085468
+    "vol_ratio": 5.928103469087076,
+    "price_pos": 0.9282426211751964
   },
   {
     "code": "8996",
@@ -975,8 +975,8 @@
     "foreign_ratio_diff": -0.00999999999999801,
     "trust_ratio_diff": 0.2022489315926883,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.4710281468189457,
-    "price_pos": 0.6862745098039216
+    "vol_ratio": 1.1768225174551565,
+    "price_pos": 0.8335467349551856
   },
   {
     "code": "2034",
@@ -986,8 +986,8 @@
     "foreign_ratio_diff": 0.16999999999999993,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.851053200852317,
-    "price_pos": 1.0
+    "vol_ratio": 2.280842560681853,
+    "price_pos": 0.32846715328467146
   },
   {
     "code": "4763",
@@ -997,8 +997,8 @@
     "foreign_ratio_diff": 0.030000000000001137,
     "trust_ratio_diff": -0.01344593314963105,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.5766249361156822,
-    "price_pos": 0.4105263157894738
+    "vol_ratio": 0.4612999488925457,
+    "price_pos": 0.05183872396987153
   },
   {
     "code": "1449",
@@ -1008,8 +1008,8 @@
     "foreign_ratio_diff": -0.08999999999999986,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.609032010115487,
-    "price_pos": 0.49820788530465987
+    "vol_ratio": 2.0872256080923894,
+    "price_pos": 0.8071625344352619
   },
   {
     "code": "6213",
@@ -1019,8 +1019,8 @@
     "foreign_ratio_diff": 0.06999999999999851,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.4571632442443976,
-    "price_pos": 0.8222222222222222
+    "vol_ratio": 1.1657305953955182,
+    "price_pos": 0.9233716475095786
   },
   {
     "code": "3038",
@@ -1030,8 +1030,8 @@
     "foreign_ratio_diff": 0.15000000000000036,
     "trust_ratio_diff": -0.0003081172641959326,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.0055654335086444,
-    "price_pos": 0.9589041095890415
+    "vol_ratio": 0.8044523468069155,
+    "price_pos": 0.9891696750902528
   },
   {
     "code": "1560",
@@ -1041,8 +1041,8 @@
     "foreign_ratio_diff": 0.07000000000000028,
     "trust_ratio_diff": 0.00888723394920099,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.0054301696921915,
-    "price_pos": 0.975
+    "vol_ratio": 0.8043441357537532,
+    "price_pos": 0.99321343739396
   },
   {
     "code": "6541",
@@ -1052,8 +1052,8 @@
     "foreign_ratio_diff": 0.049999999999998934,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.9573904387570493,
-    "price_pos": 0.4671532846715329
+    "vol_ratio": 0.7659123510056395,
+    "price_pos": 0.2655601659751037
   },
   {
     "code": "5515",
@@ -1063,8 +1063,8 @@
     "foreign_ratio_diff": 0.030000000000001137,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.6709770897495567,
-    "price_pos": 0.908713692946058
+    "vol_ratio": 0.5367816717996454,
+    "price_pos": 0.9556451612903225
   },
   {
     "code": "7788",
@@ -1074,7 +1074,7 @@
     "foreign_ratio_diff": -0.03000000000000025,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.4962186597611959,
+    "vol_ratio": 0.39697492780895677,
     "price_pos": 0.5
   },
   {
@@ -1085,8 +1085,8 @@
     "foreign_ratio_diff": -0.010000000000001563,
     "trust_ratio_diff": 0.004086556912442418,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.8656635823633135,
-    "price_pos": 0.3333333333333333
+    "vol_ratio": 0.6925308658906507,
+    "price_pos": 0.6784565916398714
   },
   {
     "code": "2241",
@@ -1096,8 +1096,8 @@
     "foreign_ratio_diff": -0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.9283022611043298,
-    "price_pos": 0.6009852216748766
+    "vol_ratio": 0.7426418088834639,
+    "price_pos": 0.5
   },
   {
     "code": "3686",
@@ -1107,8 +1107,8 @@
     "foreign_ratio_diff": 0.22999999999999998,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.2058402340617405,
-    "price_pos": 0.35416666666666674
+    "vol_ratio": 1.7646721872493925,
+    "price_pos": 0.7937458416500334
   },
   {
     "code": "9945",
@@ -1118,7 +1118,7 @@
     "foreign_ratio_diff": 0.02000000000000135,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.8719425020658721,
+    "vol_ratio": 0.6975540016526977,
     "price_pos": 1.0
   },
   {
@@ -1129,7 +1129,7 @@
     "foreign_ratio_diff": -0.019999999999999574,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.8175642833757272,
+    "vol_ratio": 0.6540514267005818,
     "price_pos": 0.13815789473684217
   },
   {
@@ -1140,8 +1140,8 @@
     "foreign_ratio_diff": -0.040000000000000036,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.5477572287624618,
-    "price_pos": 0.7764227642276427
+    "vol_ratio": 0.43820578300996943,
+    "price_pos": 0.05682832490330259
   },
   {
     "code": "2014",
@@ -1151,7 +1151,7 @@
     "foreign_ratio_diff": 0.22000000000000064,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.34884989622589,
+    "vol_ratio": 2.679079916980712,
     "price_pos": 1.0
   },
   {
@@ -1162,8 +1162,8 @@
     "foreign_ratio_diff": -0.6099999999999994,
     "trust_ratio_diff": 0.630618196680405,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.165988058673791,
-    "price_pos": 0.125
+    "vol_ratio": 0.9327904469390328,
+    "price_pos": 0.8777648428405123
   },
   {
     "code": "2455",
@@ -1173,8 +1173,8 @@
     "foreign_ratio_diff": -0.5,
     "trust_ratio_diff": 0.04434687698854489,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.091138345331524,
-    "price_pos": 0.7846153846153846
+    "vol_ratio": 0.8729106762652191,
+    "price_pos": 0.8494623655913979
   },
   {
     "code": "3044",
@@ -1184,8 +1184,8 @@
     "foreign_ratio_diff": 0.1599999999999966,
     "trust_ratio_diff": -0.2739695284012962,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.1106424148988496,
-    "price_pos": 0.5462962962962963
+    "vol_ratio": 0.8885139319190798,
+    "price_pos": 0.9044834307992202
   },
   {
     "code": "3058",
@@ -1195,8 +1195,8 @@
     "foreign_ratio_diff": 0.1299999999999999,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.406508841395015,
-    "price_pos": 0.2708333333333334
+    "vol_ratio": 1.9252070731160118,
+    "price_pos": 0.44089456869009597
   },
   {
     "code": "6796",
@@ -1206,8 +1206,8 @@
     "foreign_ratio_diff": 0.19000000000000128,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.049421081831796,
-    "price_pos": 0.9848024316109423
+    "vol_ratio": 1.639536865465437,
+    "price_pos": 0.5
   },
   {
     "code": "5225",
@@ -1217,8 +1217,8 @@
     "foreign_ratio_diff": -0.03999999999999915,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.5254310232187421,
-    "price_pos": 0.12650602409638526
+    "vol_ratio": 0.4203448185749937,
+    "price_pos": 0.8309037900874635
   },
   {
     "code": "2337",
@@ -1228,8 +1228,8 @@
     "foreign_ratio_diff": -0.3200000000000003,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.9739265945590885,
-    "price_pos": 0.9070512820512823
+    "vol_ratio": 0.779141275647271,
+    "price_pos": 0.8761609907120743
   },
   {
     "code": "6756",
@@ -1239,8 +1239,8 @@
     "foreign_ratio_diff": 0.010000000000000231,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.7678645057725256,
-    "price_pos": 0.4405940594059408
+    "vol_ratio": 0.6142916046180206,
+    "price_pos": 0.5
   },
   {
     "code": "3406",
@@ -1250,8 +1250,8 @@
     "foreign_ratio_diff": -0.3500000000000014,
     "trust_ratio_diff": 0.22529102300511372,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.5670590814687158,
-    "price_pos": 0.4537037037037037
+    "vol_ratio": 2.0536472651749733,
+    "price_pos": 0.7790262172284644
   },
   {
     "code": "1711",
@@ -1261,7 +1261,7 @@
     "foreign_ratio_diff": -0.0600000000000005,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.5477282754932804,
+    "vol_ratio": 0.4381826203946243,
     "price_pos": 0.5277777777777771
   },
   {
@@ -1272,8 +1272,8 @@
     "foreign_ratio_diff": 0.08000000000000007,
     "trust_ratio_diff": -0.0008038486138753909,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.0261730556717372,
-    "price_pos": 0.7425149700598803
+    "vol_ratio": 0.8209384445373898,
+    "price_pos": 0.9044444444444445
   },
   {
     "code": "3033",
@@ -1283,8 +1283,8 @@
     "foreign_ratio_diff": -0.02999999999999936,
     "trust_ratio_diff": -0.001909987987945061,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.517685602743575,
-    "price_pos": 0.7968749999999993
+    "vol_ratio": 1.21414848219486,
+    "price_pos": 0.9417040358744393
   },
   {
     "code": "2449",
@@ -1294,8 +1294,8 @@
     "foreign_ratio_diff": 0.21000000000000085,
     "trust_ratio_diff": -0.05414047612614947,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.0528059669697698,
-    "price_pos": 0.8978102189781022
+    "vol_ratio": 0.8422447735758158,
+    "price_pos": 0.9651307596513076
   },
   {
     "code": "2618",
@@ -1305,8 +1305,8 @@
     "foreign_ratio_diff": 0.08999999999999986,
     "trust_ratio_diff": -0.056699038265339397,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.2183116002053511,
-    "price_pos": 0.6346153846153851
+    "vol_ratio": 0.9746492801642809,
+    "price_pos": 0.9173913043478261
   },
   {
     "code": "4142",
@@ -1316,7 +1316,7 @@
     "foreign_ratio_diff": -0.019999999999999574,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.846682461955685,
+    "vol_ratio": 0.6773459695645481,
     "price_pos": 0.40789473684210537
   },
   {
@@ -1327,8 +1327,8 @@
     "foreign_ratio_diff": 0.06000000000000005,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.9420081880566333,
-    "price_pos": 0.07228915662650616
+    "vol_ratio": 0.7536065504453067,
+    "price_pos": 0.7335640138408304
   },
   {
     "code": "1589",
@@ -1338,8 +1338,8 @@
     "foreign_ratio_diff": 0.09999999999999964,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.158195608038138,
-    "price_pos": 0.013986013986013691
+    "vol_ratio": 1.7265564864305105,
+    "price_pos": 0.001998001998001955
   },
   {
     "code": "5222",
@@ -1349,8 +1349,8 @@
     "foreign_ratio_diff": -0.04999999999999982,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.8932080192708791,
-    "price_pos": 0.3181818181818182
+    "vol_ratio": 0.7145664154167033,
+    "price_pos": 0.5
   },
   {
     "code": "2303",
@@ -1360,8 +1360,8 @@
     "foreign_ratio_diff": 0.17999999999999972,
     "trust_ratio_diff": -0.14966249612064697,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.8770231873316058,
-    "price_pos": 0.8661971830985922
+    "vol_ratio": 0.7016185498652846,
+    "price_pos": 0.9734265734265736
   },
   {
     "code": "3019",
@@ -1371,8 +1371,8 @@
     "foreign_ratio_diff": 0.08999999999999986,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.8416179527244663,
-    "price_pos": 0.23809523809523808
+    "vol_ratio": 0.6732943621795731,
+    "price_pos": 0.5932203389830508
   },
   {
     "code": "6192",
@@ -1382,7 +1382,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.0671811588982543,
+    "vol_ratio": 0.8537449271186033,
     "price_pos": 1.0
   },
   {
@@ -1393,8 +1393,8 @@
     "foreign_ratio_diff": 0.02999999999999997,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.448395099885475,
-    "price_pos": 1.0
+    "vol_ratio": 1.95871607990838,
+    "price_pos": 0.5
   },
   {
     "code": "3002",
@@ -1404,8 +1404,8 @@
     "foreign_ratio_diff": 0.34999999999999987,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.04343243858286,
-    "price_pos": 0.8977272727272726
+    "vol_ratio": 3.234745950866288,
+    "price_pos": 0.9150943396226414
   },
   {
     "code": "2301",
@@ -1415,8 +1415,8 @@
     "foreign_ratio_diff": 0.3000000000000007,
     "trust_ratio_diff": -0.3860537624244822,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.1909345056570204,
-    "price_pos": 0.25287356321839083
+    "vol_ratio": 0.9527476045256162,
+    "price_pos": 0.7925973197192088
   },
   {
     "code": "9907",
@@ -1426,8 +1426,8 @@
     "foreign_ratio_diff": -0.4499999999999993,
     "trust_ratio_diff": 0.41351481882786656,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.3681218119361425,
-    "price_pos": 0.2641509433962263
+    "vol_ratio": 1.0944974495489141,
+    "price_pos": 0.7067669172932332
   },
   {
     "code": "3617",
@@ -1437,8 +1437,8 @@
     "foreign_ratio_diff": 0.28999999999999915,
     "trust_ratio_diff": -0.264426513211784,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.5452400983603896,
-    "price_pos": 0.20967741935483872
+    "vol_ratio": 1.2361920786883116,
+    "price_pos": 0.6838709677419355
   },
   {
     "code": "1519",
@@ -1448,8 +1448,8 @@
     "foreign_ratio_diff": 0.05000000000000071,
     "trust_ratio_diff": 0.018361354004739927,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.7471610319943643,
-    "price_pos": 0.9140625
+    "vol_ratio": 0.5977288255954915,
+    "price_pos": 0.9720829896580166
   },
   {
     "code": "2345",
@@ -1459,7 +1459,7 @@
     "foreign_ratio_diff": 0.03999999999999915,
     "trust_ratio_diff": -0.01571862178546765,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.7301190246125283,
+    "vol_ratio": 0.5840952196900228,
     "price_pos": 1.0
   },
   {
@@ -1470,8 +1470,8 @@
     "foreign_ratio_diff": 0.05999999999999872,
     "trust_ratio_diff": 0.3026938319995437,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.2760478247693023,
-    "price_pos": 0.7346938775510204
+    "vol_ratio": 2.620838259815442,
+    "price_pos": 0.1496881496881497
   },
   {
     "code": "1810",
@@ -1481,8 +1481,8 @@
     "foreign_ratio_diff": -0.040000000000000036,
     "trust_ratio_diff": 0.109823326387857,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.3835216329857647,
-    "price_pos": 0.3134328358208956
+    "vol_ratio": 1.1068173063886118,
+    "price_pos": 0.7747306562193927
   },
   {
     "code": "3583",
@@ -1492,8 +1492,8 @@
     "foreign_ratio_diff": 0.030000000000001137,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.2581978734345955,
-    "price_pos": 0.28421052631578947
+    "vol_ratio": 1.0065582987476764,
+    "price_pos": 0.7755775577557755
   },
   {
     "code": "2528",
@@ -1503,8 +1503,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.7230006197017604,
-    "price_pos": 0.6493506493506491
+    "vol_ratio": 1.3784004957614084,
+    "price_pos": 0.8783783783783783
   },
   {
     "code": "1516",
@@ -1514,7 +1514,7 @@
     "foreign_ratio_diff": -0.010000000000000009,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.0225086902161218,
+    "vol_ratio": 0.8180069521728975,
     "price_pos": 1.0
   },
   {
@@ -1525,8 +1525,8 @@
     "foreign_ratio_diff": 0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.6403443610110039,
-    "price_pos": 0.4124293785310732
+    "vol_ratio": 0.512275488808803,
+    "price_pos": 0.7078651685393257
   },
   {
     "code": "2038",
@@ -1536,8 +1536,8 @@
     "foreign_ratio_diff": 0.06999999999999984,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.0304094636974117,
-    "price_pos": 0.5510204081632654
+    "vol_ratio": 2.4243275709579293,
+    "price_pos": 0.8587933247753531
   },
   {
     "code": "1582",
@@ -1547,8 +1547,8 @@
     "foreign_ratio_diff": -0.09999999999999964,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.0597656192597127,
-    "price_pos": 0.1746031746031738
+    "vol_ratio": 0.84781249540777,
+    "price_pos": 0.2352941176470581
   },
   {
     "code": "3622",
@@ -1558,8 +1558,8 @@
     "foreign_ratio_diff": 0.10999999999999943,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.9877141057508009,
-    "price_pos": 0.5129533678756477
+    "vol_ratio": 0.7901712846006408,
+    "price_pos": 0.8294010889292196
   },
   {
     "code": "2731",
@@ -1569,8 +1569,8 @@
     "foreign_ratio_diff": 0.05999999999999872,
     "trust_ratio_diff": -0.001072067152056544,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.4451179456291252,
-    "price_pos": 0.4
+    "vol_ratio": 1.1560943565033004,
+    "price_pos": 0.7911392405063291
   },
   {
     "code": "2880",
@@ -1580,7 +1580,7 @@
     "foreign_ratio_diff": -0.23000000000000043,
     "trust_ratio_diff": 0.2777401520576597,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.4737321227232194,
+    "vol_ratio": 1.1789856981785753,
     "price_pos": 1.0
   },
   {
@@ -1591,8 +1591,8 @@
     "foreign_ratio_diff": -0.020000000000000018,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.9170835744772674,
-    "price_pos": 0.09278350515463907
+    "vol_ratio": 0.7336668595818139,
+    "price_pos": 0.6628352490421456
   },
   {
     "code": "1529",
@@ -1602,8 +1602,8 @@
     "foreign_ratio_diff": 0.020000000000000018,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.0551774079169407,
-    "price_pos": 0.1413043478260874
+    "vol_ratio": 0.8441419263335526,
+    "price_pos": 0.8018063221274461
   },
   {
     "code": "2342",
@@ -1613,8 +1613,8 @@
     "foreign_ratio_diff": 0.18999999999999972,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.9366747930315567,
-    "price_pos": 0.1481481481481483
+    "vol_ratio": 0.7493398344252453,
+    "price_pos": 0.5855855855855857
   },
   {
     "code": "1314",
@@ -1624,8 +1624,8 @@
     "foreign_ratio_diff": 0.03999999999999915,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.8901794657208251,
-    "price_pos": 0.26996197718631176
+    "vol_ratio": 0.71214357257666,
+    "price_pos": 0.08422301304863582
   },
   {
     "code": "9958",
@@ -1635,8 +1635,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.0731883758174692,
-    "price_pos": 0.1797752808988764
+    "vol_ratio": 0.8585507006539753,
+    "price_pos": 0.7708006279434851
   },
   {
     "code": "1503",
@@ -1646,8 +1646,8 @@
     "foreign_ratio_diff": 0.060000000000002274,
     "trust_ratio_diff": -0.0001919488133631242,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.1814666307121728,
-    "price_pos": 0.27380952380952384
+    "vol_ratio": 0.9451733045697381,
+    "price_pos": 0.8128260202516109
   },
   {
     "code": "6937",
@@ -1657,8 +1657,8 @@
     "foreign_ratio_diff": 0.06999999999999984,
     "trust_ratio_diff": -0.0014798095597561844,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.1211832403469513,
-    "price_pos": 0.1657142857142857
+    "vol_ratio": 0.8969465922775611,
+    "price_pos": 0.5
   },
   {
     "code": "6806",
@@ -1668,8 +1668,8 @@
     "foreign_ratio_diff": -0.040000000000000036,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.9430565512531492,
-    "price_pos": 0.08403361344537816
+    "vol_ratio": 1.5544452410025194,
+    "price_pos": 0.5
   },
   {
     "code": "6834",
@@ -1679,8 +1679,8 @@
     "foreign_ratio_diff": -0.02000000000000135,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.1963095617246742,
-    "price_pos": 0.474358974358974
+    "vol_ratio": 0.9570476493797391,
+    "price_pos": 0.5
   },
   {
     "code": "2491",
@@ -1690,8 +1690,8 @@
     "foreign_ratio_diff": 0.14999999999999947,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.7672923111961302,
-    "price_pos": 0.6807692307692306
+    "vol_ratio": 0.6138338489569042,
+    "price_pos": 0.7749457700650758
   },
   {
     "code": "4571",
@@ -1701,8 +1701,8 @@
     "foreign_ratio_diff": 0.07000000000000028,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.1619824347562355,
-    "price_pos": 0.3235294117647059
+    "vol_ratio": 0.9295859478049886,
+    "price_pos": 0.5
   },
   {
     "code": "6742",
@@ -1712,8 +1712,8 @@
     "foreign_ratio_diff": 0.010000000000000009,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.3210039965621845,
-    "price_pos": 0.5112781954887217
+    "vol_ratio": 1.0568031972497478,
+    "price_pos": 0.5
   },
   {
     "code": "5244",
@@ -1723,8 +1723,8 @@
     "foreign_ratio_diff": 0.040000000000000036,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.2560430697452707,
-    "price_pos": 0.4424778761061948
+    "vol_ratio": 1.0048344557962168,
+    "price_pos": 0.5
   },
   {
     "code": "1809",
@@ -1734,8 +1734,8 @@
     "foreign_ratio_diff": 0.019999999999999574,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.8446054800292465,
-    "price_pos": 0.08219178082191796
+    "vol_ratio": 0.6756843840233973,
+    "price_pos": 0.6214689265536723
   },
   {
     "code": "3311",
@@ -1745,8 +1745,8 @@
     "foreign_ratio_diff": -0.050000000000000044,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.132107397382814,
-    "price_pos": 0.20930232558139547
+    "vol_ratio": 3.305685917906251,
+    "price_pos": 0.7308707124010554
   },
   {
     "code": "2636",
@@ -1756,8 +1756,8 @@
     "foreign_ratio_diff": 0.040000000000000924,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.9857454986217921,
-    "price_pos": 0.3220338983050838
+    "vol_ratio": 0.7885963988974337,
+    "price_pos": 0.9155227032734953
   },
   {
     "code": "2349",
@@ -1767,8 +1767,8 @@
     "foreign_ratio_diff": 0.08000000000000007,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.726163313970289,
-    "price_pos": 0.839572192513369
+    "vol_ratio": 0.5809306511762312,
+    "price_pos": 0.8963730569948187
   },
   {
     "code": "2501",
@@ -1778,8 +1778,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": -0.0006036767055662695,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.69945384479577,
-    "price_pos": 0.921875
+    "vol_ratio": 0.559563075836616,
+    "price_pos": 0.9662162162162162
   },
   {
     "code": "1436",
@@ -1789,8 +1789,8 @@
     "foreign_ratio_diff": 0.10000000000000053,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.2897010682541457,
-    "price_pos": 0.44166666666666676
+    "vol_ratio": 1.0317608546033166,
+    "price_pos": 0.797583081570997
   },
   {
     "code": "4989",
@@ -1800,8 +1800,8 @@
     "foreign_ratio_diff": -0.96,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 6.87571508668224,
-    "price_pos": 0.9212598425196851
+    "vol_ratio": 5.500572069345792,
+    "price_pos": 0.5
   },
   {
     "code": "3673",
@@ -1811,19 +1811,19 @@
     "foreign_ratio_diff": -0.0799999999999983,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.730693899161749,
-    "price_pos": 0.7
+    "vol_ratio": 1.3845551193293992,
+    "price_pos": 0.09915014164305948
   },
   {
     "code": "3704",
     "name": "合勤控",
-    "three_inst_ratio": 8.32,
+    "three_inst_ratio": 8.321015296923681,
     "change": 0.17999999999999972,
     "foreign_ratio_diff": -0.049999999999998934,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.2280881292320411,
-    "price_pos": 0.2545454545454551
+    "vol_ratio": 0.9824705033856328,
+    "price_pos": 0.8136363636363638
   },
   {
     "code": "2883",
@@ -1833,8 +1833,8 @@
     "foreign_ratio_diff": -0.05000000000000071,
     "trust_ratio_diff": 0.016559614148520252,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.0324879024935594,
-    "price_pos": 0.859649122807018
+    "vol_ratio": 0.8259903219948476,
+    "price_pos": 0.9511002444987777
   },
   {
     "code": "6863",
@@ -1844,8 +1844,8 @@
     "foreign_ratio_diff": 0.009999999999990905,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.6913826028215854,
-    "price_pos": 0.25
+    "vol_ratio": 0.5531060822572683,
+    "price_pos": 0.5
   },
   {
     "code": "1616",
@@ -1855,8 +1855,8 @@
     "foreign_ratio_diff": 0.07000000000000028,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.7878825154352755,
-    "price_pos": 0.13333333333333341
+    "vol_ratio": 3.830306012348221,
+    "price_pos": 0.7361024359775141
   },
   {
     "code": "2476",
@@ -1866,8 +1866,8 @@
     "foreign_ratio_diff": 0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.9435624112677629,
-    "price_pos": 0.0772727272727274
+    "vol_ratio": 0.7548499290142103,
+    "price_pos": 0.7510729613733906
   },
   {
     "code": "3032",
@@ -1877,8 +1877,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.9091928786639422,
-    "price_pos": 0.0708661417322839
+    "vol_ratio": 0.7273543029311537,
+    "price_pos": 0.6165718927701057
   },
   {
     "code": "2250",
@@ -1888,8 +1888,8 @@
     "foreign_ratio_diff": 0.0699999999999994,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.761540661425379,
-    "price_pos": 0.16417910447761172
+    "vol_ratio": 1.4092325291403032,
+    "price_pos": 0.5
   },
   {
     "code": "4414",
@@ -1899,8 +1899,8 @@
     "foreign_ratio_diff": 0.14000000000000057,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.1589579204183136,
-    "price_pos": 0.8550724637681163
+    "vol_ratio": 0.9271663363346506,
+    "price_pos": 0.21146953405017918
   },
   {
     "code": "1101",
@@ -1910,8 +1910,8 @@
     "foreign_ratio_diff": 0.03999999999999915,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.8540418462601618,
-    "price_pos": 0.666666666666667
+    "vol_ratio": 0.6832334770081294,
+    "price_pos": 0.17518248175182494
   },
   {
     "code": "2474",
@@ -1921,8 +1921,8 @@
     "foreign_ratio_diff": 0.2699999999999996,
     "trust_ratio_diff": -0.2392392178090197,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.793883401982157,
-    "price_pos": 0.9558823529411765
+    "vol_ratio": 1.4351067215857254,
+    "price_pos": 0.22413793103448276
   },
   {
     "code": "6668",
@@ -1932,8 +1932,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.8977442156517949,
-    "price_pos": 0.2627737226277378
+    "vol_ratio": 0.7181953725214358,
+    "price_pos": 0.5
   },
   {
     "code": "5519",
@@ -1943,7 +1943,7 @@
     "foreign_ratio_diff": 0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.1227236631170197,
+    "vol_ratio": 1.6981789304936157,
     "price_pos": 1.0
   },
   {
@@ -1954,8 +1954,8 @@
     "foreign_ratio_diff": 0.029999999999999805,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.7141398708539668,
-    "price_pos": 0.5952380952380948
+    "vol_ratio": 1.3713118966831734,
+    "price_pos": 0.9220183486238531
   },
   {
     "code": "2425",
@@ -1965,8 +1965,8 @@
     "foreign_ratio_diff": -0.049999999999998934,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.8158666741391749,
-    "price_pos": 0.5798319327731095
+    "vol_ratio": 0.65269333931134,
+    "price_pos": 0.858757062146893
   },
   {
     "code": "3055",
@@ -1976,7 +1976,7 @@
     "foreign_ratio_diff": 0.03000000000000025,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.2779829901972235,
+    "vol_ratio": 3.422386392157779,
     "price_pos": 1.0
   },
   {
@@ -1987,8 +1987,8 @@
     "foreign_ratio_diff": 0.10000000000000053,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.2111029919390464,
-    "price_pos": 0.05592105263157903
+    "vol_ratio": 0.9688823935512372,
+    "price_pos": 0.7279620853080568
   },
   {
     "code": "3003",
@@ -1998,8 +1998,8 @@
     "foreign_ratio_diff": -0.010000000000000231,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.0484984979882555,
-    "price_pos": 0.3387096774193553
+    "vol_ratio": 0.8387987983906046,
+    "price_pos": 0.13636363636363646
   },
   {
     "code": "8114",
@@ -2009,8 +2009,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.4796865206831713,
-    "price_pos": 0.008620689655172414
+    "vol_ratio": 1.183749216546537,
+    "price_pos": 0.3611111111111111
   },
   {
     "code": "2614",
@@ -2020,8 +2020,8 @@
     "foreign_ratio_diff": 0.2699999999999996,
     "trust_ratio_diff": -0.0012222512826045584,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.4132044848267202,
-    "price_pos": 0.9135802469135808
+    "vol_ratio": 1.1305635878613762,
+    "price_pos": 0.9755415793151644
   },
   {
     "code": "1229",
@@ -2031,8 +2031,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.39277594285847695,
-    "price_pos": 0.2987012987013001
+    "vol_ratio": 0.31422075428678153,
+    "price_pos": 0.845714285714286
   },
   {
     "code": "2537",
@@ -2042,7 +2042,7 @@
     "foreign_ratio_diff": 0.3600000000000003,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.48520757644908163,
+    "vol_ratio": 0.3881660611592653,
     "price_pos": 1.0
   },
   {
@@ -2053,8 +2053,8 @@
     "foreign_ratio_diff": 0.04999999999999982,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.8529302629376494,
-    "price_pos": 0.3809523809523809
+    "vol_ratio": 1.48234421035012,
+    "price_pos": 0.04371584699453549
   },
   {
     "code": "2610",
@@ -2064,8 +2064,8 @@
     "foreign_ratio_diff": 0.14000000000000057,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.6243633214514972,
-    "price_pos": 0.5918367346938774
+    "vol_ratio": 1.2994906571611977,
+    "price_pos": 0.8888888888888888
   },
   {
     "code": "6472",
@@ -2075,8 +2075,8 @@
     "foreign_ratio_diff": 0.2900000000000009,
     "trust_ratio_diff": -0.04901408450251543,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.1272413501941356,
-    "price_pos": 0.031862745098039214
+    "vol_ratio": 1.7017930801553083,
+    "price_pos": 0.5
   },
   {
     "code": "2834",
@@ -2086,8 +2086,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.192136861292997,
-    "price_pos": 0.7368421052631582
+    "vol_ratio": 0.9537094890343977,
+    "price_pos": 0.96875
   },
   {
     "code": "6573",
@@ -2097,8 +2097,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.2682483102046254,
-    "price_pos": 0.6180555555555556
+    "vol_ratio": 1.0145986481637002,
+    "price_pos": 0.10001873009926952
   },
   {
     "code": "1446",
@@ -2108,8 +2108,8 @@
     "foreign_ratio_diff": 0.019999999999999574,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.7785832133470778,
-    "price_pos": 0.34782608695652195
+    "vol_ratio": 1.422866570677662,
+    "price_pos": 0.21621621621621645
   },
   {
     "code": "2646",
@@ -2119,8 +2119,8 @@
     "foreign_ratio_diff": 0.020000000000000018,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.3281135720438293,
-    "price_pos": 0.5789473684210528
+    "vol_ratio": 1.8624908576350636,
+    "price_pos": 0.5
   },
   {
     "code": "3049",
@@ -2130,8 +2130,8 @@
     "foreign_ratio_diff": 0.040000000000000036,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.37897047306359083,
-    "price_pos": 0.6888888888888891
+    "vol_ratio": 0.30317637845087264,
+    "price_pos": 0.4025974025974028
   },
   {
     "code": "2478",
@@ -2141,8 +2141,8 @@
     "foreign_ratio_diff": 0.09999999999999964,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.1682159598891473,
-    "price_pos": 0.38964577656675753
+    "vol_ratio": 0.9345727679113177,
+    "price_pos": 0.7281553398058254
   },
   {
     "code": "3312",
@@ -2152,8 +2152,8 @@
     "foreign_ratio_diff": -0.020000000000000018,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.6752092272241719,
-    "price_pos": 0.0298507462686561
+    "vol_ratio": 1.3401673817793374,
+    "price_pos": 0.8163322972591126
   },
   {
     "code": "6869",
@@ -2163,8 +2163,8 @@
     "foreign_ratio_diff": -0.17000000000000037,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.4368903726065696,
-    "price_pos": 0.10975609756097544
+    "vol_ratio": 2.7495122980852558,
+    "price_pos": 0.5
   },
   {
     "code": "2442",
@@ -2174,7 +2174,7 @@
     "foreign_ratio_diff": 0.04999999999999982,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.8595580007571024,
+    "vol_ratio": 0.6876464006056818,
     "price_pos": 1.0
   },
   {
@@ -2185,8 +2185,8 @@
     "foreign_ratio_diff": 0.10000000000000009,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.0563707870957617,
-    "price_pos": 0.346938775510204
+    "vol_ratio": 1.6450966296766092,
+    "price_pos": 0.5
   },
   {
     "code": "2739",
@@ -2196,8 +2196,8 @@
     "foreign_ratio_diff": 0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.9592237112157432,
-    "price_pos": 0.13698630136986306
+    "vol_ratio": 0.7673789689725946,
+    "price_pos": 0.11904761904761897
   },
   {
     "code": "1773",
@@ -2207,8 +2207,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.5717483796259902,
-    "price_pos": 0.3142857142857143
+    "vol_ratio": 0.4573987037007922,
+    "price_pos": 0.8449612403100776
   },
   {
     "code": "3056",
@@ -2218,7 +2218,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": -0.00020809270403449043,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.147125592545276,
+    "vol_ratio": 1.7177004740362212,
     "price_pos": 0.1999999999999998
   },
   {
@@ -2229,8 +2229,8 @@
     "foreign_ratio_diff": 0.020000000000000018,
     "trust_ratio_diff": -0.0003218373048056722,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.4838680084270149,
-    "price_pos": 0.7291666666666666
+    "vol_ratio": 0.3870944067416119,
+    "price_pos": 0.9525547445255474
   },
   {
     "code": "2915",
@@ -2240,8 +2240,8 @@
     "foreign_ratio_diff": -0.040000000000000036,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.9998093035699399,
-    "price_pos": 0.8979591836734695
+    "vol_ratio": 0.799847442855952,
+    "price_pos": 0.9358974358974359
   },
   {
     "code": "4904",
@@ -2251,8 +2251,8 @@
     "foreign_ratio_diff": 0.08999999999999986,
     "trust_ratio_diff": -0.057020743417332875,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.6113830875457358,
-    "price_pos": 0.3168316831683159
+    "vol_ratio": 1.2891064700365886,
+    "price_pos": 0.7124999999999998
   },
   {
     "code": "2369",
@@ -2262,8 +2262,8 @@
     "foreign_ratio_diff": -0.05999999999999872,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.831288117256053,
-    "price_pos": 0.9166666666666662
+    "vol_ratio": 3.865030493804842,
+    "price_pos": 0.9548022598870054
   },
   {
     "code": "2457",
@@ -2273,8 +2273,8 @@
     "foreign_ratio_diff": 0.10999999999999988,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.0767890924543404,
-    "price_pos": 0.6553672316384184
+    "vol_ratio": 0.8614312739634722,
+    "price_pos": 0.8471177944862157
   },
   {
     "code": "3494",
@@ -2284,7 +2284,7 @@
     "foreign_ratio_diff": 0.07000000000000006,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 7.5402862180722945,
+    "vol_ratio": 6.032228974457835,
     "price_pos": 0.49282296650717716
   },
   {
@@ -2295,8 +2295,8 @@
     "foreign_ratio_diff": 0.020000000000000462,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.4285418688755636,
-    "price_pos": 0.116751269035533
+    "vol_ratio": 2.7428334951004505,
+    "price_pos": 0.5
   },
   {
     "code": "4934",
@@ -2306,7 +2306,7 @@
     "foreign_ratio_diff": 0.14000000000000012,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.0028170583817537,
+    "vol_ratio": 0.8022536467054029,
     "price_pos": 0.4587155963302753
   },
   {
@@ -2317,7 +2317,7 @@
     "foreign_ratio_diff": -0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.8834689628287359,
+    "vol_ratio": 0.7067751702629888,
     "price_pos": 0.11299435028248594
   },
   {
@@ -2328,7 +2328,7 @@
     "foreign_ratio_diff": 0.010000000000000009,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.9695500759571294,
+    "vol_ratio": 1.5756400607657035,
     "price_pos": 0.5
   },
   {
@@ -2339,8 +2339,8 @@
     "foreign_ratio_diff": -0.030000000000000027,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.762051162085572,
-    "price_pos": 0.7807017543859649
+    "vol_ratio": 0.6096409296684576,
+    "price_pos": 0.9429549343981746
   },
   {
     "code": "6695",
@@ -2350,8 +2350,8 @@
     "foreign_ratio_diff": -0.08000000000000007,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.9186668023470406,
-    "price_pos": 0.2985611510791366
+    "vol_ratio": 0.7349334418776324,
+    "price_pos": 0.5
   },
   {
     "code": "3545",
@@ -2361,8 +2361,8 @@
     "foreign_ratio_diff": 0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.913528581209754,
-    "price_pos": 0.12181303116147306
+    "vol_ratio": 0.7308228649678032,
+    "price_pos": 0.5776566757493189
   },
   {
     "code": "2845",
@@ -2372,8 +2372,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.47336653316295935,
-    "price_pos": 0.8750000000000006
+    "vol_ratio": 0.37869322653036747,
+    "price_pos": 0.9711815561959656
   },
   {
     "code": "3050",
@@ -2383,7 +2383,7 @@
     "foreign_ratio_diff": 0.16999999999999993,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.8824758976803426,
+    "vol_ratio": 0.7059807181442742,
     "price_pos": 0.7272727272727272
   },
   {
@@ -2394,8 +2394,8 @@
     "foreign_ratio_diff": 0.040000000000000036,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.4403705198036436,
-    "price_pos": 0.28169014084507066
+    "vol_ratio": 1.152296415842915,
+    "price_pos": 0.666666666666667
   },
   {
     "code": "6614",
@@ -2405,7 +2405,7 @@
     "foreign_ratio_diff": -0.020000000000000018,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.0058936942464038,
+    "vol_ratio": 0.8047149553971231,
     "price_pos": 0.5
   },
   {
@@ -2416,8 +2416,8 @@
     "foreign_ratio_diff": 0.06000000000000005,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.415501861421812,
-    "price_pos": 0.23076923076923048
+    "vol_ratio": 2.7324014891374495,
+    "price_pos": 0.07392197125256661
   },
   {
     "code": "3717",
@@ -2427,8 +2427,8 @@
     "foreign_ratio_diff": 0.039999999999999813,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.3669772958700075,
-    "price_pos": 0.11764705882352941
+    "vol_ratio": 1.893581836696006,
+    "price_pos": 0.5
   },
   {
     "code": "2471",
@@ -2438,8 +2438,8 @@
     "foreign_ratio_diff": 0.04999999999999982,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.9732633381840807,
-    "price_pos": 0.5111111111111121
+    "vol_ratio": 1.5786106705472647,
+    "price_pos": 0.9417218543046358
   },
   {
     "code": "1409",
@@ -2449,8 +2449,8 @@
     "foreign_ratio_diff": -0.02000000000000135,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.8296278639122646,
-    "price_pos": 0.6557377049180331
+    "vol_ratio": 0.6637022911298117,
+    "price_pos": 0.8306451612903227
   },
   {
     "code": "4746",
@@ -2460,8 +2460,8 @@
     "foreign_ratio_diff": -0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.44373394046573,
-    "price_pos": 0.12359550561797761
+    "vol_ratio": 1.154987152372584,
+    "price_pos": 0.10891089108910912
   },
   {
     "code": "1340",
@@ -2471,8 +2471,8 @@
     "foreign_ratio_diff": 0.0799999999999983,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.494113279765902,
-    "price_pos": 0.9176954732510284
+    "vol_ratio": 1.9952906238127215,
+    "price_pos": 0.05544505221282943
   },
   {
     "code": "7765",
@@ -2482,8 +2482,8 @@
     "foreign_ratio_diff": -0.020000000000000018,
     "trust_ratio_diff": 0.02704230892150355,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.1301069392337006,
-    "price_pos": 0.125
+    "vol_ratio": 1.7040855513869606,
+    "price_pos": 0.5
   },
   {
     "code": "6689",
@@ -2493,8 +2493,8 @@
     "foreign_ratio_diff": 0.040000000000000036,
     "trust_ratio_diff": -0.05000000000000002,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.4154949295288872,
-    "price_pos": 0.0354609929078014
+    "vol_ratio": 1.1323959436231097,
+    "price_pos": 0.5
   },
   {
     "code": "2542",
@@ -2504,7 +2504,7 @@
     "foreign_ratio_diff": 0.05999999999999872,
     "trust_ratio_diff": -0.004555738342464172,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.5538753197139883,
+    "vol_ratio": 0.44310025577119055,
     "price_pos": 0.945205479452054
   },
   {
@@ -2515,8 +2515,8 @@
     "foreign_ratio_diff": -0.11999999999999922,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.6481336358196021,
-    "price_pos": 0.14838709677419337
+    "vol_ratio": 1.3185069086556815,
+    "price_pos": 0.12105263157894722
   },
   {
     "code": "2258",
@@ -2526,8 +2526,8 @@
     "foreign_ratio_diff": 0.050000000000000044,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.635540458969864,
-    "price_pos": 0.9831932773109241
+    "vol_ratio": 3.708432367175891,
+    "price_pos": 0.5
   },
   {
     "code": "8478",
@@ -2537,8 +2537,8 @@
     "foreign_ratio_diff": -0.259999999999998,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.278200282948171,
-    "price_pos": 0.2727272727272727
+    "vol_ratio": 1.8225602263585372,
+    "price_pos": 0.8161523309258043
   },
   {
     "code": "2488",
@@ -2548,8 +2548,8 @@
     "foreign_ratio_diff": 0.1200000000000001,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.7635617757817346,
-    "price_pos": 0.43529411764705916
+    "vol_ratio": 2.2108494206253875,
+    "price_pos": 0.8814814814814815
   },
   {
     "code": "2505",
@@ -2559,8 +2559,8 @@
     "foreign_ratio_diff": 0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.2933101360672645,
-    "price_pos": 0.935483870967741
+    "vol_ratio": 0.23464810885381163,
+    "price_pos": 0.9753086419753083
   },
   {
     "code": "1540",
@@ -2570,8 +2570,8 @@
     "foreign_ratio_diff": 0.10999999999999988,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.9162738166676712,
-    "price_pos": 0.5714285714285712
+    "vol_ratio": 1.533019053334137,
+    "price_pos": 0.8105263157894737
   },
   {
     "code": "1617",
@@ -2581,8 +2581,8 @@
     "foreign_ratio_diff": 0.05000000000000071,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 5.4979015117680525,
-    "price_pos": 0.3658536585365856
+    "vol_ratio": 4.398321209414442,
+    "price_pos": 0.49019607843137275
   },
   {
     "code": "1702",
@@ -2592,8 +2592,8 @@
     "foreign_ratio_diff": 0.019999999999999574,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.6931119370643002,
-    "price_pos": 0.714285714285715
+    "vol_ratio": 0.5544895496514402,
+    "price_pos": 0.08658008658008658
   },
   {
     "code": "6191",
@@ -2603,8 +2603,8 @@
     "foreign_ratio_diff": -0.019999999999999574,
     "trust_ratio_diff": -0.0004005583783794897,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.8346890362238761,
-    "price_pos": 0.43636363636363634
+    "vol_ratio": 0.6677512289791009,
+    "price_pos": 0.869198312236287
   },
   {
     "code": "5283",
@@ -2614,8 +2614,8 @@
     "foreign_ratio_diff": 0.030000000000000027,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.9591346153846148,
-    "price_pos": 0.18404907975460125
+    "vol_ratio": 1.567307692307692,
+    "price_pos": 0.5
   },
   {
     "code": "8249",
@@ -2625,8 +2625,8 @@
     "foreign_ratio_diff": -0.050000000000000044,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.2124737542749362,
-    "price_pos": 0.08163265306122466
+    "vol_ratio": 0.9699790034199489,
+    "price_pos": 0.6502590673575129
   },
   {
     "code": "8222",
@@ -2636,8 +2636,8 @@
     "foreign_ratio_diff": -0.040000000000000036,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.7112492422129895,
-    "price_pos": 0.07035175879397011
+    "vol_ratio": 0.5689993937703915,
+    "price_pos": 0.672566371681416
   },
   {
     "code": "2390",
@@ -2647,8 +2647,8 @@
     "foreign_ratio_diff": 0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.8388635089984323,
-    "price_pos": 0.6557377049180331
+    "vol_ratio": 0.6710908071987458,
+    "price_pos": 0.3448275862068968
   },
   {
     "code": "3031",
@@ -2658,8 +2658,8 @@
     "foreign_ratio_diff": -0.010000000000000231,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.8720653011174382,
-    "price_pos": 0.4090909090909088
+    "vol_ratio": 0.6976522408939505,
+    "price_pos": 0.6020408163265306
   },
   {
     "code": "1597",
@@ -2669,8 +2669,8 @@
     "foreign_ratio_diff": -0.020000000000000018,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.9282337428442784,
-    "price_pos": 0.20535714285714254
+    "vol_ratio": 0.7425869942754229,
+    "price_pos": 0.5
   },
   {
     "code": "6120",
@@ -2680,8 +2680,8 @@
     "foreign_ratio_diff": 0.019999999999999574,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.631607280322485,
-    "price_pos": 0.6800000000000002
+    "vol_ratio": 0.505285824257988,
+    "price_pos": 0.11086956521739133
   },
   {
     "code": "2477",
@@ -2691,8 +2691,8 @@
     "foreign_ratio_diff": 0.019999999999999574,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.9224621546287268,
-    "price_pos": 0.5769230769230766
+    "vol_ratio": 1.5379697237029815,
+    "price_pos": 0.24793388429752064
   },
   {
     "code": "3046",
@@ -2702,8 +2702,8 @@
     "foreign_ratio_diff": -0.03000000000000025,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.5578214616915833,
-    "price_pos": 0.800947867298578
+    "vol_ratio": 0.44625716935326665,
+    "price_pos": 0.967391304347826
   },
   {
     "code": "2305",
@@ -2713,8 +2713,8 @@
     "foreign_ratio_diff": 0.04999999999999982,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.4670556086772966,
-    "price_pos": 0.6666666666666676
+    "vol_ratio": 1.1736444869418372,
+    "price_pos": 0.8156682027649776
   },
   {
     "code": "2010",
@@ -2724,8 +2724,8 @@
     "foreign_ratio_diff": 0.02999999999999936,
     "trust_ratio_diff": -0.0001544031000807397,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.9077158691270814,
-    "price_pos": 0.80952380952381
+    "vol_ratio": 0.7261726953016652,
+    "price_pos": 0.9603960396039606
   },
   {
     "code": "6414",
@@ -2735,8 +2735,8 @@
     "foreign_ratio_diff": -0.41000000000000014,
     "trust_ratio_diff": 0.302458082654232,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.2237005873876956,
-    "price_pos": 0.6938775510204082
+    "vol_ratio": 0.9789604699101564,
+    "price_pos": 0.08651399491094147
   },
   {
     "code": "5880",
@@ -2746,8 +2746,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": -5.101735976539845e-05,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.6361539133477877,
-    "price_pos": 0.681818181818181
+    "vol_ratio": 0.5089231306782301,
+    "price_pos": 0.9585798816568046
   },
   {
     "code": "2354",
@@ -2757,8 +2757,8 @@
     "foreign_ratio_diff": 0.019999999999999574,
     "trust_ratio_diff": -7.069709924545364e-05,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.9717905967407187,
-    "price_pos": 0.032520325203251904
+    "vol_ratio": 0.7774324773925749,
+    "price_pos": 0.015624999999999944
   },
   {
     "code": "1615",
@@ -2768,7 +2768,7 @@
     "foreign_ratio_diff": 0.07000000000000006,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 5.159650927329914,
+    "vol_ratio": 4.127720741863931,
     "price_pos": 1.0
   },
   {
@@ -2779,8 +2779,8 @@
     "foreign_ratio_diff": 0.010000000000000231,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.8230896033108276,
-    "price_pos": 0.25
+    "vol_ratio": 0.6584716826486621,
+    "price_pos": 0.7352941176470589
   },
   {
     "code": "3028",
@@ -2790,8 +2790,8 @@
     "foreign_ratio_diff": 0.049999999999998934,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.8383561351238379,
-    "price_pos": 0.6858638743455499
+    "vol_ratio": 0.6706849080990702,
+    "price_pos": 0.8557692307692308
   },
   {
     "code": "2546",
@@ -2801,8 +2801,8 @@
     "foreign_ratio_diff": 0.03000000000000025,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.113475149089549,
-    "price_pos": 0.6666666666666666
+    "vol_ratio": 2.4907801192716392,
+    "price_pos": 0.9653259361997226
   },
   {
     "code": "2460",
@@ -2812,7 +2812,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.8853910645323824,
+    "vol_ratio": 2.3083128516259057,
     "price_pos": 1.0
   },
   {
@@ -2823,8 +2823,8 @@
     "foreign_ratio_diff": 0.07000000000000028,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 6.833453207458324,
-    "price_pos": 0.7824675324675325
+    "vol_ratio": 5.466762565966659,
+    "price_pos": 0.8455497382198953
   },
   {
     "code": "2836",
@@ -2834,8 +2834,8 @@
     "foreign_ratio_diff": -0.019999999999999574,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.0142835599299698,
-    "price_pos": 0.6000000000000014
+    "vol_ratio": 0.8114268479439758,
+    "price_pos": 0.9137931034482761
   },
   {
     "code": "2348",
@@ -2845,8 +2845,8 @@
     "foreign_ratio_diff": -0.010000000000000009,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.6096062499407432,
-    "price_pos": 0.601851851851852
+    "vol_ratio": 0.48768499995259446,
+    "price_pos": 0.9292763157894737
   },
   {
     "code": "2633",
@@ -2856,8 +2856,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": -7.106950471092539e-05,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.671070135707151,
-    "price_pos": 0.5294117647058817
+    "vol_ratio": 0.5368561085657207,
+    "price_pos": 0.8558558558558558
   },
   {
     "code": "1603",
@@ -2867,8 +2867,8 @@
     "foreign_ratio_diff": 0.1299999999999999,
     "trust_ratio_diff": -0.0010433621301281504,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.4192794161708684,
-    "price_pos": 0.2857142857142857
+    "vol_ratio": 2.7354235329366943,
+    "price_pos": 0.7695852534562212
   },
   {
     "code": "2492",
@@ -2878,7 +2878,7 @@
     "foreign_ratio_diff": 0.2900000000000009,
     "trust_ratio_diff": -0.00020584400432425813,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.1227642103309416,
+    "vol_ratio": 0.8982113682647532,
     "price_pos": 0.5034642032332564
   },
   {
@@ -2889,8 +2889,8 @@
     "foreign_ratio_diff": 0.030000000000001137,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.2035428786673923,
-    "price_pos": 0.3484848484848485
+    "vol_ratio": 0.9628343029339137,
+    "price_pos": 0.1385542168674699
   },
   {
     "code": "6202",
@@ -2900,8 +2900,8 @@
     "foreign_ratio_diff": -0.05999999999999961,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.9872908521374022,
-    "price_pos": 0.1610169491525417
+    "vol_ratio": 1.5898326817099218,
+    "price_pos": 0.024611398963730463
   },
   {
     "code": "1612",
@@ -2911,8 +2911,8 @@
     "foreign_ratio_diff": 0.07000000000000028,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.3050767649882666,
-    "price_pos": 0.1574803149606299
+    "vol_ratio": 2.6440614119906134,
+    "price_pos": 0.8213689482470784
   },
   {
     "code": "6153",
@@ -2922,8 +2922,8 @@
     "foreign_ratio_diff": 0.07000000000000028,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.2656934632657124,
-    "price_pos": 0.6428571428571433
+    "vol_ratio": 1.01255477061257,
+    "price_pos": 0.05891980360065469
   },
   {
     "code": "4119",
@@ -2933,7 +2933,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.7095350877414119,
+    "vol_ratio": 0.5676280701931294,
     "price_pos": 0.15000000000000022
   },
   {
@@ -2944,8 +2944,8 @@
     "foreign_ratio_diff": 0.020000000000000018,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.8173442229498011,
-    "price_pos": 0.6774193548387099
+    "vol_ratio": 1.4538753783598408,
+    "price_pos": 0.8863636363636364
   },
   {
     "code": "3062",
@@ -2955,8 +2955,8 @@
     "foreign_ratio_diff": -0.04999999999999982,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.053092582388331,
-    "price_pos": 0.10236220472440925
+    "vol_ratio": 0.8424740659106648,
+    "price_pos": 0.5086206896551724
   },
   {
     "code": "4588",
@@ -2966,8 +2966,8 @@
     "foreign_ratio_diff": 0.020000000000000462,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.196936583197511,
-    "price_pos": 0.25384615384615417
+    "vol_ratio": 0.9575492665580086,
+    "price_pos": 0.5
   },
   {
     "code": "5706",
@@ -2977,8 +2977,8 @@
     "foreign_ratio_diff": 0.020000000000000018,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.1236360255933537,
-    "price_pos": 0.20000000000000034
+    "vol_ratio": 0.898908820474683,
+    "price_pos": 0.8229166666666667
   },
   {
     "code": "3149",
@@ -2988,8 +2988,8 @@
     "foreign_ratio_diff": -0.04999999999999982,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.0900070368504786,
-    "price_pos": 0.0
+    "vol_ratio": 2.472005629480383,
+    "price_pos": 0.47600767754318607
   },
   {
     "code": "4104",
@@ -2999,8 +2999,8 @@
     "foreign_ratio_diff": 0.029999999999999805,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.91225337422858,
-    "price_pos": 0.2909090909090899
+    "vol_ratio": 1.529802699382864,
+    "price_pos": 0.9037037037037036
   },
   {
     "code": "2062",
@@ -3010,8 +3010,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.7644166366509775,
-    "price_pos": 0.4249999999999998
+    "vol_ratio": 1.411533309320782,
+    "price_pos": 0.09941520467836253
   },
   {
     "code": "1434",
@@ -3021,8 +3021,8 @@
     "foreign_ratio_diff": -0.03000000000000025,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.0083741549496157,
-    "price_pos": 0.4680851063829786
+    "vol_ratio": 0.8066993239596927,
+    "price_pos": 0.0705128205128205
   },
   {
     "code": "6962",
@@ -3032,8 +3032,8 @@
     "foreign_ratio_diff": 0.020000000000003126,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.21177595325585,
-    "price_pos": 0.08275862068965537
+    "vol_ratio": 0.96942076260468,
+    "price_pos": 0.5
   },
   {
     "code": "8081",
@@ -3043,8 +3043,8 @@
     "foreign_ratio_diff": 0.019999999999999574,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.10794856100382,
-    "price_pos": 0.2878787878787879
+    "vol_ratio": 0.8863588488030557,
+    "price_pos": 0.8595337716676629
   },
   {
     "code": "0056",
@@ -3065,8 +3065,8 @@
     "foreign_ratio_diff": -0.07000000000000028,
     "trust_ratio_diff": 0.013851422423555679,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.7697607700541318,
-    "price_pos": 0.39215686274509803
+    "vol_ratio": 0.6158086160433055,
+    "price_pos": 0.8413104683900691
   },
   {
     "code": "2428",
@@ -3076,8 +3076,8 @@
     "foreign_ratio_diff": 0.0600000000000005,
     "trust_ratio_diff": -0.033564190961013374,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.2258169251479756,
-    "price_pos": 0.175
+    "vol_ratio": 0.9806535401183804,
+    "price_pos": 0.7254575707154742
   },
   {
     "code": "6862",
@@ -3087,8 +3087,8 @@
     "foreign_ratio_diff": -0.030000000000001137,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.4497340113606254,
-    "price_pos": 0.096
+    "vol_ratio": 1.1597872090885004,
+    "price_pos": 0.5
   },
   {
     "code": "4952",
@@ -3098,8 +3098,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.9516399684847354,
-    "price_pos": 0.09448818897637816
+    "vol_ratio": 1.5613119747877884,
+    "price_pos": 0.030927835051546466
   },
   {
     "code": "6205",
@@ -3109,7 +3109,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.4041568800431548,
+    "vol_ratio": 1.1233255040345238,
     "price_pos": 1.0
   },
   {
@@ -3120,7 +3120,7 @@
     "foreign_ratio_diff": 0.04999999999999982,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.0164107081306728,
+    "vol_ratio": 0.8131285665045382,
     "price_pos": 0.08695652173913014
   },
   {
@@ -3131,8 +3131,8 @@
     "foreign_ratio_diff": 0.010000000000000009,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.2463367409543986,
-    "price_pos": 0.03759398496240602
+    "vol_ratio": 2.597069392763518,
+    "price_pos": 0.7911908646003263
   },
   {
     "code": "3528",
@@ -3142,8 +3142,8 @@
     "foreign_ratio_diff": 0.040000000000000036,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.2782231215712803,
-    "price_pos": 0.16083916083916067
+    "vol_ratio": 1.822578497257024,
+    "price_pos": 0.7342192691029901
   },
   {
     "code": "2033",
@@ -3153,8 +3153,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.7926734914750106,
-    "price_pos": 0.03875968992248063
+    "vol_ratio": 2.234138793180009,
+    "price_pos": 0.514866979655712
   },
   {
     "code": "1524",
@@ -3164,8 +3164,8 @@
     "foreign_ratio_diff": 0.06000000000000005,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.7087553495628747,
-    "price_pos": 0.24637681159420285
+    "vol_ratio": 0.5670042796502996,
+    "price_pos": 0.7614678899082571
   },
   {
     "code": "8104",
@@ -3175,8 +3175,8 @@
     "foreign_ratio_diff": 0.040000000000000036,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.4607098526268375,
-    "price_pos": 0.41618497109826613
+    "vol_ratio": 0.36856788210147,
+    "price_pos": 0.5
   },
   {
     "code": "7786",
@@ -3186,7 +3186,7 @@
     "foreign_ratio_diff": -0.010000000000000009,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.8174615852102367,
+    "vol_ratio": 1.4539692681681895,
     "price_pos": 0.5
   },
   {
@@ -3197,8 +3197,8 @@
     "foreign_ratio_diff": 0.029999999999999805,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.2324539957891045,
-    "price_pos": 0.31818181818181795
+    "vol_ratio": 1.785963196631284,
+    "price_pos": 0.10769230769230762
   },
   {
     "code": "2351",
@@ -3208,7 +3208,7 @@
     "foreign_ratio_diff": 0.019999999999999574,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.276828696885012,
+    "vol_ratio": 1.0214629575080096,
     "price_pos": 0.03940886699507376
   },
   {
@@ -3219,8 +3219,8 @@
     "foreign_ratio_diff": -0.03000000000000025,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.8569950775691805,
-    "price_pos": 0.5703703703703705
+    "vol_ratio": 0.6855960620553445,
+    "price_pos": 0.8152866242038217
   },
   {
     "code": "2331",
@@ -3230,8 +3230,8 @@
     "foreign_ratio_diff": 0.019999999999999574,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.0736449238800332,
-    "price_pos": 0.5038167938931298
+    "vol_ratio": 0.8589159391040264,
+    "price_pos": 0.5075757575757577
   },
   {
     "code": "2029",
@@ -3241,8 +3241,8 @@
     "foreign_ratio_diff": 0.009999999999990905,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.6964243571375787,
-    "price_pos": 0.4255319148936174
+    "vol_ratio": 0.5571394857100629,
+    "price_pos": 0.12195121951219513
   },
   {
     "code": "6230",
@@ -3252,8 +3252,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.5865763443821965,
-    "price_pos": 0.23529411764705882
+    "vol_ratio": 0.46926107550575724,
+    "price_pos": 0.4217081850533808
   },
   {
     "code": "2330",
@@ -3263,7 +3263,7 @@
     "foreign_ratio_diff": 0.010000000000005116,
     "trust_ratio_diff": 0.001565601527422536,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.9584158572585647,
+    "vol_ratio": 0.7667326858068518,
     "price_pos": 1.0
   },
   {
@@ -3274,8 +3274,8 @@
     "foreign_ratio_diff": 0.02000000000000135,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.007646832348034,
-    "price_pos": 0.9375000000000006
+    "vol_ratio": 0.8061174658784274,
+    "price_pos": 0.9827586206896554
   },
   {
     "code": "1103",
@@ -3285,8 +3285,8 @@
     "foreign_ratio_diff": -0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.6947344063059313,
-    "price_pos": 0.8214285714285715
+    "vol_ratio": 0.555787525044745,
+    "price_pos": 0.8837209302325582
   },
   {
     "code": "3346",
@@ -3296,8 +3296,8 @@
     "foreign_ratio_diff": 0.050000000000000266,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.0299993691764784,
-    "price_pos": 0.2173913043478262
+    "vol_ratio": 1.623999495341183,
+    "price_pos": 0.01855287569573284
   },
   {
     "code": "1568",
@@ -3307,8 +3307,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.8417674341560377,
-    "price_pos": 0.6999999999999993
+    "vol_ratio": 1.47341394732483,
+    "price_pos": 0.09756097560975599
   },
   {
     "code": "1339",
@@ -3318,7 +3318,7 @@
     "foreign_ratio_diff": 0.020000000000000018,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.7729498303906985,
+    "vol_ratio": 3.0183598643125586,
     "price_pos": 0.6153846153846151
   },
   {
@@ -3329,7 +3329,7 @@
     "foreign_ratio_diff": 0.09999999999999987,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.8805640820782025,
+    "vol_ratio": 0.7044512656625619,
     "price_pos": 0.7156862745098039
   },
   {
@@ -3340,7 +3340,7 @@
     "foreign_ratio_diff": 0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.347685994489052,
+    "vol_ratio": 3.478148795591242,
     "price_pos": 1.0
   },
   {
@@ -3351,7 +3351,7 @@
     "foreign_ratio_diff": 0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.30597476328519535,
+    "vol_ratio": 0.24477981062815626,
     "price_pos": 1.0
   },
   {
@@ -3362,8 +3362,8 @@
     "foreign_ratio_diff": -0.02000000000000135,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.6067135904067849,
-    "price_pos": 0.28350515463917525
+    "vol_ratio": 0.4853708723254279,
+    "price_pos": 0.5
   },
   {
     "code": "2415",
@@ -3373,7 +3373,7 @@
     "foreign_ratio_diff": 0.019999999999999574,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.5929659758623609,
+    "vol_ratio": 1.2743727806898888,
     "price_pos": 0.5714285714285714
   },
   {
@@ -3384,8 +3384,8 @@
     "foreign_ratio_diff": 0.14000000000000057,
     "trust_ratio_diff": -0.20435705918125024,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.570610720454337,
-    "price_pos": 0.39999999999999986
+    "vol_ratio": 2.85648857636347,
+    "price_pos": 0.7599999999999999
   },
   {
     "code": "3533",
@@ -3395,8 +3395,8 @@
     "foreign_ratio_diff": -0.07000000000000028,
     "trust_ratio_diff": -0.02665844614973034,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.6106313899283535,
-    "price_pos": 0.3253012048192771
+    "vol_ratio": 0.4885051119426829,
+    "price_pos": 0.7980526505589615
   },
   {
     "code": "2228",
@@ -3406,8 +3406,8 @@
     "foreign_ratio_diff": 0.3099999999999996,
     "trust_ratio_diff": -0.0012573659799691994,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.7714516753894228,
-    "price_pos": 0.8584905660377359
+    "vol_ratio": 0.6171613403115381,
+    "price_pos": 0.801762114537445
   },
   {
     "code": "3010",
@@ -3417,8 +3417,8 @@
     "foreign_ratio_diff": -0.05999999999999872,
     "trust_ratio_diff": 0.06552655169216026,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.0720138254907992,
-    "price_pos": 0.6875000000000001
+    "vol_ratio": 0.8576110603926391,
+    "price_pos": 0.8549618320610687
   },
   {
     "code": "8112",
@@ -3428,8 +3428,8 @@
     "foreign_ratio_diff": 0.20000000000000107,
     "trust_ratio_diff": -0.0019059886227252298,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.4032201555490507,
-    "price_pos": 0.8482023968042609
+    "vol_ratio": 1.9225761244392403,
+    "price_pos": 0.8869047619047619
   },
   {
     "code": "2397",
@@ -3439,7 +3439,7 @@
     "foreign_ratio_diff": 0.02000000000000135,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.7612883788595994,
+    "vol_ratio": 1.4090307030876794,
     "price_pos": 0.12499999999999992
   },
   {
@@ -3450,8 +3450,8 @@
     "foreign_ratio_diff": 0.03000000000000025,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.2306151464655715,
-    "price_pos": 0.6750000000000007
+    "vol_ratio": 1.784492117172457,
+    "price_pos": 0.18243243243243265
   },
   {
     "code": "4306",
@@ -3461,7 +3461,7 @@
     "foreign_ratio_diff": 0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.8786262498048384,
+    "vol_ratio": 0.7029009998438708,
     "price_pos": 0.8965517241379308
   },
   {
@@ -3472,8 +3472,8 @@
     "foreign_ratio_diff": 0.010000000000000009,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.0734124575036426,
-    "price_pos": 0.14754098360655613
+    "vol_ratio": 0.8587299660029141,
+    "price_pos": 0.019823788546255317
   },
   {
     "code": "4566",
@@ -3483,8 +3483,8 @@
     "foreign_ratio_diff": 0.09000000000000008,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.950956270138251,
-    "price_pos": 0.7840909090909092
+    "vol_ratio": 0.7607650161106009,
+    "price_pos": 0.5
   },
   {
     "code": "3712",
@@ -3494,8 +3494,8 @@
     "foreign_ratio_diff": -0.030000000000000027,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.4249565558281057,
-    "price_pos": 0.020000000000000042
+    "vol_ratio": 1.9399652446624844,
+    "price_pos": 0.5
   },
   {
     "code": "2462",
@@ -3505,8 +3505,8 @@
     "foreign_ratio_diff": 0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.5003873271526691,
-    "price_pos": 0.3953488372093021
+    "vol_ratio": 0.40030986172213523,
+    "price_pos": 0.1837837837837837
   },
   {
     "code": "6216",
@@ -3516,8 +3516,8 @@
     "foreign_ratio_diff": 0.020000000000000018,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.157706138896682,
-    "price_pos": 0.4565217391304341
+    "vol_ratio": 0.9261649111173456,
+    "price_pos": 0.3818181818181808
   },
   {
     "code": "9955",
@@ -3527,8 +3527,8 @@
     "foreign_ratio_diff": 0.2999999999999998,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.0058837152760287,
-    "price_pos": 0.9135802469135808
+    "vol_ratio": 0.804706972220823,
+    "price_pos": 0.9805555555555555
   },
   {
     "code": "1438",
@@ -3538,8 +3538,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.5245909942764522,
-    "price_pos": 0.13095238095238187
+    "vol_ratio": 1.2196727954211617,
+    "price_pos": 0.8875192604006162
   },
   {
     "code": "0055",
@@ -3560,8 +3560,8 @@
     "foreign_ratio_diff": -0.0600000000000005,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.214624066517861,
-    "price_pos": 0.104972375690608
+    "vol_ratio": 0.9716992532142887,
+    "price_pos": 0.08189655172413816
   },
   {
     "code": "4137",
@@ -3571,8 +3571,8 @@
     "foreign_ratio_diff": -0.00999999999999801,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.1271856989950495,
-    "price_pos": 0.37500000000000056
+    "vol_ratio": 0.9017485591960399,
+    "price_pos": 0.04411764705882363
   },
   {
     "code": "8404",
@@ -3582,8 +3582,8 @@
     "foreign_ratio_diff": 0.01999999999999602,
     "trust_ratio_diff": -0.00023813272472197888,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.0330939079542432,
-    "price_pos": 0.023809523809523305
+    "vol_ratio": 0.8264751263633945,
+    "price_pos": 0.002433090024330848
   },
   {
     "code": "2436",
@@ -3593,8 +3593,8 @@
     "foreign_ratio_diff": 0.16000000000000014,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.0554251206804994,
-    "price_pos": 0.5119617224880383
+    "vol_ratio": 0.8443400965443993,
+    "price_pos": 0.7838983050847457
   },
   {
     "code": "2838",
@@ -3604,8 +3604,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": -0.001013696005491227,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.8454254527582064,
-    "price_pos": 0.6956521739130439
+    "vol_ratio": 1.476340362206565,
+    "price_pos": 0.9362477231329691
   },
   {
     "code": "8454",
@@ -3615,7 +3615,7 @@
     "foreign_ratio_diff": -0.15000000000000036,
     "trust_ratio_diff": 0.0550994805081342,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.9560441235141777,
+    "vol_ratio": 1.564835298811342,
     "price_pos": 0.0
   },
   {
@@ -3626,8 +3626,8 @@
     "foreign_ratio_diff": 0.010000000000000231,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.8856867320980683,
-    "price_pos": 0.8487394957983194
+    "vol_ratio": 0.7085493856784546,
+    "price_pos": 0.9566265060240965
   },
   {
     "code": "5215",
@@ -3637,8 +3637,8 @@
     "foreign_ratio_diff": 0.00999999999999801,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.8460447415967667,
-    "price_pos": 0.21276595744680837
+    "vol_ratio": 3.076835793277413,
+    "price_pos": 0.6132404181184666
   },
   {
     "code": "2538",
@@ -3648,8 +3648,8 @@
     "foreign_ratio_diff": -0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.6676809854270683,
-    "price_pos": 0.9473684210526309
+    "vol_ratio": 0.5341447883416547,
+    "price_pos": 0.9629629629629625
   },
   {
     "code": "3703",
@@ -3659,8 +3659,8 @@
     "foreign_ratio_diff": 0.010000000000001563,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.5998202651231179,
-    "price_pos": 0.9615384615384623
+    "vol_ratio": 0.4798562120984944,
+    "price_pos": 0.9867549668874175
   },
   {
     "code": "2820",
@@ -3670,8 +3670,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.234742350774193,
-    "price_pos": 0.9285714285714275
+    "vol_ratio": 0.9877938806193545,
+    "price_pos": 0.971428571428571
   },
   {
     "code": "6743",
@@ -3681,8 +3681,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.9972155709445697,
-    "price_pos": 0.16091954022988483
+    "vol_ratio": 0.7977724567556558,
+    "price_pos": 0.5
   },
   {
     "code": "4540",
@@ -3692,8 +3692,8 @@
     "foreign_ratio_diff": 0.03000000000000025,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.2137210121927806,
-    "price_pos": 0.21249999999999947
+    "vol_ratio": 0.9709768097542245,
+    "price_pos": 0.5
   },
   {
     "code": "1776",
@@ -3703,8 +3703,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.34389964202766116,
-    "price_pos": 0.7586206896551716
+    "vol_ratio": 0.27511971362212895,
+    "price_pos": 0.16666666666666663
   },
   {
     "code": "7730",
@@ -3714,7 +3714,7 @@
     "foreign_ratio_diff": -0.030000000000000027,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.739826911272483,
+    "vol_ratio": 1.3918615290179863,
     "price_pos": 0.5
   },
   {
@@ -3725,8 +3725,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.6570696667883402,
-    "price_pos": 0.024154589371980673
+    "vol_ratio": 0.5256557334306722,
+    "price_pos": 0.5
   },
   {
     "code": "2543",
@@ -3736,8 +3736,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.6625302756092221,
-    "price_pos": 0.22641509433962276
+    "vol_ratio": 0.5300242204873776,
+    "price_pos": 0.8140308436649532
   },
   {
     "code": "2032",
@@ -3747,8 +3747,8 @@
     "foreign_ratio_diff": 0.020000000000000018,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.859124769823113,
-    "price_pos": 0.8333333333333326
+    "vol_ratio": 3.0872998158584903,
+    "price_pos": 0.9583333333333331
   },
   {
     "code": "2069",
@@ -3758,8 +3758,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.456075964935505,
-    "price_pos": 1.0
+    "vol_ratio": 1.164860771948404,
+    "price_pos": 0.3404255319148936
   },
   {
     "code": "6715",
@@ -3769,8 +3769,8 @@
     "foreign_ratio_diff": 0.040000000000000036,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.004493780681358,
-    "price_pos": 0.9489795918367346
+    "vol_ratio": 3.203595024545086,
+    "price_pos": 0.5
   },
   {
     "code": "6552",
@@ -3780,8 +3780,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.7534803016930113,
-    "price_pos": 0.23584905660377356
+    "vol_ratio": 0.6027842413544091,
+    "price_pos": 0.04930966469428008
   },
   {
     "code": "2433",
@@ -3791,8 +3791,8 @@
     "foreign_ratio_diff": -0.010000000000000009,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.6745652334485049,
-    "price_pos": 0.12500000000000167
+    "vol_ratio": 0.539652186758804,
+    "price_pos": 0.7666666666666669
   },
   {
     "code": "1456",
@@ -3802,8 +3802,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.025368779134160146,
-    "price_pos": 0.6451612903225803
+    "vol_ratio": 0.020295023307328117,
+    "price_pos": 0.8253968253968252
   },
   {
     "code": "8215",
@@ -3813,8 +3813,8 @@
     "foreign_ratio_diff": -0.010000000000000009,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.4055920924125818,
-    "price_pos": 0.04807692307692309
+    "vol_ratio": 1.1244736739300654,
+    "price_pos": 0.15384615384615416
   },
   {
     "code": "8476",
@@ -3824,8 +3824,8 @@
     "foreign_ratio_diff": 0.010000000000000009,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.0333766084798433,
-    "price_pos": 0.3269230769230773
+    "vol_ratio": 0.8267012867838746,
+    "price_pos": 0.5
   },
   {
     "code": "7721",
@@ -3835,8 +3835,8 @@
     "foreign_ratio_diff": 0.010000000000000009,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.883520926950108,
-    "price_pos": 0.22318840579710153
+    "vol_ratio": 3.106816741560088,
+    "price_pos": 0.5
   },
   {
     "code": "2611",
@@ -3846,8 +3846,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.2250716645151492,
-    "price_pos": 0.22580645161290405
+    "vol_ratio": 0.9800573316121194,
+    "price_pos": 0.8660714285714286
   },
   {
     "code": "2545",
@@ -3857,8 +3857,8 @@
     "foreign_ratio_diff": 0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.7585182968292553,
-    "price_pos": 0.35000000000000053
+    "vol_ratio": 0.6068146374634042,
+    "price_pos": 0.6474576271186443
   },
   {
     "code": "2030",
@@ -3868,8 +3868,8 @@
     "foreign_ratio_diff": 0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.5879048560304305,
-    "price_pos": 0.6999999999999993
+    "vol_ratio": 2.0703238848243446,
+    "price_pos": 0.24137931034482746
   },
   {
     "code": "6024",
@@ -3879,8 +3879,8 @@
     "foreign_ratio_diff": -0.010000000000000231,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.0481652879941372,
-    "price_pos": 0.8630136986301369
+    "vol_ratio": 0.8385322303953098,
+    "price_pos": 0.9354838709677419
   },
   {
     "code": "5607",
@@ -3890,8 +3890,8 @@
     "foreign_ratio_diff": -0.020000000000000018,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.834089237558225,
-    "price_pos": 0.4563106796116503
+    "vol_ratio": 0.66727139004658,
+    "price_pos": 0.9181286549707601
   },
   {
     "code": "3051",
@@ -3901,8 +3901,8 @@
     "foreign_ratio_diff": -0.020000000000000018,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.212326923867675,
-    "price_pos": 0.09999999999999984
+    "vol_ratio": 0.9698615390941395,
+    "price_pos": 0.7650812064965197
   },
   {
     "code": "2493",
@@ -3912,8 +3912,8 @@
     "foreign_ratio_diff": 0.3599999999999999,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.613230331662167,
-    "price_pos": 0.9809885931558935
+    "vol_ratio": 3.6905842653297336,
+    "price_pos": 0.9942462600690449
   },
   {
     "code": "1533",
@@ -3923,8 +3923,8 @@
     "foreign_ratio_diff": 0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.064748822311041,
-    "price_pos": 0.2941176470588234
+    "vol_ratio": 0.8517990578488328,
+    "price_pos": 0.21621621621621623
   },
   {
     "code": "8940",
@@ -3934,7 +3934,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.0178201715468798,
+    "vol_ratio": 0.8142561372375039,
     "price_pos": 0.25
   },
   {
@@ -3945,8 +3945,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.7007756457825366,
-    "price_pos": 0.5625
+    "vol_ratio": 0.56062051662603,
+    "price_pos": 0.05232558139534884
   },
   {
     "code": "6283",
@@ -3956,8 +3956,8 @@
     "foreign_ratio_diff": -0.019999999999999574,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.7614169020894611,
-    "price_pos": 0.5079365079365075
+    "vol_ratio": 0.6091335216715686,
+    "price_pos": 0.06311637080867842
   },
   {
     "code": "1714",
@@ -3967,8 +3967,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.5745020392723037,
-    "price_pos": 0.5846153846153855
+    "vol_ratio": 1.2596016314178426,
+    "price_pos": 0.13718411552346602
   },
   {
     "code": "9933",
@@ -3978,8 +3978,8 @@
     "foreign_ratio_diff": 0.0600000000000005,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.3334154157576545,
-    "price_pos": 0.35238095238095263
+    "vol_ratio": 1.0667323326061238,
+    "price_pos": 0.12457912457912466
   },
   {
     "code": "2527",
@@ -3989,8 +3989,8 @@
     "foreign_ratio_diff": -0.00999999999999801,
     "trust_ratio_diff": -0.00012097400723624224,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.1468659551566915,
-    "price_pos": 0.9276315789473688
+    "vol_ratio": 0.9174927641253533,
+    "price_pos": 0.9411764705882356
   },
   {
     "code": "4532",
@@ -4000,8 +4000,8 @@
     "foreign_ratio_diff": -0.019999999999999574,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.7727534594172717,
-    "price_pos": 0.8269230769230771
+    "vol_ratio": 0.6182027675338173,
+    "price_pos": 0.31617647058823506
   },
   {
     "code": "8462",
@@ -4011,8 +4011,8 @@
     "foreign_ratio_diff": 0.020000000000000018,
     "trust_ratio_diff": -0.0012611602752724443,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.6656315553629644,
-    "price_pos": 0.08695652173913043
+    "vol_ratio": 1.3325052442903713,
+    "price_pos": 0.5
   },
   {
     "code": "3029",
@@ -4022,8 +4022,8 @@
     "foreign_ratio_diff": -0.040000000000000036,
     "trust_ratio_diff": 0.059878370742105946,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.2026760379452415,
-    "price_pos": 0.17647058823529413
+    "vol_ratio": 1.7621408303561932,
+    "price_pos": 0.8672985781990521
   },
   {
     "code": "4720",
@@ -4033,7 +4033,7 @@
     "foreign_ratio_diff": -0.03999999999999915,
     "trust_ratio_diff": -0.0004436059903120959,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.712485694936669,
+    "vol_ratio": 0.5699885559493352,
     "price_pos": 0.7777777777777778
   },
   {
@@ -4044,8 +4044,8 @@
     "foreign_ratio_diff": 0.08000000000000007,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.8814925100943944,
-    "price_pos": 0.1485148514851485
+    "vol_ratio": 0.7051940080755155,
+    "price_pos": 0.6736242884250474
   },
   {
     "code": "6176",
@@ -4055,8 +4055,8 @@
     "foreign_ratio_diff": 0.120000000000001,
     "trust_ratio_diff": -0.2918583721832242,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.242959681061269,
-    "price_pos": 0.5
+    "vol_ratio": 0.9943677448490152,
+    "price_pos": 0.803921568627451
   },
   {
     "code": "1217",
@@ -4066,8 +4066,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.6033350401136252,
-    "price_pos": 0.9000000000000021
+    "vol_ratio": 0.48266803209090015,
+    "price_pos": 0.9840764331210194
   },
   {
     "code": "3714",
@@ -4077,8 +4077,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.9674556599978977,
-    "price_pos": 0.24324324324324326
+    "vol_ratio": 0.7739645279983182,
+    "price_pos": 0.5
   },
   {
     "code": "1338",
@@ -4088,8 +4088,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.2042531870031365,
-    "price_pos": 0.31818181818181795
+    "vol_ratio": 0.9634025496025096,
+    "price_pos": 0.0074866310160427735
   },
   {
     "code": "6835",
@@ -4099,8 +4099,8 @@
     "foreign_ratio_diff": 0.03000000000000025,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.2651770192957537,
-    "price_pos": 0.25490196078431343
+    "vol_ratio": 1.012141615436603,
+    "price_pos": 0.5
   },
   {
     "code": "9927",
@@ -4110,8 +4110,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.6640615569093586,
-    "price_pos": 0.9034090909090907
+    "vol_ratio": 0.531249245527487,
+    "price_pos": 0.945337620578778
   },
   {
     "code": "3705",
@@ -4121,8 +4121,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.6696330417358116,
-    "price_pos": 0.47916666666666635
+    "vol_ratio": 0.5357064333886493,
+    "price_pos": 0.8708010335917312
   },
   {
     "code": "2429",
@@ -4132,8 +4132,8 @@
     "foreign_ratio_diff": 0.040000000000000036,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.7190149332178716,
-    "price_pos": 0.10108303249097488
+    "vol_ratio": 0.5752119465742974,
+    "price_pos": 0.5705045278137129
   },
   {
     "code": "6141",
@@ -4143,8 +4143,8 @@
     "foreign_ratio_diff": 0.020000000000000018,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.3731453697559592,
-    "price_pos": 0.3076923076923076
+    "vol_ratio": 1.8985162958047672,
+    "price_pos": 0.09599999999999995
   },
   {
     "code": "2444",
@@ -4154,8 +4154,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.6543235460210629,
-    "price_pos": 0.7333333333333331
+    "vol_ratio": 0.5234588368168503,
+    "price_pos": 0.03722504230118442
   },
   {
     "code": "1218",
@@ -4165,8 +4165,8 @@
     "foreign_ratio_diff": 0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.4404092384501046,
-    "price_pos": 0.09375000000000125
+    "vol_ratio": 1.1523273907600837,
+    "price_pos": 0.4629629629629631
   },
   {
     "code": "1475",
@@ -4176,7 +4176,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.36158526069276,
+    "vol_ratio": 1.089268208554208,
     "price_pos": 0.0
   },
   {
@@ -4187,8 +4187,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.3670298247334787,
-    "price_pos": 0.14285714285714432
+    "vol_ratio": 1.093623859786783,
+    "price_pos": 0.00327868852459021
   },
   {
     "code": "3308",
@@ -4198,8 +4198,8 @@
     "foreign_ratio_diff": 0.010000000000000009,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.3868317676317717,
-    "price_pos": 0.6744186046511632
+    "vol_ratio": 0.3094654141054174,
+    "price_pos": 0.9171597633136096
   },
   {
     "code": "9136",
@@ -4209,8 +4209,8 @@
     "foreign_ratio_diff": -0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.5040436854054862,
-    "price_pos": 0.9197530864197532
+    "vol_ratio": 0.40323494832438894,
+    "price_pos": 0.7801047120418849
   },
   {
     "code": "6416",
@@ -4220,8 +4220,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.382295312199154,
-    "price_pos": 0.8760330578512396
+    "vol_ratio": 1.9058362497593238,
+    "price_pos": 0.5
   },
   {
     "code": "4930",
@@ -4231,8 +4231,8 @@
     "foreign_ratio_diff": 0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.1864046884289805,
-    "price_pos": 0.2368421052631577
+    "vol_ratio": 0.9491237507431842,
+    "price_pos": 0.8651162790697675
   },
   {
     "code": "4994",
@@ -4242,8 +4242,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.6611468381564846,
-    "price_pos": 0.45569620253164633
+    "vol_ratio": 0.5289174705251876,
+    "price_pos": 0.9126016260162603
   },
   {
     "code": "1309",
@@ -4253,8 +4253,8 @@
     "foreign_ratio_diff": -0.040000000000000036,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.1169200492862552,
-    "price_pos": 0.386363636363636
+    "vol_ratio": 0.8935360394290042,
+    "price_pos": 0.232876712328767
   },
   {
     "code": "3501",
@@ -4264,8 +4264,8 @@
     "foreign_ratio_diff": 0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.0197365727434267,
-    "price_pos": 0.31538461538461493
+    "vol_ratio": 0.8157892581947412,
+    "price_pos": 0.17672413793103434
   },
   {
     "code": "3229",
@@ -4275,7 +4275,7 @@
     "foreign_ratio_diff": 0.019999999999999962,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.2924312492967478,
+    "vol_ratio": 1.0339449994373981,
     "price_pos": 0.918918918918919
   },
   {
@@ -4286,8 +4286,8 @@
     "foreign_ratio_diff": 0.019999999999999907,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 14.876557074805106,
-    "price_pos": 0.9210526315789472
+    "vol_ratio": 11.901245659844085,
+    "price_pos": 0.5
   },
   {
     "code": "7705",
@@ -4297,8 +4297,8 @@
     "foreign_ratio_diff": 0.010000000000000009,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.788864140409911,
-    "price_pos": 0.01960784313725381
+    "vol_ratio": 2.231091312327929,
+    "price_pos": 0.5
   },
   {
     "code": "1460",
@@ -4308,8 +4308,8 @@
     "foreign_ratio_diff": 0.029999999999999805,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.8060049271815606,
-    "price_pos": 1.0
+    "vol_ratio": 2.2448039417452486,
+    "price_pos": 0.09892729439809297
   },
   {
     "code": "1909",
@@ -4319,8 +4319,8 @@
     "foreign_ratio_diff": 0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.6331252064342564,
-    "price_pos": 0.3378995433789956
+    "vol_ratio": 0.506500165147405,
+    "price_pos": 0.024592888002658696
   },
   {
     "code": "3605",
@@ -4330,8 +4330,8 @@
     "foreign_ratio_diff": 0.10999999999999943,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.119887057387057,
-    "price_pos": 0.0
+    "vol_ratio": 1.6959096459096459,
+    "price_pos": 0.728952772073922
   },
   {
     "code": "9934",
@@ -4341,8 +4341,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.4790431350088718,
-    "price_pos": 0.5175438596491224
+    "vol_ratio": 0.3832345080070974,
+    "price_pos": 0.043898809523809514
   },
   {
     "code": "5471",
@@ -4352,7 +4352,7 @@
     "foreign_ratio_diff": 0.05000000000000071,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.7905328222500756,
+    "vol_ratio": 0.6324262578000605,
     "price_pos": 0.01724137931034506
   },
   {
@@ -4363,8 +4363,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.1273720093990316,
-    "price_pos": 0.5272727272727274
+    "vol_ratio": 0.9018976075192253,
+    "price_pos": 0.22774869109947649
   },
   {
     "code": "2515",
@@ -4374,8 +4374,8 @@
     "foreign_ratio_diff": 0.08000000000000007,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.5391664020741416,
-    "price_pos": 0.43703703703703695
+    "vol_ratio": 1.2313331216593133,
+    "price_pos": 0.5887445887445887
   },
   {
     "code": "2401",
@@ -4385,8 +4385,8 @@
     "foreign_ratio_diff": 0.049999999999998934,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.135769236413263,
-    "price_pos": 0.1860465116279071
+    "vol_ratio": 0.9086153891306105,
+    "price_pos": 0.5138888888888888
   },
   {
     "code": "1473",
@@ -4396,8 +4396,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.38636232414018684,
-    "price_pos": 0.10588235294117668
+    "vol_ratio": 0.30908985931214944,
+    "price_pos": 0.15555555555555572
   },
   {
     "code": "4807",
@@ -4407,8 +4407,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.513801274205191,
-    "price_pos": 0.9166666666666684
+    "vol_ratio": 0.41104101936415266,
+    "price_pos": 0.033898305084745804
   },
   {
     "code": "8150",
@@ -4418,7 +4418,7 @@
     "foreign_ratio_diff": -0.060000000000002274,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.5621829924965787,
+    "vol_ratio": 2.849746393997263,
     "price_pos": 1.0
   },
   {
@@ -4429,8 +4429,8 @@
     "foreign_ratio_diff": -0.019999999999999574,
     "trust_ratio_diff": -0.03524294406303358,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 5.407698864016403,
-    "price_pos": 0.4198312236286921
+    "vol_ratio": 4.326159091213123,
+    "price_pos": 0.5
   },
   {
     "code": "1733",
@@ -4440,7 +4440,7 @@
     "foreign_ratio_diff": -0.019999999999999574,
     "trust_ratio_diff": -0.001000498328207311,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.2455529105546437,
+    "vol_ratio": 0.9964423284437149,
     "price_pos": 0.10738255033557058
   },
   {
@@ -4451,8 +4451,8 @@
     "foreign_ratio_diff": 0.019999999999999574,
     "trust_ratio_diff": 0.026205580636306236,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.4933760536501265,
-    "price_pos": 0.6904761904761899
+    "vol_ratio": 0.3947008429201011,
+    "price_pos": 0.91196388261851
   },
   {
     "code": "2540",
@@ -4462,8 +4462,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": -0.00031750266290807294,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.3458482054904246,
-    "price_pos": 0.6540084388185657
+    "vol_ratio": 1.0766785643923398,
+    "price_pos": 0.8838526912181305
   },
   {
     "code": "2355",
@@ -4473,8 +4473,8 @@
     "foreign_ratio_diff": -0.07000000000000028,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.4249639640956335,
-    "price_pos": 0.4482758620689651
+    "vol_ratio": 1.1399711712765068,
+    "price_pos": 0.09285714285714279
   },
   {
     "code": "2049",
@@ -4484,8 +4484,8 @@
     "foreign_ratio_diff": -0.10000000000000142,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.862207982754478,
-    "price_pos": 0.28421052631578947
+    "vol_ratio": 0.6897663862035822,
+    "price_pos": 0.09215017064846416
   },
   {
     "code": "1590",
@@ -4495,8 +4495,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.25374106246445455,
-    "price_pos": 0.8215767634854771
+    "vol_ratio": 0.20299284997156364,
+    "price_pos": 0.9117043121149897
   },
   {
     "code": "6505",
@@ -4506,8 +4506,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.38661153843948465,
-    "price_pos": 0.5786516853932585
+    "vol_ratio": 0.3092892307515876,
+    "price_pos": 0.1458923512747876
   },
   {
     "code": "2115",
@@ -4517,7 +4517,7 @@
     "foreign_ratio_diff": 0.010000000000005116,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.9061561960028068,
+    "vol_ratio": 1.5249249568022456,
     "price_pos": 0.0
   },
   {
@@ -4528,8 +4528,8 @@
     "foreign_ratio_diff": -0.09999999999999432,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.4518652129368623,
-    "price_pos": 0.07029478458049875
+    "vol_ratio": 1.1614921703494898,
+    "price_pos": 0.008779382611158295
   },
   {
     "code": "1227",
@@ -4539,8 +4539,8 @@
     "foreign_ratio_diff": 0.010000000000000675,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.9676747831117283,
-    "price_pos": 0.09090909090909033
+    "vol_ratio": 0.7741398264893826,
+    "price_pos": 0.008177570093457893
   },
   {
     "code": "3296",
@@ -4550,8 +4550,8 @@
     "foreign_ratio_diff": 0.010000000000000231,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.6302956601594168,
-    "price_pos": 0.9913793103448281
+    "vol_ratio": 0.5042365281275335,
+    "price_pos": 0.9948186528497412
   },
   {
     "code": "1232",
@@ -4561,8 +4561,8 @@
     "foreign_ratio_diff": 0.010000000000000231,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.131422903965635,
-    "price_pos": 0.3333333333333333
+    "vol_ratio": 1.7051383231725081,
+    "price_pos": 0.9469026548672567
   },
   {
     "code": "9942",
@@ -4572,8 +4572,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.1363858130339926,
-    "price_pos": 0.47058823529411764
+    "vol_ratio": 0.9091086504271941,
+    "price_pos": 0.8008849557522123
   },
   {
     "code": "3094",
@@ -4583,7 +4583,7 @@
     "foreign_ratio_diff": -0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.0496880273558933,
+    "vol_ratio": 0.8397504218847145,
     "price_pos": 0.36046511627906985
   },
   {
@@ -4594,7 +4594,7 @@
     "foreign_ratio_diff": 0.010000000000000009,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 35.77272645868405,
+    "vol_ratio": 28.618181166947235,
     "price_pos": 1.0
   },
   {
@@ -4605,7 +4605,7 @@
     "foreign_ratio_diff": -0.12,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.6807457459849564,
+    "vol_ratio": 0.5445965967879652,
     "price_pos": 0.4899999999999999
   },
   {
@@ -4616,8 +4616,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.379559806010567,
-    "price_pos": 0.07070707070707029
+    "vol_ratio": 1.1036478448084535,
+    "price_pos": 0.8506493506493507
   },
   {
     "code": "2007",
@@ -4627,8 +4627,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.0707132606840128,
-    "price_pos": 0.2641509433962265
+    "vol_ratio": 0.8565706085472105,
+    "price_pos": 0.7547169811320754
   },
   {
     "code": "6936",
@@ -4638,8 +4638,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.4753174880785822,
-    "price_pos": 0.23566878980891734
+    "vol_ratio": 0.38025399046286573,
+    "price_pos": 0.5
   },
   {
     "code": "1417",
@@ -4649,8 +4649,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.4199317156944007,
-    "price_pos": 0.960784313725491
+    "vol_ratio": 0.33594537255552065,
+    "price_pos": 0.9906976744186049
   },
   {
     "code": "2432",
@@ -4660,8 +4660,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.7550732586382514,
-    "price_pos": 0.0793650793650794
+    "vol_ratio": 1.4040586069106011,
+    "price_pos": 0.5
   },
   {
     "code": "8487",
@@ -4671,8 +4671,8 @@
     "foreign_ratio_diff": -0.010000000000000009,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.31110940616848254,
-    "price_pos": 0.597014925373134
+    "vol_ratio": 0.24888752493478603,
+    "price_pos": 0.5
   },
   {
     "code": "1236",
@@ -4682,8 +4682,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.8900839912565253,
-    "price_pos": 0.6388888888888885
+    "vol_ratio": 1.51206719300522,
+    "price_pos": 0.8767772511848341
   },
   {
     "code": "4438",
@@ -4693,8 +4693,8 @@
     "foreign_ratio_diff": -0.010000000000000009,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.3070675292720695,
-    "price_pos": 0.6288659793814433
+    "vol_ratio": 1.0456540234176557,
+    "price_pos": 0.16944444444444448
   },
   {
     "code": "5484",
@@ -4704,8 +4704,8 @@
     "foreign_ratio_diff": 0.010000000000000009,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.074274269608703,
-    "price_pos": 0.5797872340425532
+    "vol_ratio": 1.6594194156869624,
+    "price_pos": 0.8961073119410836
   },
   {
     "code": "6916",
@@ -4715,8 +4715,8 @@
     "foreign_ratio_diff": -0.019999999999999962,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.45563528860537733,
-    "price_pos": 0.3516483516483519
+    "vol_ratio": 0.3645082308843019,
+    "price_pos": 0.5
   },
   {
     "code": "2017",
@@ -4726,7 +4726,7 @@
     "foreign_ratio_diff": -0.010000000000000009,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.3438798481250167,
+    "vol_ratio": 1.8751038785000134,
     "price_pos": 0.14406779661016947
   },
   {
@@ -4737,8 +4737,8 @@
     "foreign_ratio_diff": 0.010000000000000009,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.8670552539124878,
-    "price_pos": 0.9749999999999996
+    "vol_ratio": 1.4936442031299904,
+    "price_pos": 0.9936305732484075
   },
   {
     "code": "6958",
@@ -4748,8 +4748,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.5917712582606641,
-    "price_pos": 0.3166666666666672
+    "vol_ratio": 0.4734170066085313,
+    "price_pos": 0.5
   },
   {
     "code": "2438",
@@ -4759,8 +4759,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.6503780274911677,
-    "price_pos": 0.0
+    "vol_ratio": 0.5203024219929342,
+    "price_pos": 0.7357926221335992
   },
   {
     "code": "3054",
@@ -4770,7 +4770,7 @@
     "foreign_ratio_diff": 0.010000000000000009,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.3235556650624236,
+    "vol_ratio": 1.058844532049939,
     "price_pos": 0.5
   },
   {
@@ -4781,8 +4781,8 @@
     "foreign_ratio_diff": 0.010000000000000009,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.8795912688597585,
-    "price_pos": 0.10344827586206926
+    "vol_ratio": 2.303673015087807,
+    "price_pos": 0.6176470588235295
   },
   {
     "code": "6225",
@@ -4792,7 +4792,7 @@
     "foreign_ratio_diff": -0.009999999999999995,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.9500528183320244,
+    "vol_ratio": 0.7600422546656195,
     "price_pos": 0.5
   },
   {
@@ -4803,8 +4803,8 @@
     "foreign_ratio_diff": 0.009999999999999953,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.994658261047414,
-    "price_pos": 0.12676056338028233
+    "vol_ratio": 0.7957266088379313,
+    "price_pos": 0.06666666666666694
   },
   {
     "code": "1454",
@@ -4814,7 +4814,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.1223438225731541,
+    "vol_ratio": 0.8978750580585232,
     "price_pos": 0.21874999999999983
   },
   {
@@ -4825,8 +4825,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.303851894859797,
-    "price_pos": 0.20000000000000107
+    "vol_ratio": 1.0430815158878375,
+    "price_pos": 0.7192982456140354
   },
   {
     "code": "3679",
@@ -4836,8 +4836,8 @@
     "foreign_ratio_diff": 0.019999999999999574,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.640715652022701,
-    "price_pos": 0.07142857142857142
+    "vol_ratio": 2.112572521618161,
+    "price_pos": 0.764065335753176
   },
   {
     "code": "2642",
@@ -4847,7 +4847,7 @@
     "foreign_ratio_diff": -0.010000000000000675,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.308129100802573,
+    "vol_ratio": 1.0465032806420584,
     "price_pos": 0.026548672566371438
   },
   {
@@ -4858,8 +4858,8 @@
     "foreign_ratio_diff": 0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.3184886863649616,
-    "price_pos": 0.8474576271186443
+    "vol_ratio": 1.0547909490919694,
+    "price_pos": 0.9508196721311476
   },
   {
     "code": "5608",
@@ -4869,8 +4869,8 @@
     "foreign_ratio_diff": 0.020000000000000462,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.0751425026911217,
-    "price_pos": 0.3146067415730334
+    "vol_ratio": 0.8601140021528974,
+    "price_pos": 0.7404255319148936
   },
   {
     "code": "2601",
@@ -4880,8 +4880,8 @@
     "foreign_ratio_diff": 0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.2578582710730712,
-    "price_pos": 0.15492957746478794
+    "vol_ratio": 1.8062866168584573,
+    "price_pos": 0.030219780219780067
   },
   {
     "code": "3416",
@@ -4891,8 +4891,8 @@
     "foreign_ratio_diff": -0.020000000000000018,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.1157977236393408,
-    "price_pos": 0.2597402597402597
+    "vol_ratio": 0.8926381789114727,
+    "price_pos": 0.7778643803585346
   },
   {
     "code": "2423",
@@ -4902,8 +4902,8 @@
     "foreign_ratio_diff": 0.020000000000000462,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.916438304449399,
-    "price_pos": 0.8857142857142851
+    "vol_ratio": 1.5331506435595192,
+    "price_pos": 0.9765739385065882
   },
   {
     "code": "2108",
@@ -4913,7 +4913,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.8503650050557773,
+    "vol_ratio": 0.6802920040446218,
     "price_pos": 0.5869565217391308
   },
   {
@@ -4924,8 +4924,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.42884228580181233,
-    "price_pos": 0.6666666666666647
+    "vol_ratio": 0.34307382864144986,
+    "price_pos": 0.06837606837606813
   },
   {
     "code": "1416",
@@ -4935,8 +4935,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.6347432949104297,
-    "price_pos": 0.8571428571428567
+    "vol_ratio": 0.5077946359283437,
+    "price_pos": 0.17142857142857115
   },
   {
     "code": "2414",
@@ -4946,8 +4946,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.6535676910184636,
-    "price_pos": 0.261538461538462
+    "vol_ratio": 0.5228541528147708,
+    "price_pos": 0.9004149377593361
   },
   {
     "code": "6128",
@@ -4957,8 +4957,8 @@
     "foreign_ratio_diff": 0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.620092947693619,
-    "price_pos": 0.08527131782945749
+    "vol_ratio": 1.2960743581548952,
+    "price_pos": 0.03264094955489618
   },
   {
     "code": "2109",
@@ -4968,8 +4968,8 @@
     "foreign_ratio_diff": 0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.3689931821930603,
-    "price_pos": 0.12499999999999972
+    "vol_ratio": 1.8951945457544486,
+    "price_pos": 0.810810810810811
   },
   {
     "code": "4552",
@@ -4979,8 +4979,8 @@
     "foreign_ratio_diff": 0.00999999999999801,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.354863699922805,
-    "price_pos": 0.974683544303798
+    "vol_ratio": 0.283890959938244,
+    "price_pos": 0.047094801223241604
   },
   {
     "code": "4935",
@@ -4990,7 +4990,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.2450904095851918,
+    "vol_ratio": 0.9960723276681536,
     "price_pos": 0.10434782608695677
   },
   {
@@ -5001,8 +5001,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.1103947760193287,
-    "price_pos": 0.5102040816326532
+    "vol_ratio": 1.688315820815463,
+    "price_pos": 0.03736920777279521
   },
   {
     "code": "2208",
@@ -5012,8 +5012,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.9486796369825135,
-    "price_pos": 0.23148148148148154
+    "vol_ratio": 0.7589437095860108,
+    "price_pos": 0.6770428015564204
   },
   {
     "code": "2881",
@@ -5023,8 +5023,8 @@
     "foreign_ratio_diff": 0.030000000000001137,
     "trust_ratio_diff": -0.0619098669144178,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.8264846920253416,
-    "price_pos": 0.8974358974358972
+    "vol_ratio": 0.6611877536202733,
+    "price_pos": 0.975
   },
   {
     "code": "2412",
@@ -5034,8 +5034,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": -0.0006961053445454224,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.8219668293460131,
-    "price_pos": 0.4
+    "vol_ratio": 0.6575734634768104,
+    "price_pos": 0.9
   },
   {
     "code": "2885",
@@ -5045,8 +5045,8 @@
     "foreign_ratio_diff": 0.10999999999999943,
     "trust_ratio_diff": -0.1132235408133635,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.8769634016364742,
-    "price_pos": 0.9166666666666671
+    "vol_ratio": 0.7015707213091793,
+    "price_pos": 0.9794776119402986
   },
   {
     "code": "2480",
@@ -5056,8 +5056,8 @@
     "foreign_ratio_diff": -0.02999999999999936,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.066595396560747,
-    "price_pos": 0.16176470588235295
+    "vol_ratio": 0.8532763172485976,
+    "price_pos": 0.8013245033112584
   },
   {
     "code": "5269",
@@ -5067,8 +5067,8 @@
     "foreign_ratio_diff": 0.08000000000000007,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.5559741158303988,
-    "price_pos": 0.028169014084507043
+    "vol_ratio": 1.2447792926643193,
+    "price_pos": 0.6937416777629827
   },
   {
     "code": "0057",
@@ -5089,8 +5089,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.6006632149243375,
-    "price_pos": 0.864864864864865
+    "vol_ratio": 0.4805305719394701,
+    "price_pos": 0.4102564102564108
   },
   {
     "code": "9946",
@@ -5100,8 +5100,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.5223795369594717,
-    "price_pos": 0.965517241379311
+    "vol_ratio": 0.4179036295675774,
+    "price_pos": 0.987421383647799
   },
   {
     "code": "1341",
@@ -5111,7 +5111,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.399546827794562,
+    "vol_ratio": 1.1196374622356495,
     "price_pos": 0.5
   },
   {
@@ -5122,8 +5122,8 @@
     "foreign_ratio_diff": 0.010000000000000009,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.2208759578357775,
-    "price_pos": 0.20370370370370403
+    "vol_ratio": 0.9767007662686221,
+    "price_pos": 0.849122807017544
   },
   {
     "code": "6115",
@@ -5133,8 +5133,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.5089816482929221,
-    "price_pos": 0.6046511627906968
+    "vol_ratio": 1.2071853186343378,
+    "price_pos": 0.8265306122448977
   },
   {
     "code": "6901",
@@ -5144,8 +5144,8 @@
     "foreign_ratio_diff": -0.040000000000000036,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.159199997398436,
-    "price_pos": 0.10958904109589006
+    "vol_ratio": 0.9273599979187488,
+    "price_pos": 0.5
   },
   {
     "code": "2506",
@@ -5155,8 +5155,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.1457093969986991,
-    "price_pos": 0.2142857142857173
+    "vol_ratio": 0.9165675175989593,
+    "price_pos": 0.0687022900763371
   },
   {
     "code": "2514",
@@ -5166,8 +5166,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.4981148801640535,
-    "price_pos": 0.5882352941176473
+    "vol_ratio": 0.39849190413124275,
+    "price_pos": 0.6500000000000004
   },
   {
     "code": "2430",
@@ -5177,7 +5177,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.484720135536873,
+    "vol_ratio": 2.7877761084294983,
     "price_pos": 0.0
   },
   {
@@ -5188,7 +5188,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.9614210962044664,
+    "vol_ratio": 0.769136876963573,
     "price_pos": 0.0
   },
   {
@@ -5199,8 +5199,8 @@
     "foreign_ratio_diff": 0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.6509426504256315,
-    "price_pos": 0.12980769230769246
+    "vol_ratio": 1.3207541203405053,
+    "price_pos": 0.09183673469387763
   },
   {
     "code": "2450",
@@ -5210,8 +5210,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.1647545844357268,
-    "price_pos": 0.4210526315789462
+    "vol_ratio": 0.9318036675485815,
+    "price_pos": 0.017278617710583092
   },
   {
     "code": "1725",
@@ -5221,8 +5221,8 @@
     "foreign_ratio_diff": -0.010000000000000009,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.27113152917552,
-    "price_pos": 0.631578947368421
+    "vol_ratio": 1.0169052233404163,
+    "price_pos": 0.9198473282442747
   },
   {
     "code": "2101",
@@ -5232,8 +5232,8 @@
     "foreign_ratio_diff": 0.03000000000000025,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.9841523466619315,
-    "price_pos": 0.5352112676056328
+    "vol_ratio": 0.7873218773295452,
+    "price_pos": 0.8730769230769226
   },
   {
     "code": "6671",
@@ -5243,8 +5243,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.5073090979034425,
-    "price_pos": 0.9661705006765899
+    "vol_ratio": 0.4058472783227541,
+    "price_pos": 0.5
   },
   {
     "code": "6592",
@@ -5254,8 +5254,8 @@
     "foreign_ratio_diff": -0.010000000000001563,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.7673656227330492,
-    "price_pos": 0.11494252873563214
+    "vol_ratio": 0.6138924981864393,
+    "price_pos": 0.5
   },
   {
     "code": "6641",
@@ -5265,8 +5265,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.5299342565393765,
-    "price_pos": 0.0
+    "vol_ratio": 1.2239474052315014,
+    "price_pos": 0.5
   },
   {
     "code": "2434",
@@ -5276,8 +5276,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.6889599471566688,
-    "price_pos": 0.21472392638036805
+    "vol_ratio": 1.351167957725335,
+    "price_pos": 0.7642725598526703
   },
   {
     "code": "9928",
@@ -5287,7 +5287,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.6217357036105701,
+    "vol_ratio": 0.497388562888456,
     "price_pos": 0.5
   },
   {
@@ -5298,8 +5298,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.5653513625781573,
-    "price_pos": 0.22222222222222573
+    "vol_ratio": 0.4522810900625258,
+    "price_pos": 0.9580838323353296
   },
   {
     "code": "9905",
@@ -5309,7 +5309,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.4614416710945368,
+    "vol_ratio": 1.16915333687563,
     "price_pos": 0.0
   },
   {
@@ -5320,8 +5320,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.302389519888445,
-    "price_pos": 0.033333333333332625
+    "vol_ratio": 1.8419116159107554,
+    "price_pos": 0.003952569169960391
   },
   {
     "code": "2536",
@@ -5331,8 +5331,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.9767196308928832,
-    "price_pos": 0.4999999999999992
+    "vol_ratio": 1.5813757047143067,
+    "price_pos": 0.8130081300813006
   },
   {
     "code": "1521",
@@ -5342,7 +5342,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.026807446635885,
+    "vol_ratio": 0.821445957308708,
     "price_pos": 0.028571428571428976
   },
   {
@@ -5353,8 +5353,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.8362659205359957,
-    "price_pos": 0.12871287128712852
+    "vol_ratio": 1.4690127364287966,
+    "price_pos": 0.0265848670756646
   },
   {
     "code": "5285",
@@ -5364,8 +5364,8 @@
     "foreign_ratio_diff": -0.010000000000000009,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.2634953720059348,
-    "price_pos": 0.07199999999999931
+    "vol_ratio": 1.810796297604748,
+    "price_pos": 0.013740458015267045
   },
   {
     "code": "2022",
@@ -5375,8 +5375,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.0823197750658786,
-    "price_pos": 0.6417910447761195
+    "vol_ratio": 0.8658558200527028,
+    "price_pos": 0.8873239436619718
   },
   {
     "code": "2025",
@@ -5386,8 +5386,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.144368632050698,
-    "price_pos": 0.09170305676855929
+    "vol_ratio": 1.7154949056405588,
+    "price_pos": 0.7570093457943925
   },
   {
     "code": "2530",
@@ -5397,8 +5397,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.6137363481770726,
-    "price_pos": 0.3176470588235297
+    "vol_ratio": 1.290989078541658,
+    "price_pos": 0.8342857142857143
   },
   {
     "code": "4999",
@@ -5408,8 +5408,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.407094125476182,
-    "price_pos": 0.058823529411764525
+    "vol_ratio": 1.1256753003809454,
+    "price_pos": 0.007518796992481176
   },
   {
     "code": "4581",
@@ -5419,8 +5419,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.5130369069813746,
-    "price_pos": 0.0
+    "vol_ratio": 0.41042952558509965,
+    "price_pos": 0.5
   },
   {
     "code": "2706",
@@ -5430,7 +5430,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.4760451743002421,
+    "vol_ratio": 0.38083613944019373,
     "price_pos": 0.0
   },
   {
@@ -5441,8 +5441,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.33508333424289716,
-    "price_pos": 0.33333333333333726
+    "vol_ratio": 0.2680666673943177,
+    "price_pos": 0.04444444444444508
   },
   {
     "code": "1506",
@@ -5452,8 +5452,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.9880546381927919,
-    "price_pos": 0.030303030303029683
+    "vol_ratio": 0.7904437105542336,
+    "price_pos": 0.005076142131979588
   },
   {
     "code": "6955",
@@ -5463,7 +5463,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.9488778054862816,
+    "vol_ratio": 3.1591022443890244,
     "price_pos": 0.5
   },
   {
@@ -5474,8 +5474,8 @@
     "foreign_ratio_diff": 0.039999999999999925,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 8.643367972686292,
-    "price_pos": 0.08333333333333268
+    "vol_ratio": 6.914694378149034,
+    "price_pos": 0.5
   },
   {
     "code": "7631",
@@ -5485,8 +5485,8 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.5629987134390868,
-    "price_pos": 0.1509433962264151
+    "vol_ratio": 0.45039897075126945,
+    "price_pos": 0.5
   },
   {
     "code": "7722",
@@ -5496,7 +5496,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.6376238407531224,
-    "price_pos": 0.40963855421686746
+    "vol_ratio": 0.5100990726024979,
+    "price_pos": 0.5
   }
 ]
