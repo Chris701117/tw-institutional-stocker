@@ -273,7 +273,7 @@ def main():
     ensure_dirs()
     target = get_target_trade_date()
     f_list, q_list, pv_list = [], [], []
-    for d in range(60): # 往前抓60天資料
+    for d in range(120): # 往前抓120天資料
         cur = target - timedelta(days=d)
         if is_weekend(cur): continue
         print(f"[INFO] Processing {cur}...")
