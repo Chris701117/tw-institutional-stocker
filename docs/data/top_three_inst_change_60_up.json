@@ -2,10 +2,10 @@
   {
     "code": "0050",
     "name": "元大台灣50",
-    "three_inst_ratio": 3.8485763226786465,
+    "three_inst_ratio": 3.938747939627032,
     "change": 0.0,
     "foreign_ratio_diff": 0.13999999999999968,
-    "trust_ratio_diff": 5.488672823323465e-05,
+    "trust_ratio_diff": 0.0001567722716601938,
     "dealer_ratio_diff": 0.0,
     "vol_ratio": 0.0,
     "price_pos": 0.5
@@ -24,10 +24,10 @@
   {
     "code": "0052",
     "name": "富邦科技",
-    "three_inst_ratio": 2.2528173374613005,
+    "three_inst_ratio": 2.462105263157895,
     "change": 0.0,
     "foreign_ratio_diff": 0.20000000000000018,
-    "trust_ratio_diff": 0.0001046866725591955,
+    "trust_ratio_diff": 0.00029889136698846297,
     "dealer_ratio_diff": 0.0,
     "vol_ratio": 0.0,
     "price_pos": 0.5
@@ -57,10 +57,10 @@
   {
     "code": "0056",
     "name": "元大高股息",
-    "three_inst_ratio": 0.2619047573360318,
+    "three_inst_ratio": 0.2724867425362084,
     "change": 0.0,
     "foreign_ratio_diff": 0.010000000000000009,
-    "trust_ratio_diff": -1.5465567678493285e-06,
+    "trust_ratio_diff": -1.0138538811455336e-05,
     "dealer_ratio_diff": 0.0,
     "vol_ratio": 0.0,
     "price_pos": 0.5
@@ -90,23 +90,23 @@
   {
     "code": "1101",
     "name": "台泥",
-    "three_inst_ratio": 18.159688380499848,
+    "three_inst_ratio": 18.08517797680097,
     "change": 0.0,
     "foreign_ratio_diff": 0.03999999999999915,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.0051417260021194,
+    "vol_ratio": 1.5633308372219912,
     "price_pos": 0.5
   },
   {
     "code": "1102",
     "name": "亞泥",
-    "three_inst_ratio": 20.54342923345168,
+    "three_inst_ratio": 20.530773684542492,
     "change": 0.0,
     "foreign_ratio_diff": -0.17999999999999972,
     "trust_ratio_diff": 0.22912324615851065,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.5935977432911053,
+    "vol_ratio": 1.2424660371422178,
     "price_pos": 0.5
   },
   {
@@ -117,18 +117,18 @@
     "foreign_ratio_diff": -0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.6311155626313172,
+    "vol_ratio": 1.2717172183227219,
     "price_pos": 0.5
   },
   {
     "code": "1104",
     "name": "環泥",
-    "three_inst_ratio": 16.39,
+    "three_inst_ratio": 16.335826437902938,
     "change": 0.0,
     "foreign_ratio_diff": -0.019999999999999574,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.941300696573413,
+    "vol_ratio": 2.293217492243678,
     "price_pos": 0.5
   },
   {
@@ -139,7 +139,7 @@
     "foreign_ratio_diff": -0.010000000000000009,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.169021864349507,
+    "vol_ratio": 1.6911017925436833,
     "price_pos": 0.5
   },
   {
@@ -150,7 +150,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.165216345060785,
+    "vol_ratio": 3.2474568114033238,
     "price_pos": 0.5
   },
   {
@@ -161,7 +161,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.4205187211096424,
+    "vol_ratio": 1.1075230706956534,
     "price_pos": 0.5
   },
   {
@@ -172,7 +172,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.1047201323268436,
+    "vol_ratio": 1.6409682387633007,
     "price_pos": 0.5
   },
   {
@@ -183,40 +183,40 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.9974342762431556,
+    "vol_ratio": 3.116643673003139,
     "price_pos": 0.5
   },
   {
     "code": "1210",
     "name": "大成",
-    "three_inst_ratio": 10.05280442897136,
+    "three_inst_ratio": 9.932214405837946,
     "change": 0.0,
     "foreign_ratio_diff": -0.019999999999999574,
-    "trust_ratio_diff": -0.042692668060207495,
+    "trust_ratio_diff": -0.04269266806020751,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.5468387181347496,
+    "vol_ratio": 1.9856708649864145,
     "price_pos": 0.5
   },
   {
     "code": "1215",
     "name": "卜蜂",
-    "three_inst_ratio": 46.38181295227901,
+    "three_inst_ratio": 46.10568427444262,
     "change": 0.0,
     "foreign_ratio_diff": -0.6099999999999994,
     "trust_ratio_diff": 0.6306181966804054,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.737537181234118,
+    "vol_ratio": 2.1343510226571087,
     "price_pos": 0.5
   },
   {
     "code": "1216",
     "name": "統一",
-    "three_inst_ratio": 35.880329062654965,
+    "three_inst_ratio": 36.151299076975874,
     "change": 0.0,
     "foreign_ratio_diff": -0.25,
-    "trust_ratio_diff": 0.33989700078288454,
+    "trust_ratio_diff": 0.339897000782885,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.467453334431943,
+    "vol_ratio": 1.9237771759977862,
     "price_pos": 0.5
   },
   {
@@ -227,7 +227,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.4165257463537286,
+    "vol_ratio": 1.1044099039368056,
     "price_pos": 0.5
   },
   {
@@ -238,7 +238,7 @@
     "foreign_ratio_diff": 0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.381830385926333,
+    "vol_ratio": 2.6366813178408695,
     "price_pos": 0.5
   },
   {
@@ -249,7 +249,7 @@
     "foreign_ratio_diff": -0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.919842409254209,
+    "vol_ratio": 1.4968262851812477,
     "price_pos": 0.5
   },
   {
@@ -260,7 +260,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.061217492279523,
+    "vol_ratio": 2.3867119431331876,
     "price_pos": 0.5
   },
   {
@@ -271,29 +271,29 @@
     "foreign_ratio_diff": -0.010000000000000009,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.2543181496355977,
+    "vol_ratio": 1.7576039810718218,
     "price_pos": 0.5
   },
   {
     "code": "1227",
     "name": "佳格",
-    "three_inst_ratio": 5.94,
+    "three_inst_ratio": 5.976062042803851,
     "change": 0.0,
     "foreign_ratio_diff": 0.010000000000000675,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.27193209947971,
+    "vol_ratio": 1.771336891119774,
     "price_pos": 0.5
   },
   {
     "code": "1229",
     "name": "聯華",
-    "three_inst_ratio": 9.720556805066959,
+    "three_inst_ratio": 9.715459254678956,
     "change": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.9221696049720763,
+    "vol_ratio": 0.7189796920121273,
     "price_pos": 0.5
   },
   {
@@ -304,7 +304,7 @@
     "foreign_ratio_diff": 0.020000000000000018,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.5290938054732603,
+    "vol_ratio": 1.1921748313859317,
     "price_pos": 0.5
   },
   {
@@ -315,7 +315,7 @@
     "foreign_ratio_diff": 0.010000000000000231,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 5.004210296267144,
+    "vol_ratio": 3.9015876886150616,
     "price_pos": 0.5
   },
   {
@@ -326,7 +326,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.4102527654745314,
+    "vol_ratio": 1.0995191052852282,
     "price_pos": 0.5
   },
   {
@@ -337,7 +337,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.9474100977680178,
+    "vol_ratio": 3.0776417711411668,
     "price_pos": 0.5
   },
   {
@@ -348,7 +348,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.4519508933543991,
+    "vol_ratio": 0.3523684931237688,
     "price_pos": 0.5
   },
   {
@@ -359,7 +359,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.437588501210973,
+    "vol_ratio": 3.459814763656012,
     "price_pos": 0.5
   },
   {
@@ -370,29 +370,29 @@
     "foreign_ratio_diff": 0.010000000000000675,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.4947511194328396,
+    "vol_ratio": 1.9450601948120445,
     "price_pos": 0.5
   },
   {
     "code": "1301",
     "name": "台塑",
-    "three_inst_ratio": 27.234676848906393,
+    "three_inst_ratio": 27.19439437294297,
     "change": 0.0,
     "foreign_ratio_diff": -0.05000000000000071,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.5666293459448493,
+    "vol_ratio": 1.2214398290417467,
     "price_pos": 0.5
   },
   {
     "code": "1303",
     "name": "南亞",
-    "three_inst_ratio": 27.425169333144105,
+    "three_inst_ratio": 27.595250703007586,
     "change": 0.0,
     "foreign_ratio_diff": 0.05000000000000071,
     "trust_ratio_diff": -0.0010339407976814596,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.5663281089638226,
+    "vol_ratio": 1.2212049663107771,
     "price_pos": 0.5
   },
   {
@@ -403,7 +403,7 @@
     "foreign_ratio_diff": -0.08999999999999986,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.5772586854670276,
+    "vol_ratio": 2.009388127652259,
     "price_pos": 0.5
   },
   {
@@ -414,18 +414,18 @@
     "foreign_ratio_diff": -0.1200000000000001,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.017449304082558,
+    "vol_ratio": 3.132248609962673,
     "price_pos": 0.5
   },
   {
     "code": "1307",
     "name": "三芳",
-    "three_inst_ratio": 6.688491773097338,
+    "three_inst_ratio": 6.159961054514645,
     "change": 0.0,
     "foreign_ratio_diff": -0.019999999999999574,
-    "trust_ratio_diff": -0.0015082269026625498,
+    "trust_ratio_diff": -0.0015082269026626127,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.5047425021854772,
+    "vol_ratio": 0.39352805255138895,
     "price_pos": 0.5
   },
   {
@@ -436,7 +436,7 @@
     "foreign_ratio_diff": -0.0699999999999994,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.155352684655473,
+    "vol_ratio": 2.460105482951725,
     "price_pos": 0.5
   },
   {
@@ -447,7 +447,7 @@
     "foreign_ratio_diff": -0.040000000000000036,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.6223340287590338,
+    "vol_ratio": 2.0445316156426365,
     "price_pos": 0.5
   },
   {
@@ -458,7 +458,7 @@
     "foreign_ratio_diff": -0.0600000000000005,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.6231107136439387,
+    "vol_ratio": 1.2654761496206979,
     "price_pos": 0.5
   },
   {
@@ -469,7 +469,7 @@
     "foreign_ratio_diff": -0.0699999999999994,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 7.734235000675927,
+    "vol_ratio": 6.030081525950722,
     "price_pos": 0.5
   },
   {
@@ -480,7 +480,7 @@
     "foreign_ratio_diff": -0.019999999999999574,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.319169551139856,
+    "vol_ratio": 3.367488124617515,
     "price_pos": 0.5
   },
   {
@@ -491,7 +491,7 @@
     "foreign_ratio_diff": 0.03999999999999915,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.0899865716923696,
+    "vol_ratio": 1.6294810558957478,
     "price_pos": 0.5
   },
   {
@@ -502,29 +502,29 @@
     "foreign_ratio_diff": -0.010000000000000009,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.0,
+    "vol_ratio": 6.036540374313764,
     "price_pos": 0.5
   },
   {
     "code": "1316",
     "name": "上曜",
-    "three_inst_ratio": 6.036731038146363,
+    "three_inst_ratio": 6.024472431195225,
     "change": 0.0,
     "foreign_ratio_diff": -0.16999999999999993,
-    "trust_ratio_diff": -0.0008172404634092306,
+    "trust_ratio_diff": -0.0008172404634092297,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.5080657214809636,
+    "vol_ratio": 1.1757800540360055,
     "price_pos": 0.5
   },
   {
     "code": "1319",
     "name": "東陽",
-    "three_inst_ratio": 11.753224146840465,
+    "three_inst_ratio": 12.459264030029985,
     "change": 0.0,
     "foreign_ratio_diff": 0.019999999999999574,
     "trust_ratio_diff": 0.02620558063630629,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.1583611694394274,
+    "vol_ratio": 0.9031290473595536,
     "price_pos": 0.5
   },
   {
@@ -535,7 +535,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.4239066664058053,
+    "vol_ratio": 1.8898255365197802,
     "price_pos": 0.5
   },
   {
@@ -546,7 +546,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.209548284156863,
+    "vol_ratio": 2.5023596791731477,
     "price_pos": 0.5
   },
   {
@@ -557,7 +557,7 @@
     "foreign_ratio_diff": -0.010000000000000009,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.2128110788752466,
+    "vol_ratio": 2.504903553021379,
     "price_pos": 0.5
   },
   {
@@ -568,18 +568,18 @@
     "foreign_ratio_diff": 0.029999999999999805,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.129100068225146,
+    "vol_ratio": 1.6599763243789276,
     "price_pos": 0.5
   },
   {
     "code": "1326",
     "name": "台化",
-    "three_inst_ratio": 32.91974407911206,
+    "three_inst_ratio": 32.91569744097049,
     "change": 0.0,
     "foreign_ratio_diff": -0.01999999999999602,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.4914852406263692,
+    "vol_ratio": 1.1628528994714067,
     "price_pos": 0.5
   },
   {
@@ -590,7 +590,7 @@
     "foreign_ratio_diff": -0.00999999999999801,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.936394167505025,
+    "vol_ratio": 0.7300700289022231,
     "price_pos": 0.5
   },
   {
@@ -601,7 +601,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.8273770477464955,
+    "vol_ratio": 2.204395664344725,
     "price_pos": 0.5
   },
   {
@@ -612,7 +612,7 @@
     "foreign_ratio_diff": 0.020000000000000018,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 8.858230036569461,
+    "vol_ratio": 6.906416638681274,
     "price_pos": 0.5
   },
   {
@@ -623,7 +623,7 @@
     "foreign_ratio_diff": 0.0799999999999983,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 5.855744222059077,
+    "vol_ratio": 4.565495495164703,
     "price_pos": 0.5
   },
   {
@@ -634,7 +634,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.0,
+    "vol_ratio": 2.5618823288442827,
     "price_pos": 0.5
   },
   {
@@ -645,40 +645,40 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.288252891802713,
+    "vol_ratio": 1.7840615766597423,
     "price_pos": 0.5
   },
   {
     "code": "1402",
     "name": "遠東新",
-    "three_inst_ratio": 18.700331132997658,
+    "three_inst_ratio": 18.401244169056362,
     "change": 0.0,
     "foreign_ratio_diff": -0.029999999999997584,
-    "trust_ratio_diff": -0.0002615416837923601,
+    "trust_ratio_diff": -0.00026154168379238785,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.2485433130814405,
+    "vol_ratio": 0.97344054918214,
     "price_pos": 0.5
   },
   {
     "code": "1409",
     "name": "新纖",
-    "three_inst_ratio": 11.79,
+    "three_inst_ratio": 11.739580121230222,
     "change": 0.0,
     "foreign_ratio_diff": -0.02000000000000135,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.9478219413592304,
+    "vol_ratio": 1.5186408356360097,
     "price_pos": 0.5
   },
   {
     "code": "1414",
     "name": "東和",
-    "three_inst_ratio": 1.2581818181818183,
+    "three_inst_ratio": 1.2513636363636365,
     "change": 0.0,
     "foreign_ratio_diff": 0.040000000000000036,
-    "trust_ratio_diff": -0.00045454545454545444,
+    "trust_ratio_diff": -0.000454545454545454,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.5689970116034906,
+    "vol_ratio": 2.0029468226061113,
     "price_pos": 0.5
   },
   {
@@ -689,7 +689,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.4902668663114433,
+    "vol_ratio": 1.1619029805140069,
     "price_pos": 0.5
   },
   {
@@ -700,7 +700,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.9859266368477235,
+    "vol_ratio": 0.7686885643219539,
     "price_pos": 0.5
   },
   {
@@ -711,7 +711,7 @@
     "foreign_ratio_diff": 0.010000000000000009,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.0,
+    "vol_ratio": 2.2348237872248133,
     "price_pos": 0.5
   },
   {
@@ -722,7 +722,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.6279193918749872,
+    "vol_ratio": 1.2692252885804987,
     "price_pos": 0.5
   },
   {
@@ -733,7 +733,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.7157928434408776,
+    "vol_ratio": 2.897058827089497,
     "price_pos": 0.5
   },
   {
@@ -744,18 +744,18 @@
     "foreign_ratio_diff": -0.009999999999999953,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 18.056638750856266,
+    "vol_ratio": 14.078057331176069,
     "price_pos": 0.5
   },
   {
     "code": "1434",
     "name": "福懋",
-    "three_inst_ratio": 6.572223971636677,
+    "three_inst_ratio": 6.529782290111667,
     "change": 0.0,
     "foreign_ratio_diff": -0.03000000000000025,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.367487146403446,
+    "vol_ratio": 1.845837436178958,
     "price_pos": 0.5
   },
   {
@@ -766,7 +766,7 @@
     "foreign_ratio_diff": 0.10000000000000053,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.0279938124227774,
+    "vol_ratio": 2.3608087351092837,
     "price_pos": 0.5
   },
   {
@@ -777,7 +777,7 @@
     "foreign_ratio_diff": 0.02000000000000135,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.3657795194258195,
+    "vol_ratio": 1.8445060659930117,
     "price_pos": 0.5
   },
   {
@@ -788,7 +788,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.579474508301236,
+    "vol_ratio": 2.790776735285709,
     "price_pos": 0.5
   },
   {
@@ -799,7 +799,7 @@
     "foreign_ratio_diff": -0.010000000000000009,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.6345428189494228,
+    "vol_ratio": 0.49472829951988895,
     "price_pos": 0.5
   },
   {
@@ -810,18 +810,18 @@
     "foreign_ratio_diff": -0.040000000000000036,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.0267453621166776,
+    "vol_ratio": 2.35983536707402,
     "price_pos": 0.5
   },
   {
     "code": "1442",
     "name": "名軒",
-    "three_inst_ratio": 5.226041602674705,
+    "three_inst_ratio": 4.158625228330575,
     "change": 0.0,
     "foreign_ratio_diff": 0.6899999999999995,
-    "trust_ratio_diff": -1.0597705164567826,
+    "trust_ratio_diff": -1.0597705164567834,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.3488377289701967,
+    "vol_ratio": 1.8312972124174411,
     "price_pos": 0.5
   },
   {
@@ -832,7 +832,7 @@
     "foreign_ratio_diff": -0.0600000000000005,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.3541060358363508,
+    "vol_ratio": 1.055743688957155,
     "price_pos": 0.5
   },
   {
@@ -843,7 +843,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.9028068288560724,
+    "vol_ratio": 1.4835443072437178,
     "price_pos": 0.5
   },
   {
@@ -854,7 +854,7 @@
     "foreign_ratio_diff": 0.019999999999999574,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.175804066119226,
+    "vol_ratio": 3.255711644770922,
     "price_pos": 0.5
   },
   {
@@ -865,7 +865,7 @@
     "foreign_ratio_diff": 0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.8586618012121785,
+    "vol_ratio": 2.228787167046783,
     "price_pos": 0.5
   },
   {
@@ -876,7 +876,7 @@
     "foreign_ratio_diff": -0.08999999999999986,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 6.125553415053751,
+    "vol_ratio": 4.775855204957164,
     "price_pos": 0.5
   },
   {
@@ -887,7 +887,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.0068471057955595,
+    "vol_ratio": 0.7849994384168768,
     "price_pos": 0.5
   },
   {
@@ -898,7 +898,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.4528164166291493,
+    "vol_ratio": 1.132704324829506,
     "price_pos": 0.5
   },
   {
@@ -909,7 +909,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.1747304706426298,
+    "vol_ratio": 0.9158915533823893,
     "price_pos": 0.5
   },
   {
@@ -920,7 +920,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.635068105171752,
+    "vol_ratio": 2.0544598786084856,
     "price_pos": 0.5
   },
   {
@@ -931,7 +931,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 10.48981124618395,
+    "vol_ratio": 8.178496903804437,
     "price_pos": 0.5
   },
   {
@@ -942,7 +942,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.059561481445419465,
+    "vol_ratio": 0.04643776519473383,
     "price_pos": 0.5
   },
   {
@@ -953,7 +953,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.4144192922753493,
+    "vol_ratio": 2.662089617706205,
     "price_pos": 0.5
   },
   {
@@ -964,7 +964,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.5828190834632654,
+    "vol_ratio": 2.793384370157802,
     "price_pos": 0.5
   },
   {
@@ -975,7 +975,7 @@
     "foreign_ratio_diff": 0.029999999999999805,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 6.5880115681654035,
+    "vol_ratio": 5.1364157989086205,
     "price_pos": 0.5
   },
   {
@@ -986,7 +986,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.715290736169294,
+    "vol_ratio": 3.67632837057267,
     "price_pos": 0.5
   },
   {
@@ -997,7 +997,7 @@
     "foreign_ratio_diff": -0.020000000000000018,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.3763113257919444,
+    "vol_ratio": 2.6323783218038894,
     "price_pos": 0.5
   },
   {
@@ -1008,7 +1008,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.2572495302191817,
+    "vol_ratio": 1.7598894642386842,
     "price_pos": 0.5
   },
   {
@@ -1019,7 +1019,7 @@
     "foreign_ratio_diff": -0.050000000000000044,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 10.751004687513495,
+    "vol_ratio": 8.382139247891878,
     "price_pos": 0.5
   },
   {
@@ -1030,7 +1030,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.16888626303912,
+    "vol_ratio": 3.250318103386432,
     "price_pos": 0.5
   },
   {
@@ -1041,7 +1041,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.5519848771266544,
+    "vol_ratio": 1.9896831245394255,
     "price_pos": 0.5
   },
   {
@@ -1052,7 +1052,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.0,
+    "vol_ratio": 1.0403335386386618,
     "price_pos": 0.5
   },
   {
@@ -1063,7 +1063,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.918162583437363,
+    "vol_ratio": 2.2751776074257406,
     "price_pos": 0.5
   },
   {
@@ -1074,7 +1074,7 @@
     "foreign_ratio_diff": -0.050000000000000044,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 5.215939682930692,
+    "vol_ratio": 4.066664837539184,
     "price_pos": 0.5
   },
   {
@@ -1085,7 +1085,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.9071115436334838,
+    "vol_ratio": 0.7072395085955975,
     "price_pos": 0.5
   },
   {
@@ -1096,7 +1096,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.4845310155679603,
+    "vol_ratio": 1.9370919782394258,
     "price_pos": 0.5
   },
   {
@@ -1107,51 +1107,51 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.1967653946699586,
+    "vol_ratio": 2.4923933585562392,
     "price_pos": 0.5
   },
   {
     "code": "1476",
     "name": "儒鴻",
-    "three_inst_ratio": 31.98249769976985,
+    "three_inst_ratio": 31.996480060797083,
     "change": 0.0,
     "foreign_ratio_diff": -0.05000000000000071,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.684344687764386,
+    "vol_ratio": 2.0928789091044364,
     "price_pos": 0.5
   },
   {
     "code": "1477",
     "name": "聚陽",
-    "three_inst_ratio": 16.422527188481695,
+    "three_inst_ratio": 14.729878863876845,
     "change": 0.0,
     "foreign_ratio_diff": 0.2900000000000027,
-    "trust_ratio_diff": -0.419841262837533,
+    "trust_ratio_diff": -0.41984126283753387,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.2753704102133865,
+    "vol_ratio": 1.7740176079629795,
     "price_pos": 0.5
   },
   {
     "code": "1503",
     "name": "士電",
-    "three_inst_ratio": 30.399597440668156,
+    "three_inst_ratio": 30.39451981870826,
     "change": 0.0,
     "foreign_ratio_diff": 0.060000000000002274,
     "trust_ratio_diff": -0.00019194881336312593,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.773878176454666,
+    "vol_ratio": 2.1626846799477057,
     "price_pos": 0.5
   },
   {
     "code": "1504",
     "name": "東元",
-    "three_inst_ratio": 10.757691417136167,
+    "three_inst_ratio": 7.945127297610262,
     "change": 0.0,
     "foreign_ratio_diff": 0.5300000000000011,
-    "trust_ratio_diff": -0.6813971881992913,
+    "trust_ratio_diff": -0.6813971881992904,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.6310587195466173,
+    "vol_ratio": 2.0513339169346505,
     "price_pos": 0.5
   },
   {
@@ -1162,7 +1162,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.319780454887425,
+    "vol_ratio": 1.8086423885562974,
     "price_pos": 0.5
   },
   {
@@ -1173,29 +1173,29 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.311233030823643,
+    "vol_ratio": 3.3613003291167383,
     "price_pos": 0.5
   },
   {
     "code": "1513",
     "name": "中興電",
-    "three_inst_ratio": 14.814026685859723,
+    "three_inst_ratio": 17.25226478057299,
     "change": 0.0,
     "foreign_ratio_diff": 0.120000000000001,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.4087328724093628,
+    "vol_ratio": 1.0983341039123846,
     "price_pos": 0.5
   },
   {
     "code": "1514",
     "name": "亞力",
-    "three_inst_ratio": 13.51,
+    "three_inst_ratio": 13.448485980257376,
     "change": 0.0,
     "foreign_ratio_diff": 0.14000000000000057,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.52055380223198,
+    "vol_ratio": 1.9651775407232384,
     "price_pos": 0.5
   },
   {
@@ -1206,7 +1206,7 @@
     "foreign_ratio_diff": -0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.1292513615788016,
+    "vol_ratio": 1.660094281908896,
     "price_pos": 0.5
   },
   {
@@ -1217,7 +1217,7 @@
     "foreign_ratio_diff": -0.010000000000000009,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.4006725770291553,
+    "vol_ratio": 1.871710822768494,
     "price_pos": 0.5
   },
   {
@@ -1228,18 +1228,18 @@
     "foreign_ratio_diff": 0.04999999999999982,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.3863555756111454,
+    "vol_ratio": 1.8605484148832656,
     "price_pos": 0.5
   },
   {
     "code": "1519",
     "name": "華城",
-    "three_inst_ratio": 20.231343197246872,
+    "three_inst_ratio": 21.334970424480694,
     "change": 0.0,
     "foreign_ratio_diff": 0.05000000000000071,
     "trust_ratio_diff": 0.018361354004739816,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.754204162073725,
+    "vol_ratio": 1.3676846009388366,
     "price_pos": 0.5
   },
   {
@@ -1250,18 +1250,18 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.4107653094929473,
+    "vol_ratio": 1.8795797328250097,
     "price_pos": 0.5
   },
   {
     "code": "1522",
     "name": "堤維西",
-    "three_inst_ratio": 4.714409677705679,
+    "three_inst_ratio": 4.689786947838103,
     "change": 0.0,
     "foreign_ratio_diff": 0.10999999999999943,
-    "trust_ratio_diff": -0.0004384817166595001,
+    "trust_ratio_diff": -0.00043848171665950356,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.1398087723584718,
+    "vol_ratio": 2.4479865004828762,
     "price_pos": 0.5
   },
   {
@@ -1272,7 +1272,7 @@
     "foreign_ratio_diff": 0.06000000000000005,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.6640342989737056,
+    "vol_ratio": 1.2973826737761096,
     "price_pos": 0.5
   },
   {
@@ -1283,7 +1283,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.579668819198137,
+    "vol_ratio": 2.011267214968039,
     "price_pos": 0.5
   },
   {
@@ -1294,7 +1294,7 @@
     "foreign_ratio_diff": -0.010000000000000009,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.872766725346765,
+    "vol_ratio": 3.019445243490698,
     "price_pos": 0.5
   },
   {
@@ -1305,7 +1305,7 @@
     "foreign_ratio_diff": -0.019999999999999574,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.180652166991482,
+    "vol_ratio": 3.2594915200272574,
     "price_pos": 0.5
   },
   {
@@ -1316,7 +1316,7 @@
     "foreign_ratio_diff": 1.3599999999999999,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.205149743951464,
+    "vol_ratio": 3.2785913257926667,
     "price_pos": 0.5
   },
   {
@@ -1327,7 +1327,7 @@
     "foreign_ratio_diff": 0.020000000000000018,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.4773730446745565,
+    "vol_ratio": 1.931511187373383,
     "price_pos": 0.5
   },
   {
@@ -1338,7 +1338,7 @@
     "foreign_ratio_diff": -0.010000000000000009,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 6.5323599645303645,
+    "vol_ratio": 5.093026413023674,
     "price_pos": 0.5
   },
   {
@@ -1349,18 +1349,18 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 10.706735718489927,
+    "vol_ratio": 8.347624458483672,
     "price_pos": 0.5
   },
   {
     "code": "1532",
     "name": "勤美",
-    "three_inst_ratio": 9.334037211233012,
+    "three_inst_ratio": 9.264263425155965,
     "change": 0.0,
     "foreign_ratio_diff": -0.009999999999999787,
-    "trust_ratio_diff": -0.001266433012457652,
+    "trust_ratio_diff": -0.0012664330124576434,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.7821199182266934,
+    "vol_ratio": 1.3894494277699643,
     "price_pos": 0.5
   },
   {
@@ -1371,7 +1371,7 @@
     "foreign_ratio_diff": 0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.499845061078098,
+    "vol_ratio": 1.9490317425354653,
     "price_pos": 0.5
   },
   {
@@ -1382,7 +1382,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.065715515602851,
+    "vol_ratio": 1.610557859622562,
     "price_pos": 0.5
   },
   {
@@ -1393,7 +1393,7 @@
     "foreign_ratio_diff": -0.08000000000000007,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.6467823511458426,
+    "vol_ratio": 2.843254036486589,
     "price_pos": 0.5
   },
   {
@@ -1404,7 +1404,7 @@
     "foreign_ratio_diff": 0.02999999999999936,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.776018344131058,
+    "vol_ratio": 3.723675319153028,
     "price_pos": 0.5
   },
   {
@@ -1415,7 +1415,7 @@
     "foreign_ratio_diff": -0.020000000000000018,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.928078967606504,
+    "vol_ratio": 2.2829090255915117,
     "price_pos": 0.5
   },
   {
@@ -1426,29 +1426,29 @@
     "foreign_ratio_diff": 0.10999999999999988,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.499077656524099,
+    "vol_ratio": 3.5077554610187884,
     "price_pos": 0.5
   },
   {
     "code": "1558",
     "name": "伸興",
-    "three_inst_ratio": 6.07766741522298,
+    "three_inst_ratio": 6.063553173186259,
     "change": 0.0,
     "foreign_ratio_diff": 0.009999999999999787,
-    "trust_ratio_diff": -0.0002915730971274626,
+    "trust_ratio_diff": -0.00029157309712746216,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.8599913432422558,
+    "vol_ratio": 0.6705017252397251,
     "price_pos": 0.5
   },
   {
     "code": "1560",
     "name": "中砂",
-    "three_inst_ratio": 28.34776496990639,
+    "three_inst_ratio": 27.193860186609765,
     "change": 0.0,
     "foreign_ratio_diff": 0.07000000000000028,
-    "trust_ratio_diff": 0.008887233949200879,
+    "trust_ratio_diff": 0.008887233949200768,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.3605751810164497,
+    "vol_ratio": 1.8404484462162156,
     "price_pos": 0.5
   },
   {
@@ -1459,7 +1459,7 @@
     "foreign_ratio_diff": -0.04999999999999982,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.239518777129734,
+    "vol_ratio": 3.305387521151996,
     "price_pos": 0.5
   },
   {
@@ -1470,18 +1470,18 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.324149628018524,
+    "vol_ratio": 3.3713708964212215,
     "price_pos": 0.5
   },
   {
     "code": "1582",
     "name": "信錦",
-    "three_inst_ratio": 8.01,
+    "three_inst_ratio": 7.4582514019474395,
     "change": 0.0,
     "foreign_ratio_diff": -0.09999999999999964,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.488145366957586,
+    "vol_ratio": 1.9399099471194738,
     "price_pos": 0.5
   },
   {
@@ -1492,7 +1492,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.323476563864779,
+    "vol_ratio": 1.0318630836911835,
     "price_pos": 0.5
   },
   {
@@ -1503,7 +1503,7 @@
     "foreign_ratio_diff": -0.26000000000000156,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.3284119031102124,
+    "vol_ratio": 1.0357109753062674,
     "price_pos": 0.5
   },
   {
@@ -1514,18 +1514,18 @@
     "foreign_ratio_diff": 0.09999999999999964,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 5.067067949306933,
+    "vol_ratio": 3.9505953503071005,
     "price_pos": 0.5
   },
   {
     "code": "1590",
     "name": "亞德客-KY",
-    "three_inst_ratio": 77.651500000115,
+    "three_inst_ratio": 77.48918199849182,
     "change": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.5957398857861108,
+    "vol_ratio": 0.4644751651891711,
     "price_pos": 0.5
   },
   {
@@ -1536,7 +1536,7 @@
     "foreign_ratio_diff": -0.020000000000000018,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.179331396243089,
+    "vol_ratio": 1.6991397326641031,
     "price_pos": 0.5
   },
   {
@@ -1547,18 +1547,18 @@
     "foreign_ratio_diff": -0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.2675002641931514,
+    "vol_ratio": 1.7678815619133044,
     "price_pos": 0.5
   },
   {
     "code": "1603",
     "name": "華電",
-    "three_inst_ratio": 4.356869913609616,
+    "three_inst_ratio": 4.347479654438462,
     "change": 0.0,
     "foreign_ratio_diff": 0.1299999999999999,
-    "trust_ratio_diff": -0.0010433621301281248,
+    "trust_ratio_diff": -0.001043362130128126,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 8.02787341187943,
+    "vol_ratio": 6.259019948244979,
     "price_pos": 0.5
   },
   {
@@ -1569,40 +1569,40 @@
     "foreign_ratio_diff": -0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.311743597776773,
+    "vol_ratio": 2.582037381317483,
     "price_pos": 0.5
   },
   {
     "code": "1605",
     "name": "華新",
-    "three_inst_ratio": 12.972110736392358,
+    "three_inst_ratio": 13.041119159724216,
     "change": 0.0,
     "foreign_ratio_diff": 1.1199999999999992,
-    "trust_ratio_diff": 0.09717166483604969,
+    "trust_ratio_diff": 0.09717166483604966,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 9.923868151783696,
+    "vol_ratio": 7.737253135288983,
     "price_pos": 0.5
   },
   {
     "code": "1608",
     "name": "華榮",
-    "three_inst_ratio": 5.548893758993759,
+    "three_inst_ratio": 5.544784863827721,
     "change": 0.0,
     "foreign_ratio_diff": 0.96,
-    "trust_ratio_diff": -0.00031606885892596136,
+    "trust_ratio_diff": -0.0003160688589259608,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 24.8993171383993,
+    "vol_ratio": 19.413026921463864,
     "price_pos": 0.5
   },
   {
     "code": "1609",
     "name": "大亞",
-    "three_inst_ratio": 12.297661565832865,
+    "three_inst_ratio": 12.425105026915706,
     "change": 0.0,
     "foreign_ratio_diff": 0.3699999999999992,
-    "trust_ratio_diff": -0.030563049926687902,
+    "trust_ratio_diff": -0.030563049926687916,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 10.135138456247878,
+    "vol_ratio": 7.9019723557186845,
     "price_pos": 0.5
   },
   {
@@ -1613,7 +1613,7 @@
     "foreign_ratio_diff": -0.06999999999999851,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 9.596121021084157,
+    "vol_ratio": 7.481721474065613,
     "price_pos": 0.5
   },
   {
@@ -1624,7 +1624,7 @@
     "foreign_ratio_diff": 0.07000000000000028,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 7.759745448233317,
+    "vol_ratio": 6.049971027436145,
     "price_pos": 0.5
   },
   {
@@ -1635,7 +1635,7 @@
     "foreign_ratio_diff": -0.010000000000000231,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 5.097962646993838,
+    "vol_ratio": 3.974682741724009,
     "price_pos": 0.5
   },
   {
@@ -1646,7 +1646,7 @@
     "foreign_ratio_diff": 0.07000000000000006,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 12.11396304677458,
+    "vol_ratio": 9.444784748332724,
     "price_pos": 0.5
   },
   {
@@ -1657,7 +1657,7 @@
     "foreign_ratio_diff": 0.07000000000000028,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 11.241115471021955,
+    "vol_ratio": 8.764259519779825,
     "price_pos": 0.5
   },
   {
@@ -1668,7 +1668,7 @@
     "foreign_ratio_diff": 0.05000000000000071,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 12.908116592846735,
+    "vol_ratio": 10.063955309677114,
     "price_pos": 0.5
   },
   {
@@ -1679,7 +1679,7 @@
     "foreign_ratio_diff": 0.27000000000000024,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 17.397694963625113,
+    "vol_ratio": 13.564304547911107,
     "price_pos": 0.5
   },
   {
@@ -1690,29 +1690,29 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 5.4056101771293905,
+    "vol_ratio": 4.214543527931391,
     "price_pos": 0.5
   },
   {
     "code": "1702",
     "name": "南僑",
-    "three_inst_ratio": 8.577567086683743,
+    "three_inst_ratio": 9.192166004026438,
     "change": 0.0,
     "foreign_ratio_diff": 0.019999999999999574,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.6273062870205315,
+    "vol_ratio": 1.268747274626177,
     "price_pos": 0.5
   },
   {
     "code": "1707",
     "name": "葡萄王",
-    "three_inst_ratio": 14.49,
+    "three_inst_ratio": 14.427220433900903,
     "change": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.6452993422720423,
+    "vol_ratio": 1.2827757583815924,
     "price_pos": 0.5
   },
   {
@@ -1723,7 +1723,7 @@
     "foreign_ratio_diff": 0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.9754909416815247,
+    "vol_ratio": 1.5402132765652565,
     "price_pos": 0.5
   },
   {
@@ -1734,7 +1734,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.753463217374686,
+    "vol_ratio": 2.146767932190433,
     "price_pos": 0.5
   },
   {
@@ -1745,7 +1745,7 @@
     "foreign_ratio_diff": -0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.6051528910846142,
+    "vol_ratio": 1.2514751354219027,
     "price_pos": 0.5
   },
   {
@@ -1756,18 +1756,18 @@
     "foreign_ratio_diff": -0.0600000000000005,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.2859707337668322,
+    "vol_ratio": 1.0026212500554963,
     "price_pos": 0.5
   },
   {
     "code": "1712",
     "name": "興農",
-    "three_inst_ratio": 14.77,
+    "three_inst_ratio": 14.6917584300565,
     "change": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.2403404840249737,
+    "vol_ratio": 1.7467061400872674,
     "price_pos": 0.5
   },
   {
@@ -1778,7 +1778,7 @@
     "foreign_ratio_diff": -0.030000000000000027,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.6113102011938545,
+    "vol_ratio": 2.0359367670324966,
     "price_pos": 0.5
   },
   {
@@ -1789,18 +1789,18 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.6966569617697562,
+    "vol_ratio": 2.8821393261255728,
     "price_pos": 0.5
   },
   {
     "code": "1717",
     "name": "長興",
-    "three_inst_ratio": 12.862388578195102,
+    "three_inst_ratio": 13.096136802414106,
     "change": 0.0,
     "foreign_ratio_diff": -0.0600000000000005,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.1027612213920213,
+    "vol_ratio": 0.8597799353225928,
     "price_pos": 0.5
   },
   {
@@ -1811,7 +1811,7 @@
     "foreign_ratio_diff": -0.07000000000000028,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.000824529817101,
+    "vol_ratio": 3.119286921552316,
     "price_pos": 0.5
   },
   {
@@ -1822,7 +1822,7 @@
     "foreign_ratio_diff": -0.0600000000000005,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.07806938924938,
+    "vol_ratio": 2.399850710262229,
     "price_pos": 0.5
   },
   {
@@ -1833,29 +1833,29 @@
     "foreign_ratio_diff": 0.15000000000000036,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 5.125479435805029,
+    "vol_ratio": 3.996136509271717,
     "price_pos": 0.5
   },
   {
     "code": "1722",
     "name": "台肥",
-    "three_inst_ratio": 8.283775510204082,
+    "three_inst_ratio": 8.199183673469387,
     "change": 0.0,
     "foreign_ratio_diff": -0.030000000000001137,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.8015256201231004,
+    "vol_ratio": 0.6249182800959765,
     "price_pos": 0.5
   },
   {
     "code": "1723",
     "name": "中碳",
-    "three_inst_ratio": 6.13,
+    "three_inst_ratio": 5.994924462382476,
     "change": 0.0,
     "foreign_ratio_diff": -0.11000000000000032,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 6.022928269016142,
+    "vol_ratio": 4.695842379232924,
     "price_pos": 0.5
   },
   {
@@ -1866,7 +1866,7 @@
     "foreign_ratio_diff": -0.010000000000000009,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.9843957641512215,
+    "vol_ratio": 2.3268170364568848,
     "price_pos": 0.5
   },
   {
@@ -1877,7 +1877,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.0626391542491276,
+    "vol_ratio": 1.6081593406010148,
     "price_pos": 0.5
   },
   {
@@ -1888,7 +1888,7 @@
     "foreign_ratio_diff": -0.10000000000000053,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.5362415977149722,
+    "vol_ratio": 1.1977476863540462,
     "price_pos": 0.5
   },
   {
@@ -1899,7 +1899,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.3273466773574127,
+    "vol_ratio": 1.0348804603125592,
     "price_pos": 0.5
   },
   {
@@ -1910,18 +1910,18 @@
     "foreign_ratio_diff": -0.13999999999999968,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.690003586853568,
+    "vol_ratio": 3.6566129660214264,
     "price_pos": 0.5
   },
   {
     "code": "1733",
     "name": "五鼎",
-    "three_inst_ratio": 5.316998505015379,
+    "three_inst_ratio": 5.305993023405098,
     "change": 0.0,
     "foreign_ratio_diff": -0.019999999999999574,
-    "trust_ratio_diff": -0.0010004983282073136,
+    "trust_ratio_diff": -0.0010004983282073162,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.9243416160848157,
+    "vol_ratio": 2.2799951583034157,
     "price_pos": 0.5
   },
   {
@@ -1932,7 +1932,7 @@
     "foreign_ratio_diff": -0.020000000000000462,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.712219780707394,
+    "vol_ratio": 2.114612032415934,
     "price_pos": 0.5
   },
   {
@@ -1943,18 +1943,18 @@
     "foreign_ratio_diff": -0.00999999999999801,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.3957015094958094,
+    "vol_ratio": 1.8678350752001225,
     "price_pos": 0.5
   },
   {
     "code": "1736",
     "name": "喬山",
-    "three_inst_ratio": 4.188811652284523,
+    "three_inst_ratio": 3.9943454465772543,
     "change": 0.0,
     "foreign_ratio_diff": -0.03000000000000025,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.5862967369497911,
+    "vol_ratio": 1.2367737271133965,
     "price_pos": 0.5
   },
   {
@@ -1965,7 +1965,7 @@
     "foreign_ratio_diff": 0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.9690027682326676,
+    "vol_ratio": 1.5351547006559783,
     "price_pos": 0.5
   },
   {
@@ -1976,7 +1976,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.4247039125225032,
+    "vol_ratio": 1.1107861012887312,
     "price_pos": 0.5
   },
   {
@@ -1987,7 +1987,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.9582363596089776,
+    "vol_ratio": 2.3064215685086946,
     "price_pos": 0.5
   },
   {
@@ -1998,18 +1998,18 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.047425029030192,
+    "vol_ratio": 3.155619514159133,
     "price_pos": 0.5
   },
   {
     "code": "1773",
     "name": "勝一",
-    "three_inst_ratio": 5.637333333333333,
+    "three_inst_ratio": 5.499466666666667,
     "change": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.342365760861022,
+    "vol_ratio": 1.0465902542306273,
     "price_pos": 0.5
   },
   {
@@ -2020,7 +2020,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.8074165508475522,
+    "vol_ratio": 0.6295112091353796,
     "price_pos": 0.5
   },
   {
@@ -2031,7 +2031,7 @@
     "foreign_ratio_diff": -0.019999999999999574,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.6798114517075615,
+    "vol_ratio": 1.3096835047211495,
     "price_pos": 0.5
   },
   {
@@ -2042,7 +2042,7 @@
     "foreign_ratio_diff": -0.22999999999999998,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 5.267922518739185,
+    "vol_ratio": 4.107193828169535,
     "price_pos": 0.5
   },
   {
@@ -2053,29 +2053,29 @@
     "foreign_ratio_diff": -0.020000000000000018,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.6449501602974317,
+    "vol_ratio": 1.2825035148081672,
     "price_pos": 0.5
   },
   {
     "code": "1795",
     "name": "美時",
-    "three_inst_ratio": 58.55812680631131,
+    "three_inst_ratio": 58.986338883546296,
     "change": 0.0,
     "foreign_ratio_diff": 0.10999999999999943,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.6890688057502996,
+    "vol_ratio": 1.3169011027883692,
     "price_pos": 0.5
   },
   {
     "code": "1802",
     "name": "台玻",
-    "three_inst_ratio": 3.6886122215876638,
+    "three_inst_ratio": 4.132103636897825,
     "change": 0.0,
     "foreign_ratio_diff": 0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.7096789300846096,
+    "vol_ratio": 2.1126310302354585,
     "price_pos": 0.5
   },
   {
@@ -2086,29 +2086,29 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.6017218876739685,
+    "vol_ratio": 1.2488001158136024,
     "price_pos": 0.5
   },
   {
     "code": "1806",
     "name": "冠軍",
-    "three_inst_ratio": 7.3841329820834005,
+    "three_inst_ratio": 7.280116339010677,
     "change": 0.0,
     "foreign_ratio_diff": -0.009999999999999787,
     "trust_ratio_diff": -0.02202847015835166,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.014196079563017,
+    "vol_ratio": 1.5703901637270978,
     "price_pos": 0.5
   },
   {
     "code": "1808",
     "name": "潤隆",
-    "three_inst_ratio": 4.302990702895989,
+    "three_inst_ratio": 4.260898134188719,
     "change": 0.0,
     "foreign_ratio_diff": 0.10999999999999943,
     "trust_ratio_diff": -0.13437372292823416,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.7690246675801635,
+    "vol_ratio": 3.7182226221811443,
     "price_pos": 0.5
   },
   {
@@ -2119,7 +2119,7 @@
     "foreign_ratio_diff": 0.019999999999999574,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.9829867791991007,
+    "vol_ratio": 1.5460574888670955,
     "price_pos": 0.5
   },
   {
@@ -2130,7 +2130,7 @@
     "foreign_ratio_diff": -0.040000000000000036,
     "trust_ratio_diff": 0.109823326387857,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.2482681817926657,
+    "vol_ratio": 2.5325480739400437,
     "price_pos": 0.5
   },
   {
@@ -2141,7 +2141,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.082899147671627,
+    "vol_ratio": 0.8442942507270313,
     "price_pos": 0.5
   },
   {
@@ -2152,18 +2152,18 @@
     "foreign_ratio_diff": 0.02000000000000135,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.6249166986090255,
+    "vol_ratio": 1.2668842056951723,
     "price_pos": 0.5
   },
   {
     "code": "1904",
     "name": "正隆",
-    "three_inst_ratio": 8.598002282759326,
+    "three_inst_ratio": 8.573780576433752,
     "change": 0.0,
     "foreign_ratio_diff": -0.019999999999999574,
     "trust_ratio_diff": -0.02003113809738919,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.303978190373955,
+    "vol_ratio": 2.5759829958847784,
     "price_pos": 0.5
   },
   {
@@ -2174,7 +2174,7 @@
     "foreign_ratio_diff": -0.020000000000000018,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.8892463062889426,
+    "vol_ratio": 1.472971696428667,
     "price_pos": 0.5
   },
   {
@@ -2185,7 +2185,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.512874898339404,
+    "vol_ratio": 0.39986856480699295,
     "price_pos": 0.5
   },
   {
@@ -2196,7 +2196,7 @@
     "foreign_ratio_diff": -0.010000000000001563,
     "trust_ratio_diff": 0.017164833343516296,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.4532178057976837,
+    "vol_ratio": 1.1330172723168381,
     "price_pos": 0.5
   },
   {
@@ -2207,29 +2207,29 @@
     "foreign_ratio_diff": 0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.4864678759760803,
+    "vol_ratio": 1.1589410558457576,
     "price_pos": 0.5
   },
   {
     "code": "2002",
     "name": "中鋼",
-    "three_inst_ratio": 13.068117406302118,
+    "three_inst_ratio": 12.982353439257395,
     "change": 0.0,
     "foreign_ratio_diff": 0.049999999999998934,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.134704727650352,
+    "vol_ratio": 1.6643460588460368,
     "price_pos": 0.5
   },
   {
     "code": "2006",
     "name": "東和鋼鐵",
-    "three_inst_ratio": 15.00552681702334,
+    "three_inst_ratio": 14.70643620189614,
     "change": 0.0,
     "foreign_ratio_diff": -0.11000000000000121,
-    "trust_ratio_diff": -0.039166610237989216,
+    "trust_ratio_diff": -0.039166610237989175,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.821595034594066,
+    "vol_ratio": 1.420226637141136,
     "price_pos": 0.5
   },
   {
@@ -2240,7 +2240,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.513848525084205,
+    "vol_ratio": 1.9599496975232777,
     "price_pos": 0.5
   },
   {
@@ -2251,7 +2251,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.8974689435700105,
+    "vol_ratio": 3.0387046000715334,
     "price_pos": 0.5
   },
   {
@@ -2262,18 +2262,18 @@
     "foreign_ratio_diff": 3.29,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 13.97965718883387,
+    "vol_ratio": 10.899393740446747,
     "price_pos": 0.5
   },
   {
     "code": "2010",
     "name": "春源",
-    "three_inst_ratio": 8.949845596899918,
+    "three_inst_ratio": 8.92097221718482,
     "change": 0.0,
     "foreign_ratio_diff": 0.02999999999999936,
-    "trust_ratio_diff": -0.00015440310008073892,
+    "trust_ratio_diff": -0.0001544031000807397,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.131158997080974,
+    "vol_ratio": 1.6615815909444882,
     "price_pos": 0.5
   },
   {
@@ -2284,7 +2284,7 @@
     "foreign_ratio_diff": -0.010000000000000009,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 12.387866281498678,
+    "vol_ratio": 9.658336422863377,
     "price_pos": 0.5
   },
   {
@@ -2295,7 +2295,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.5855112073775337,
+    "vol_ratio": 2.7954833142265523,
     "price_pos": 0.5
   },
   {
@@ -2306,18 +2306,18 @@
     "foreign_ratio_diff": 0.22000000000000064,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 7.862517147660785,
+    "vol_ratio": 6.1300981151253575,
     "price_pos": 0.5
   },
   {
     "code": "2015",
     "name": "豐興",
-    "three_inst_ratio": 11.919229740089976,
+    "three_inst_ratio": 11.917854222909272,
     "change": 0.0,
     "foreign_ratio_diff": 0.009999999999999787,
     "trust_ratio_diff": -0.02149245594851208,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.3464956661145413,
+    "vol_ratio": 1.8294711973096425,
     "price_pos": 0.5
   },
   {
@@ -2328,7 +2328,7 @@
     "foreign_ratio_diff": -0.010000000000000009,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 5.503022252119603,
+    "vol_ratio": 4.290491925381387,
     "price_pos": 0.5
   },
   {
@@ -2339,7 +2339,7 @@
     "foreign_ratio_diff": 0.029999999999999805,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.024502305483226,
+    "vol_ratio": 3.1377475602072615,
     "price_pos": 0.5
   },
   {
@@ -2350,18 +2350,18 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.5410986023285838,
+    "vol_ratio": 1.9811955204595737,
     "price_pos": 0.5
   },
   {
     "code": "2023",
     "name": "燁輝",
-    "three_inst_ratio": 5.4,
+    "three_inst_ratio": 5.425640483865901,
     "change": 0.0,
     "foreign_ratio_diff": 0.020000000000000462,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.9505996700926924,
+    "vol_ratio": 1.5208065224451501,
     "price_pos": 0.5
   },
   {
@@ -2372,18 +2372,18 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 5.0346046143799015,
+    "vol_ratio": 3.9252849535843293,
     "price_pos": 0.5
   },
   {
     "code": "2027",
     "name": "大成鋼",
-    "three_inst_ratio": 20.129221551751275,
+    "three_inst_ratio": 20.367816566673945,
     "change": 0.0,
     "foreign_ratio_diff": -0.509999999999998,
-    "trust_ratio_diff": 0.26235744029245267,
+    "trust_ratio_diff": 0.26235744029245245,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.0126328397434343,
+    "vol_ratio": 2.3488323835287797,
     "price_pos": 0.5
   },
   {
@@ -2394,7 +2394,7 @@
     "foreign_ratio_diff": 0.010000000000000009,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.383521030924972,
+    "vol_ratio": 3.4176604647889612,
     "price_pos": 0.5
   },
   {
@@ -2405,7 +2405,7 @@
     "foreign_ratio_diff": 0.009999999999990905,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.6350832732795326,
+    "vol_ratio": 1.2748106876416698,
     "price_pos": 0.5
   },
   {
@@ -2416,7 +2416,7 @@
     "foreign_ratio_diff": 0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 6.075950531549707,
+    "vol_ratio": 4.737181770360788,
     "price_pos": 0.5
   },
   {
@@ -2427,7 +2427,7 @@
     "foreign_ratio_diff": -0.019999999999999574,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.494587854905924,
+    "vol_ratio": 1.9449329038249576,
     "price_pos": 0.5
   },
   {
@@ -2438,7 +2438,7 @@
     "foreign_ratio_diff": 0.020000000000000018,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 9.060553807410788,
+    "vol_ratio": 7.064160595608411,
     "price_pos": 0.5
   },
   {
@@ -2449,7 +2449,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 6.556711675636983,
+    "vol_ratio": 5.112012492869511,
     "price_pos": 0.5
   },
   {
@@ -2460,7 +2460,7 @@
     "foreign_ratio_diff": 0.16999999999999993,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 6.6937770802619605,
+    "vol_ratio": 5.21887704562797,
     "price_pos": 0.5
   },
   {
@@ -2471,40 +2471,40 @@
     "foreign_ratio_diff": 0.06999999999999984,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 7.114874393028706,
+    "vol_ratio": 5.547190204734245,
     "price_pos": 0.5
   },
   {
     "code": "2049",
     "name": "上銀",
-    "three_inst_ratio": 25.072294849655268,
+    "three_inst_ratio": 24.975622294033357,
     "change": 0.0,
     "foreign_ratio_diff": -0.10000000000000142,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.024314394293122,
+    "vol_ratio": 1.5782790192793834,
     "price_pos": 0.5
   },
   {
     "code": "2059",
     "name": "川湖",
-    "three_inst_ratio": 25.16145473514653,
+    "three_inst_ratio": 23.40435353061005,
     "change": 0.0,
     "foreign_ratio_diff": -0.07000000000000028,
-    "trust_ratio_diff": 0.013851422423555693,
+    "trust_ratio_diff": 0.013851422423555748,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.8072644166488314,
+    "vol_ratio": 1.4090536129804447,
     "price_pos": 0.5
   },
   {
     "code": "2062",
     "name": "橋椿",
-    "three_inst_ratio": 7.7569999122774345,
+    "three_inst_ratio": 7.496492295034707,
     "change": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.142543407789252,
+    "vol_ratio": 3.229779606072976,
     "price_pos": 0.5
   },
   {
@@ -2515,7 +2515,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.4186131350659683,
+    "vol_ratio": 2.6653593934412636,
     "price_pos": 0.5
   },
   {
@@ -2526,7 +2526,7 @@
     "foreign_ratio_diff": 0.03000000000000025,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.310618553032361,
+    "vol_ratio": 1.8014992108387895,
     "price_pos": 0.5
   },
   {
@@ -2537,18 +2537,18 @@
     "foreign_ratio_diff": 0.020000000000000018,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.8997628338746684,
+    "vol_ratio": 2.2608320399700808,
     "price_pos": 0.5
   },
   {
     "code": "2103",
     "name": "台橡",
-    "three_inst_ratio": 20.56,
+    "three_inst_ratio": 20.558788921017495,
     "change": 0.0,
     "foreign_ratio_diff": -0.019999999999999574,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.169016912053165,
+    "vol_ratio": 1.6910979314312813,
     "price_pos": 0.5
   },
   {
@@ -2559,18 +2559,18 @@
     "foreign_ratio_diff": -0.040000000000000036,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.2860387110075193,
+    "vol_ratio": 1.0026742492600995,
     "price_pos": 0.5
   },
   {
     "code": "2105",
     "name": "正新",
-    "three_inst_ratio": 10.940568508807196,
+    "three_inst_ratio": 10.598011719136771,
     "change": 0.0,
     "foreign_ratio_diff": -0.05000000000000071,
-    "trust_ratio_diff": -0.014561539387895367,
+    "trust_ratio_diff": -0.014561539387895284,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.604330099962967,
+    "vol_ratio": 1.2508336372592626,
     "price_pos": 0.5
   },
   {
@@ -2581,7 +2581,7 @@
     "foreign_ratio_diff": -0.03999999999999915,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.9745035095806727,
+    "vol_ratio": 1.539443414249338,
     "price_pos": 0.5
   },
   {
@@ -2592,7 +2592,7 @@
     "foreign_ratio_diff": 0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.1899311687879601,
+    "vol_ratio": 0.9277429451567147,
     "price_pos": 0.5
   },
   {
@@ -2603,7 +2603,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.996509142304868,
+    "vol_ratio": 1.556600348237694,
     "price_pos": 0.5
   },
   {
@@ -2614,7 +2614,7 @@
     "foreign_ratio_diff": 0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 5.561983992975012,
+    "vol_ratio": 4.336462096217806,
     "price_pos": 0.5
   },
   {
@@ -2625,95 +2625,95 @@
     "foreign_ratio_diff": 0.010000000000005116,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.475323242789199,
+    "vol_ratio": 3.4892350706492063,
     "price_pos": 0.5
   },
   {
     "code": "2201",
     "name": "裕隆",
-    "three_inst_ratio": 5.652336434174879,
+    "three_inst_ratio": 5.6506541931510315,
     "change": 0.0,
     "foreign_ratio_diff": -0.08000000000000007,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.7562871495816267,
+    "vol_ratio": 0.5896476081483869,
     "price_pos": 0.5
   },
   {
     "code": "2204",
     "name": "中華",
-    "three_inst_ratio": 20.62980110871721,
+    "three_inst_ratio": 20.48917495376281,
     "change": 0.0,
     "foreign_ratio_diff": -0.08999999999999986,
-    "trust_ratio_diff": -0.002108304033380335,
+    "trust_ratio_diff": -0.0021083040333803177,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.4680942042126361,
+    "vol_ratio": 1.1446158202335805,
     "price_pos": 0.5
   },
   {
     "code": "2206",
     "name": "三陽工業",
-    "three_inst_ratio": 6.935666297048175,
+    "three_inst_ratio": 6.66832478670242,
     "change": 0.0,
     "foreign_ratio_diff": -0.009999999999999787,
-    "trust_ratio_diff": -0.05165467974146554,
+    "trust_ratio_diff": -0.05165467974146548,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.6558939209169625,
+    "vol_ratio": 2.070696955291191,
     "price_pos": 0.5
   },
   {
     "code": "2207",
     "name": "和泰車",
-    "three_inst_ratio": 22.784237285570264,
+    "three_inst_ratio": 22.81404255840998,
     "change": 0.0,
     "foreign_ratio_diff": -0.05999999999999872,
     "trust_ratio_diff": 0.05600402976278157,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.51587868562892,
+    "vol_ratio": 1.1818715176089885,
     "price_pos": 0.5
   },
   {
     "code": "2208",
     "name": "台船",
-    "three_inst_ratio": 6.8163908531794695,
+    "three_inst_ratio": 6.795912867958629,
     "change": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.2273347998719846,
+    "vol_ratio": 1.7365661151544296,
     "price_pos": 0.5
   },
   {
     "code": "2211",
     "name": "長榮鋼",
-    "three_inst_ratio": 9.694616900682046,
+    "three_inst_ratio": 9.70506784582642,
     "change": 0.0,
     "foreign_ratio_diff": -0.5300000000000002,
-    "trust_ratio_diff": 0.5396897802245357,
+    "trust_ratio_diff": 0.5396897802245353,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.934687320602251,
+    "vol_ratio": 2.2880613008085344,
     "price_pos": 0.5
   },
   {
     "code": "2227",
     "name": "裕日車",
-    "three_inst_ratio": 40.35966666666667,
+    "three_inst_ratio": 40.359,
     "change": 0.0,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": -0.0003333333333333333,
+    "trust_ratio_diff": -0.0003333333333333334,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.073576732197014,
+    "vol_ratio": 0.837025926797672,
     "price_pos": 0.5
   },
   {
     "code": "2228",
     "name": "劍麟",
-    "three_inst_ratio": 3.708663824835138,
+    "three_inst_ratio": 2.3997458396871703,
     "change": 0.0,
     "foreign_ratio_diff": 0.3099999999999996,
-    "trust_ratio_diff": -0.001257365979969255,
+    "trust_ratio_diff": -0.0012573659799690606,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.8112343683056011,
+    "vol_ratio": 1.412148829526401,
     "price_pos": 0.5
   },
   {
@@ -2724,18 +2724,18 @@
     "foreign_ratio_diff": 0.03000000000000025,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.4251353676011564,
+    "vol_ratio": 1.1111224899941226,
     "price_pos": 0.5
   },
   {
     "code": "2233",
     "name": "宇隆",
-    "three_inst_ratio": 3.816730380523423,
+    "three_inst_ratio": 2.755160822397273,
     "change": 0.0,
     "foreign_ratio_diff": 0.8599999999999999,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 6.210389698004799,
+    "vol_ratio": 4.841998747596962,
     "price_pos": 0.5
   },
   {
@@ -2746,7 +2746,7 @@
     "foreign_ratio_diff": -0.9299999999999997,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.624637240354494,
+    "vol_ratio": 3.6056493738357083,
     "price_pos": 0.5
   },
   {
@@ -2757,7 +2757,7 @@
     "foreign_ratio_diff": -0.020000000000010232,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.318131801484584,
+    "vol_ratio": 1.8073569977676418,
     "price_pos": 0.5
   },
   {
@@ -2768,7 +2768,7 @@
     "foreign_ratio_diff": -0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.1794922652014708,
+    "vol_ratio": 1.6992651559197907,
     "price_pos": 0.5
   },
   {
@@ -2779,7 +2779,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.954839908914946,
+    "vol_ratio": 3.863095522204873,
     "price_pos": 0.5
   },
   {
@@ -2790,7 +2790,7 @@
     "foreign_ratio_diff": -0.020000000000000462,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 9.260519972768588,
+    "vol_ratio": 7.220066419446697,
     "price_pos": 0.5
   },
   {
@@ -2801,7 +2801,7 @@
     "foreign_ratio_diff": -0.010000000000005116,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.9267734553775744,
+    "vol_ratio": 0.7225691347011597,
     "price_pos": 0.5
   },
   {
@@ -2812,7 +2812,7 @@
     "foreign_ratio_diff": 0.0699999999999994,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.135791118129151,
+    "vol_ratio": 3.2245151090498467,
     "price_pos": 0.5
   },
   {
@@ -2823,7 +2823,7 @@
     "foreign_ratio_diff": -0.019999999999999574,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 22.20676495607995,
+    "vol_ratio": 17.313748948808097,
     "price_pos": 0.5
   },
   {
@@ -2834,40 +2834,40 @@
     "foreign_ratio_diff": 0.050000000000000044,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 10.883442816711854,
+    "vol_ratio": 8.485396094385512,
     "price_pos": 0.5
   },
   {
     "code": "2301",
     "name": "光寶科",
-    "three_inst_ratio": 31.232354492297922,
+    "three_inst_ratio": 28.30271723158561,
     "change": 0.0,
     "foreign_ratio_diff": 0.3000000000000007,
-    "trust_ratio_diff": -0.3860537624244821,
+    "trust_ratio_diff": -0.3860537624244822,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.796107100238222,
+    "vol_ratio": 2.180015705270478,
     "price_pos": 0.5
   },
   {
     "code": "2302",
     "name": "麗正",
-    "three_inst_ratio": 1.6581960625204082,
+    "three_inst_ratio": 1.6509803126020408,
     "change": 0.0,
     "foreign_ratio_diff": -0.030000000000000027,
-    "trust_ratio_diff": -0.0006013124931972768,
+    "trust_ratio_diff": -0.0006013124931972761,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.8049055651057855,
+    "vol_ratio": 2.186875525336714,
     "price_pos": 0.5
   },
   {
     "code": "2303",
     "name": "聯電",
-    "three_inst_ratio": 29.221080085307847,
+    "three_inst_ratio": 28.13533946320996,
     "change": 0.0,
     "foreign_ratio_diff": 0.17999999999999972,
     "trust_ratio_diff": -0.1496624961206472,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.0590979180829008,
+    "vol_ratio": 1.605398376810397,
     "price_pos": 0.5
   },
   {
@@ -2878,128 +2878,128 @@
     "foreign_ratio_diff": 0.04999999999999982,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.444391429068436,
+    "vol_ratio": 2.6854577243584417,
     "price_pos": 0.5
   },
   {
     "code": "2308",
     "name": "台達電",
-    "three_inst_ratio": 63.7471142092737,
+    "three_inst_ratio": 63.61879300043045,
     "change": 0.0,
     "foreign_ratio_diff": -0.02999999999999403,
     "trust_ratio_diff": -0.0015014186506376453,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.0889612770776125,
+    "vol_ratio": 0.8490206567045792,
     "price_pos": 0.5
   },
   {
     "code": "2312",
     "name": "金寶",
-    "three_inst_ratio": 5.577474813274254,
+    "three_inst_ratio": 8.885934589977932,
     "change": 0.0,
     "foreign_ratio_diff": 0.020000000000000462,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.8151113406443018,
+    "vol_ratio": 1.4151715537226761,
     "price_pos": 0.5
   },
   {
     "code": "2313",
     "name": "華通",
-    "three_inst_ratio": 33.63970953958743,
+    "three_inst_ratio": 33.502943988207946,
     "change": 0.0,
     "foreign_ratio_diff": -0.7899999999999991,
-    "trust_ratio_diff": -0.1283750267549708,
+    "trust_ratio_diff": -0.12837502675497076,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.4169253608755368,
+    "vol_ratio": 1.1047214678012658,
     "price_pos": 0.5
   },
   {
     "code": "2316",
     "name": "楠梓電",
-    "three_inst_ratio": 30.2023915153669,
+    "three_inst_ratio": 30.880949227378867,
     "change": 0.0,
     "foreign_ratio_diff": -0.26000000000000156,
-    "trust_ratio_diff": -0.032833437677998276,
+    "trust_ratio_diff": -0.03283343767799829,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.5005569461734107,
+    "vol_ratio": 2.7292477885419832,
     "price_pos": 0.5
   },
   {
     "code": "2317",
     "name": "鴻海",
-    "three_inst_ratio": 37.91060162458052,
+    "three_inst_ratio": 37.87153669217577,
     "change": 0.0,
     "foreign_ratio_diff": 0.030000000000001137,
-    "trust_ratio_diff": -0.060455418298714175,
+    "trust_ratio_diff": -0.0604554182987142,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.1437564215832428,
+    "vol_ratio": 1.6714033117428673,
     "price_pos": 0.5
   },
   {
     "code": "2323",
     "name": "中環",
-    "three_inst_ratio": 11.27,
+    "three_inst_ratio": 10.979459323648037,
     "change": 0.0,
     "foreign_ratio_diff": 0.15000000000000036,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.7871408077359794,
+    "vol_ratio": 1.3933640195907637,
     "price_pos": 0.5
   },
   {
     "code": "2324",
     "name": "仁寶",
-    "three_inst_ratio": 33.40525218570417,
+    "three_inst_ratio": 33.13916323977535,
     "change": 0.0,
     "foreign_ratio_diff": 0.1599999999999966,
-    "trust_ratio_diff": -0.16210034763706094,
+    "trust_ratio_diff": -0.16210034763706105,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.7674540865038872,
+    "vol_ratio": 1.378015050494556,
     "price_pos": 0.5
   },
   {
     "code": "2327",
     "name": "國巨*",
-    "three_inst_ratio": 45.22141422939622,
+    "three_inst_ratio": 44.92580607508521,
     "change": 0.0,
     "foreign_ratio_diff": 0.00999999999999801,
-    "trust_ratio_diff": -0.006030007769254976,
+    "trust_ratio_diff": -0.006030007769254997,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.8547163793096986,
+    "vol_ratio": 1.44605005844485,
     "price_pos": 0.5
   },
   {
     "code": "2328",
     "name": "廣宇",
-    "three_inst_ratio": 8.659807078774417,
+    "three_inst_ratio": 8.531321542535922,
     "change": 0.0,
     "foreign_ratio_diff": -0.129999999999999,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.818038381302855,
+    "vol_ratio": 2.9767756871174806,
     "price_pos": 0.5
   },
   {
     "code": "2329",
     "name": "華泰",
-    "three_inst_ratio": 13.94,
+    "three_inst_ratio": 13.91267878282649,
     "change": 0.0,
     "foreign_ratio_diff": 1.2699999999999996,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 5.283130354413808,
+    "vol_ratio": 4.119050784797206,
     "price_pos": 0.5
   },
   {
     "code": "2330",
     "name": "台積電",
-    "three_inst_ratio": 72.75024190471679,
+    "three_inst_ratio": 72.82297724903209,
     "change": 0.0,
     "foreign_ratio_diff": 0.010000000000005116,
-    "trust_ratio_diff": 0.0015656015274225373,
+    "trust_ratio_diff": 0.001565601527422536,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.2501937518244564,
+    "vol_ratio": 1.7543883488800849,
     "price_pos": 0.5
   },
   {
@@ -3010,7 +3010,7 @@
     "foreign_ratio_diff": 0.019999999999999574,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.520731560413991,
+    "vol_ratio": 1.9653161318481955,
     "price_pos": 0.5
   },
   {
@@ -3021,18 +3021,18 @@
     "foreign_ratio_diff": -0.2900000000000009,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 6.879284877681374,
+    "vol_ratio": 5.363510243615986,
     "price_pos": 0.5
   },
   {
     "code": "2337",
     "name": "旺宏",
-    "three_inst_ratio": 19.40101578752105,
+    "three_inst_ratio": 21.610543526435293,
     "change": 0.0,
     "foreign_ratio_diff": -0.3200000000000003,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.286610265486556,
+    "vol_ratio": 1.7827808849556197,
     "price_pos": 0.5
   },
   {
@@ -3043,7 +3043,7 @@
     "foreign_ratio_diff": -0.06999999999999984,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.6720522878909725,
+    "vol_ratio": 1.3036339871692328,
     "price_pos": 0.5
   },
   {
@@ -3054,7 +3054,7 @@
     "foreign_ratio_diff": 0.020000000000000462,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.7205661371991943,
+    "vol_ratio": 1.341458344256999,
     "price_pos": 0.5
   },
   {
@@ -3065,51 +3065,51 @@
     "foreign_ratio_diff": 0.18999999999999972,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.1991495140740893,
+    "vol_ratio": 1.7145911465662393,
     "price_pos": 0.5
   },
   {
     "code": "2344",
     "name": "華邦電",
-    "three_inst_ratio": 20.641844452943115,
+    "three_inst_ratio": 20.030812434705155,
     "change": 0.0,
     "foreign_ratio_diff": -0.6400000000000006,
-    "trust_ratio_diff": -0.2273333235832597,
+    "trust_ratio_diff": -0.22733332358325964,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.31698826186496,
+    "vol_ratio": 1.806465424504884,
     "price_pos": 0.5
   },
   {
     "code": "2345",
     "name": "智邦",
-    "three_inst_ratio": 57.790307383779634,
+    "three_inst_ratio": 58.504782723353415,
     "change": 0.0,
     "foreign_ratio_diff": 0.03999999999999915,
-    "trust_ratio_diff": -0.015718621785467707,
+    "trust_ratio_diff": -0.01571862178546768,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.7141924925685454,
+    "vol_ratio": 1.3364890620025944,
     "price_pos": 0.5
   },
   {
     "code": "2347",
     "name": "聯強",
-    "three_inst_ratio": 24.818471958468166,
+    "three_inst_ratio": 24.336850350939937,
     "change": 0.0,
     "foreign_ratio_diff": 0.370000000000001,
     "trust_ratio_diff": -0.5431227835056682,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.3825996448142033,
+    "vol_ratio": 2.6372810790076837,
     "price_pos": 0.5
   },
   {
     "code": "2348",
     "name": "海悅",
-    "three_inst_ratio": 1.5993416671816476,
+    "three_inst_ratio": 1.5868333436329505,
     "change": 0.0,
     "foreign_ratio_diff": -0.010000000000000009,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.4312494563826141,
+    "vol_ratio": 1.1158894066711906,
     "price_pos": 0.5
   },
   {
@@ -3120,7 +3120,7 @@
     "foreign_ratio_diff": 0.08000000000000007,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.704905171930244,
+    "vol_ratio": 1.3292481001490037,
     "price_pos": 0.5
   },
   {
@@ -3131,73 +3131,73 @@
     "foreign_ratio_diff": 0.019999999999999574,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.9977717231213306,
+    "vol_ratio": 2.3372457502301898,
     "price_pos": 0.5
   },
   {
     "code": "2352",
     "name": "佳世達",
-    "three_inst_ratio": 10.51246253061135,
+    "three_inst_ratio": 10.542082149291756,
     "change": 0.0,
     "foreign_ratio_diff": -0.11999999999999922,
-    "trust_ratio_diff": -6.327085632590324e-05,
+    "trust_ratio_diff": -6.327085632587548e-05,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.658398975672736,
+    "vol_ratio": 1.2929890318804382,
     "price_pos": 0.5
   },
   {
     "code": "2353",
     "name": "宏碁",
-    "three_inst_ratio": 13.510593692080432,
+    "three_inst_ratio": 13.348472006499389,
     "change": 0.0,
     "foreign_ratio_diff": -0.14000000000000057,
-    "trust_ratio_diff": -0.0819921210473483,
+    "trust_ratio_diff": -0.08199212104734832,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.4565407843572724,
+    "vol_ratio": 1.9152690861090587,
     "price_pos": 0.5
   },
   {
     "code": "2354",
     "name": "鴻準",
-    "three_inst_ratio": 12.94281332579691,
+    "three_inst_ratio": 13.016112785265554,
     "change": 0.0,
     "foreign_ratio_diff": 0.019999999999999574,
     "trust_ratio_diff": -7.069709924541895e-05,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.2815953140869047,
+    "vol_ratio": 1.7788709228474173,
     "price_pos": 0.5
   },
   {
     "code": "2355",
     "name": "敬鵬",
-    "three_inst_ratio": 10.762733616402423,
+    "three_inst_ratio": 10.840964454886047,
     "change": 0.0,
     "foreign_ratio_diff": -0.07000000000000028,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.3455675678767047,
+    "vol_ratio": 2.6084086122428545,
     "price_pos": 0.5
   },
   {
     "code": "2356",
     "name": "英業達",
-    "three_inst_ratio": 12.630947741778675,
+    "three_inst_ratio": 11.854352880840343,
     "change": 0.0,
     "foreign_ratio_diff": -0.10999999999999943,
-    "trust_ratio_diff": -0.0013658631516186267,
+    "trust_ratio_diff": -0.0013658631516185737,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.079129237313439,
+    "vol_ratio": 2.4006770324816644,
     "price_pos": 0.5
   },
   {
     "code": "2357",
     "name": "華碩",
-    "three_inst_ratio": 44.59469629205266,
+    "three_inst_ratio": 45.20324189171774,
     "change": 0.0,
     "foreign_ratio_diff": -0.5600000000000023,
     "trust_ratio_diff": 0.5519014829387481,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.312681970601556,
+    "vol_ratio": 1.8031079770791791,
     "price_pos": 0.5
   },
   {
@@ -3208,51 +3208,51 @@
     "foreign_ratio_diff": 0.020000000000000018,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.597636258216004,
+    "vol_ratio": 2.0252757267446793,
     "price_pos": 0.5
   },
   {
     "code": "2360",
     "name": "致茂",
-    "three_inst_ratio": 61.678282344852924,
+    "three_inst_ratio": 60.81435299566637,
     "change": 0.0,
     "foreign_ratio_diff": 0.11999999999999744,
-    "trust_ratio_diff": 0.012933211377383014,
+    "trust_ratio_diff": 0.012933211377382792,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.5176443349996733,
+    "vol_ratio": 1.1832481255929657,
     "price_pos": 0.5
   },
   {
     "code": "2362",
     "name": "藍天",
-    "three_inst_ratio": 10.11,
+    "three_inst_ratio": 10.010363672595027,
     "change": 0.0,
     "foreign_ratio_diff": -0.10000000000000142,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 6.02068595539457,
+    "vol_ratio": 4.694094134714408,
     "price_pos": 0.5
   },
   {
     "code": "2363",
     "name": "矽統",
-    "three_inst_ratio": 5.19,
+    "three_inst_ratio": 5.182232831154346,
     "change": 0.0,
     "foreign_ratio_diff": 0.10000000000000053,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.843459198465593,
+    "vol_ratio": 2.2169342903291063,
     "price_pos": 0.5
   },
   {
     "code": "2364",
     "name": "倫飛",
-    "three_inst_ratio": 15.78,
+    "three_inst_ratio": 15.733043262349506,
     "change": 0.0,
     "foreign_ratio_diff": -0.11000000000000121,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.403335805229777,
+    "vol_ratio": 1.8737872379757583,
     "price_pos": 0.5
   },
   {
@@ -3263,7 +3263,7 @@
     "foreign_ratio_diff": 0.08999999999999997,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.9325247446317224,
+    "vol_ratio": 2.286375224628122,
     "price_pos": 0.5
   },
   {
@@ -3274,18 +3274,18 @@
     "foreign_ratio_diff": -0.040000000000000036,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.144525653865801,
+    "vol_ratio": 1.672003052166557,
     "price_pos": 0.5
   },
   {
     "code": "2368",
     "name": "金像電",
-    "three_inst_ratio": 25.39395118220526,
+    "three_inst_ratio": 29.403770808223307,
     "change": 0.0,
     "foreign_ratio_diff": -0.08999999999999986,
-    "trust_ratio_diff": 0.12809056482764636,
+    "trust_ratio_diff": 0.12809056482764625,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.478770286644168,
+    "vol_ratio": 2.7122615794174876,
     "price_pos": 0.5
   },
   {
@@ -3296,18 +3296,18 @@
     "foreign_ratio_diff": -0.05999999999999872,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 11.343024275296816,
+    "vol_ratio": 8.843713841756843,
     "price_pos": 0.5
   },
   {
     "code": "2371",
     "name": "大同",
-    "three_inst_ratio": 8.14735577996267,
+    "three_inst_ratio": 7.814795937133528,
     "change": 0.0,
     "foreign_ratio_diff": 0.41999999999999993,
     "trust_ratio_diff": -0.4106777419890335,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.276488371411237,
+    "vol_ratio": 1.7748892387274051,
     "price_pos": 0.5
   },
   {
@@ -3318,18 +3318,18 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.7256479298353313,
+    "vol_ratio": 2.1250814368207664,
     "price_pos": 0.5
   },
   {
     "code": "2374",
     "name": "佳能",
-    "three_inst_ratio": 5.1966109959385465,
+    "three_inst_ratio": 5.184287344805989,
     "change": 0.0,
     "foreign_ratio_diff": 0.1900000000000004,
-    "trust_ratio_diff": -0.001232365113255756,
+    "trust_ratio_diff": -0.0012323651132557564,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.2291033648892546,
+    "vol_ratio": 1.7379449963543354,
     "price_pos": 0.5
   },
   {
@@ -3340,95 +3340,95 @@
     "foreign_ratio_diff": 0.010000000000001563,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.9005566911201253,
+    "vol_ratio": 1.4817899625682331,
     "price_pos": 0.5
   },
   {
     "code": "2376",
     "name": "技嘉",
-    "three_inst_ratio": 16.297123900097066,
+    "three_inst_ratio": 15.442069260483297,
     "change": 0.0,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": -0.044186432434706796,
+    "trust_ratio_diff": -0.04418643243470677,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.8580682057227824,
+    "vol_ratio": 1.4486633468347117,
     "price_pos": 0.5
   },
   {
     "code": "2377",
     "name": "微星",
-    "three_inst_ratio": 17.373608379738005,
+    "three_inst_ratio": 12.331098180910665,
     "change": 0.0,
     "foreign_ratio_diff": -0.21000000000000085,
-    "trust_ratio_diff": -0.0003550900145552465,
+    "trust_ratio_diff": -0.00035509001455480416,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.9465720169283935,
+    "vol_ratio": 3.8566493691306123,
     "price_pos": 0.5
   },
   {
     "code": "2379",
     "name": "瑞昱",
-    "three_inst_ratio": 46.50412035449789,
+    "three_inst_ratio": 46.110700576081584,
     "change": 0.0,
     "foreign_ratio_diff": -0.10999999999999943,
-    "trust_ratio_diff": 0.02047327819832717,
+    "trust_ratio_diff": 0.020473278198327186,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.079100948545523,
+    "vol_ratio": 1.62099395988295,
     "price_pos": 0.5
   },
   {
     "code": "2382",
     "name": "廣達",
-    "three_inst_ratio": 21.87109894844241,
+    "three_inst_ratio": 21.444984385498973,
     "change": 0.0,
     "foreign_ratio_diff": -0.10999999999999943,
-    "trust_ratio_diff": -0.017942061775322676,
+    "trust_ratio_diff": -0.017942061775322704,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.3019663380934117,
+    "vol_ratio": 1.7947534161406264,
     "price_pos": 0.5
   },
   {
     "code": "2383",
     "name": "台光電",
-    "three_inst_ratio": 44.320015238501476,
+    "three_inst_ratio": 46.01837175035346,
     "change": 0.0,
     "foreign_ratio_diff": -0.1600000000000037,
     "trust_ratio_diff": 0.032874474968320744,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.2575772308904516,
+    "vol_ratio": 1.7601449596773013,
     "price_pos": 0.5
   },
   {
     "code": "2385",
     "name": "群光",
-    "three_inst_ratio": 16.315706203723337,
+    "three_inst_ratio": 15.605527074308428,
     "change": 0.0,
     "foreign_ratio_diff": 0.07000000000000028,
     "trust_ratio_diff": -0.4009749728404528,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 5.461339557127805,
+    "vol_ratio": 4.257993553014899,
     "price_pos": 0.5
   },
   {
     "code": "2387",
     "name": "精元",
-    "three_inst_ratio": 11.074929820070468,
+    "three_inst_ratio": 11.0646302596343,
     "change": 0.0,
     "foreign_ratio_diff": -0.08000000000000007,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.185935494504723,
+    "vol_ratio": 3.2636107245291077,
     "price_pos": 0.5
   },
   {
     "code": "2388",
     "name": "威盛",
-    "three_inst_ratio": 13.720359970592636,
+    "three_inst_ratio": 13.722519794148441,
     "change": 0.0,
     "foreign_ratio_diff": -0.1999999999999993,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.63915200873495,
+    "vol_ratio": 2.05764393901369,
     "price_pos": 0.5
   },
   {
@@ -3439,40 +3439,40 @@
     "foreign_ratio_diff": 0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.969505629822406,
+    "vol_ratio": 1.5355467622344185,
     "price_pos": 0.5
   },
   {
     "code": "2392",
     "name": "正崴",
-    "three_inst_ratio": 6.08,
+    "three_inst_ratio": 6.049355505685491,
     "change": 0.0,
     "foreign_ratio_diff": -0.1299999999999999,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 8.444947949751288,
+    "vol_ratio": 6.58419670658575,
     "price_pos": 0.5
   },
   {
     "code": "2393",
     "name": "億光",
-    "three_inst_ratio": 18.68723831733362,
+    "three_inst_ratio": 16.683661067146186,
     "change": 0.0,
     "foreign_ratio_diff": 0.7600000000000016,
     "trust_ratio_diff": -1.598552892184701,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.7723217185753266,
+    "vol_ratio": 2.1614711704146616,
     "price_pos": 0.5
   },
   {
     "code": "2395",
     "name": "研華",
-    "three_inst_ratio": 32.08887559799269,
+    "three_inst_ratio": 31.801066223156774,
     "change": 0.0,
     "foreign_ratio_diff": -0.020000000000003126,
-    "trust_ratio_diff": -0.0009836060356959303,
+    "trust_ratio_diff": -0.0009836060356959164,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.2182552030862555,
+    "vol_ratio": 0.9498260905418263,
     "price_pos": 0.5
   },
   {
@@ -3483,7 +3483,7 @@
     "foreign_ratio_diff": 0.02000000000000135,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.1351988025399296,
+    "vol_ratio": 3.224053303675199,
     "price_pos": 0.5
   },
   {
@@ -3494,40 +3494,40 @@
     "foreign_ratio_diff": 0.11999999999999966,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.885128337206375,
+    "vol_ratio": 3.808744127313445,
     "price_pos": 0.5
   },
   {
     "code": "2401",
     "name": "凌陽",
-    "three_inst_ratio": 8.86,
+    "three_inst_ratio": 8.86422300921809,
     "change": 0.0,
     "foreign_ratio_diff": 0.049999999999998934,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.666588642013748,
+    "vol_ratio": 2.0790352124174984,
     "price_pos": 0.5
   },
   {
     "code": "2402",
     "name": "毅嘉",
-    "three_inst_ratio": 16.68706401502549,
+    "three_inst_ratio": 14.942880991410538,
     "change": 0.0,
     "foreign_ratio_diff": -0.5399999999999991,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.0236132543526217,
+    "vol_ratio": 1.5777323678003492,
     "price_pos": 0.5
   },
   {
     "code": "2404",
     "name": "漢唐",
-    "three_inst_ratio": 31.438378447692088,
+    "three_inst_ratio": 31.29976226787874,
     "change": 0.0,
     "foreign_ratio_diff": 0.33000000000000185,
-    "trust_ratio_diff": -0.1941373683907363,
+    "trust_ratio_diff": -0.19413736839073636,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.4438402893151074,
+    "vol_ratio": 1.1257059882795752,
     "price_pos": 0.5
   },
   {
@@ -3538,7 +3538,7 @@
     "foreign_ratio_diff": 0.019999999999999574,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.9410980386590118,
+    "vol_ratio": 2.293059487768043,
     "price_pos": 0.5
   },
   {
@@ -3549,40 +3549,40 @@
     "foreign_ratio_diff": 0.8499999999999996,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.380206660574218,
+    "vol_ratio": 1.855754345532441,
     "price_pos": 0.5
   },
   {
     "code": "2408",
     "name": "南亞科",
-    "three_inst_ratio": 14.546338938204885,
+    "three_inst_ratio": 14.969866946373006,
     "change": 0.0,
     "foreign_ratio_diff": -0.22000000000000064,
-    "trust_ratio_diff": -0.00035499583610215657,
+    "trust_ratio_diff": -0.00035499583610210106,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.681144308366732,
+    "vol_ratio": 2.0903836980486385,
     "price_pos": 0.5
   },
   {
     "code": "2409",
     "name": "友達",
-    "three_inst_ratio": 15.653551033330745,
+    "three_inst_ratio": 15.66553320029788,
     "change": 0.0,
     "foreign_ratio_diff": -0.0600000000000005,
-    "trust_ratio_diff": -0.0013250124368449846,
+    "trust_ratio_diff": -0.0013250124368449842,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.8048941797202955,
+    "vol_ratio": 2.1868666485954846,
     "price_pos": 0.5
   },
   {
     "code": "2412",
     "name": "中華電",
-    "three_inst_ratio": 17.286541439268145,
+    "three_inst_ratio": 17.229125484492783,
     "change": 0.0,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": -0.0006961053445454324,
+    "trust_ratio_diff": -0.0006961053445454363,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.9298351645515088,
+    "vol_ratio": 1.5046172469384644,
     "price_pos": 0.5
   },
   {
@@ -3593,7 +3593,7 @@
     "foreign_ratio_diff": 1.2199999999999998,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.487777770048962,
+    "vol_ratio": 3.4989453800381733,
     "price_pos": 0.5
   },
   {
@@ -3604,7 +3604,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.5344632745650884,
+    "vol_ratio": 1.1963611971185435,
     "price_pos": 0.5
   },
   {
@@ -3615,7 +3615,7 @@
     "foreign_ratio_diff": 0.019999999999999574,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.7400070737638034,
+    "vol_ratio": 2.9159377185277116,
     "price_pos": 0.5
   },
   {
@@ -3626,7 +3626,7 @@
     "foreign_ratio_diff": -0.3700000000000001,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 24.83588460169553,
+    "vol_ratio": 19.36357104538974,
     "price_pos": 0.5
   },
   {
@@ -3637,29 +3637,29 @@
     "foreign_ratio_diff": 0.09999999999999987,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.067411323140128,
+    "vol_ratio": 1.611880014651626,
     "price_pos": 0.5
   },
   {
     "code": "2420",
     "name": "新巨",
-    "three_inst_ratio": 5.321271235819597,
+    "three_inst_ratio": 5.4418094483720685,
     "change": 0.0,
     "foreign_ratio_diff": 0.020000000000000462,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.36747743263577,
+    "vol_ratio": 2.6254908796821255,
     "price_pos": 0.5
   },
   {
     "code": "2421",
     "name": "建準",
-    "three_inst_ratio": 40.123063690459766,
+    "three_inst_ratio": 41.26991781638213,
     "change": 0.0,
     "foreign_ratio_diff": -0.5700000000000003,
-    "trust_ratio_diff": -0.02303948020826183,
+    "trust_ratio_diff": -0.02303948020826163,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 8.264989344916112,
+    "vol_ratio": 6.443889997731206,
     "price_pos": 0.5
   },
   {
@@ -3670,7 +3670,7 @@
     "foreign_ratio_diff": 0.020000000000000462,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.499463845229025,
+    "vol_ratio": 3.5080565572972056,
     "price_pos": 0.5
   },
   {
@@ -3681,7 +3681,7 @@
     "foreign_ratio_diff": 0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.812485156474944,
+    "vol_ratio": 2.1927850372516513,
     "price_pos": 0.5
   },
   {
@@ -3692,7 +3692,7 @@
     "foreign_ratio_diff": -0.049999999999998934,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.915513061022411,
+    "vol_ratio": 1.4934508611361168,
     "price_pos": 0.5
   },
   {
@@ -3703,7 +3703,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.3206306364877176,
+    "vol_ratio": 1.8093052420073727,
     "price_pos": 0.5
   },
   {
@@ -3714,18 +3714,18 @@
     "foreign_ratio_diff": -0.03000000000000025,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.494964289715961,
+    "vol_ratio": 1.9452263953717663,
     "price_pos": 0.5
   },
   {
     "code": "2428",
     "name": "興勤",
-    "three_inst_ratio": 13.369793362604742,
+    "three_inst_ratio": 15.755192608578167,
     "change": 0.0,
     "foreign_ratio_diff": 0.0600000000000005,
-    "trust_ratio_diff": -0.0335641909610135,
+    "trust_ratio_diff": -0.033564190961013374,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.878004954695244,
+    "vol_ratio": 2.2438682697623915,
     "price_pos": 0.5
   },
   {
@@ -3736,7 +3736,7 @@
     "foreign_ratio_diff": 0.040000000000000036,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.688122017120221,
+    "vol_ratio": 1.3161629286022059,
     "price_pos": 0.5
   },
   {
@@ -3747,7 +3747,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 8.181516839956137,
+    "vol_ratio": 6.378809739626819,
     "price_pos": 0.5
   },
   {
@@ -3758,7 +3758,7 @@
     "foreign_ratio_diff": -0.040000000000000036,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.370094117265016,
+    "vol_ratio": 1.068208972782894,
     "price_pos": 0.5
   },
   {
@@ -3769,7 +3769,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.120606781150677,
+    "vol_ratio": 3.2126764734395112,
     "price_pos": 0.5
   },
   {
@@ -3780,7 +3780,7 @@
     "foreign_ratio_diff": -0.010000000000000009,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.5837618524443164,
+    "vol_ratio": 1.2347973764820095,
     "price_pos": 0.5
   },
   {
@@ -3791,18 +3791,18 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.9653842237591355,
+    "vol_ratio": 3.0916554964901732,
     "price_pos": 0.5
   },
   {
     "code": "2436",
     "name": "偉詮電",
-    "three_inst_ratio": 4.88,
+    "three_inst_ratio": 4.076711113217646,
     "change": 0.0,
     "foreign_ratio_diff": 0.16000000000000014,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.4779546311629113,
+    "vol_ratio": 1.931964627686338,
     "price_pos": 0.5
   },
   {
@@ -3813,18 +3813,18 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.5269744993270895,
+    "vol_ratio": 1.1905224910007817,
     "price_pos": 0.5
   },
   {
     "code": "2439",
     "name": "美律",
-    "three_inst_ratio": 11.140919535435474,
+    "three_inst_ratio": 10.725849569248084,
     "change": 0.0,
     "foreign_ratio_diff": 0.9200000000000017,
-    "trust_ratio_diff": -1.2008176942784043,
+    "trust_ratio_diff": -1.2008176942784035,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.2239025411854425,
+    "vol_ratio": 2.513551133805599,
     "price_pos": 0.5
   },
   {
@@ -3835,18 +3835,18 @@
     "foreign_ratio_diff": 0.06,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.261359838331611,
+    "vol_ratio": 1.763094111241595,
     "price_pos": 0.5
   },
   {
     "code": "2441",
     "name": "超豐",
-    "three_inst_ratio": 12.410859110265116,
+    "three_inst_ratio": 14.16634326359176,
     "change": 0.0,
     "foreign_ratio_diff": 0.010000000000001563,
     "trust_ratio_diff": 0.03867479608770896,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.3011915308358164,
+    "vol_ratio": 1.7941493291262292,
     "price_pos": 0.5
   },
   {
@@ -3857,7 +3857,7 @@
     "foreign_ratio_diff": 0.04999999999999982,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.0180926974297186,
+    "vol_ratio": 1.5734282047757129,
     "price_pos": 0.5
   },
   {
@@ -3868,18 +3868,18 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.5362378906581478,
+    "vol_ratio": 1.1977447961063525,
     "price_pos": 0.5
   },
   {
     "code": "2449",
     "name": "京元電子",
-    "three_inst_ratio": 31.22425762900135,
+    "three_inst_ratio": 36.74946422633896,
     "change": 0.0,
     "foreign_ratio_diff": 0.21000000000000085,
-    "trust_ratio_diff": -0.054140476126149806,
+    "trust_ratio_diff": -0.05414047612614947,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.471805313755112,
+    "vol_ratio": 1.927170244622629,
     "price_pos": 0.5
   },
   {
@@ -3890,18 +3890,18 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.734641198240402,
+    "vol_ratio": 2.132093137611161,
     "price_pos": 0.5
   },
   {
     "code": "2451",
     "name": "創見",
-    "three_inst_ratio": 9.647789832138452,
+    "three_inst_ratio": 9.528574368209735,
     "change": 0.0,
     "foreign_ratio_diff": 0.3800000000000008,
-    "trust_ratio_diff": -0.7966070714723827,
+    "trust_ratio_diff": -0.796607071472383,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.4295472301493364,
+    "vol_ratio": 2.673884281133381,
     "price_pos": 0.5
   },
   {
@@ -3912,29 +3912,29 @@
     "foreign_ratio_diff": -0.04999999999999982,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.080871660424802,
+    "vol_ratio": 3.181696548805778,
     "price_pos": 0.5
   },
   {
     "code": "2454",
     "name": "聯發科",
-    "three_inst_ratio": 56.7125336413088,
+    "three_inst_ratio": 57.07797896093292,
     "change": 0.0,
     "foreign_ratio_diff": -0.05999999999999517,
-    "trust_ratio_diff": 0.027540846996322657,
+    "trust_ratio_diff": 0.0275408469963227,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.6264535796056343,
+    "vol_ratio": 1.2680824518959182,
     "price_pos": 0.5
   },
   {
     "code": "2455",
     "name": "全新",
-    "three_inst_ratio": 28.456785635168256,
+    "three_inst_ratio": 24.896596717904938,
     "change": 0.0,
     "foreign_ratio_diff": -0.5,
-    "trust_ratio_diff": 0.04434687698854506,
+    "trust_ratio_diff": 0.04434687698854489,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.561803071647926,
+    "vol_ratio": 1.9973379880644846,
     "price_pos": 0.5
   },
   {
@@ -3945,18 +3945,18 @@
     "foreign_ratio_diff": 0.10999999999999988,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.528113521414538,
+    "vol_ratio": 1.971071559068962,
     "price_pos": 0.5
   },
   {
     "code": "2458",
     "name": "義隆",
-    "three_inst_ratio": 14.280087348577595,
+    "three_inst_ratio": 14.866590475110351,
     "change": 0.0,
     "foreign_ratio_diff": -0.22000000000000064,
     "trust_ratio_diff": -0.1266080372833005,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.408084229839344,
+    "vol_ratio": 3.436811433434064,
     "price_pos": 0.5
   },
   {
@@ -3967,7 +3967,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.611396702986566,
+    "vol_ratio": 2.03600420910817,
     "price_pos": 0.5
   },
   {
@@ -3978,7 +3978,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 6.774396412380376,
+    "vol_ratio": 5.281732796093175,
     "price_pos": 0.5
   },
   {
@@ -3989,7 +3989,7 @@
     "foreign_ratio_diff": -0.020000000000000462,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.5008893290592983,
+    "vol_ratio": 0.3905238836733512,
     "price_pos": 0.5
   },
   {
@@ -4000,7 +4000,7 @@
     "foreign_ratio_diff": 0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.1748224202714839,
+    "vol_ratio": 0.9159632429235298,
     "price_pos": 0.5
   },
   {
@@ -4011,7 +4011,7 @@
     "foreign_ratio_diff": -0.039999999999999813,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.9502016370404134,
+    "vol_ratio": 1.5204961915908308,
     "price_pos": 0.5
   },
   {
@@ -4022,7 +4022,7 @@
     "foreign_ratio_diff": -0.020000000000000018,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.2040425683831697,
+    "vol_ratio": 0.9387450533156915,
     "price_pos": 0.5
   },
   {
@@ -4033,18 +4033,18 @@
     "foreign_ratio_diff": 0.3000000000000007,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 6.787017673004371,
+    "vol_ratio": 5.29157310098646,
     "price_pos": 0.5
   },
   {
     "code": "2467",
     "name": "志聖",
-    "three_inst_ratio": 14.064672545653755,
+    "three_inst_ratio": 14.439779364975797,
     "change": 0.0,
     "foreign_ratio_diff": 0.010000000000001563,
-    "trust_ratio_diff": 0.008293177978208437,
+    "trust_ratio_diff": 0.008293177978208444,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.4401556111260407,
+    "vol_ratio": 2.6821552222338623,
     "price_pos": 0.5
   },
   {
@@ -4055,7 +4055,7 @@
     "foreign_ratio_diff": 0.20000000000000018,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.7363461483422592,
+    "vol_ratio": 0.5741003868431173,
     "price_pos": 0.5
   },
   {
@@ -4066,29 +4066,29 @@
     "foreign_ratio_diff": 0.04999999999999982,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.632879141823486,
+    "vol_ratio": 3.612075263116616,
     "price_pos": 0.5
   },
   {
     "code": "2472",
     "name": "立隆電",
-    "three_inst_ratio": 10.006827668161652,
+    "three_inst_ratio": 11.788475502041802,
     "change": 0.0,
     "foreign_ratio_diff": 0.13000000000000078,
-    "trust_ratio_diff": -0.03338692704034356,
+    "trust_ratio_diff": -0.033386927040343295,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.999645881180974,
+    "vol_ratio": 1.5590459412597426,
     "price_pos": 0.5
   },
   {
     "code": "2474",
     "name": "可成",
-    "three_inst_ratio": 21.01581578010856,
+    "three_inst_ratio": 19.644944521827718,
     "change": 0.0,
     "foreign_ratio_diff": 0.2699999999999996,
-    "trust_ratio_diff": -0.2392392178090192,
+    "trust_ratio_diff": -0.23923921780901924,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.211726248132021,
+    "vol_ratio": 3.2837187697300503,
     "price_pos": 0.5
   },
   {
@@ -4099,7 +4099,7 @@
     "foreign_ratio_diff": 0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.215320443846052,
+    "vol_ratio": 1.7271989901172609,
     "price_pos": 0.5
   },
   {
@@ -4110,7 +4110,7 @@
     "foreign_ratio_diff": 0.019999999999999574,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.513606797823965,
+    "vol_ratio": 3.519083266100041,
     "price_pos": 0.5
   },
   {
@@ -4121,29 +4121,29 @@
     "foreign_ratio_diff": 0.09999999999999964,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.7427679058266934,
+    "vol_ratio": 2.138429214712337,
     "price_pos": 0.5
   },
   {
     "code": "2480",
     "name": "敦陽科",
-    "three_inst_ratio": 11.992820601534458,
+    "three_inst_ratio": 11.829626237953788,
     "change": 0.0,
     "foreign_ratio_diff": -0.02999999999999936,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.5041804962730585,
+    "vol_ratio": 1.9524119123484864,
     "price_pos": 0.5
   },
   {
     "code": "2481",
     "name": "強茂",
-    "three_inst_ratio": 8.3595504581793,
+    "three_inst_ratio": 6.884078132545708,
     "change": 0.0,
     "foreign_ratio_diff": -0.040000000000000924,
-    "trust_ratio_diff": -0.3082842141887852,
+    "trust_ratio_diff": -0.30828421418878516,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.5346546728697783,
+    "vol_ratio": 1.1965104229154204,
     "price_pos": 0.5
   },
   {
@@ -4154,7 +4154,7 @@
     "foreign_ratio_diff": 0.040000000000000036,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.3817394812781223,
+    "vol_ratio": 2.6366104430304005,
     "price_pos": 0.5
   },
   {
@@ -4165,7 +4165,7 @@
     "foreign_ratio_diff": -0.010000000000000009,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.917800779743154,
+    "vol_ratio": 1.495234506240425,
     "price_pos": 0.5
   },
   {
@@ -4176,7 +4176,7 @@
     "foreign_ratio_diff": -0.0600000000000005,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 7.18647900336525,
+    "vol_ratio": 5.603017528047482,
     "price_pos": 0.5
   },
   {
@@ -4187,7 +4187,7 @@
     "foreign_ratio_diff": 1.46,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.721736091510466,
+    "vol_ratio": 1.3423705120251088,
     "price_pos": 0.5
   },
   {
@@ -4198,7 +4198,7 @@
     "foreign_ratio_diff": -0.16999999999999993,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.43448160649857903,
+    "vol_ratio": 0.33874837116838363,
     "price_pos": 0.5
   },
   {
@@ -4209,7 +4209,7 @@
     "foreign_ratio_diff": 0.1200000000000001,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 6.488362430096247,
+    "vol_ratio": 5.0587232505835145,
     "price_pos": 0.5
   },
   {
@@ -4220,7 +4220,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.6933283487312074,
+    "vol_ratio": 1.3202221024006022,
     "price_pos": 0.5
   },
   {
@@ -4231,18 +4231,18 @@
     "foreign_ratio_diff": 0.14999999999999947,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.8014689045474364,
+    "vol_ratio": 1.40453507812173,
     "price_pos": 0.5
   },
   {
     "code": "2492",
     "name": "華新科",
-    "three_inst_ratio": 8.98185259603892,
+    "three_inst_ratio": 8.100016881513808,
     "change": 0.0,
     "foreign_ratio_diff": 0.2900000000000009,
-    "trust_ratio_diff": -0.00020584400432425553,
+    "trust_ratio_diff": -0.00020584400432432925,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.636055102516124,
+    "vol_ratio": 2.0552294019617237,
     "price_pos": 0.5
   },
   {
@@ -4253,18 +4253,18 @@
     "foreign_ratio_diff": 0.3599999999999999,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 10.831062517815523,
+    "vol_ratio": 8.444557217279899,
     "price_pos": 0.5
   },
   {
     "code": "2495",
     "name": "普安",
-    "three_inst_ratio": 4.867441067211255,
+    "three_inst_ratio": 4.505900420344191,
     "change": 0.0,
     "foreign_ratio_diff": 0.35000000000000053,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.408832780816334,
+    "vol_ratio": 1.8780730155517182,
     "price_pos": 0.5
   },
   {
@@ -4275,40 +4275,40 @@
     "foreign_ratio_diff": 0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 10.207610595756904,
+    "vol_ratio": 7.958476057708774,
     "price_pos": 0.5
   },
   {
     "code": "2498",
     "name": "宏達電",
-    "three_inst_ratio": 8.572274908338375,
+    "three_inst_ratio": 8.564971255252013,
     "change": 0.0,
     "foreign_ratio_diff": -0.11999999999999922,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.8695311449677625,
+    "vol_ratio": 3.0169225876019836,
     "price_pos": 0.5
   },
   {
     "code": "2501",
     "name": "國建",
-    "three_inst_ratio": 9.157930251295202,
+    "three_inst_ratio": 9.118777504962765,
     "change": 0.0,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": -0.0006036767055662222,
+    "trust_ratio_diff": -0.0006036767055662209,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.6421959834335471,
+    "vol_ratio": 1.2803561904736132,
     "price_pos": 0.5
   },
   {
     "code": "2504",
     "name": "國產",
-    "three_inst_ratio": 8.282228389830507,
+    "three_inst_ratio": 7.915383983050848,
     "change": 0.0,
     "foreign_ratio_diff": 0.2400000000000002,
-    "trust_ratio_diff": -0.3605146610169494,
+    "trust_ratio_diff": -0.36051466101694896,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.7794229995162847,
+    "vol_ratio": 2.946668779283883,
     "price_pos": 0.5
   },
   {
@@ -4319,7 +4319,7 @@
     "foreign_ratio_diff": 0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.6886411890274906,
+    "vol_ratio": 0.5369066897502469,
     "price_pos": 0.5
   },
   {
@@ -4330,7 +4330,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.689926410344773,
+    "vol_ratio": 2.097230760607788,
     "price_pos": 0.5
   },
   {
@@ -4341,7 +4341,7 @@
     "foreign_ratio_diff": 0.010000000000000009,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.778438309945174,
+    "vol_ratio": 1.3865790213131863,
     "price_pos": 0.5
   },
   {
@@ -4352,7 +4352,7 @@
     "foreign_ratio_diff": -0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.8140723302404864,
+    "vol_ratio": 2.1940224947637685,
     "price_pos": 0.5
   },
   {
@@ -4363,18 +4363,18 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.1694871099503863,
+    "vol_ratio": 0.9118035094528433,
     "price_pos": 0.5
   },
   {
     "code": "2515",
     "name": "中工",
-    "three_inst_ratio": 12.42,
+    "three_inst_ratio": 12.418942723003868,
     "change": 0.0,
     "foreign_ratio_diff": 0.08000000000000007,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.6136950309566807,
+    "vol_ratio": 2.817457142779785,
     "price_pos": 0.5
   },
   {
@@ -4385,18 +4385,18 @@
     "foreign_ratio_diff": 0.010000000000000231,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.0092374374805482,
+    "vol_ratio": 0.7868630868492414,
     "price_pos": 0.5
   },
   {
     "code": "2520",
     "name": "冠德",
-    "three_inst_ratio": 6.9301633609609885,
+    "three_inst_ratio": 5.844824575043105,
     "change": 0.0,
     "foreign_ratio_diff": 0.5800000000000001,
     "trust_ratio_diff": -0.8891082208449008,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.657992601966705,
+    "vol_ratio": 2.0723332150926854,
     "price_pos": 0.5
   },
   {
@@ -4407,18 +4407,18 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.136870969968692,
+    "vol_ratio": 0.88637397658576,
     "price_pos": 0.5
   },
   {
     "code": "2527",
     "name": "宏璟",
-    "three_inst_ratio": 41.599031468039925,
+    "three_inst_ratio": 41.59317255258855,
     "change": 0.0,
     "foreign_ratio_diff": -0.00999999999999801,
-    "trust_ratio_diff": -0.00012097400723624344,
+    "trust_ratio_diff": -0.00012097400723624398,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.692641807759189,
+    "vol_ratio": 2.0993478501173337,
     "price_pos": 0.5
   },
   {
@@ -4429,7 +4429,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.045305802778047,
+    "vol_ratio": 3.1539672360642395,
     "price_pos": 0.5
   },
   {
@@ -4440,7 +4440,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.788772295720084,
+    "vol_ratio": 2.953958061069896,
     "price_pos": 0.5
   },
   {
@@ -4451,18 +4451,18 @@
     "foreign_ratio_diff": -0.02999999999999936,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.3243821865192786,
+    "vol_ratio": 1.8122301793201157,
     "price_pos": 0.5
   },
   {
     "code": "2535",
     "name": "達欣工",
-    "three_inst_ratio": 7.528892146662928,
+    "three_inst_ratio": 7.524091448868948,
     "change": 0.0,
     "foreign_ratio_diff": -0.009999999999999787,
-    "trust_ratio_diff": -0.0011078533370723136,
+    "trust_ratio_diff": -0.0011078533370723143,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 23.775869203377916,
+    "vol_ratio": 18.537118361955663,
     "price_pos": 0.5
   },
   {
@@ -4473,7 +4473,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.640993916009379,
+    "vol_ratio": 3.6184020362107017,
     "price_pos": 0.5
   },
   {
@@ -4484,7 +4484,7 @@
     "foreign_ratio_diff": 0.3600000000000003,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.1391830055761047,
+    "vol_ratio": 0.8881765806186579,
     "price_pos": 0.5
   },
   {
@@ -4495,51 +4495,51 @@
     "foreign_ratio_diff": -0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.5675988353505084,
+    "vol_ratio": 1.2221957021376846,
     "price_pos": 0.5
   },
   {
     "code": "2539",
     "name": "櫻花建",
-    "three_inst_ratio": 2.1800954653873137,
+    "three_inst_ratio": 2.172561746038164,
     "change": 0.0,
     "foreign_ratio_diff": 0.010000000000000231,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.0794384144911167,
+    "vol_ratio": 1.6212570689252774,
     "price_pos": 0.5
   },
   {
     "code": "2540",
     "name": "愛山林",
-    "three_inst_ratio": 1.875099663900677,
+    "three_inst_ratio": 1.8710779635038415,
     "change": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": -0.00031750266290806253,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.1598175259340406,
+    "vol_ratio": 2.4635865456434893,
     "price_pos": 0.5
   },
   {
     "code": "2542",
     "name": "興富發",
-    "three_inst_ratio": 8.222050495073029,
+    "three_inst_ratio": 8.204906653462068,
     "change": 0.0,
     "foreign_ratio_diff": 0.05999999999999872,
-    "trust_ratio_diff": -0.0045557383424641995,
+    "trust_ratio_diff": -0.004555738342464144,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.3004029245458855,
+    "vol_ratio": 1.013873466595097,
     "price_pos": 0.5
   },
   {
     "code": "2543",
     "name": "皇昌",
-    "three_inst_ratio": 1.91,
+    "three_inst_ratio": 1.7679596578041914,
     "change": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.555505864473826,
+    "vol_ratio": 1.2127672841660337,
     "price_pos": 0.5
   },
   {
@@ -4550,7 +4550,7 @@
     "foreign_ratio_diff": 0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.780869044729556,
+    "vol_ratio": 1.3884741704671113,
     "price_pos": 0.5
   },
   {
@@ -4561,7 +4561,7 @@
     "foreign_ratio_diff": 0.03000000000000025,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 7.30989817612329,
+    "vol_ratio": 5.69924264579104,
     "price_pos": 0.5
   },
   {
@@ -4572,29 +4572,29 @@
     "foreign_ratio_diff": -0.129999999999999,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 5.333834785042256,
+    "vol_ratio": 4.1585830527448095,
     "price_pos": 0.5
   },
   {
     "code": "2548",
     "name": "華固",
-    "three_inst_ratio": 14.283876477765078,
+    "three_inst_ratio": 14.261356681245326,
     "change": 0.0,
     "foreign_ratio_diff": 0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.0712170799097742,
+    "vol_ratio": 0.8351861978957561,
     "price_pos": 0.5
   },
   {
     "code": "2597",
     "name": "潤弘",
-    "three_inst_ratio": 3.7296781626951945,
+    "three_inst_ratio": 3.6276557370717954,
     "change": 0.0,
     "foreign_ratio_diff": 0.020000000000000018,
-    "trust_ratio_diff": -0.0003218373048056746,
+    "trust_ratio_diff": -0.0003218373048056722,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.1360379328286434,
+    "vol_ratio": 0.8857244900019934,
     "price_pos": 0.5
   },
   {
@@ -4605,18 +4605,18 @@
     "foreign_ratio_diff": 0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 5.301058549475905,
+    "vol_ratio": 4.133028699591384,
     "price_pos": 0.5
   },
   {
     "code": "2603",
     "name": "長榮",
-    "three_inst_ratio": 17.32791763649575,
+    "three_inst_ratio": 16.86185899384328,
     "change": 0.0,
     "foreign_ratio_diff": 0.16000000000000014,
-    "trust_ratio_diff": 0.18355293670112394,
+    "trust_ratio_diff": 0.18355293670112405,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 5.260021976028163,
+    "vol_ratio": 4.1010340830050085,
     "price_pos": 0.5
   },
   {
@@ -4627,29 +4627,29 @@
     "foreign_ratio_diff": 0.21999999999999886,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.5328101066968864,
+    "vol_ratio": 1.1950722865772332,
     "price_pos": 0.5
   },
   {
     "code": "2606",
     "name": "裕民",
-    "three_inst_ratio": 9.195169774936684,
+    "three_inst_ratio": 9.588029198624007,
     "change": 0.0,
     "foreign_ratio_diff": -0.1299999999999999,
     "trust_ratio_diff": 0.46186303986547106,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.5891691698652775,
+    "vol_ratio": 2.0186742680305554,
     "price_pos": 0.5
   },
   {
     "code": "2607",
     "name": "榮運",
-    "three_inst_ratio": 7.851067912168697,
+    "three_inst_ratio": 7.612486527353242,
     "change": 0.0,
     "foreign_ratio_diff": 0.21999999999999886,
     "trust_ratio_diff": -0.2530124662222033,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.1422715629450826,
+    "vol_ratio": 1.670245625347014,
     "price_pos": 0.5
   },
   {
@@ -4660,29 +4660,29 @@
     "foreign_ratio_diff": -0.020000000000000462,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.3355243971388955,
+    "vol_ratio": 1.0412563096337148,
     "price_pos": 0.5
   },
   {
     "code": "2609",
     "name": "陽明",
-    "three_inst_ratio": 13.072264855510744,
+    "three_inst_ratio": 10.932195051695865,
     "change": 0.0,
     "foreign_ratio_diff": 0.2900000000000009,
-    "trust_ratio_diff": -0.0006586286726197876,
+    "trust_ratio_diff": -0.0006586286726193435,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.8714149199112953,
+    "vol_ratio": 2.23873027654101,
     "price_pos": 0.5
   },
   {
     "code": "2610",
     "name": "華航",
-    "three_inst_ratio": 13.119125680462878,
+    "three_inst_ratio": 13.786624895503557,
     "change": 0.0,
     "foreign_ratio_diff": 0.14000000000000057,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.8137225807991677,
+    "vol_ratio": 2.9734108257078256,
     "price_pos": 0.5
   },
   {
@@ -4693,7 +4693,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.876255212339916,
+    "vol_ratio": 2.2425040638582394,
     "price_pos": 0.5
   },
   {
@@ -4704,7 +4704,7 @@
     "foreign_ratio_diff": -0.020000000000000018,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.7064186307518239,
+    "vol_ratio": 1.3304280849929484,
     "price_pos": 0.5
   },
   {
@@ -4715,29 +4715,29 @@
     "foreign_ratio_diff": 0.06000000000000005,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.211671398046008,
+    "vol_ratio": 1.7243539713579046,
     "price_pos": 0.5
   },
   {
     "code": "2614",
     "name": "東森",
-    "three_inst_ratio": 5.886333246152186,
+    "three_inst_ratio": 5.872888482043536,
     "change": 0.0,
     "foreign_ratio_diff": 0.2699999999999996,
-    "trust_ratio_diff": -0.0012222512826045228,
+    "trust_ratio_diff": -0.0012222512826045237,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.3179583556801253,
+    "vol_ratio": 2.5868827857845047,
     "price_pos": 0.5
   },
   {
     "code": "2615",
     "name": "萬海",
-    "three_inst_ratio": 40.89554386634753,
+    "three_inst_ratio": 36.05166294185433,
     "change": 0.0,
     "foreign_ratio_diff": 0.04999999999999716,
-    "trust_ratio_diff": -7.12721216634014e-05,
+    "trust_ratio_diff": -7.12721216640233e-05,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.8610522530375686,
+    "vol_ratio": 1.450989892198782,
     "price_pos": 0.5
   },
   {
@@ -4748,7 +4748,7 @@
     "foreign_ratio_diff": -0.010000000000000009,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 7.5543527452111885,
+    "vol_ratio": 5.889834343723977,
     "price_pos": 0.5
   },
   {
@@ -4759,18 +4759,18 @@
     "foreign_ratio_diff": -0.03000000000000025,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.0120753995102496,
+    "vol_ratio": 1.5687367521605338,
     "price_pos": 0.5
   },
   {
     "code": "2618",
     "name": "長榮航",
-    "three_inst_ratio": 20.97908127811487,
+    "three_inst_ratio": 20.79370655005557,
     "change": 0.0,
     "foreign_ratio_diff": 0.08999999999999986,
-    "trust_ratio_diff": -0.05669903826533934,
+    "trust_ratio_diff": -0.056699038265339397,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.860383757003868,
+    "vol_ratio": 2.230129708850474,
     "price_pos": 0.5
   },
   {
@@ -4781,29 +4781,29 @@
     "foreign_ratio_diff": -0.010000000000000231,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.2469270467585627,
+    "vol_ratio": 0.9721804093371843,
     "price_pos": 0.5
   },
   {
     "code": "2633",
     "name": "台灣高鐵",
-    "three_inst_ratio": 10.70893622078696,
+    "three_inst_ratio": 10.712013157226043,
     "change": 0.0,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": -7.106950471092235e-05,
+    "trust_ratio_diff": -7.106950471092582e-05,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.5755559707907025,
+    "vol_ratio": 1.2283995704469883,
     "price_pos": 0.5
   },
   {
     "code": "2634",
     "name": "漢翔",
-    "three_inst_ratio": 2.905328427975318,
+    "three_inst_ratio": 2.86402748439347,
     "change": 0.0,
     "foreign_ratio_diff": -0.040000000000000036,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.3626444619401215,
+    "vol_ratio": 1.062400766936366,
     "price_pos": 0.5
   },
   {
@@ -4814,18 +4814,18 @@
     "foreign_ratio_diff": 0.040000000000000924,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.3143589967642075,
+    "vol_ratio": 1.8044154890026027,
     "price_pos": 0.5
   },
   {
     "code": "2637",
     "name": "慧洋-KY",
-    "three_inst_ratio": 10.928440469300808,
+    "three_inst_ratio": 10.44214729327043,
     "change": 0.0,
     "foreign_ratio_diff": 0.08000000000000007,
-    "trust_ratio_diff": -0.0008038486138754117,
+    "trust_ratio_diff": -0.0008038486138753909,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.4092758698379932,
+    "vol_ratio": 1.878418474788943,
     "price_pos": 0.5
   },
   {
@@ -4836,29 +4836,29 @@
     "foreign_ratio_diff": -0.010000000000000675,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.0712596279712585,
+    "vol_ratio": 2.394541404858947,
     "price_pos": 0.5
   },
   {
     "code": "2645",
     "name": "長榮航太",
-    "three_inst_ratio": 9.521392527432493,
+    "three_inst_ratio": 9.685046430748148,
     "change": 0.0,
     "foreign_ratio_diff": -0.7300000000000004,
     "trust_ratio_diff": 0.6778421868163926,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.110788051612407,
+    "vol_ratio": 2.4253601758334025,
     "price_pos": 0.5
   },
   {
     "code": "2646",
     "name": "星宇航空",
-    "three_inst_ratio": 2.850033236559551,
+    "three_inst_ratio": 2.8496676344044922,
     "change": 0.0,
     "foreign_ratio_diff": 0.020000000000000018,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 5.466005777842034,
+    "vol_ratio": 4.261631623402264,
     "price_pos": 0.5
   },
   {
@@ -4869,7 +4869,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.7867173934398458,
+    "vol_ratio": 0.6133728830208965,
     "price_pos": 0.5
   },
   {
@@ -4880,7 +4880,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.0989795401725582,
+    "vol_ratio": 0.856831505897249,
     "price_pos": 0.5
   },
   {
@@ -4891,7 +4891,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.0673918695668325,
+    "vol_ratio": 0.8322038305097338,
     "price_pos": 0.5
   },
   {
@@ -4902,7 +4902,7 @@
     "foreign_ratio_diff": -0.010000000000000009,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.17049911427498995,
+    "vol_ratio": 0.13293151282456844,
     "price_pos": 0.5
   },
   {
@@ -4913,18 +4913,18 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.117671278791873,
+    "vol_ratio": 0.8714047258377314,
     "price_pos": 0.5
   },
   {
     "code": "2707",
     "name": "晶華",
-    "three_inst_ratio": 7.549215090592909,
+    "three_inst_ratio": 7.233340073350412,
     "change": 0.0,
     "foreign_ratio_diff": -0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.2577946521383505,
+    "vol_ratio": 0.980653457599392,
     "price_pos": 0.5
   },
   {
@@ -4935,40 +4935,40 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.2389665010682838,
+    "vol_ratio": 2.5252959160871398,
     "price_pos": 0.5
   },
   {
     "code": "2723",
     "name": "美食-KY",
-    "three_inst_ratio": 45.45944444444444,
+    "three_inst_ratio": 45.412222222222226,
     "change": 0.0,
     "foreign_ratio_diff": -0.00999999999999801,
-    "trust_ratio_diff": -0.0005555555555555556,
+    "trust_ratio_diff": -0.0005555555555555522,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.531027487920616,
+    "vol_ratio": 1.1936824482092938,
     "price_pos": 0.5
   },
   {
     "code": "2727",
     "name": "王品",
-    "three_inst_ratio": 21.597541772956472,
+    "three_inst_ratio": 20.780599274309118,
     "change": 0.0,
     "foreign_ratio_diff": 0.07000000000000028,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.929618782317532,
+    "vol_ratio": 2.2841095590950253,
     "price_pos": 0.5
   },
   {
     "code": "2731",
     "name": "雄獅",
-    "three_inst_ratio": 26.47,
+    "three_inst_ratio": 26.48822514158496,
     "change": 0.0,
     "foreign_ratio_diff": 0.05999999999999872,
-    "trust_ratio_diff": -0.001072067152056505,
+    "trust_ratio_diff": -0.0010720671520565057,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.392885611477077,
+    "vol_ratio": 2.645300646236365,
     "price_pos": 0.5
   },
   {
@@ -4979,7 +4979,7 @@
     "foreign_ratio_diff": 0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.2520904524195706,
+    "vol_ratio": 1.755867132394919,
     "price_pos": 0.5
   },
   {
@@ -4990,18 +4990,18 @@
     "foreign_ratio_diff": 0.010000000000000009,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.5201857697911607,
+    "vol_ratio": 1.9648906001761592,
     "price_pos": 0.5
   },
   {
     "code": "2753",
     "name": "八方雲集",
-    "three_inst_ratio": 11.826999015497025,
+    "three_inst_ratio": 11.819496554239583,
     "change": 0.0,
     "foreign_ratio_diff": -0.16999999999999993,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.5372512605079294,
+    "vol_ratio": 1.9781958980231316,
     "price_pos": 0.5
   },
   {
@@ -5012,29 +5012,29 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.02621882679992,
+    "vol_ratio": 1.5797638310643445,
     "price_pos": 0.5
   },
   {
     "code": "2801",
     "name": "彰銀",
-    "three_inst_ratio": 18.251501863890386,
+    "three_inst_ratio": 18.84911680172111,
     "change": 0.0,
     "foreign_ratio_diff": -0.010000000000001563,
-    "trust_ratio_diff": -3.399612677011275e-05,
+    "trust_ratio_diff": -3.399612677013053e-05,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.7456187118844377,
+    "vol_ratio": 1.36099086011329,
     "price_pos": 0.5
   },
   {
     "code": "2812",
     "name": "台中銀",
-    "three_inst_ratio": 10.688718635115958,
+    "three_inst_ratio": 10.685343300901138,
     "change": 0.0,
     "foreign_ratio_diff": -0.030000000000001137,
-    "trust_ratio_diff": -9.964086243011909e-05,
+    "trust_ratio_diff": -9.96408624301193e-05,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.410590957328525,
+    "vol_ratio": 1.8794437972391889,
     "price_pos": 0.5
   },
   {
@@ -5045,40 +5045,40 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.2196167666811717,
+    "vol_ratio": 2.5102096824971847,
     "price_pos": 0.5
   },
   {
     "code": "2820",
     "name": "華票",
-    "three_inst_ratio": 8.71,
+    "three_inst_ratio": 8.701660213260261,
     "change": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.8989603018176697,
+    "vol_ratio": 2.260206337010387,
     "price_pos": 0.5
   },
   {
     "code": "2832",
     "name": "台產",
-    "three_inst_ratio": 4.827633512118863,
+    "three_inst_ratio": 4.977511077924186,
     "change": 0.0,
     "foreign_ratio_diff": -0.019999999999999574,
-    "trust_ratio_diff": -0.0007888292937122262,
+    "trust_ratio_diff": -0.0007888292937122399,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.6592751053980987,
+    "vol_ratio": 2.0733331330222473,
     "price_pos": 0.5
   },
   {
     "code": "2834",
     "name": "臺企銀",
-    "three_inst_ratio": 19.732423055169424,
+    "three_inst_ratio": 19.726555825583326,
     "change": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.7989300221661675,
+    "vol_ratio": 2.182216627451588,
     "price_pos": 0.5
   },
   {
@@ -5089,29 +5089,29 @@
     "foreign_ratio_diff": -0.019999999999999574,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.3813614015747118,
+    "vol_ratio": 1.856654652075199,
     "price_pos": 0.5
   },
   {
     "code": "2838",
     "name": "聯邦銀",
-    "three_inst_ratio": 3.9866133337998364,
+    "three_inst_ratio": 3.9889402269033503,
     "change": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": -0.0010136960054911949,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.332738019519267,
+    "vol_ratio": 3.3780669304726487,
     "price_pos": 0.5
   },
   {
     "code": "2845",
     "name": "遠東銀",
-    "three_inst_ratio": 10.075807028544492,
+    "three_inst_ratio": 10.07017529237386,
     "change": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.1113822952521655,
+    "vol_ratio": 0.8665014505355866,
     "price_pos": 0.5
   },
   {
@@ -5122,51 +5122,51 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.368280560050766,
+    "vol_ratio": 0.28713399597178363,
     "price_pos": 0.5
   },
   {
     "code": "2850",
     "name": "新產",
-    "three_inst_ratio": 9.955185830126474,
+    "three_inst_ratio": 9.798205573242209,
     "change": 0.0,
     "foreign_ratio_diff": -0.02999999999999936,
-    "trust_ratio_diff": -0.030699767979382418,
+    "trust_ratio_diff": -0.030699767979382397,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.259496451875124,
+    "vol_ratio": 2.5413023184111134,
     "price_pos": 0.5
   },
   {
     "code": "2851",
     "name": "中再保",
-    "three_inst_ratio": 4.74,
+    "three_inst_ratio": 4.787851747041672,
     "change": 0.0,
     "foreign_ratio_diff": 0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.0955821332046933,
+    "vol_ratio": 2.413504714023998,
     "price_pos": 0.5
   },
   {
     "code": "2852",
     "name": "第一保",
-    "three_inst_ratio": 5.686970087213409,
+    "three_inst_ratio": 5.668647831041996,
     "change": 0.0,
     "foreign_ratio_diff": -0.0699999999999994,
-    "trust_ratio_diff": -0.0003788636152878195,
+    "trust_ratio_diff": -0.00037886361528781734,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.9915780343653544,
+    "vol_ratio": 1.5527557556068863,
     "price_pos": 0.5
   },
   {
     "code": "2855",
     "name": "統一證",
-    "three_inst_ratio": 10.066690425824913,
+    "three_inst_ratio": 10.055512807384522,
     "change": 0.0,
     "foreign_ratio_diff": -0.08999999999999986,
-    "trust_ratio_diff": -0.0008742271405891458,
+    "trust_ratio_diff": -0.0008742271405891445,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.755732337427673,
+    "vol_ratio": 2.928198093587677,
     "price_pos": 0.5
   },
   {
@@ -5177,161 +5177,161 @@
     "foreign_ratio_diff": 0.5099999999999998,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 5.335563314806581,
+    "vol_ratio": 4.15993072001869,
     "price_pos": 0.5
   },
   {
     "code": "2880",
     "name": "華南金",
-    "three_inst_ratio": 17.90795047624338,
+    "three_inst_ratio": 18.02789942986398,
     "change": 0.0,
     "foreign_ratio_diff": -0.23000000000000043,
-    "trust_ratio_diff": 0.27774015205765934,
+    "trust_ratio_diff": 0.27774015205765956,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 3.4600667229153848,
+    "vol_ratio": 2.69767913990013,
     "price_pos": 0.5
   },
   {
     "code": "2881",
     "name": "富邦金",
-    "three_inst_ratio": 15.816119743513056,
+    "three_inst_ratio": 17.661668573616815,
     "change": 0.0,
     "foreign_ratio_diff": 0.030000000000001137,
-    "trust_ratio_diff": -0.061909866914417744,
+    "trust_ratio_diff": -0.0619098669144178,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.9404423204073238,
+    "vol_ratio": 1.5128872328599474,
     "price_pos": 0.5
   },
   {
     "code": "2882",
     "name": "國泰金",
-    "three_inst_ratio": 18.735654471497526,
+    "three_inst_ratio": 18.059431388356483,
     "change": 0.0,
     "foreign_ratio_diff": 0.120000000000001,
-    "trust_ratio_diff": -0.15069748682517492,
+    "trust_ratio_diff": -0.15069748682517448,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.166179299611522,
+    "vol_ratio": 1.6888855556293219,
     "price_pos": 0.5
   },
   {
     "code": "2883",
     "name": "凱基金",
-    "three_inst_ratio": 26.32603901543485,
+    "three_inst_ratio": 26.373231276588037,
     "change": 0.0,
     "foreign_ratio_diff": -0.05000000000000071,
-    "trust_ratio_diff": 0.01655961414852028,
+    "trust_ratio_diff": 0.016559614148520252,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.4241020319414006,
+    "vol_ratio": 1.8899778554119393,
     "price_pos": 0.5
   },
   {
     "code": "2884",
     "name": "玉山金",
-    "three_inst_ratio": 33.71584893656485,
+    "three_inst_ratio": 33.797638895758624,
     "change": 0.0,
     "foreign_ratio_diff": -0.240000000000002,
-    "trust_ratio_diff": 0.40659082478051145,
+    "trust_ratio_diff": 0.4065908247805119,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.4781373649821457,
+    "vol_ratio": 1.9321070981216732,
     "price_pos": 0.5
   },
   {
     "code": "2885",
     "name": "元大金",
-    "three_inst_ratio": 25.49165368094795,
+    "three_inst_ratio": 25.210594138809636,
     "change": 0.0,
     "foreign_ratio_diff": 0.10999999999999943,
     "trust_ratio_diff": -0.1132235408133635,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.0589575516682435,
+    "vol_ratio": 1.6052889385888003,
     "price_pos": 0.5
   },
   {
     "code": "2886",
     "name": "兆豐金",
-    "three_inst_ratio": 21.146236684679728,
+    "three_inst_ratio": 20.75287652834363,
     "change": 0.0,
     "foreign_ratio_diff": -0.05000000000000071,
     "trust_ratio_diff": -0.0041920524655841285,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.6225462434438278,
+    "vol_ratio": 1.265036054210442,
     "price_pos": 0.5
   },
   {
     "code": "2887",
     "name": "台新新光金",
-    "three_inst_ratio": 25.63404486306078,
+    "three_inst_ratio": 26.33448542298659,
     "change": 0.0,
     "foreign_ratio_diff": -0.5700000000000003,
-    "trust_ratio_diff": 0.541847650533358,
+    "trust_ratio_diff": 0.5418476505333576,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.803013829429081,
+    "vol_ratio": 1.405739595826063,
     "price_pos": 0.5
   },
   {
     "code": "2889",
     "name": "國票金",
-    "three_inst_ratio": 9.289367012570894,
+    "three_inst_ratio": 9.281991332962185,
     "change": 0.0,
     "foreign_ratio_diff": -0.040000000000000924,
-    "trust_ratio_diff": -0.00011008477027921995,
+    "trust_ratio_diff": -0.00011008477027921876,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.2021074950545394,
+    "vol_ratio": 1.716897369025573,
     "price_pos": 0.5
   },
   {
     "code": "2890",
     "name": "永豐金",
-    "three_inst_ratio": 26.94118726217936,
+    "three_inst_ratio": 27.41807714014892,
     "change": 0.0,
     "foreign_ratio_diff": 0.0,
-    "trust_ratio_diff": 0.04400674511972254,
+    "trust_ratio_diff": 0.04400674511972258,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.5276081940942412,
+    "vol_ratio": 1.1910165581073744,
     "price_pos": 0.5
   },
   {
     "code": "2891",
     "name": "中信金",
-    "three_inst_ratio": 32.907706397782114,
+    "three_inst_ratio": 31.971724819513035,
     "change": 0.0,
     "foreign_ratio_diff": 0.11999999999999744,
-    "trust_ratio_diff": -0.17060406625458724,
+    "trust_ratio_diff": -0.17060406625458757,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.170355109360729,
+    "vol_ratio": 1.6921412717049753,
     "price_pos": 0.5
   },
   {
     "code": "2892",
     "name": "第一金",
-    "three_inst_ratio": 23.38909440016061,
+    "three_inst_ratio": 22.981465694074863,
     "change": 0.0,
     "foreign_ratio_diff": 0.35999999999999943,
     "trust_ratio_diff": -0.38211425844306124,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.8866532090056574,
+    "vol_ratio": 1.4709499595637328,
     "price_pos": 0.5
   },
   {
     "code": "2897",
     "name": "王道銀行",
-    "three_inst_ratio": 5.579287078480901,
+    "three_inst_ratio": 5.5579350789838875,
     "change": 0.0,
     "foreign_ratio_diff": -0.040000000000000036,
-    "trust_ratio_diff": -0.0001425843038197923,
+    "trust_ratio_diff": -0.0001425843038197934,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.852980208665294,
+    "vol_ratio": 2.2243574508237884,
     "price_pos": 0.5
   },
   {
     "code": "2903",
     "name": "遠百",
-    "three_inst_ratio": 11.144069225975148,
+    "three_inst_ratio": 11.376612497413609,
     "change": 0.0,
     "foreign_ratio_diff": -0.28000000000000114,
-    "trust_ratio_diff": 0.2350133820607212,
+    "trust_ratio_diff": 0.23501338206072075,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.2433604450755653,
+    "vol_ratio": 1.7490606859911186,
     "price_pos": 0.5
   },
   {
@@ -5342,7 +5342,7 @@
     "foreign_ratio_diff": -0.009999999999999787,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.029060790654736,
+    "vol_ratio": 1.5819795994935224,
     "price_pos": 0.5
   },
   {
@@ -5353,7 +5353,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.4743537690014779,
+    "vol_ratio": 1.1494961588825083,
     "price_pos": 0.5
   },
   {
@@ -5364,7 +5364,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.3215112033720993,
+    "vol_ratio": 1.8099917856799415,
     "price_pos": 0.5
   },
   {
@@ -5375,18 +5375,18 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.0,
+    "vol_ratio": 1.52905254823764,
     "price_pos": 0.5
   },
   {
     "code": "2912",
     "name": "統一超",
-    "three_inst_ratio": 18.29735128626118,
+    "three_inst_ratio": 18.907193175419277,
     "change": 0.0,
     "foreign_ratio_diff": 0.03999999999999915,
-    "trust_ratio_diff": -0.055212361724595815,
+    "trust_ratio_diff": -0.05521236172459587,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.8674282431759166,
+    "vol_ratio": 2.2356220201032566,
     "price_pos": 0.5
   },
   {
@@ -5397,18 +5397,18 @@
     "foreign_ratio_diff": -0.02999999999999936,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 4.6990938015290205,
+    "vol_ratio": 3.663700252039575,
     "price_pos": 0.5
   },
   {
     "code": "2915",
     "name": "潤泰全",
-    "three_inst_ratio": 6.993597467489216,
+    "three_inst_ratio": 6.693774618874269,
     "change": 0.0,
     "foreign_ratio_diff": -0.040000000000000036,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.3473783649033373,
+    "vol_ratio": 1.8301594031449748,
     "price_pos": 0.5
   },
   {
@@ -5419,7 +5419,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.2765633242520502,
+    "vol_ratio": 0.21562564263719164,
     "price_pos": 0.5
   },
   {
@@ -5430,7 +5430,7 @@
     "foreign_ratio_diff": -0.05999999999999872,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.8387239061286376,
+    "vol_ratio": 1.4335813505409718,
     "price_pos": 0.5
   },
   {
@@ -5441,7 +5441,7 @@
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 0.0,
+    "vol_ratio": 1.6499142996848062,
     "price_pos": 0.5
   },
   {
@@ -5452,7 +5452,7 @@
     "foreign_ratio_diff": 0.34999999999999987,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 9.493276160151066,
+    "vol_ratio": 7.401537345202524,
     "price_pos": 0.5
   },
   {
@@ -5463,40 +5463,40 @@
     "foreign_ratio_diff": -0.010000000000000231,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 2.461692125711557,
+    "vol_ratio": 1.9192853861479933,
     "price_pos": 0.5
   },
   {
     "code": "3004",
     "name": "豐達科",
-    "three_inst_ratio": 3.71,
+    "three_inst_ratio": 0.6607078694633595,
     "change": 0.0,
     "foreign_ratio_diff": -0.010000000000000231,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 1.23603487642694,
+    "vol_ratio": 0.9636882087396481,
     "price_pos": 0.5
   },
   {
     "code": "3005",
     "name": "神基",
-    "three_inst_ratio": 20.432792090625217,
+    "three_inst_ratio": 20.145202398068157,
     "change": 0.0,
     "foreign_ratio_diff": 0.07000000000000028,
     "trust_ratio_diff": -0.1899338601283843,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 5.432982628600827,
+    "vol_ratio": 4.235884761282001,
     "price_pos": 0.5
   },
   {
     "code": "3006",
     "name": "晶豪科",
-    "three_inst_ratio": 26.55,
+    "three_inst_ratio": 26.61674302208169,
     "change": 0.0,
     "foreign_ratio_diff": 5.129999999999999,
     "trust_ratio_diff": 0.0,
     "dealer_ratio_diff": 0.0,
-    "vol_ratio": 12.496033590106727,
+    "vol_ratio": 9.74267025669338,
     "price_pos": 0.5
   }
 ]
