@@ -2,12 +2,19 @@ name: Update TW Institutional Data
 
 on:
   schedule:
-    # 改為：台北時間 09:15, 10:15, 11:15, 12:15 啟動 (避開 30分 的塞車潮)
-    # UTC 01:15 = 台北 09:15
-    - cron: "15 1,2,3,4 * * 1-5"
+    # ---------------------------------------------------------
+    # 盤中監控：每 15 分鐘跑一次 (極速衝刺模式)
+    # ---------------------------------------------------------
+    # UTC 01:00 ~ 05:59 (對應台北 09:00 ~ 13:59)
+    # */15 代表每 15 分鐘觸發一次 (00, 15, 30, 45分)
+    # 這是 GitHub 免費版的極限，再快容易卡死
+    - cron: "*/15 1-5 * * 1-5"
     
-    # 盤後維持不變 (台北 18:30 / UTC 10:30)
-    - cron: "30 10 * * 1-5"
+    # ---------------------------------------------------------
+    # 盤後結算：台北 16:30 (UTC 08:30) 抓證交所收盤資料
+    # ---------------------------------------------------------
+    - cron: "30 8 * * 1-5"
+
   workflow_dispatch: {}
 
 permissions:
@@ -28,10 +35,14 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          # 移除 pandas_ta，保留必要的資料處理與 HTML 解析套件
-          pip install requests pandas openpyxl lxml html5lib
+          # 🔥 關鍵修改：加入 yfinance (盤中抓價必備)
+          # 保留您原本需要的 lxml, pandas, playwright 相關依賴
+          pip install requests pandas openpyxl lxml html5lib yfinance
+          
+          # 如果您的 requirements.txt 裡面沒有 yfinance，這裡會自動補上
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
+      # 保留 Playwright (您的 update_broker.py 似乎需要它)
       - name: Install Playwright browsers
         run: |
           python -m pip install playwright
@@ -48,7 +59,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data docs/data
+          # 改為 add . 確保所有產生的 JSON 都被加入 (避免路徑錯誤漏檔)
+          git add .
           if ! git diff --cached --quiet; then
             git commit -m "chore: update data via GitHub Actions"
             git push -f
