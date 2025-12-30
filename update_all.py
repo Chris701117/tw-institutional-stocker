@@ -80,14 +80,13 @@ def add_realtime_data(df_chips, is_intraday):
 
     print("   正在向 Yahoo Finance 請求數據...")
     try:
-        # 盤中需要即時，盤後只要日線。這裡統一抓最近 5 天的 1m (分鐘線) 資料太慢，改抓 1d
-        # yfinance 的 1d 資料在盤中會包含「當下最新一筆」
-        data = yf.download(yf_tickers, period="5d", progress=False, group_by='ticker')
+        # 🔥 修改 1：將 period="5d" 改為 "6mo" (6個月)，這樣才有足夠資料算季線 (MA60)
+        data = yf.download(yf_tickers, period="6mo", progress=False, group_by='ticker')
     except Exception as e:
         print(f"❌ yfinance 下載失敗: {e}")
         return df_chips
 
-    print("✅ 下載完成，開始計算技術指標...")
+    print("✅ 下載完成，開始計算技術指標 (含 MA60)...")
     
     # 取得台灣時間計算盤中經過分鐘數
     tw_now = datetime.now(timezone.utc) + timedelta(hours=8)
@@ -102,6 +101,7 @@ def add_realtime_data(df_chips, is_intraday):
     df_chips['vol_ratio'] = 0.0
     df_chips['price_pos'] = 0.5 
     df_chips['conc_ratio'] = 0.0
+    df_chips['ma60_gap'] = 0.0  # 🔥 初始化乖離率欄位
     
     for code in stock_list:
         ticker = f"{code}.TW"
@@ -116,6 +116,15 @@ def add_realtime_data(df_chips, is_intraday):
             # --- 關鍵：取得最新一筆 (可能是盤中，也可能是盤後) ---
             current_close = df_stock['Close'].iloc[-1]
             current_vol = df_stock['Volume'].iloc[-1] # 當下累積量
+            
+            # 🔥 修改 2：計算 MA60 (季線) 與 乖離率
+            ma60_gap = 0
+            if len(df_stock) >= 60:
+                # 計算 60 日移動平均
+                ma60 = df_stock['Close'].rolling(window=60).mean().iloc[-1]
+                # 計算乖離率 % (正數=在季線上, 負數=在季線下)
+                if ma60 > 0:
+                    ma60_gap = ((current_close - ma60) / ma60) * 100
             
             # --- 計算量比 (爆量預估) ---
             # 前5日均量 (不含今天)
@@ -137,8 +146,11 @@ def add_realtime_data(df_chips, is_intraday):
 
             # --- 計算位階 (過去 120 日) ---
             # 這裡簡單用 recent high/low
-            highest = df_stock['High'].max()
-            lowest = df_stock['Low'].min()
+            # 確保資料長度足夠，避免 max() 報錯
+            check_len = min(len(df_stock), 120)
+            highest = df_stock['High'].iloc[-check_len:].max()
+            lowest = df_stock['Low'].iloc[-check_len:].min()
+            
             if highest > lowest:
                 pos = (current_close - lowest) / (highest - lowest)
             else:
@@ -148,8 +160,6 @@ def add_realtime_data(df_chips, is_intraday):
             mask = (df_chips['code'] == code)
             net_buy_shares = df_chips.loc[mask, '總變'].values[0] * 1000
             
-            # 如果是盤中，用預估量來算集中度會比較準一點，或是用昨天的量
-            # 這裡我們先用「昨天的籌碼 / 今天的量」做參考，數值僅供參考
             if est_vol > 0:
                 conc = (net_buy_shares / est_vol) * 100
             else:
@@ -159,6 +169,7 @@ def add_realtime_data(df_chips, is_intraday):
             df_chips.loc[mask, 'vol_ratio'] = round(vol_ratio, 2)
             df_chips.loc[mask, 'price_pos'] = round(pos, 2)
             df_chips.loc[mask, 'conc_ratio'] = round(conc, 1)
+            df_chips.loc[mask, 'ma60_gap'] = round(ma60_gap, 2) # 🔥 寫入乖離率
             
         except Exception:
             continue
@@ -176,9 +187,10 @@ def export_json(df):
             "change": row['總變'],
             "three_inst_ratio": row.get('conc_ratio', 0),
             "foreign_ratio_diff": row['外資'], 
-            "trust_ratio_diff": row['投信'],   
+            "trust_ratio_diff": row['投信'],    
             "vol_ratio": row.get('vol_ratio', 0),
-            "price_pos": row.get('price_pos', 0.5)
+            "price_pos": row.get('price_pos', 0.5),
+            "ma60_gap": row.get('ma60_gap', 0) # 🔥 修改 3：輸出乖離率到 JSON
         }
         output_list.append(record)
         
