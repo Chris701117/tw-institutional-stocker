@@ -18,31 +18,40 @@ HISTORY_DAYS = 120
 
 def get_twse_daily_chips(is_intraday=False):
     """
-    抓取籌碼資料。
-    - 盤中模式：抓「最新已公佈」的資料 (通常是昨天)，作為觀察名單。
-    - 盤後模式：抓「今天」的資料 (如果公佈了)。
+    抓取「累計 5 天」的籌碼資料。
+    邏輯：
+    1. 迴圈嘗試抓取過去 14 天內的資料。
+    2. 只要成功抓到「5天」有效的交易日資料，就停止。
+    3. 將這 5 天的「外資」、「投信」、「總變」加總，計算波段籌碼。
     """
-    print(f"🚀 啟動抓取程序 (盤中模式: {is_intraday})...")
+    print(f"🚀 啟動抓取程序 (模式: 累計 5 日籌碼)...")
     url = "https://www.twse.com.tw/rwd/zh/fund/T86?response=csv&selectType=ALL&date="
     
-    # 如果是盤中，直接從昨天開始往前找 (因為今天絕對還沒出)
-    # 如果是盤後，從今天開始找
+    # 盤中從昨天開始找，盤後從今天開始找
     start_delay = 1 if is_intraday else 0
     
-    for i in range(start_delay, start_delay + 5):
-        # 調整時區確保日期正確 (GitHub Server 是 UTC，要+8)
+    valid_dfs = [] # 存放成功下載的資料表
+    days_collected = 0
+    target_days = 5 # 🔥 設定為累計 5 天
+
+    # 往回找 14 天，確保能湊滿 5 個交易日 (避開週末假日)
+    for i in range(start_delay, start_delay + 14):
+        if days_collected >= target_days:
+            break
+
         tw_now = datetime.now(timezone.utc) + timedelta(hours=8)
         date_obj = tw_now - timedelta(days=i)
         date_str = date_obj.strftime("%Y%m%d")
         
         target_url = url + date_str
-        print(f"   正在嘗試下載籌碼日期: {date_str} ...")
+        print(f"   [{days_collected+1}/{target_days}] 正在下載: {date_str} ...")
         
         try:
             df = pd.read_csv(target_url, header=1, encoding='cp950', thousands=',')
             if '證券代號' in df.columns:
-                print(f"✅ 成功鎖定籌碼日期: {date_str}")
+                print(f"   ✅ 成功取得: {date_str}")
                 
+                # 清洗資料
                 df['code'] = df['證券代號'].astype(str).str.replace('=', '').str.replace('"', '').str.strip()
                 df['name'] = df['證券名稱'].astype(str).str.strip()
                 
@@ -55,14 +64,32 @@ def get_twse_daily_chips(is_intraday=False):
                 df['投信'] = df['投信買賣超股數'].apply(clean_num) / 1000
                 df['總變'] = df['三大法人買賣超股數'].apply(clean_num) / 1000
                 
-                return df[['code', 'name', '外資', '投信', '總變']]
-            
+                # 只保留需要的欄位
+                valid_dfs.append(df[['code', 'name', '外資', '投信', '總變']])
+                days_collected += 1
+            else:
+                print(f"   ⚠️ 無資料 (可能是假日): {date_str}")
+                
         except Exception:
-            time.sleep(1)
+            print(f"   ⚠️ 下載失敗 (可能是假日): {date_str}")
+            time.sleep(1) # 休息一下避免被封 IP
             continue
             
-    print("❌ 錯誤：無法取得任何籌碼資料。")
-    return pd.DataFrame()
+    if not valid_dfs:
+        print("❌ 錯誤：無法取得任何籌碼資料。")
+        return pd.DataFrame()
+
+    print(f"📊 正在合併 {len(valid_dfs)} 天的籌碼資料...")
+    
+    # --- 核心邏輯：將多天資料合併並加總 ---
+    # 1. 合併所有 DataFrame
+    merged_df = pd.concat(valid_dfs)
+    
+    # 2. 針對 'code' 和 'name' 進行群組，並將數值欄位 'sum' (加總)
+    final_df = merged_df.groupby(['code', 'name'], as_index=False).sum()
+    
+    print(f"✅ 累計籌碼計算完成！(共 {len(final_df)} 檔)")
+    return final_df
 
 def calculate_kd(df, n=9):
     """
@@ -206,7 +233,7 @@ def add_realtime_data(df_chips, is_intraday):
             df_chips.loc[mask, 'price_pos'] = round(pos, 2)
             df_chips.loc[mask, 'conc_ratio'] = round(conc, 1)
             df_chips.loc[mask, 'ma60_gap'] = round(ma60_gap, 2)
-            df_chips.loc[mask, 'kd_gold_cross'] = bool(is_gc) # 🔥 寫入 True/False
+            df_chips.loc[mask, 'kd_gold_cross'] = bool(is_gc)
             df_chips.loc[mask, 'k_val'] = round(k, 1)
             
         except Exception:
@@ -229,7 +256,7 @@ def export_json(df):
             "vol_ratio": row.get('vol_ratio', 0),
             "price_pos": row.get('price_pos', 0.5),
             "ma60_gap": row.get('ma60_gap', 0),
-            "kd_gold_cross": row.get('kd_gold_cross', False), # 🔥 輸出 KD 訊號
+            "kd_gold_cross": row.get('kd_gold_cross', False),
             "k_val": row.get('k_val', 0)
         }
         output_list.append(record)
