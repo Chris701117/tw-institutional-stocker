@@ -159,6 +159,7 @@ def calculate_technical_indicators(df):
 def add_realtime_data(df_chips, is_intraday):
     print(f"🚀 啟動 yfinance 抓取 (共 {len(df_chips)} 檔)...")
     df_valid = df_chips[df_chips['code'].str.len() == 4].copy()
+    # 上市 -> .TW, 上櫃 -> .TWO
     df_valid['ticker'] = df_valid.apply(lambda x: f"{x['code']}.TW" if x['market'] == 'TW' else f"{x['code']}.TWO", axis=1)
     yf_tickers = df_valid['ticker'].tolist()
     
