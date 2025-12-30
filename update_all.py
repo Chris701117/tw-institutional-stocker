@@ -64,10 +64,50 @@ def get_twse_daily_chips(is_intraday=False):
     print("❌ 錯誤：無法取得任何籌碼資料。")
     return pd.DataFrame()
 
+def calculate_kd(df, n=9):
+    """
+    計算 KD 值 (9,3,3)
+    回傳最後一筆的 K, D 值以及是否金叉
+    """
+    # 至少要有 9 天資料才能算 RSV
+    if len(df) < 9:
+        return 50, 50, False
+
+    # 計算 RSV
+    low_min = df['Low'].rolling(window=n).min()
+    high_max = df['High'].rolling(window=n).max()
+    rsv = (df['Close'] - low_min) / (high_max - low_min) * 100
+    rsv = rsv.fillna(50) # 補值防止錯誤
+
+    # 遞迴計算 K 與 D (標準公式: K = 2/3*前K + 1/3*RSV)
+    k_values = [50] # 初始值
+    d_values = [50]
+    
+    rsv_list = rsv.tolist()
+    
+    for i in range(1, len(rsv_list)):
+        k = (2/3) * k_values[-1] + (1/3) * rsv_list[i]
+        d = (2/3) * d_values[-1] + (1/3) * k
+        k_values.append(k)
+        d_values.append(d)
+        
+    curr_k = k_values[-1]
+    curr_d = d_values[-1]
+    prev_k = k_values[-2]
+    prev_d = d_values[-2]
+
+    # 判斷低檔黃金交叉
+    # 條件1: K < 30 (低檔超賣區)
+    # 條件2: K 向上突破 D (昨天 K<D, 今天 K>D)
+    is_low_level = curr_k < 30
+    is_gold_cross = (prev_k < prev_d) and (curr_k > curr_d)
+    
+    return curr_k, curr_d, (is_low_level and is_gold_cross)
+
 def add_realtime_data(df_chips, is_intraday):
     """
     使用 yfinance 抓取股價。
-    - 盤中：抓取即時報價，計算「預估量」。
+    - 盤中：抓取即時報價，計算「預估量」、「MA60」、「KD指標」。
     - 盤後：抓取收盤價。
     """
     print(f"🚀 啟動 yfinance 抓取 (共 {len(df_chips)} 檔)...")
@@ -80,28 +120,29 @@ def add_realtime_data(df_chips, is_intraday):
 
     print("   正在向 Yahoo Finance 請求數據...")
     try:
-        # 🔥 修改 1：將 period="5d" 改為 "6mo" (6個月)，這樣才有足夠資料算季線 (MA60)
+        # 維持 6mo 以計算 MA60 和 KD
         data = yf.download(yf_tickers, period="6mo", progress=False, group_by='ticker')
     except Exception as e:
         print(f"❌ yfinance 下載失敗: {e}")
         return df_chips
 
-    print("✅ 下載完成，開始計算技術指標 (含 MA60)...")
+    print("✅ 下載完成，開始計算技術指標 (MA60, KD, 預估量)...")
     
     # 取得台灣時間計算盤中經過分鐘數
     tw_now = datetime.now(timezone.utc) + timedelta(hours=8)
     market_open = tw_now.replace(hour=9, minute=0, second=0, microsecond=0)
     minutes_elapsed = (tw_now - market_open).total_seconds() / 60
     
-    # 防呆：如果還沒開盤或剛開盤，避免除以 0
     if minutes_elapsed < 1: minutes_elapsed = 1
-    # 最多就是 270 分鐘 (4.5小時)
     if minutes_elapsed > 270: minutes_elapsed = 270
 
+    # 初始化新欄位
     df_chips['vol_ratio'] = 0.0
     df_chips['price_pos'] = 0.5 
     df_chips['conc_ratio'] = 0.0
-    df_chips['ma60_gap'] = 0.0  # 🔥 初始化乖離率欄位
+    df_chips['ma60_gap'] = 0.0  
+    df_chips['kd_gold_cross'] = False # 🔥 新增 KD 金叉訊號
+    df_chips['k_val'] = 0.0 # (選填) 方便觀察數值
     
     for code in stock_list:
         ticker = f"{code}.TW"
@@ -110,33 +151,30 @@ def add_realtime_data(df_chips, is_intraday):
                 continue
                 
             df_stock = data[ticker].dropna()
-            if len(df_stock) < 2: # 至少要有昨天跟今天
+            if len(df_stock) < 9: # KD 需要至少 9 天
                 continue
 
-            # --- 關鍵：取得最新一筆 (可能是盤中，也可能是盤後) ---
+            # --- 基本數據 ---
             current_close = df_stock['Close'].iloc[-1]
-            current_vol = df_stock['Volume'].iloc[-1] # 當下累積量
+            current_vol = df_stock['Volume'].iloc[-1]
             
-            # 🔥 修改 2：計算 MA60 (季線) 與 乖離率
+            # 🔥 1. 計算 KD 指標 (低檔金叉)
+            k, d, is_gc = calculate_kd(df_stock)
+            
+            # 🔥 2. 計算 MA60 (季線) 與 乖離率
             ma60_gap = 0
             if len(df_stock) >= 60:
-                # 計算 60 日移動平均
                 ma60 = df_stock['Close'].rolling(window=60).mean().iloc[-1]
-                # 計算乖離率 % (正數=在季線上, 負數=在季線下)
                 if ma60 > 0:
                     ma60_gap = ((current_close - ma60) / ma60) * 100
             
-            # --- 計算量比 (爆量預估) ---
-            # 前5日均量 (不含今天)
+            # --- 3. 計算量比 (爆量預估) ---
             avg_vol_5 = df_stock['Volume'].iloc[-6:-1].mean()
             
             if is_intraday:
-                # 盤中預估量 = 當前量 * (270 / 經過分鐘)
                 est_vol = current_vol * (270 / minutes_elapsed)
-                # 校正：如果已經收盤 (超過13:30)，預估量 = 當前量
                 if minutes_elapsed >= 270: est_vol = current_vol
             else:
-                # 盤後直接用當天量
                 est_vol = current_vol
 
             if avg_vol_5 > 0:
@@ -144,9 +182,7 @@ def add_realtime_data(df_chips, is_intraday):
             else:
                 vol_ratio = 1.0
 
-            # --- 計算位階 (過去 120 日) ---
-            # 這裡簡單用 recent high/low
-            # 確保資料長度足夠，避免 max() 報錯
+            # --- 4. 計算位階 ---
             check_len = min(len(df_stock), 120)
             highest = df_stock['High'].iloc[-check_len:].max()
             lowest = df_stock['Low'].iloc[-check_len:].min()
@@ -156,7 +192,7 @@ def add_realtime_data(df_chips, is_intraday):
             else:
                 pos = 0.5
 
-            # --- 計算集中度 ---
+            # --- 5. 計算集中度 ---
             mask = (df_chips['code'] == code)
             net_buy_shares = df_chips.loc[mask, '總變'].values[0] * 1000
             
@@ -165,11 +201,13 @@ def add_realtime_data(df_chips, is_intraday):
             else:
                 conc = 0
 
-            # 寫入
+            # 寫入 DataFrame
             df_chips.loc[mask, 'vol_ratio'] = round(vol_ratio, 2)
             df_chips.loc[mask, 'price_pos'] = round(pos, 2)
             df_chips.loc[mask, 'conc_ratio'] = round(conc, 1)
-            df_chips.loc[mask, 'ma60_gap'] = round(ma60_gap, 2) # 🔥 寫入乖離率
+            df_chips.loc[mask, 'ma60_gap'] = round(ma60_gap, 2)
+            df_chips.loc[mask, 'kd_gold_cross'] = bool(is_gc) # 🔥 寫入 True/False
+            df_chips.loc[mask, 'k_val'] = round(k, 1)
             
         except Exception:
             continue
@@ -190,7 +228,9 @@ def export_json(df):
             "trust_ratio_diff": row['投信'],    
             "vol_ratio": row.get('vol_ratio', 0),
             "price_pos": row.get('price_pos', 0.5),
-            "ma60_gap": row.get('ma60_gap', 0) # 🔥 修改 3：輸出乖離率到 JSON
+            "ma60_gap": row.get('ma60_gap', 0),
+            "kd_gold_cross": row.get('kd_gold_cross', False), # 🔥 輸出 KD 訊號
+            "k_val": row.get('k_val', 0)
         }
         output_list.append(record)
         
