@@ -19,22 +19,15 @@ HISTORY_DAYS = 120
 def get_twse_daily_chips(is_intraday=False):
     """
     抓取「累計 5 天」的籌碼資料。
-    邏輯：
-    1. 迴圈嘗試抓取過去 14 天內的資料。
-    2. 只要成功抓到「5天」有效的交易日資料，就停止。
-    3. 將這 5 天的「外資」、「投信」、「總變」加總，計算波段籌碼。
     """
     print(f"🚀 啟動抓取程序 (模式: 累計 5 日籌碼)...")
     url = "https://www.twse.com.tw/rwd/zh/fund/T86?response=csv&selectType=ALL&date="
     
-    # 盤中從昨天開始找，盤後從今天開始找
     start_delay = 1 if is_intraday else 0
-    
-    valid_dfs = [] # 存放成功下載的資料表
+    valid_dfs = [] 
     days_collected = 0
-    target_days = 5 # 🔥 設定為累計 5 天
+    target_days = 5 
 
-    # 往回找 14 天，確保能湊滿 5 個交易日 (避開週末假日)
     for i in range(start_delay, start_delay + 14):
         if days_collected >= target_days:
             break
@@ -50,21 +43,17 @@ def get_twse_daily_chips(is_intraday=False):
             df = pd.read_csv(target_url, header=1, encoding='cp950', thousands=',')
             if '證券代號' in df.columns:
                 print(f"   ✅ 成功取得: {date_str}")
-                
-                # 清洗資料
                 df['code'] = df['證券代號'].astype(str).str.replace('=', '').str.replace('"', '').str.strip()
                 df['name'] = df['證券名稱'].astype(str).str.strip()
                 
                 def clean_num(x):
-                    if isinstance(x, str):
-                        return float(x.replace(',', ''))
+                    if isinstance(x, str): return float(x.replace(',', ''))
                     return float(x)
 
                 df['外資'] = df['外陸資買賣超股數(不含外資自營商)'].apply(clean_num) / 1000
                 df['投信'] = df['投信買賣超股數'].apply(clean_num) / 1000
                 df['總變'] = df['三大法人買賣超股數'].apply(clean_num) / 1000
                 
-                # 只保留需要的欄位
                 valid_dfs.append(df[['code', 'name', '外資', '投信', '總變']])
                 days_collected += 1
             else:
@@ -72,7 +61,7 @@ def get_twse_daily_chips(is_intraday=False):
                 
         except Exception:
             print(f"   ⚠️ 下載失敗 (可能是假日): {date_str}")
-            time.sleep(1) # 休息一下避免被封 IP
+            time.sleep(1) 
             continue
             
     if not valid_dfs:
@@ -80,62 +69,90 @@ def get_twse_daily_chips(is_intraday=False):
         return pd.DataFrame()
 
     print(f"📊 正在合併 {len(valid_dfs)} 天的籌碼資料...")
-    
-    # --- 核心邏輯：將多天資料合併並加總 ---
-    # 1. 合併所有 DataFrame
     merged_df = pd.concat(valid_dfs)
-    
-    # 2. 針對 'code' 和 'name' 進行群組，並將數值欄位 'sum' (加總)
     final_df = merged_df.groupby(['code', 'name'], as_index=False).sum()
-    
     print(f"✅ 累計籌碼計算完成！(共 {len(final_df)} 檔)")
     return final_df
 
-def calculate_kd(df, n=9):
+def calculate_technical_indicators(df):
     """
-    計算 KD 值 (9,3,3)
-    回傳最後一筆的 K, D 值以及是否金叉
+    計算所有技術指標：KD, MA60, Bollinger Bands, MACD
+    回傳多個訊號旗標
     """
-    # 至少要有 9 天資料才能算 RSV
-    if len(df) < 9:
-        return 50, 50, False
+    # 資料長度不足 35 天無法計算準確的 MACD/Bollinger
+    if len(df) < 35: 
+        return 50, 50, False, 0, False, False, 0
 
-    # 計算 RSV
-    low_min = df['Low'].rolling(window=n).min()
-    high_max = df['High'].rolling(window=n).max()
+    # =========================================
+    # 1. 計算 KD (9,3,3)
+    # =========================================
+    low_min = df['Low'].rolling(window=9).min()
+    high_max = df['High'].rolling(window=9).max()
     rsv = (df['Close'] - low_min) / (high_max - low_min) * 100
-    rsv = rsv.fillna(50) # 補值防止錯誤
-
-    # 遞迴計算 K 與 D (標準公式: K = 2/3*前K + 1/3*RSV)
-    k_values = [50] # 初始值
-    d_values = [50]
+    rsv = rsv.fillna(50)
     
+    k_values = [50]; d_values = [50]
     rsv_list = rsv.tolist()
-    
     for i in range(1, len(rsv_list)):
         k = (2/3) * k_values[-1] + (1/3) * rsv_list[i]
         d = (2/3) * d_values[-1] + (1/3) * k
         k_values.append(k)
         d_values.append(d)
-        
-    curr_k = k_values[-1]
-    curr_d = d_values[-1]
-    prev_k = k_values[-2]
-    prev_d = d_values[-2]
-
-    # 判斷低檔黃金交叉
-    # 條件1: K < 30 (低檔超賣區)
-    # 條件2: K 向上突破 D (昨天 K<D, 今天 K>D)
-    is_low_level = curr_k < 30
-    is_gold_cross = (prev_k < prev_d) and (curr_k > curr_d)
     
-    return curr_k, curr_d, (is_low_level and is_gold_cross)
+    curr_k = k_values[-1]; curr_d = d_values[-1]
+    prev_k = k_values[-2]; prev_d = d_values[-2]
+    
+    # KD 金叉條件：K < 50 (中低檔) 且 K 向上穿過 D
+    is_kd_gc = (prev_k < prev_d) and (curr_k > curr_d) and (curr_k < 50)
+
+    # =========================================
+    # 2. 計算 MA60 (季線) 與 乖離率
+    # =========================================
+    ma60_gap = 0
+    if len(df) >= 60:
+        ma60 = df['Close'].rolling(window=60).mean().iloc[-1]
+        if ma60 > 0:
+            ma60_gap = ((df['Close'].iloc[-1] - ma60) / ma60) * 100
+
+    # =========================================
+    # 3. 計算布林通道 (Bollinger Bands)
+    # =========================================
+    # 中軌 = 20MA, 標準差 = 20日
+    ma20 = df['Close'].rolling(window=20).mean()
+    std20 = df['Close'].rolling(window=20).std()
+    lower = ma20 - (2 * std20)
+    
+    current_price = df['Close'].iloc[-1]
+    curr_lower = lower.iloc[-1]
+    
+    # 布林抄底條件：股價 <= 下軌 * 1.015 (給予 1.5% 緩衝區)
+    is_bb_low = current_price <= (curr_lower * 1.015)
+
+    # =========================================
+    # 4. 🔥 計算 MACD (12, 26, 9)
+    # =========================================
+    # 使用 pandas ewm 計算指數移動平均
+    ema12 = df['Close'].ewm(span=12, adjust=False).mean()
+    ema26 = df['Close'].ewm(span=26, adjust=False).mean()
+    dif = ema12 - ema26
+    dem = dif.ewm(span=9, adjust=False).mean() # 訊號線 (Signal Line)
+    osc = dif - dem # 柱狀圖 (Histogram)
+
+    curr_dif = dif.iloc[-1]; curr_dem = dem.iloc[-1]
+    prev_dif = dif.iloc[-2]; prev_dem = dem.iloc[-2]
+    curr_osc = osc.iloc[-1]; prev_osc = osc.iloc[-2]
+
+    # MACD 翻紅/金叉條件：
+    # 條件 A: DIF 向上穿過 DEM (黃金交叉)
+    # 條件 B: 柱狀圖 (OSC) 由負轉正 (零軸翻紅)
+    # 這裡我們採用標準的「黃金交叉」作為訊號，且柱狀圖必須是紅的(>0)
+    is_macd_gc = (prev_dif < prev_dem) and (curr_dif > curr_dem)
+
+    return curr_k, curr_d, is_kd_gc, ma60_gap, is_bb_low, is_macd_gc, curr_osc
 
 def add_realtime_data(df_chips, is_intraday):
     """
-    使用 yfinance 抓取股價。
-    - 盤中：抓取即時報價，計算「預估量」、「MA60」、「KD指標」。
-    - 盤後：抓取收盤價。
+    使用 yfinance 抓取股價並計算所有指標
     """
     print(f"🚀 啟動 yfinance 抓取 (共 {len(df_chips)} 檔)...")
     
@@ -147,13 +164,13 @@ def add_realtime_data(df_chips, is_intraday):
 
     print("   正在向 Yahoo Finance 請求數據...")
     try:
-        # 維持 6mo 以計算 MA60 和 KD
+        # 維持 6mo 以計算所有中長期指標
         data = yf.download(yf_tickers, period="6mo", progress=False, group_by='ticker')
     except Exception as e:
         print(f"❌ yfinance 下載失敗: {e}")
         return df_chips
 
-    print("✅ 下載完成，開始計算技術指標 (MA60, KD, 預估量)...")
+    print("✅ 下載完成，開始計算技術指標 (MA60, KD, BB, MACD)...")
     
     # 取得台灣時間計算盤中經過分鐘數
     tw_now = datetime.now(timezone.utc) + timedelta(hours=8)
@@ -168,8 +185,11 @@ def add_realtime_data(df_chips, is_intraday):
     df_chips['price_pos'] = 0.5 
     df_chips['conc_ratio'] = 0.0
     df_chips['ma60_gap'] = 0.0  
-    df_chips['kd_gold_cross'] = False # 🔥 新增 KD 金叉訊號
-    df_chips['k_val'] = 0.0 # (選填) 方便觀察數值
+    df_chips['kd_gold_cross'] = False 
+    df_chips['k_val'] = 0.0 
+    df_chips['bb_low'] = False      # 布林下軌
+    df_chips['macd_gc'] = False     # 🔥 MACD 金叉
+    df_chips['macd_osc'] = 0.0      # MACD 柱狀圖數值
     
     for code in stock_list:
         ticker = f"{code}.TW"
@@ -178,24 +198,16 @@ def add_realtime_data(df_chips, is_intraday):
                 continue
                 
             df_stock = data[ticker].dropna()
-            if len(df_stock) < 9: # KD 需要至少 9 天
+            if len(df_stock) < 35: # 指標需要足夠長的歷史資料
                 continue
 
-            # --- 基本數據 ---
             current_close = df_stock['Close'].iloc[-1]
             current_vol = df_stock['Volume'].iloc[-1]
             
-            # 🔥 1. 計算 KD 指標 (低檔金叉)
-            k, d, is_gc = calculate_kd(df_stock)
+            # 🔥 計算所有技術指標 (Unpack 7 個回傳值)
+            k, d, is_kd_gc, ma60_gap, is_bb_low, is_macd_gc, osc = calculate_technical_indicators(df_stock)
             
-            # 🔥 2. 計算 MA60 (季線) 與 乖離率
-            ma60_gap = 0
-            if len(df_stock) >= 60:
-                ma60 = df_stock['Close'].rolling(window=60).mean().iloc[-1]
-                if ma60 > 0:
-                    ma60_gap = ((current_close - ma60) / ma60) * 100
-            
-            # --- 3. 計算量比 (爆量預估) ---
+            # --- 計算量比 (爆量預估) ---
             avg_vol_5 = df_stock['Volume'].iloc[-6:-1].mean()
             
             if is_intraday:
@@ -209,7 +221,7 @@ def add_realtime_data(df_chips, is_intraday):
             else:
                 vol_ratio = 1.0
 
-            # --- 4. 計算位階 ---
+            # --- 計算位階 ---
             check_len = min(len(df_stock), 120)
             highest = df_stock['High'].iloc[-check_len:].max()
             lowest = df_stock['Low'].iloc[-check_len:].min()
@@ -219,7 +231,7 @@ def add_realtime_data(df_chips, is_intraday):
             else:
                 pos = 0.5
 
-            # --- 5. 計算集中度 ---
+            # --- 計算集中度 ---
             mask = (df_chips['code'] == code)
             net_buy_shares = df_chips.loc[mask, '總變'].values[0] * 1000
             
@@ -233,8 +245,11 @@ def add_realtime_data(df_chips, is_intraday):
             df_chips.loc[mask, 'price_pos'] = round(pos, 2)
             df_chips.loc[mask, 'conc_ratio'] = round(conc, 1)
             df_chips.loc[mask, 'ma60_gap'] = round(ma60_gap, 2)
-            df_chips.loc[mask, 'kd_gold_cross'] = bool(is_gc)
+            df_chips.loc[mask, 'kd_gold_cross'] = bool(is_kd_gc)
             df_chips.loc[mask, 'k_val'] = round(k, 1)
+            df_chips.loc[mask, 'bb_low'] = bool(is_bb_low) # 布林
+            df_chips.loc[mask, 'macd_gc'] = bool(is_macd_gc) # MACD
+            df_chips.loc[mask, 'macd_osc'] = round(osc, 2)
             
         except Exception:
             continue
@@ -257,7 +272,9 @@ def export_json(df):
             "price_pos": row.get('price_pos', 0.5),
             "ma60_gap": row.get('ma60_gap', 0),
             "kd_gold_cross": row.get('kd_gold_cross', False),
-            "k_val": row.get('k_val', 0)
+            "k_val": row.get('k_val', 0),
+            "bb_low": row.get('bb_low', False),     # 輸出布林訊號
+            "macd_gc": row.get('macd_gc', False)    # 輸出 MACD 訊號
         }
         output_list.append(record)
         
