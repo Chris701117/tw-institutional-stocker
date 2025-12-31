@@ -207,21 +207,33 @@ def add_realtime_data(df_chips, is_intraday):
             # Unpack 新的回傳值
             k, d, is_kd_gc, ma60_gap, is_bb_low, is_macd_gc, osc, is_spike_high, is_strong_long, pct = calculate_technical_indicators(df_stock)
             
+            # --- 計算 5 日平均量與總量 ---
+            # 抓取最近 5 天的成交量總和 (用於計算 5 日集中度)
+            sum_vol_5 = df_stock['Volume'].iloc[-5:].sum()
+            
+            # 抓取 5 日均量 (用於計算爆量)
             avg_vol_5 = df_stock['Volume'].iloc[-6:-1].mean()
+            
             if is_intraday:
                 est_vol = current_vol * (270 / minutes_elapsed)
                 if minutes_elapsed >= 270: est_vol = current_vol
+                # 盤中修正：把今天的預估量加回去修正 5 日總量
+                # (稍微粗略的算法，但比單用一日量準確)
+                sum_vol_5 = df_stock['Volume'].iloc[-5:-1].sum() + est_vol
             else:
                 est_vol = current_vol
+
             vol_ratio = est_vol / avg_vol_5 if avg_vol_5 > 0 else 1.0
 
-            check_len = min(len(df_stock), 120)
-            highest = df_stock['High'].iloc[-check_len:].max()
-            lowest = df_stock['Low'].iloc[-check_len:].min()
-            pos = (current_close - lowest) / (highest - lowest) if highest > lowest else 0.5
-            
+            # ... (中間省略) ...
+
             net_buy_shares = row['總變'] * 1000
-            conc = (net_buy_shares / est_vol) * 100 if est_vol > 0 else 0
+            
+            # 🔥 修正：分母改為「5日總成交量」
+            if sum_vol_5 > 0:
+                conc = (net_buy_shares / sum_vol_5) * 100 
+            else:
+                conc = 0
 
             # 寫入
             df_chips.at[index, 'vol_ratio'] = round(vol_ratio, 2)
