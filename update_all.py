@@ -59,7 +59,6 @@ def get_all_chips_data(is_intraday=False):
         tw_now = datetime.now(timezone.utc) + timedelta(hours=8)
         date_obj = tw_now - timedelta(days=i)
         
-        # 1. 上市 2. 上櫃
         df_twse = get_twse_chips(date_obj)
         df_tpex = get_tpex_chips(date_obj)
         
@@ -90,12 +89,12 @@ def get_all_chips_data(is_intraday=False):
     return final_df
 
 # ==========================================
-# 技術指標計算 (含當沖策略)
+# 技術指標計算
 # ==========================================
 def calculate_technical_indicators(df):
     if len(df) < 35: return 50, 50, False, 0, False, False, 0, False, False, 0.0
 
-    # 1. KD
+    # KD
     low_min = df['Low'].rolling(window=9).min()
     high_max = df['High'].rolling(window=9).max()
     rsv = (df['Close'] - low_min) / (high_max - low_min) * 100
@@ -110,26 +109,23 @@ def calculate_technical_indicators(df):
     prev_k = k_values[-2]; prev_d = d_values[-2]
     is_kd_gc = (prev_k < prev_d) and (curr_k > curr_d) and (curr_k < 50)
 
-    # 2. MA60
+    # MA60
     ma60_gap = 0
     if len(df) >= 60:
         ma60 = df['Close'].rolling(window=60).mean().iloc[-1]
         if ma60 > 0: ma60_gap = ((df['Close'].iloc[-1] - ma60) / ma60) * 100
 
-    # 3. Bollinger Bands (布林通道)
+    # Bollinger Bands
     ma20 = df['Close'].rolling(window=20).mean()
     std20 = df['Close'].rolling(window=20).std()
-    upper = ma20 + (2 * std20) # 上軌
-    lower = ma20 - (2 * std20) # 下軌
-    
+    upper = ma20 + (2 * std20)
+    lower = ma20 - (2 * std20)
     current_price = df['Close'].iloc[-1]
     curr_lower = lower.iloc[-1]
     curr_upper = upper.iloc[-1]
-    
-    # 布林抄底: 觸下軌
     is_bb_low = current_price <= (curr_lower * 1.015)
 
-    # 4. MACD
+    # MACD
     ema12 = df['Close'].ewm(span=12, adjust=False).mean()
     ema26 = df['Close'].ewm(span=26, adjust=False).mean()
     dif = ema12 - ema26
@@ -140,17 +136,10 @@ def calculate_technical_indicators(df):
     curr_osc = osc.iloc[-1]
     is_macd_gc = (prev_dif < prev_dem) and (curr_dif > curr_dem)
 
-    # 5. 🔥 當沖策略數據計算
-    # 漲跌幅 % (當前價 vs 昨收)
+    # 當沖策略
     prev_close = df['Close'].iloc[-2]
     pct_change = ((current_price - prev_close) / prev_close) * 100
-    
-    # 策略 A: 爆量上漲空 (高檔乖離過大)
-    # 條件: 觸碰上軌 + 漲幅 > 2% (有拉抬) + 漲幅 < 9.5% (沒鎖死)
     is_spike_high = (current_price >= curr_upper) and (pct_change > 2) and (pct_change < 9.5)
-
-    # 策略 B: 強勢動能 (同族群/順勢)
-    # 條件: 漲幅 > 1.5% (起漲) + 站上月線 (趨勢多) + 沒觸碰上軌 (還有空間)
     curr_ma20 = ma20.iloc[-1]
     is_strong_long = (current_price > curr_ma20) and (pct_change > 1.5) and (current_price < curr_upper)
 
@@ -159,7 +148,6 @@ def calculate_technical_indicators(df):
 def add_realtime_data(df_chips, is_intraday):
     print(f"🚀 啟動 yfinance 抓取 (共 {len(df_chips)} 檔)...")
     df_valid = df_chips[df_chips['code'].str.len() == 4].copy()
-    # 上市 -> .TW, 上櫃 -> .TWO
     df_valid['ticker'] = df_valid.apply(lambda x: f"{x['code']}.TW" if x['market'] == 'TW' else f"{x['code']}.TWO", axis=1)
     yf_tickers = df_valid['ticker'].tolist()
     
@@ -183,11 +171,7 @@ def add_realtime_data(df_chips, is_intraday):
     df_chips['vol_ratio'] = 0.0; df_chips['price_pos'] = 0.5; df_chips['conc_ratio'] = 0.0
     df_chips['ma60_gap'] = 0.0; df_chips['kd_gold_cross'] = False; df_chips['k_val'] = 0.0
     df_chips['bb_low'] = False; df_chips['macd_gc'] = False; df_chips['macd_osc'] = 0.0
-    
-    # 🔥 新增當沖欄位
-    df_chips['spike_high'] = False # 爆量空
-    df_chips['strong_long'] = False # 強勢多
-    df_chips['pct_change'] = 0.0   # 即時漲幅
+    df_chips['spike_high'] = False; df_chips['strong_long'] = False; df_chips['pct_change'] = 0.0
 
     ticker_map = df_valid.set_index('code')['ticker'].to_dict()
 
@@ -204,38 +188,35 @@ def add_realtime_data(df_chips, is_intraday):
             current_close = df_stock['Close'].iloc[-1]
             current_vol = df_stock['Volume'].iloc[-1]
             
-            # Unpack 新的回傳值
             k, d, is_kd_gc, ma60_gap, is_bb_low, is_macd_gc, osc, is_spike_high, is_strong_long, pct = calculate_technical_indicators(df_stock)
             
-            # --- 計算 5 日平均量與總量 ---
-            # 抓取最近 5 天的成交量總和 (用於計算 5 日集中度)
-            sum_vol_5 = df_stock['Volume'].iloc[-5:].sum()
-            
-            # 抓取 5 日均量 (用於計算爆量)
-            avg_vol_5 = df_stock['Volume'].iloc[-6:-1].mean()
-            
+            # --- 🔥 修正這裡：計算 5 日總成交量 (分母) ---
+            sum_vol_5 = df_stock['Volume'].iloc[-5:].sum() # 5日總量
+            avg_vol_5 = df_stock['Volume'].iloc[-6:-1].mean() # 5日均量
+
             if is_intraday:
                 est_vol = current_vol * (270 / minutes_elapsed)
                 if minutes_elapsed >= 270: est_vol = current_vol
-                # 盤中修正：把今天的預估量加回去修正 5 日總量
-                # (稍微粗略的算法，但比單用一日量準確)
+                # 盤中稍微修正總量預估
                 sum_vol_5 = df_stock['Volume'].iloc[-5:-1].sum() + est_vol
             else:
                 est_vol = current_vol
 
             vol_ratio = est_vol / avg_vol_5 if avg_vol_5 > 0 else 1.0
 
-            # ... (中間省略) ...
-
+            check_len = min(len(df_stock), 120)
+            highest = df_stock['High'].iloc[-check_len:].max()
+            lowest = df_stock['Low'].iloc[-check_len:].min()
+            pos = (current_close - lowest) / (highest - lowest) if highest > lowest else 0.5
+            
             net_buy_shares = row['總變'] * 1000
             
-            # 🔥 修正：分母改為「5日總成交量」
+            # --- 🔥 修正集中度公式 (5日買超 / 5日成交) ---
             if sum_vol_5 > 0:
-                conc = (net_buy_shares / sum_vol_5) * 100 
+                conc = (net_buy_shares / sum_vol_5) * 100
             else:
                 conc = 0
 
-            # 寫入
             df_chips.at[index, 'vol_ratio'] = round(vol_ratio, 2)
             df_chips.at[index, 'price_pos'] = round(pos, 2)
             df_chips.at[index, 'conc_ratio'] = round(conc, 1)
@@ -245,11 +226,7 @@ def add_realtime_data(df_chips, is_intraday):
             df_chips.at[index, 'bb_low'] = bool(is_bb_low)
             df_chips.at[index, 'macd_gc'] = bool(is_macd_gc)
             df_chips.at[index, 'macd_osc'] = round(osc, 2)
-            
-            # 🔥 寫入當沖訊號
-            # 爆量空條件加嚴：必須真的爆量 (量比 > 2)
             df_chips.at[index, 'spike_high'] = bool(is_spike_high and vol_ratio > 2.0)
-            # 強勢多條件加嚴：量能要溫和放大 (量比 > 1.2)
             df_chips.at[index, 'strong_long'] = bool(is_strong_long and vol_ratio > 1.2)
             df_chips.at[index, 'pct_change'] = round(pct, 2)
 
@@ -272,7 +249,6 @@ def export_data(df):
             "ma60_gap": row.get('ma60_gap', 0), "kd_gold_cross": row.get('kd_gold_cross', False),
             "k_val": row.get('k_val', 0), "bb_low": row.get('bb_low', False),     
             "macd_gc": row.get('macd_gc', False),
-            # 🔥 新增欄位
             "spike_high": row.get('spike_high', False),
             "strong_long": row.get('strong_long', False),
             "pct_change": row.get('pct_change', 0)
@@ -289,12 +265,12 @@ def export_data(df):
     excel_df = df.copy()
     excel_df = excel_df.rename(columns={
         'code': '代號', 'name': '名稱', 'market': '市場', '總變': '5日籌碼',
-        '外資': '外資5日', '投信': '投信5日', 'conc_ratio': '集中度%',
+        '外資': '外資5日', '投信': '投信5日', 'conc_ratio': '5日集中%',
         'vol_ratio': '預估量比', 'ma60_gap': '季線乖離', 'k_val': 'K值',
         'spike_high': '高檔爆量(空)', 'strong_long': '強勢動能(多)', 'pct_change': '漲幅%'
     })
     output_cols = ['代號', '名稱', '市場', '漲幅%', '5日籌碼', '外資5日', '投信5日', 
-                   '預估量比', '高檔爆量(空)', '強勢動能(多)', 'K值', '季線乖離']
+                   '5日集中%', '預估量比', '高檔爆量(空)', '強勢動能(多)', 'K值', '季線乖離']
     final_cols = [c for c in output_cols if c in excel_df.columns]
     excel_df[final_cols].to_excel(EXCEL_PATH, index=False)
     print(f"✅ Excel 輸出成功: {EXCEL_PATH}")
