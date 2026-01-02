@@ -1,9 +1,9 @@
 {
-  "updated": "2026-01-02T05:55:37.361494",
+  "updated": "2026-01-02T09:24:48.277299",
   "count": 600,
   "data": [
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2330",
       "broker_name": "美商高盛",
       "broker_id": "1480",
@@ -15,7 +15,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2330",
       "broker_name": "永豐金-匯立",
       "broker_id": "0039004100380031",
@@ -27,7 +27,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2330",
       "broker_name": "富邦證券",
       "broker_id": "9600",
@@ -39,7 +39,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2330",
       "broker_name": "香港上海匯豐",
       "broker_id": "8960",
@@ -51,7 +51,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2330",
       "broker_name": "摩根大通",
       "broker_id": "8440",
@@ -63,7 +63,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2330",
       "broker_name": "美林",
       "broker_id": "1440",
@@ -75,7 +75,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2330",
       "broker_name": "凱基-台北",
       "broker_id": "9268",
@@ -87,7 +87,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2330",
       "broker_name": "新加坡商瑞銀",
       "broker_id": "1650",
@@ -99,7 +99,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2330",
       "broker_name": "宏遠證券",
       "broker_id": "1260",
@@ -111,7 +111,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2330",
       "broker_name": "元大證券",
       "broker_id": "9800",
@@ -123,7 +123,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2330",
       "broker_name": "中國信託",
       "broker_id": "6160",
@@ -135,7 +135,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2330",
       "broker_name": "花旗環球",
       "broker_id": "1590",
@@ -147,7 +147,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2330",
       "broker_name": "永豐金證券",
       "broker_id": "0039004100300030",
@@ -159,7 +159,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2330",
       "broker_name": "統一",
       "broker_id": "5850",
@@ -171,7 +171,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2330",
       "broker_name": "富邦-南京",
       "broker_id": "0039003600310043",
@@ -183,7 +183,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2330",
       "broker_name": "兆豐-新竹",
       "broker_id": "0037003000300056",
@@ -195,7 +195,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2330",
       "broker_name": "國票-台中",
       "broker_id": "0037003700390076",
@@ -207,7 +207,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2330",
       "broker_name": "國泰證券",
       "broker_id": "8880",
@@ -219,7 +219,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2330",
       "broker_name": "兆豐證券",
       "broker_id": "7000",
@@ -231,7 +231,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2330",
       "broker_name": "群益金鼎",
       "broker_id": "9100",
@@ -243,7 +243,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2330",
       "broker_name": "富邦-南員林",
       "broker_id": "0039003600310052",
@@ -255,7 +255,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2330",
       "broker_name": "國泰-敦南",
       "broker_id": "8888",
@@ -267,7 +267,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2330",
       "broker_name": "康和",
       "broker_id": "8450",
@@ -279,7 +279,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2330",
       "broker_name": "凱基-城中",
       "broker_id": "9227",
@@ -291,7 +291,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2330",
       "broker_name": "台新-台中",
       "broker_id": "0038003100350042",
@@ -303,7 +303,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2330",
       "broker_name": "台灣摩根士丹利",
       "broker_id": "1470",
@@ -315,7 +315,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2330",
       "broker_name": "元富",
       "broker_id": "5920",
@@ -327,7 +327,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2330",
       "broker_name": "華南永昌-中正",
       "broker_id": "9359",
@@ -339,7 +339,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2330",
       "broker_name": "凱基",
       "broker_id": "9200",
@@ -351,7 +351,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2330",
       "broker_name": "群益金鼎-忠孝",
       "broker_id": "0039003100380057",
@@ -363,7 +363,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2317",
       "broker_name": "美林",
       "broker_id": "1440",
@@ -375,7 +375,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2317",
       "broker_name": "群益金鼎",
       "broker_id": "9100",
@@ -387,7 +387,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2317",
       "broker_name": "美商高盛",
       "broker_id": "1480",
@@ -399,7 +399,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2317",
       "broker_name": "摩根大通",
       "broker_id": "8440",
@@ -411,7 +411,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2317",
       "broker_name": "富邦證券",
       "broker_id": "9600",
@@ -423,7 +423,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2317",
       "broker_name": "香港上海匯豐",
       "broker_id": "8960",
@@ -435,7 +435,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2317",
       "broker_name": "新加坡商瑞銀",
       "broker_id": "1650",
@@ -447,7 +447,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2317",
       "broker_name": "中國信託-新竹",
       "broker_id": "6165",
@@ -459,7 +459,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2317",
       "broker_name": "台灣摩根士丹利",
       "broker_id": "1470",
@@ -471,7 +471,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2317",
       "broker_name": "聯邦商銀",
       "broker_id": "8580",
@@ -483,7 +483,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2317",
       "broker_name": "元大證券",
       "broker_id": "9800",
@@ -495,7 +495,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2317",
       "broker_name": "花旗環球",
       "broker_id": "1590",
@@ -507,7 +507,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2317",
       "broker_name": "凱基-台北",
       "broker_id": "9268",
@@ -519,7 +519,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2317",
       "broker_name": "華南永昌",
       "broker_id": "9300",
@@ -531,7 +531,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2317",
       "broker_name": "福邦證券",
       "broker_id": "6480",
@@ -543,7 +543,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2317",
       "broker_name": "國泰-敦南",
       "broker_id": "8888",
@@ -555,7 +555,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2317",
       "broker_name": "兆豐-南門",
       "broker_id": "0037003000300067",
@@ -567,7 +567,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2317",
       "broker_name": "永豐金證券",
       "broker_id": "0039004100300030",
@@ -579,7 +579,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2317",
       "broker_name": "國泰證券",
       "broker_id": "8880",
@@ -591,7 +591,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2317",
       "broker_name": "臺銀",
       "broker_id": "1040",
@@ -603,7 +603,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2317",
       "broker_name": "法銀巴黎",
       "broker_id": "8900",
@@ -615,7 +615,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2317",
       "broker_name": "國票-北高雄",
       "broker_id": "003700370039004a",
@@ -627,7 +627,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2317",
       "broker_name": "富邦-敦南",
       "broker_id": "9663",
@@ -639,7 +639,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2317",
       "broker_name": "凱基",
       "broker_id": "9200",
@@ -651,7 +651,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2317",
       "broker_name": "國票-敦北法人",
       "broker_id": "0037003700390063",
@@ -663,7 +663,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2317",
       "broker_name": "國票-安和",
       "broker_id": "003700370039005a",
@@ -675,7 +675,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2317",
       "broker_name": "港商麥格理",
       "broker_id": "1360",
@@ -687,7 +687,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2317",
       "broker_name": "華南永昌-中正",
       "broker_id": "9359",
@@ -699,7 +699,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2317",
       "broker_name": "元富-大裕",
       "broker_id": "003500390032006c",
@@ -711,7 +711,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2317",
       "broker_name": "彰銀",
       "broker_id": "1230",
@@ -723,7 +723,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2454",
       "broker_name": "花旗環球",
       "broker_id": "1590",
@@ -735,7 +735,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2454",
       "broker_name": "美林",
       "broker_id": "1440",
@@ -747,7 +747,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2454",
       "broker_name": "元富",
       "broker_id": "5920",
@@ -759,7 +759,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2454",
       "broker_name": "美商高盛",
       "broker_id": "1480",
@@ -771,7 +771,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2454",
       "broker_name": "國泰證券",
       "broker_id": "8880",
@@ -783,7 +783,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2454",
       "broker_name": "凱基-台北",
       "broker_id": "9268",
@@ -795,7 +795,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2454",
       "broker_name": "港商麥格理",
       "broker_id": "1360",
@@ -807,7 +807,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2454",
       "broker_name": "群益金鼎",
       "broker_id": "9100",
@@ -819,7 +819,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2454",
       "broker_name": "康和",
       "broker_id": "8450",
@@ -831,7 +831,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2454",
       "broker_name": "台灣摩根士丹利",
       "broker_id": "1470",
@@ -843,7 +843,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2454",
       "broker_name": "第一金-新竹",
       "broker_id": "0035003300380042",
@@ -855,7 +855,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2454",
       "broker_name": "富邦-南京",
       "broker_id": "0039003600310043",
@@ -867,7 +867,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2454",
       "broker_name": "中國信託",
       "broker_id": "6160",
@@ -879,7 +879,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2454",
       "broker_name": "港商野村",
       "broker_id": "1560",
@@ -891,7 +891,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2454",
       "broker_name": "永豐金證券",
       "broker_id": "0039004100300030",
@@ -903,7 +903,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2454",
       "broker_name": "香港上海匯豐",
       "broker_id": "8960",
@@ -915,7 +915,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2454",
       "broker_name": "第一金",
       "broker_id": "5380",
@@ -927,7 +927,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2454",
       "broker_name": "統一",
       "broker_id": "5850",
@@ -939,7 +939,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2454",
       "broker_name": "兆豐-鹿港",
       "broker_id": "0037003000300066",
@@ -951,7 +951,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2454",
       "broker_name": "彰銀",
       "broker_id": "1230",
@@ -963,7 +963,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2454",
       "broker_name": "新加坡商瑞銀",
       "broker_id": "1650",
@@ -975,7 +975,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2454",
       "broker_name": "兆豐-新竹",
       "broker_id": "0037003000300056",
@@ -987,7 +987,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2454",
       "broker_name": "大和國泰",
       "broker_id": "8890",
@@ -999,7 +999,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2454",
       "broker_name": "富邦-中壢",
       "broker_id": "9636",
@@ -1011,7 +1011,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2454",
       "broker_name": "兆豐證券",
       "broker_id": "7000",
@@ -1023,7 +1023,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2454",
       "broker_name": "元大-羅東",
       "broker_id": "0039003800320041",
@@ -1035,7 +1035,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2454",
       "broker_name": "國票-敦北法人",
       "broker_id": "0037003700390063",
@@ -1047,7 +1047,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2454",
       "broker_name": "兆豐-大安",
       "broker_id": "003700300030006a",
@@ -1059,7 +1059,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2454",
       "broker_name": "合庫證券",
       "broker_id": "1020",
@@ -1071,7 +1071,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2454",
       "broker_name": "元大證券",
       "broker_id": "9800",
@@ -1083,7 +1083,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2308",
       "broker_name": "富邦證券",
       "broker_id": "9600",
@@ -1095,7 +1095,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2308",
       "broker_name": "華南永昌-彰化",
       "broker_id": "9363",
@@ -1107,7 +1107,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2308",
       "broker_name": "新加坡商瑞銀",
       "broker_id": "1650",
@@ -1119,7 +1119,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2308",
       "broker_name": "永豐金-匯立",
       "broker_id": "0039004100380031",
@@ -1131,7 +1131,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2308",
       "broker_name": "凱基-台北",
       "broker_id": "9268",
@@ -1143,7 +1143,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2308",
       "broker_name": "宏遠證券",
       "broker_id": "1260",
@@ -1155,7 +1155,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2308",
       "broker_name": "台灣摩根士丹利",
       "broker_id": "1470",
@@ -1167,7 +1167,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2308",
       "broker_name": "彰銀",
       "broker_id": "1230",
@@ -1179,7 +1179,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2308",
       "broker_name": "港商野村",
       "broker_id": "1560",
@@ -1191,7 +1191,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2308",
       "broker_name": "美林",
       "broker_id": "1440",
@@ -1203,7 +1203,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2308",
       "broker_name": "合庫證券",
       "broker_id": "1020",
@@ -1215,7 +1215,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2308",
       "broker_name": "美商高盛",
       "broker_id": "1480",
@@ -1227,7 +1227,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2308",
       "broker_name": "兆豐證券",
       "broker_id": "7000",
@@ -1239,7 +1239,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2308",
       "broker_name": "新光",
       "broker_id": "8560",
@@ -1251,7 +1251,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2308",
       "broker_name": "國票-敦北法人",
       "broker_id": "0037003700390063",
@@ -1263,7 +1263,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2308",
       "broker_name": "香港上海匯豐",
       "broker_id": "8960",
@@ -1275,7 +1275,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2308",
       "broker_name": "台灣企銀",
       "broker_id": "1110",
@@ -1287,7 +1287,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2308",
       "broker_name": "國泰-敦南",
       "broker_id": "8888",
@@ -1299,7 +1299,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2308",
       "broker_name": "玉山證券",
       "broker_id": "8840",
@@ -1311,7 +1311,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2308",
       "broker_name": "新光-高雄",
       "broker_id": "8562",
@@ -1323,7 +1323,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2308",
       "broker_name": "元大-復北",
       "broker_id": "9872",
@@ -1335,7 +1335,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2308",
       "broker_name": "統一",
       "broker_id": "5850",
@@ -1347,7 +1347,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2308",
       "broker_name": "法銀巴黎",
       "broker_id": "8900",
@@ -1359,7 +1359,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2308",
       "broker_name": "華南永昌",
       "broker_id": "9300",
@@ -1371,7 +1371,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2308",
       "broker_name": "台新證券",
       "broker_id": "8150",
@@ -1383,7 +1383,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2308",
       "broker_name": "元大-彰化民生",
       "broker_id": "003900380039004a",
@@ -1395,7 +1395,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2308",
       "broker_name": "永豐金證券",
       "broker_id": "0039004100300030",
@@ -1407,7 +1407,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2308",
       "broker_name": "元大-中壢",
       "broker_id": "9834",
@@ -1419,7 +1419,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2308",
       "broker_name": "群益金鼎",
       "broker_id": "9100",
@@ -1431,7 +1431,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2308",
       "broker_name": "國泰-台中",
       "broker_id": "8882",
@@ -1443,7 +1443,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2382",
       "broker_name": "凱基",
       "broker_id": "9200",
@@ -1455,7 +1455,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2382",
       "broker_name": "摩根大通",
       "broker_id": "8440",
@@ -1467,7 +1467,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2382",
       "broker_name": "港商野村",
       "broker_id": "1560",
@@ -1479,7 +1479,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2382",
       "broker_name": "花旗環球",
       "broker_id": "1590",
@@ -1491,7 +1491,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2382",
       "broker_name": "群益金鼎",
       "broker_id": "9100",
@@ -1503,7 +1503,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2382",
       "broker_name": "兆豐-南門",
       "broker_id": "0037003000300067",
@@ -1515,7 +1515,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2382",
       "broker_name": "台灣摩根士丹利",
       "broker_id": "1470",
@@ -1527,7 +1527,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2382",
       "broker_name": "群益金鼎-古亭",
       "broker_id": "0039003100380043",
@@ -1539,7 +1539,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2382",
       "broker_name": "中國信託",
       "broker_id": "6160",
@@ -1551,7 +1551,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2382",
       "broker_name": "美商高盛",
       "broker_id": "1480",
@@ -1563,7 +1563,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2382",
       "broker_name": "新加坡商瑞銀",
       "broker_id": "1650",
@@ -1575,7 +1575,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2382",
       "broker_name": "香港上海匯豐",
       "broker_id": "8960",
@@ -1587,7 +1587,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2382",
       "broker_name": "凱基-台北",
       "broker_id": "9268",
@@ -1599,7 +1599,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2382",
       "broker_name": "國泰-高雄",
       "broker_id": "8881",
@@ -1611,7 +1611,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2382",
       "broker_name": "臺銀",
       "broker_id": "1040",
@@ -1623,7 +1623,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2382",
       "broker_name": "國泰-敦南",
       "broker_id": "8888",
@@ -1635,7 +1635,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2382",
       "broker_name": "港商麥格理",
       "broker_id": "1360",
@@ -1647,7 +1647,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2382",
       "broker_name": "國票-敦北法人",
       "broker_id": "0037003700390063",
@@ -1659,7 +1659,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2382",
       "broker_name": "國泰證券",
       "broker_id": "8880",
@@ -1671,7 +1671,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2382",
       "broker_name": "新光",
       "broker_id": "8560",
@@ -1683,7 +1683,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2382",
       "broker_name": "富邦證券",
       "broker_id": "9600",
@@ -1695,7 +1695,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2382",
       "broker_name": "宏遠-桃園",
       "broker_id": "1262",
@@ -1707,7 +1707,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2382",
       "broker_name": "群益金鼎-東大",
       "broker_id": "9135",
@@ -1719,7 +1719,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2382",
       "broker_name": "永豐金證券",
       "broker_id": "0039004100300030",
@@ -1731,7 +1731,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2382",
       "broker_name": "中國信託-松江",
       "broker_id": "6167",
@@ -1743,7 +1743,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2382",
       "broker_name": "台新證券",
       "broker_id": "8150",
@@ -1755,7 +1755,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2382",
       "broker_name": "統一-桃園",
       "broker_id": "0035003800350048",
@@ -1767,7 +1767,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2382",
       "broker_name": "美林",
       "broker_id": "1440",
@@ -1779,7 +1779,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2382",
       "broker_name": "元大-信義",
       "broker_id": "003900380039006d",
@@ -1791,7 +1791,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2382",
       "broker_name": "合庫證券",
       "broker_id": "1020",
@@ -1803,7 +1803,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2891",
       "broker_name": "台新證券",
       "broker_id": "8150",
@@ -1815,7 +1815,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2891",
       "broker_name": "美商高盛",
       "broker_id": "1480",
@@ -1827,7 +1827,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2891",
       "broker_name": "美林",
       "broker_id": "1440",
@@ -1839,7 +1839,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2891",
       "broker_name": "元大證券",
       "broker_id": "9800",
@@ -1851,7 +1851,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2891",
       "broker_name": "國泰證券",
       "broker_id": "8880",
@@ -1863,7 +1863,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2891",
       "broker_name": "台灣摩根士丹利",
       "broker_id": "1470",
@@ -1875,7 +1875,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2891",
       "broker_name": "摩根大通",
       "broker_id": "8440",
@@ -1887,7 +1887,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2891",
       "broker_name": "香港上海匯豐",
       "broker_id": "8960",
@@ -1899,7 +1899,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2891",
       "broker_name": "新加坡商瑞銀",
       "broker_id": "1650",
@@ -1911,7 +1911,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2891",
       "broker_name": "永豐金-匯立",
       "broker_id": "0039004100380031",
@@ -1923,7 +1923,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2891",
       "broker_name": "花旗環球",
       "broker_id": "1590",
@@ -1935,7 +1935,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2891",
       "broker_name": "永豐金證券",
       "broker_id": "0039004100300030",
@@ -1947,7 +1947,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2891",
       "broker_name": "臺銀",
       "broker_id": "1040",
@@ -1959,7 +1959,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2891",
       "broker_name": "統一",
       "broker_id": "5850",
@@ -1971,7 +1971,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2891",
       "broker_name": "港商麥格理",
       "broker_id": "1360",
@@ -1983,7 +1983,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2891",
       "broker_name": "新光-台南",
       "broker_id": "8564",
@@ -1995,7 +1995,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2891",
       "broker_name": "法銀巴黎",
       "broker_id": "8900",
@@ -2007,7 +2007,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2891",
       "broker_name": "凱基-台北",
       "broker_id": "9268",
@@ -2019,7 +2019,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2891",
       "broker_name": "兆豐證券",
       "broker_id": "7000",
@@ -2031,7 +2031,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2891",
       "broker_name": "亞東",
       "broker_id": "2180",
@@ -2043,7 +2043,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2891",
       "broker_name": "台新-高雄",
       "broker_id": "0038003100350041",
@@ -2055,7 +2055,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2891",
       "broker_name": "中國信託-中壢",
       "broker_id": "0036003100360041",
@@ -2067,7 +2067,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2891",
       "broker_name": "兆豐-大安",
       "broker_id": "003700300030006a",
@@ -2079,7 +2079,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2891",
       "broker_name": "富邦證券",
       "broker_id": "9600",
@@ -2091,7 +2091,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2891",
       "broker_name": "中國信託-忠孝",
       "broker_id": "6162",
@@ -2103,7 +2103,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2891",
       "broker_name": "元大-大天母",
       "broker_id": "9893",
@@ -2115,7 +2115,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2891",
       "broker_name": "光和-高雄",
       "broker_id": "0036003300380044",
@@ -2127,7 +2127,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2891",
       "broker_name": "新光",
       "broker_id": "8560",
@@ -2139,7 +2139,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2891",
       "broker_name": "第一金-台南",
       "broker_id": "5384",
@@ -2151,7 +2151,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2891",
       "broker_name": "富邦-仁愛",
       "broker_id": "9676",
@@ -2163,7 +2163,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2881",
       "broker_name": "美林",
       "broker_id": "1440",
@@ -2175,7 +2175,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2881",
       "broker_name": "中國信託",
       "broker_id": "6160",
@@ -2187,7 +2187,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2881",
       "broker_name": "花旗環球",
       "broker_id": "1590",
@@ -2199,7 +2199,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2881",
       "broker_name": "美商高盛",
       "broker_id": "1480",
@@ -2211,7 +2211,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2881",
       "broker_name": "台灣摩根士丹利",
       "broker_id": "1470",
@@ -2223,7 +2223,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2881",
       "broker_name": "香港上海匯豐",
       "broker_id": "8960",
@@ -2235,7 +2235,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2881",
       "broker_name": "摩根大通",
       "broker_id": "8440",
@@ -2247,7 +2247,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2881",
       "broker_name": "元大證券",
       "broker_id": "9800",
@@ -2259,7 +2259,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2881",
       "broker_name": "元大-斗六",
       "broker_id": "0039003800300043",
@@ -2271,7 +2271,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2881",
       "broker_name": "華南永昌-三重",
       "broker_id": "9369",
@@ -2283,7 +2283,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2881",
       "broker_name": "富邦-建國",
       "broker_id": "9658",
@@ -2295,7 +2295,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2881",
       "broker_name": "國泰證券",
       "broker_id": "8880",
@@ -2307,7 +2307,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2881",
       "broker_name": "第一金-新興",
       "broker_id": "0035003300380041",
@@ -2319,7 +2319,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2881",
       "broker_name": "群益金鼎",
       "broker_id": "9100",
@@ -2331,7 +2331,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2881",
       "broker_name": "國泰-敦南",
       "broker_id": "8888",
@@ -2343,7 +2343,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2881",
       "broker_name": "凱基",
       "broker_id": "9200",
@@ -2355,7 +2355,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2881",
       "broker_name": "永豐金證券",
       "broker_id": "0039004100300030",
@@ -2367,7 +2367,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2881",
       "broker_name": "凱基-站前",
       "broker_id": "0039003200300046",
@@ -2379,7 +2379,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2881",
       "broker_name": "港商野村",
       "broker_id": "1560",
@@ -2391,7 +2391,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2881",
       "broker_name": "凱基-台北",
       "broker_id": "9268",
@@ -2403,7 +2403,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2881",
       "broker_name": "第一金-台南",
       "broker_id": "5384",
@@ -2415,7 +2415,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2881",
       "broker_name": "永豐金-匯立",
       "broker_id": "0039004100380031",
@@ -2427,7 +2427,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2881",
       "broker_name": "元大-木柵",
       "broker_id": "003900380033004d",
@@ -2439,7 +2439,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2881",
       "broker_name": "新加坡商瑞銀",
       "broker_id": "1650",
@@ -2451,7 +2451,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2881",
       "broker_name": "兆豐-城中",
       "broker_id": "0037003000300057",
@@ -2463,7 +2463,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2881",
       "broker_name": "元富-緯城",
       "broker_id": "0035003900320041",
@@ -2475,7 +2475,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2881",
       "broker_name": "富邦-台中",
       "broker_id": "003900360035004b",
@@ -2487,7 +2487,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2881",
       "broker_name": "富邦證券",
       "broker_id": "9600",
@@ -2499,7 +2499,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2881",
       "broker_name": "臺銀",
       "broker_id": "1040",
@@ -2511,7 +2511,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2881",
       "broker_name": "統一",
       "broker_id": "5850",
@@ -2523,7 +2523,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2882",
       "broker_name": "元大證券",
       "broker_id": "9800",
@@ -2535,7 +2535,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2882",
       "broker_name": "新加坡商瑞銀",
       "broker_id": "1650",
@@ -2547,7 +2547,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2882",
       "broker_name": "國泰證券",
       "broker_id": "8880",
@@ -2559,7 +2559,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2882",
       "broker_name": "摩根大通",
       "broker_id": "8440",
@@ -2571,7 +2571,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2882",
       "broker_name": "元大-館前",
       "broker_id": "003900380034004b",
@@ -2583,7 +2583,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2882",
       "broker_name": "美商高盛",
       "broker_id": "1480",
@@ -2595,7 +2595,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2882",
       "broker_name": "中國信託",
       "broker_id": "6160",
@@ -2607,7 +2607,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2882",
       "broker_name": "台灣摩根士丹利",
       "broker_id": "1470",
@@ -2619,7 +2619,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2882",
       "broker_name": "凱基-新豐",
       "broker_id": "9266",
@@ -2631,7 +2631,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2882",
       "broker_name": "群益金鼎",
       "broker_id": "9100",
@@ -2643,7 +2643,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2882",
       "broker_name": "元富-城中",
       "broker_id": "0035003900320045",
@@ -2655,7 +2655,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2882",
       "broker_name": "凱基-台北",
       "broker_id": "9268",
@@ -2667,7 +2667,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2882",
       "broker_name": "富邦-竹北",
       "broker_id": "9624",
@@ -2679,7 +2679,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2882",
       "broker_name": "美林",
       "broker_id": "1440",
@@ -2691,7 +2691,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2882",
       "broker_name": "富邦-公益",
       "broker_id": "0039003600310046",
@@ -2703,7 +2703,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2882",
       "broker_name": "華南永昌",
       "broker_id": "9300",
@@ -2715,7 +2715,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2882",
       "broker_name": "花旗環球",
       "broker_id": "1590",
@@ -2727,7 +2727,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2882",
       "broker_name": "香港上海匯豐",
       "broker_id": "8960",
@@ -2739,7 +2739,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2882",
       "broker_name": "第一金-新興",
       "broker_id": "0035003300380041",
@@ -2751,7 +2751,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2882",
       "broker_name": "凱基",
       "broker_id": "9200",
@@ -2763,7 +2763,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2882",
       "broker_name": "富邦-仁愛",
       "broker_id": "9676",
@@ -2775,7 +2775,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2882",
       "broker_name": "永豐金證券",
       "broker_id": "0039004100300030",
@@ -2787,7 +2787,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2882",
       "broker_name": "兆豐-大安",
       "broker_id": "003700300030006a",
@@ -2799,7 +2799,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2882",
       "broker_name": "永豐金-匯立",
       "broker_id": "0039004100380031",
@@ -2811,7 +2811,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2882",
       "broker_name": "元大-斗六",
       "broker_id": "0039003800300043",
@@ -2823,7 +2823,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2882",
       "broker_name": "法銀巴黎",
       "broker_id": "8900",
@@ -2835,7 +2835,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2882",
       "broker_name": "元大-六合",
       "broker_id": "0039003800320043",
@@ -2847,7 +2847,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2882",
       "broker_name": "富邦證券",
       "broker_id": "9600",
@@ -2859,7 +2859,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2882",
       "broker_name": "凱基-站前",
       "broker_id": "0039003200300046",
@@ -2871,7 +2871,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2882",
       "broker_name": "富邦-南京",
       "broker_id": "0039003600310043",
@@ -2883,7 +2883,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2303",
       "broker_name": "美商高盛",
       "broker_id": "1480",
@@ -2895,7 +2895,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2303",
       "broker_name": "元富",
       "broker_id": "5920",
@@ -2907,7 +2907,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2303",
       "broker_name": "摩根大通",
       "broker_id": "8440",
@@ -2919,7 +2919,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2303",
       "broker_name": "元大證券",
       "broker_id": "9800",
@@ -2931,7 +2931,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2303",
       "broker_name": "港商麥格理",
       "broker_id": "1360",
@@ -2943,7 +2943,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2303",
       "broker_name": "永豐金證券",
       "broker_id": "0039004100300030",
@@ -2955,7 +2955,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2303",
       "broker_name": "台灣摩根士丹利",
       "broker_id": "1470",
@@ -2967,7 +2967,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2303",
       "broker_name": "香港上海匯豐",
       "broker_id": "8960",
@@ -2979,7 +2979,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2303",
       "broker_name": "美林",
       "broker_id": "1440",
@@ -2991,7 +2991,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2303",
       "broker_name": "華南永昌",
       "broker_id": "9300",
@@ -3003,7 +3003,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2303",
       "broker_name": "港商野村",
       "broker_id": "1560",
@@ -3015,7 +3015,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2303",
       "broker_name": "群益金鼎",
       "broker_id": "9100",
@@ -3027,7 +3027,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2303",
       "broker_name": "新加坡商瑞銀",
       "broker_id": "1650",
@@ -3039,7 +3039,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2303",
       "broker_name": "永豐金-匯立",
       "broker_id": "0039004100380031",
@@ -3051,7 +3051,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2303",
       "broker_name": "凱基-台北",
       "broker_id": "9268",
@@ -3063,7 +3063,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2303",
       "broker_name": "群益金鼎-市府",
       "broker_id": "0039003100300044",
@@ -3075,7 +3075,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2303",
       "broker_name": "富邦-新店",
       "broker_id": "9661",
@@ -3087,7 +3087,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2303",
       "broker_name": "富邦證券",
       "broker_id": "9600",
@@ -3099,7 +3099,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2303",
       "broker_name": "統一-新台中",
       "broker_id": "0035003800350044",
@@ -3111,7 +3111,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2303",
       "broker_name": "元大-四維",
       "broker_id": "9831",
@@ -3123,7 +3123,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2303",
       "broker_name": "兆豐-永和",
       "broker_id": "0037003000300058",
@@ -3135,7 +3135,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2303",
       "broker_name": "國泰證券",
       "broker_id": "8880",
@@ -3147,7 +3147,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2303",
       "broker_name": "國泰-板橋",
       "broker_id": "003800380038004b",
@@ -3159,7 +3159,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2303",
       "broker_name": "玉山-新莊",
       "broker_id": "8842",
@@ -3171,7 +3171,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2303",
       "broker_name": "花旗環球",
       "broker_id": "1590",
@@ -3183,7 +3183,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2303",
       "broker_name": "兆豐證券",
       "broker_id": "7000",
@@ -3195,7 +3195,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2303",
       "broker_name": "國票-南港",
       "broker_id": "7795",
@@ -3207,7 +3207,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2303",
       "broker_name": "中國信託-文心",
       "broker_id": "6164",
@@ -3219,7 +3219,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2303",
       "broker_name": "元大-三民",
       "broker_id": "0039003800390046",
@@ -3231,7 +3231,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2303",
       "broker_name": "凱基",
       "broker_id": "9200",
@@ -3243,7 +3243,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3711",
       "broker_name": "富邦證券",
       "broker_id": "9600",
@@ -3255,7 +3255,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3711",
       "broker_name": "美商高盛",
       "broker_id": "1480",
@@ -3267,7 +3267,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3711",
       "broker_name": "國泰證券",
       "broker_id": "8880",
@@ -3279,7 +3279,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3711",
       "broker_name": "美林",
       "broker_id": "1440",
@@ -3291,7 +3291,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3711",
       "broker_name": "香港上海匯豐",
       "broker_id": "8960",
@@ -3303,7 +3303,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3711",
       "broker_name": "台灣摩根士丹利",
       "broker_id": "1470",
@@ -3315,7 +3315,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3711",
       "broker_name": "摩根大通",
       "broker_id": "8440",
@@ -3327,7 +3327,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3711",
       "broker_name": "元大證券",
       "broker_id": "9800",
@@ -3339,7 +3339,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3711",
       "broker_name": "凱基-永和",
       "broker_id": "9207",
@@ -3351,7 +3351,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3711",
       "broker_name": "港商麥格理",
       "broker_id": "1360",
@@ -3363,7 +3363,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3711",
       "broker_name": "富邦-竹北",
       "broker_id": "9624",
@@ -3375,7 +3375,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3711",
       "broker_name": "花旗環球",
       "broker_id": "1590",
@@ -3387,7 +3387,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3711",
       "broker_name": "凱基-台北",
       "broker_id": "9268",
@@ -3399,7 +3399,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3711",
       "broker_name": "港商野村",
       "broker_id": "1560",
@@ -3411,7 +3411,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3711",
       "broker_name": "台灣企銀",
       "broker_id": "1110",
@@ -3423,7 +3423,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3711",
       "broker_name": "永豐金-台南",
       "broker_id": "0039004100390068",
@@ -3435,7 +3435,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3711",
       "broker_name": "彰銀",
       "broker_id": "1230",
@@ -3447,7 +3447,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3711",
       "broker_name": "第一金-高雄",
       "broker_id": "5383",
@@ -3459,7 +3459,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3711",
       "broker_name": "元富-新店",
       "broker_id": "5922",
@@ -3471,7 +3471,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3711",
       "broker_name": "兆豐-鹿港",
       "broker_id": "0037003000300066",
@@ -3483,7 +3483,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3711",
       "broker_name": "台新證券",
       "broker_id": "8150",
@@ -3495,7 +3495,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3711",
       "broker_name": "兆豐證券",
       "broker_id": "7000",
@@ -3507,7 +3507,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3711",
       "broker_name": "中國信託",
       "broker_id": "6160",
@@ -3519,7 +3519,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3711",
       "broker_name": "國泰-敦南",
       "broker_id": "8888",
@@ -3531,7 +3531,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3711",
       "broker_name": "華南永昌",
       "broker_id": "9300",
@@ -3543,7 +3543,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3711",
       "broker_name": "凱基-林口",
       "broker_id": "9257",
@@ -3555,7 +3555,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3711",
       "broker_name": "凱基-松山",
       "broker_id": "9217",
@@ -3567,7 +3567,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3711",
       "broker_name": "凱基-城中",
       "broker_id": "9227",
@@ -3579,7 +3579,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3711",
       "broker_name": "凱基",
       "broker_id": "9200",
@@ -3591,7 +3591,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3711",
       "broker_name": "群益金鼎-永和",
       "broker_id": "003900310038004a",
@@ -3603,7 +3603,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2603",
       "broker_name": "華南永昌",
       "broker_id": "9300",
@@ -3615,7 +3615,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2603",
       "broker_name": "美林",
       "broker_id": "1440",
@@ -3627,7 +3627,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2603",
       "broker_name": "法銀巴黎",
       "broker_id": "8900",
@@ -3639,7 +3639,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2603",
       "broker_name": "國泰證券",
       "broker_id": "8880",
@@ -3651,7 +3651,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2603",
       "broker_name": "摩根大通",
       "broker_id": "8440",
@@ -3663,7 +3663,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2603",
       "broker_name": "群益金鼎",
       "broker_id": "9100",
@@ -3675,7 +3675,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2603",
       "broker_name": "永豐金-新莊",
       "broker_id": "0039004100390048",
@@ -3687,7 +3687,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2603",
       "broker_name": "統一",
       "broker_id": "5850",
@@ -3699,7 +3699,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2603",
       "broker_name": "台灣摩根士丹利",
       "broker_id": "1470",
@@ -3711,7 +3711,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2603",
       "broker_name": "美商高盛",
       "broker_id": "1480",
@@ -3723,7 +3723,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2603",
       "broker_name": "新加坡商瑞銀",
       "broker_id": "1650",
@@ -3735,7 +3735,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2603",
       "broker_name": "統一-內湖",
       "broker_id": "0035003800350062",
@@ -3747,7 +3747,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2603",
       "broker_name": "元大證券",
       "broker_id": "9800",
@@ -3759,7 +3759,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2603",
       "broker_name": "永豐金-匯立",
       "broker_id": "0039004100380031",
@@ -3771,7 +3771,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2603",
       "broker_name": "元大-南投",
       "broker_id": "0039003800310044",
@@ -3783,7 +3783,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2603",
       "broker_name": "國票-敦北法人",
       "broker_id": "0037003700390063",
@@ -3795,7 +3795,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2603",
       "broker_name": "花旗環球",
       "broker_id": "1590",
@@ -3807,7 +3807,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2603",
       "broker_name": "永豐金-彰化",
       "broker_id": "0039004100390073",
@@ -3819,7 +3819,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2603",
       "broker_name": "華南永昌-桃園",
       "broker_id": "9352",
@@ -3831,7 +3831,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2603",
       "broker_name": "香港上海匯豐",
       "broker_id": "8960",
@@ -3843,7 +3843,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2603",
       "broker_name": "兆豐-三民",
       "broker_id": "0037003000300068",
@@ -3855,7 +3855,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2603",
       "broker_name": "凱基-台北",
       "broker_id": "9268",
@@ -3867,7 +3867,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2603",
       "broker_name": "國票證券",
       "broker_id": "7790",
@@ -3879,7 +3879,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2603",
       "broker_name": "國泰-高雄",
       "broker_id": "8881",
@@ -3891,7 +3891,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2603",
       "broker_name": "統一-嘉義",
       "broker_id": "5858",
@@ -3903,7 +3903,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2603",
       "broker_name": "富邦-新竹",
       "broker_id": "9647",
@@ -3915,7 +3915,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2603",
       "broker_name": "富邦-台北",
       "broker_id": "9623",
@@ -3927,7 +3927,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2603",
       "broker_name": "永豐金證券",
       "broker_id": "0039004100300030",
@@ -3939,7 +3939,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2603",
       "broker_name": "陽信",
       "broker_id": "8710",
@@ -3951,7 +3951,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2603",
       "broker_name": "元大-府城",
       "broker_id": "0039003800300075",
@@ -3963,7 +3963,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2609",
       "broker_name": "台灣摩根士丹利",
       "broker_id": "1470",
@@ -3975,7 +3975,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2609",
       "broker_name": "美商高盛",
       "broker_id": "1480",
@@ -3987,7 +3987,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2609",
       "broker_name": "美林",
       "broker_id": "1440",
@@ -3999,7 +3999,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2609",
       "broker_name": "港商野村",
       "broker_id": "1560",
@@ -4011,7 +4011,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2609",
       "broker_name": "凱基-台北",
       "broker_id": "9268",
@@ -4023,7 +4023,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2609",
       "broker_name": "新加坡商瑞銀",
       "broker_id": "1650",
@@ -4035,7 +4035,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2609",
       "broker_name": "摩根大通",
       "broker_id": "8440",
@@ -4047,7 +4047,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2609",
       "broker_name": "永豐金-市政",
       "broker_id": "0039004100390057",
@@ -4059,7 +4059,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2609",
       "broker_name": "花旗環球",
       "broker_id": "1590",
@@ -4071,7 +4071,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2609",
       "broker_name": "群益金鼎-古亭",
       "broker_id": "0039003100380043",
@@ -4083,7 +4083,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2609",
       "broker_name": "法銀巴黎",
       "broker_id": "8900",
@@ -4095,7 +4095,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2609",
       "broker_name": "凱基-站前",
       "broker_id": "0039003200300046",
@@ -4107,7 +4107,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2609",
       "broker_name": "國票-北高雄",
       "broker_id": "003700370039004a",
@@ -4119,7 +4119,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2609",
       "broker_name": "兆豐-北高雄",
       "broker_id": "0037003000300049",
@@ -4131,7 +4131,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2609",
       "broker_name": "新光",
       "broker_id": "8560",
@@ -4143,7 +4143,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2609",
       "broker_name": "華南永昌-岡山",
       "broker_id": "9324",
@@ -4155,7 +4155,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2609",
       "broker_name": "玉山-大里",
       "broker_id": "003800380034004a",
@@ -4167,7 +4167,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2609",
       "broker_name": "永豐金證券",
       "broker_id": "0039004100300030",
@@ -4179,7 +4179,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2609",
       "broker_name": "國泰-板橋",
       "broker_id": "003800380038004b",
@@ -4191,7 +4191,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2609",
       "broker_name": "群益金鼎",
       "broker_id": "9100",
@@ -4203,7 +4203,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2609",
       "broker_name": "合庫-新竹",
       "broker_id": "0031003000320041",
@@ -4215,7 +4215,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2609",
       "broker_name": "香港上海匯豐",
       "broker_id": "8960",
@@ -4227,7 +4227,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2609",
       "broker_name": "元大證券",
       "broker_id": "9800",
@@ -4239,7 +4239,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2609",
       "broker_name": "富邦-新莊",
       "broker_id": "0039003600320044",
@@ -4251,7 +4251,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2609",
       "broker_name": "中國信託-松江",
       "broker_id": "6167",
@@ -4263,7 +4263,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2609",
       "broker_name": "國泰-敦南",
       "broker_id": "8888",
@@ -4275,7 +4275,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2609",
       "broker_name": "富邦-員林",
       "broker_id": "9672",
@@ -4287,7 +4287,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2609",
       "broker_name": "第一金-自由",
       "broker_id": "0035003300380045",
@@ -4299,7 +4299,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2609",
       "broker_name": "台灣企銀",
       "broker_id": "1110",
@@ -4311,7 +4311,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2609",
       "broker_name": "統一",
       "broker_id": "5850",
@@ -4323,7 +4323,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2615",
       "broker_name": "合庫證券",
       "broker_id": "1020",
@@ -4335,7 +4335,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2615",
       "broker_name": "凱基-內埔",
       "broker_id": "9225",
@@ -4347,7 +4347,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2615",
       "broker_name": "元富-大昌",
       "broker_id": "0035003900320044",
@@ -4359,7 +4359,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2615",
       "broker_name": "台灣摩根士丹利",
       "broker_id": "1470",
@@ -4371,7 +4371,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2615",
       "broker_name": "國泰-敦南",
       "broker_id": "8888",
@@ -4383,7 +4383,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2615",
       "broker_name": "美林",
       "broker_id": "1440",
@@ -4395,7 +4395,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2615",
       "broker_name": "凱基-鳳山",
       "broker_id": "9274",
@@ -4407,7 +4407,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2615",
       "broker_name": "台新-台中",
       "broker_id": "0038003100350042",
@@ -4419,7 +4419,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2615",
       "broker_name": "花旗環球",
       "broker_id": "1590",
@@ -4431,7 +4431,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2615",
       "broker_name": "土銀-南港",
       "broker_id": "0031003000330046",
@@ -4443,7 +4443,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2615",
       "broker_name": "永豐金-忠孝",
       "broker_id": "0039004100390044",
@@ -4455,7 +4455,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2615",
       "broker_name": "香港上海匯豐",
       "broker_id": "8960",
@@ -4467,7 +4467,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2615",
       "broker_name": "凱基-屏東",
       "broker_id": "0039003200320043",
@@ -4479,7 +4479,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2615",
       "broker_name": "永豐金-匯立",
       "broker_id": "0039004100380031",
@@ -4491,7 +4491,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2615",
       "broker_name": "元大-新竹經國",
       "broker_id": "9859",
@@ -4503,7 +4503,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2615",
       "broker_name": "美好-泰山",
       "broker_id": "5263",
@@ -4515,7 +4515,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2615",
       "broker_name": "致和-東門",
       "broker_id": "7035",
@@ -4527,7 +4527,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2615",
       "broker_name": "新光",
       "broker_id": "8560",
@@ -4539,7 +4539,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2615",
       "broker_name": "聯邦商銀",
       "broker_id": "8580",
@@ -4551,7 +4551,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2615",
       "broker_name": "元富-同大",
       "broker_id": "0035003900320050",
@@ -4563,7 +4563,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2615",
       "broker_name": "元大-景美",
       "broker_id": "0039003800340048",
@@ -4575,7 +4575,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2615",
       "broker_name": "美商高盛",
       "broker_id": "1480",
@@ -4587,7 +4587,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2615",
       "broker_name": "永豐金-北高雄",
       "broker_id": "0039004100390072",
@@ -4599,7 +4599,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2615",
       "broker_name": "凱基",
       "broker_id": "9200",
@@ -4611,7 +4611,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2615",
       "broker_name": "富邦-二林",
       "broker_id": "0039003600320042",
@@ -4623,7 +4623,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2615",
       "broker_name": "摩根大通",
       "broker_id": "8440",
@@ -4635,7 +4635,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2615",
       "broker_name": "華南永昌-竹北",
       "broker_id": "9339",
@@ -4647,7 +4647,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2615",
       "broker_name": "凱基-斗六",
       "broker_id": "9281",
@@ -4659,7 +4659,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2615",
       "broker_name": "元富-城東",
       "broker_id": "0035003900320072",
@@ -4671,7 +4671,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2615",
       "broker_name": "中國信託",
       "broker_id": "6160",
@@ -4683,7 +4683,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2618",
       "broker_name": "台新證券",
       "broker_id": "8150",
@@ -4695,7 +4695,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2618",
       "broker_name": "第一金",
       "broker_id": "5380",
@@ -4707,7 +4707,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2618",
       "broker_name": "花旗環球",
       "broker_id": "1590",
@@ -4719,7 +4719,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2618",
       "broker_name": "兆豐證券",
       "broker_id": "7000",
@@ -4731,7 +4731,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2618",
       "broker_name": "中國信託-忠孝",
       "broker_id": "6162",
@@ -4743,7 +4743,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2618",
       "broker_name": "國泰證券",
       "broker_id": "8880",
@@ -4755,7 +4755,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2618",
       "broker_name": "新加坡商瑞銀",
       "broker_id": "1650",
@@ -4767,7 +4767,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2618",
       "broker_name": "元大證券",
       "broker_id": "9800",
@@ -4779,7 +4779,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2618",
       "broker_name": "台灣摩根士丹利",
       "broker_id": "1470",
@@ -4791,7 +4791,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2618",
       "broker_name": "元大-內湖",
       "broker_id": "003900380039004e",
@@ -4803,7 +4803,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2618",
       "broker_name": "凱基-台北",
       "broker_id": "9268",
@@ -4815,7 +4815,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2618",
       "broker_name": "永豐金-市政",
       "broker_id": "0039004100390057",
@@ -4827,7 +4827,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2618",
       "broker_name": "美林",
       "broker_id": "1440",
@@ -4839,7 +4839,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2618",
       "broker_name": "凱基-站前",
       "broker_id": "0039003200300046",
@@ -4851,7 +4851,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2618",
       "broker_name": "群益金鼎-北高雄",
       "broker_id": "0039003100330052",
@@ -4863,7 +4863,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2618",
       "broker_name": "群益金鼎",
       "broker_id": "9100",
@@ -4875,7 +4875,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2618",
       "broker_name": "永豐金-匯立",
       "broker_id": "0039004100380031",
@@ -4887,7 +4887,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2618",
       "broker_name": "新光",
       "broker_id": "8560",
@@ -4899,7 +4899,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2618",
       "broker_name": "大昌-安康",
       "broker_id": "6462",
@@ -4911,7 +4911,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2618",
       "broker_name": "亞東",
       "broker_id": "2180",
@@ -4923,7 +4923,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2618",
       "broker_name": "臺銀",
       "broker_id": "1040",
@@ -4935,7 +4935,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2618",
       "broker_name": "美商高盛",
       "broker_id": "1480",
@@ -4947,7 +4947,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2618",
       "broker_name": "元大-華山",
       "broker_id": "0039003800310055",
@@ -4959,7 +4959,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2618",
       "broker_name": "香港上海匯豐",
       "broker_id": "8960",
@@ -4971,7 +4971,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2618",
       "broker_name": "元富",
       "broker_id": "5920",
@@ -4983,7 +4983,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2618",
       "broker_name": "凱基-員林",
       "broker_id": "9231",
@@ -4995,7 +4995,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2618",
       "broker_name": "港商野村",
       "broker_id": "1560",
@@ -5007,7 +5007,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2618",
       "broker_name": "永豐金證券",
       "broker_id": "0039004100300030",
@@ -5019,7 +5019,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2618",
       "broker_name": "元大-彰化",
       "broker_id": "0039003800310047",
@@ -5031,7 +5031,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2618",
       "broker_name": "兆豐-復興",
       "broker_id": "0037003000300070",
@@ -5043,7 +5043,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3037",
       "broker_name": "摩根大通",
       "broker_id": "8440",
@@ -5055,7 +5055,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3037",
       "broker_name": "美商高盛",
       "broker_id": "1480",
@@ -5067,7 +5067,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3037",
       "broker_name": "元大證券",
       "broker_id": "9800",
@@ -5079,7 +5079,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3037",
       "broker_name": "美林",
       "broker_id": "1440",
@@ -5091,7 +5091,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3037",
       "broker_name": "永豐金-中正",
       "broker_id": "0039004100390055",
@@ -5103,7 +5103,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3037",
       "broker_name": "港商野村",
       "broker_id": "1560",
@@ -5115,7 +5115,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3037",
       "broker_name": "華南永昌-中正",
       "broker_id": "9359",
@@ -5127,7 +5127,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3037",
       "broker_name": "香港上海匯豐",
       "broker_id": "8960",
@@ -5139,7 +5139,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3037",
       "broker_name": "台灣摩根士丹利",
       "broker_id": "1470",
@@ -5151,7 +5151,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3037",
       "broker_name": "第一金-中壢",
       "broker_id": "0035003300380059",
@@ -5163,7 +5163,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3037",
       "broker_name": "富邦-仁愛",
       "broker_id": "9676",
@@ -5175,7 +5175,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3037",
       "broker_name": "華南永昌-民權",
       "broker_id": "9312",
@@ -5187,7 +5187,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3037",
       "broker_name": "台新證券",
       "broker_id": "8150",
@@ -5199,7 +5199,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3037",
       "broker_name": "新加坡商瑞銀",
       "broker_id": "1650",
@@ -5211,7 +5211,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3037",
       "broker_name": "富邦證券",
       "broker_id": "9600",
@@ -5223,7 +5223,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3037",
       "broker_name": "元大-鳳山",
       "broker_id": "003900380033005a",
@@ -5235,7 +5235,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3037",
       "broker_name": "凱基-高雄",
       "broker_id": "9206",
@@ -5247,7 +5247,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3037",
       "broker_name": "統一",
       "broker_id": "5850",
@@ -5259,7 +5259,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3037",
       "broker_name": "港商麥格理",
       "broker_id": "1360",
@@ -5271,7 +5271,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3037",
       "broker_name": "統一-新竹",
       "broker_id": "5857",
@@ -5283,7 +5283,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3037",
       "broker_name": "玉山證券",
       "broker_id": "8840",
@@ -5295,7 +5295,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3037",
       "broker_name": "凱基",
       "broker_id": "9200",
@@ -5307,7 +5307,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3037",
       "broker_name": "台灣企銀-台中",
       "broker_id": "1111",
@@ -5319,7 +5319,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3037",
       "broker_name": "凱基-台北",
       "broker_id": "9268",
@@ -5331,7 +5331,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3037",
       "broker_name": "群益金鼎",
       "broker_id": "9100",
@@ -5343,7 +5343,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3037",
       "broker_name": "國泰-敦南",
       "broker_id": "8888",
@@ -5355,7 +5355,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3037",
       "broker_name": "國泰-台中",
       "broker_id": "8882",
@@ -5367,7 +5367,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3037",
       "broker_name": "兆豐-寶成",
       "broker_id": "0037003000300072",
@@ -5379,7 +5379,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3037",
       "broker_name": "花旗環球",
       "broker_id": "1590",
@@ -5391,7 +5391,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3037",
       "broker_name": "凱基-大直",
       "broker_id": "9218",
@@ -5403,7 +5403,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2345",
       "broker_name": "新加坡商瑞銀",
       "broker_id": "1650",
@@ -5415,7 +5415,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2345",
       "broker_name": "大和國泰",
       "broker_id": "8890",
@@ -5427,7 +5427,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2345",
       "broker_name": "美商高盛",
       "broker_id": "1480",
@@ -5439,7 +5439,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2345",
       "broker_name": "永豐金證券",
       "broker_id": "0039004100300030",
@@ -5451,7 +5451,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2345",
       "broker_name": "兆豐證券",
       "broker_id": "7000",
@@ -5463,7 +5463,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2345",
       "broker_name": "港商野村",
       "broker_id": "1560",
@@ -5475,7 +5475,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2345",
       "broker_name": "美林",
       "broker_id": "1440",
@@ -5487,7 +5487,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2345",
       "broker_name": "港商麥格理",
       "broker_id": "1360",
@@ -5499,7 +5499,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2345",
       "broker_name": "凱基-台北",
       "broker_id": "9268",
@@ -5511,7 +5511,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2345",
       "broker_name": "富邦-嘉義",
       "broker_id": "9692",
@@ -5523,7 +5523,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2345",
       "broker_name": "台灣摩根士丹利",
       "broker_id": "1470",
@@ -5535,7 +5535,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2345",
       "broker_name": "摩根大通",
       "broker_id": "8440",
@@ -5547,7 +5547,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2345",
       "broker_name": "(牛牛牛)亞證券",
       "broker_id": "6010",
@@ -5559,7 +5559,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2345",
       "broker_name": "花旗環球",
       "broker_id": "1590",
@@ -5571,7 +5571,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2345",
       "broker_name": "永豐金-苓雅",
       "broker_id": "0039004100390061",
@@ -5583,7 +5583,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2345",
       "broker_name": "香港上海匯豐",
       "broker_id": "8960",
@@ -5595,7 +5595,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2345",
       "broker_name": "凱基-竹北",
       "broker_id": "9234",
@@ -5607,7 +5607,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2345",
       "broker_name": "群益金鼎",
       "broker_id": "9100",
@@ -5619,7 +5619,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2345",
       "broker_name": "統一",
       "broker_id": "5850",
@@ -5631,7 +5631,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2345",
       "broker_name": "元大證券",
       "broker_id": "9800",
@@ -5643,7 +5643,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2345",
       "broker_name": "統一-板橋",
       "broker_id": "0035003800350050",
@@ -5655,7 +5655,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2345",
       "broker_name": "元大-羅東",
       "broker_id": "0039003800320041",
@@ -5667,7 +5667,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2345",
       "broker_name": "土銀",
       "broker_id": "1030",
@@ -5679,7 +5679,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2345",
       "broker_name": "凱基-市政",
       "broker_id": "9239",
@@ -5691,7 +5691,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2345",
       "broker_name": "富邦-仁愛",
       "broker_id": "9676",
@@ -5703,7 +5703,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2345",
       "broker_name": "永豐金-匯立",
       "broker_id": "0039004100380031",
@@ -5715,7 +5715,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2345",
       "broker_name": "元富",
       "broker_id": "5920",
@@ -5727,7 +5727,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2345",
       "broker_name": "臺銀-臺中",
       "broker_id": "0031003000340041",
@@ -5739,7 +5739,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2345",
       "broker_name": "康和-石牌",
       "broker_id": "0038003400350052",
@@ -5751,7 +5751,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2345",
       "broker_name": "合庫證券",
       "broker_id": "1020",
@@ -5763,7 +5763,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3006",
       "broker_name": "凱基-信義",
       "broker_id": "9216",
@@ -5775,7 +5775,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3006",
       "broker_name": "凱基",
       "broker_id": "9200",
@@ -5787,7 +5787,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3006",
       "broker_name": "元大證券",
       "broker_id": "9800",
@@ -5799,7 +5799,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3006",
       "broker_name": "元富-大昌",
       "broker_id": "0035003900320044",
@@ -5811,7 +5811,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3006",
       "broker_name": "摩根大通",
       "broker_id": "8440",
@@ -5823,7 +5823,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3006",
       "broker_name": "元富",
       "broker_id": "5920",
@@ -5835,7 +5835,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3006",
       "broker_name": "美商高盛",
       "broker_id": "1480",
@@ -5847,7 +5847,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3006",
       "broker_name": "國票-台中",
       "broker_id": "0037003700390076",
@@ -5859,7 +5859,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3006",
       "broker_name": "港商野村",
       "broker_id": "1560",
@@ -5871,7 +5871,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3006",
       "broker_name": "永豐金-敦北",
       "broker_id": "0039004100380039",
@@ -5883,7 +5883,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3006",
       "broker_name": "凱基-台北",
       "broker_id": "9268",
@@ -5895,7 +5895,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3006",
       "broker_name": "凱基-竹科",
       "broker_id": "9272",
@@ -5907,7 +5907,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3006",
       "broker_name": "台灣摩根士丹利",
       "broker_id": "1470",
@@ -5919,7 +5919,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3006",
       "broker_name": "富邦-陽明",
       "broker_id": "9604",
@@ -5931,7 +5931,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3006",
       "broker_name": "新加坡商瑞銀",
       "broker_id": "1650",
@@ -5943,7 +5943,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3006",
       "broker_name": "富邦-板橋",
       "broker_id": "9655",
@@ -5955,7 +5955,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3006",
       "broker_name": "永豐金-信義",
       "broker_id": "0039004100390052",
@@ -5967,7 +5967,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3006",
       "broker_name": "富邦證券",
       "broker_id": "9600",
@@ -5979,7 +5979,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3006",
       "broker_name": "台新證券",
       "broker_id": "8150",
@@ -5991,7 +5991,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3006",
       "broker_name": "凱基-新莊",
       "broker_id": "0039003200310053",
@@ -6003,7 +6003,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3006",
       "broker_name": "富邦-嘉義",
       "broker_id": "9692",
@@ -6015,7 +6015,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3006",
       "broker_name": "元大-鳳山",
       "broker_id": "003900380033005a",
@@ -6027,7 +6027,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3006",
       "broker_name": "統一",
       "broker_id": "5850",
@@ -6039,7 +6039,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3006",
       "broker_name": "國泰-敦南",
       "broker_id": "8888",
@@ -6051,7 +6051,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3006",
       "broker_name": "元大-竹科",
       "broker_id": "003900380030004b",
@@ -6063,7 +6063,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3006",
       "broker_name": "新百王",
       "broker_id": "6210",
@@ -6075,7 +6075,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3006",
       "broker_name": "富邦-建國",
       "broker_id": "9658",
@@ -6087,7 +6087,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3006",
       "broker_name": "華南永昌-斗六",
       "broker_id": "9327",
@@ -6099,7 +6099,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3006",
       "broker_name": "群益金鼎-大安",
       "broker_id": "0039003100380065",
@@ -6111,7 +6111,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3006",
       "broker_name": "兆豐-埔墘",
       "broker_id": "003700300030004e",
@@ -6123,7 +6123,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2379",
       "broker_name": "合庫證券",
       "broker_id": "1020",
@@ -6135,7 +6135,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2379",
       "broker_name": "美商高盛",
       "broker_id": "1480",
@@ -6147,7 +6147,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2379",
       "broker_name": "永豐金-匯立",
       "broker_id": "0039004100380031",
@@ -6159,7 +6159,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2379",
       "broker_name": "台灣摩根士丹利",
       "broker_id": "1470",
@@ -6171,7 +6171,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2379",
       "broker_name": "國泰證券",
       "broker_id": "8880",
@@ -6183,7 +6183,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2379",
       "broker_name": "凱基-台北",
       "broker_id": "9268",
@@ -6195,7 +6195,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2379",
       "broker_name": "永豐金證券",
       "broker_id": "0039004100300030",
@@ -6207,7 +6207,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2379",
       "broker_name": "摩根大通",
       "broker_id": "8440",
@@ -6219,7 +6219,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2379",
       "broker_name": "土銀",
       "broker_id": "1030",
@@ -6231,7 +6231,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2379",
       "broker_name": "花旗環球",
       "broker_id": "1590",
@@ -6243,7 +6243,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2379",
       "broker_name": "統一",
       "broker_id": "5850",
@@ -6255,7 +6255,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2379",
       "broker_name": "港商野村",
       "broker_id": "1560",
@@ -6267,7 +6267,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2379",
       "broker_name": "富邦-仁愛",
       "broker_id": "9676",
@@ -6279,7 +6279,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2379",
       "broker_name": "群益金鼎",
       "broker_id": "9100",
@@ -6291,7 +6291,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2379",
       "broker_name": "富邦-建國",
       "broker_id": "9658",
@@ -6303,7 +6303,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2379",
       "broker_name": "新加坡商瑞銀",
       "broker_id": "1650",
@@ -6315,7 +6315,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2379",
       "broker_name": "法銀巴黎",
       "broker_id": "8900",
@@ -6327,7 +6327,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2379",
       "broker_name": "香港上海匯豐",
       "broker_id": "8960",
@@ -6339,7 +6339,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2379",
       "broker_name": "華南永昌-頭份",
       "broker_id": "9343",
@@ -6351,7 +6351,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2379",
       "broker_name": "富邦證券",
       "broker_id": "9600",
@@ -6363,7 +6363,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2379",
       "broker_name": "第一金-華江",
       "broker_id": "0035003300380057",
@@ -6375,7 +6375,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2379",
       "broker_name": "國泰-台南",
       "broker_id": "8884",
@@ -6387,7 +6387,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2379",
       "broker_name": "國票-彰化",
       "broker_id": "0037003700390057",
@@ -6399,7 +6399,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2379",
       "broker_name": "元大-忠孝鼎富",
       "broker_id": "0039003800320046",
@@ -6411,7 +6411,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2379",
       "broker_name": "新光-新竹",
       "broker_id": "8563",
@@ -6423,7 +6423,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2379",
       "broker_name": "美好-楊梅",
       "broker_id": "5262",
@@ -6435,7 +6435,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2379",
       "broker_name": "凱基-苗栗",
       "broker_id": "9276",
@@ -6447,7 +6447,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2379",
       "broker_name": "美林",
       "broker_id": "1440",
@@ -6459,7 +6459,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2379",
       "broker_name": "台新證券",
       "broker_id": "8150",
@@ -6471,7 +6471,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2379",
       "broker_name": "兆豐-台中港",
       "broker_id": "7005",
@@ -6483,7 +6483,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3034",
       "broker_name": "台灣摩根士丹利",
       "broker_id": "1470",
@@ -6495,7 +6495,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3034",
       "broker_name": "元大證券",
       "broker_id": "9800",
@@ -6507,7 +6507,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3034",
       "broker_name": "美商高盛",
       "broker_id": "1480",
@@ -6519,7 +6519,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3034",
       "broker_name": "凱基",
       "broker_id": "9200",
@@ -6531,7 +6531,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3034",
       "broker_name": "凱基-台北",
       "broker_id": "9268",
@@ -6543,7 +6543,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3034",
       "broker_name": "群益金鼎",
       "broker_id": "9100",
@@ -6555,7 +6555,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3034",
       "broker_name": "摩根大通",
       "broker_id": "8440",
@@ -6567,7 +6567,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3034",
       "broker_name": "富邦證券",
       "broker_id": "9600",
@@ -6579,7 +6579,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3034",
       "broker_name": "新加坡商瑞銀",
       "broker_id": "1650",
@@ -6591,7 +6591,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3034",
       "broker_name": "永豐金-匯立",
       "broker_id": "0039004100380031",
@@ -6603,7 +6603,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3034",
       "broker_name": "美林",
       "broker_id": "1440",
@@ -6615,7 +6615,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3034",
       "broker_name": "香港上海匯豐",
       "broker_id": "8960",
@@ -6627,7 +6627,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3034",
       "broker_name": "港商野村",
       "broker_id": "1560",
@@ -6639,7 +6639,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3034",
       "broker_name": "兆豐-忠孝",
       "broker_id": "0037003000300061",
@@ -6651,7 +6651,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3034",
       "broker_name": "國泰證券",
       "broker_id": "8880",
@@ -6663,7 +6663,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3034",
       "broker_name": "元大-六合",
       "broker_id": "0039003800320043",
@@ -6675,7 +6675,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3034",
       "broker_name": "富邦-台北",
       "broker_id": "9623",
@@ -6687,7 +6687,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3034",
       "broker_name": "元富-草屯",
       "broker_id": "0035003900320058",
@@ -6699,7 +6699,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3034",
       "broker_name": "富邦-北港",
       "broker_id": "0039003600390043",
@@ -6711,7 +6711,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3034",
       "broker_name": "元大-板橋三民",
       "broker_id": "9879",
@@ -6723,7 +6723,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3034",
       "broker_name": "元大-內湖",
       "broker_id": "003900380039004e",
@@ -6735,7 +6735,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3034",
       "broker_name": "陽信",
       "broker_id": "8710",
@@ -6747,7 +6747,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3034",
       "broker_name": "新光",
       "broker_id": "8560",
@@ -6759,7 +6759,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3034",
       "broker_name": "法銀巴黎",
       "broker_id": "8900",
@@ -6771,7 +6771,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3034",
       "broker_name": "國泰-敦南",
       "broker_id": "8888",
@@ -6783,7 +6783,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3034",
       "broker_name": "國泰-高雄",
       "broker_id": "8881",
@@ -6795,7 +6795,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3034",
       "broker_name": "宏遠-高雄",
       "broker_id": "0031003200360051",
@@ -6807,7 +6807,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3034",
       "broker_name": "元大-南崁",
       "broker_id": "0039003800300051",
@@ -6819,7 +6819,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3034",
       "broker_name": "元大-大甲",
       "broker_id": "0039003800390055",
@@ -6831,7 +6831,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "3034",
       "broker_name": "凱基-三重",
       "broker_id": "9205",
@@ -6843,7 +6843,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2412",
       "broker_name": "台灣摩根士丹利",
       "broker_id": "1470",
@@ -6855,7 +6855,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2412",
       "broker_name": "摩根大通",
       "broker_id": "8440",
@@ -6867,7 +6867,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2412",
       "broker_name": "花旗環球",
       "broker_id": "1590",
@@ -6879,7 +6879,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2412",
       "broker_name": "香港上海匯豐",
       "broker_id": "8960",
@@ -6891,7 +6891,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2412",
       "broker_name": "美林",
       "broker_id": "1440",
@@ -6903,7 +6903,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2412",
       "broker_name": "美商高盛",
       "broker_id": "1480",
@@ -6915,7 +6915,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2412",
       "broker_name": "土銀",
       "broker_id": "1030",
@@ -6927,7 +6927,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2412",
       "broker_name": "元大證券",
       "broker_id": "9800",
@@ -6939,7 +6939,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2412",
       "broker_name": "凱基-台北",
       "broker_id": "9268",
@@ -6951,7 +6951,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2412",
       "broker_name": "新加坡商瑞銀",
       "broker_id": "1650",
@@ -6963,7 +6963,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2412",
       "broker_name": "永豐金-古亭",
       "broker_id": "0039004100390064",
@@ -6975,7 +6975,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2412",
       "broker_name": "富邦證券",
       "broker_id": "9600",
@@ -6987,7 +6987,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2412",
       "broker_name": "永豐金-匯立",
       "broker_id": "0039004100380031",
@@ -6999,7 +6999,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2412",
       "broker_name": "凱基",
       "broker_id": "9200",
@@ -7011,7 +7011,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2412",
       "broker_name": "統一",
       "broker_id": "5850",
@@ -7023,7 +7023,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2412",
       "broker_name": "康和-仁愛",
       "broker_id": "0038003400350046",
@@ -7035,7 +7035,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2412",
       "broker_name": "元大-新盛",
       "broker_id": "9869",
@@ -7047,7 +7047,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2412",
       "broker_name": "兆豐-公益",
       "broker_id": "003700300030004a",
@@ -7059,7 +7059,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2412",
       "broker_name": "合庫-台南",
       "broker_id": "1022",
@@ -7071,7 +7071,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2412",
       "broker_name": "港商麥格理",
       "broker_id": "1360",
@@ -7083,7 +7083,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2412",
       "broker_name": "群益金鼎-新店",
       "broker_id": "0039003100380046",
@@ -7095,7 +7095,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2412",
       "broker_name": "元富",
       "broker_id": "5920",
@@ -7107,7 +7107,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2412",
       "broker_name": "玉山-新莊",
       "broker_id": "8842",
@@ -7119,7 +7119,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2412",
       "broker_name": "永豐金證券",
       "broker_id": "0039004100300030",
@@ -7131,7 +7131,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2412",
       "broker_name": "中國信託",
       "broker_id": "6160",
@@ -7143,7 +7143,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2412",
       "broker_name": "元大-基隆孝二",
       "broker_id": "003900380036004b",
@@ -7155,7 +7155,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2412",
       "broker_name": "華南永昌-台中",
       "broker_id": "9302",
@@ -7167,7 +7167,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2412",
       "broker_name": "富邦-嘉義",
       "broker_id": "9692",
@@ -7179,7 +7179,7 @@
       "side": "sell"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2412",
       "broker_name": "新光",
       "broker_id": "8560",
@@ -7191,7 +7191,7 @@
       "side": "buy"
     },
     {
-      "date": "12/31",
+      "date": "1/02",
       "stock_code": "2412",
       "broker_name": "宏遠-光隆",
       "broker_id": "0031003200360069",
