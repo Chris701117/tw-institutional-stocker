@@ -11,10 +11,14 @@ from datetime import datetime, timedelta, timezone
 # ==========================================
 JSON_PATH = "docs/data/top_three_inst_change_5_up.json"
 EXCEL_PATH = "docs/data/stock_report.xlsx"
+CSV_PATH = "docs/data/stock_report.csv"
 HISTORY_DAYS = 120 
 
+# ⚠️ 填入您的 GAS 部署網址 (用於主動觸發)
+GAS_URL = "https://script.google.com/macros/s/AKfycbzkOm64edpadEtMUJZGkzGvU_IjYdAPj8Hs2cute5J2BC82SFdflxaA3URszd3zWcnp/exec" 
+
 # ==========================================
-# 核心函式：抓取籌碼
+# 核心函式：抓取籌碼 (上市+上櫃)
 # ==========================================
 def get_twse_chips(date_obj):
     date_str = date_obj.strftime("%Y%m%d")
@@ -57,15 +61,12 @@ def get_all_chips_data(is_intraday=False):
     valid_dfs = [] 
     days_collected = 0
     target_days = 5 
-    
-    # 用來暫存每天的詳細資料，以便計算連買天數
     daily_records = []
 
     for i in range(start_delay, start_delay + 14):
         if days_collected >= target_days: break
         tw_now = datetime.now(timezone.utc) + timedelta(hours=8)
         date_obj = tw_now - timedelta(days=i)
-        date_str = date_obj.strftime('%Y-%m-%d')
         
         df_twse = get_twse_chips(date_obj)
         df_tpex = get_tpex_chips(date_obj)
@@ -75,55 +76,43 @@ def get_all_chips_data(is_intraday=False):
         if df_tpex is not None: day_dfs.append(df_tpex)
         
         if day_dfs:
-            print(f"   ✅ 取得資料: {date_str}")
+            print(f"   ✅ 取得資料: {date_obj.strftime('%Y-%m-%d')}")
             df_day = pd.concat(day_dfs)
             def clean_num(x):
                 if isinstance(x, str): return float(x.replace(',', ''))
                 return float(x)
             
-            # 轉換單位為「千張」
             df_day['外資'] = df_day['外陸資買賣超股數(不含外資自營商)'].apply(clean_num) / 1000
             df_day['投信'] = df_day['投信買賣超股數'].apply(clean_num) / 1000
             df_day['總變'] = df_day['三大法人買賣超股數'].apply(clean_num) / 1000
-            
-            # 加入日期標籤 (為了排序)
             df_day['date_idx'] = days_collected 
             
             cols = ['code', 'name', 'market', '外資', '投信', '總變', 'date_idx']
             valid_dfs.append(df_day[cols])
             daily_records.append(df_day[cols])
-            
             days_collected += 1
         else:
-            print(f"   ⚠️ 無資料: {date_str}")
+            print(f"   ⚠️ 無資料: {date_obj.strftime('%Y-%m-%d')}")
             time.sleep(1)
 
     if not valid_dfs: return pd.DataFrame()
     
     print(f"📊 計算連買天數與加總...")
     merged_df = pd.concat(valid_dfs)
-    
-    # 1. 計算加總 (Total Sum)
     final_df = merged_df.groupby(['code', 'name', 'market'], as_index=False)[['外資', '投信', '總變']].sum()
     
-    # 2. 🔥 計算投信連買天數 (Consecutive Buy Days)
-    # 邏輯：按代號分組 -> 找到每個代號最近幾天 -> 檢查是否 > 0
+    # 計算連買天數
     all_daily = pd.concat(daily_records)
     streak_map = {}
-    
-    # 針對每一檔股票
     for code, group in all_daily.groupby('code'):
-        # 確保按日期從近到遠排序 (date_idx 0 是最近, 1 是前一天...)
         group = group.sort_values('date_idx') 
         streak = 0
         for val in group['投信']:
             if val > 0: streak += 1
-            else: break # 一旦斷掉就停止
+            else: break 
         streak_map[code] = streak
 
-    # 把連買天數合併回主表
     final_df['trust_streak'] = final_df['code'].map(streak_map).fillna(0).astype(int)
-
     return final_df
 
 # ==========================================
@@ -131,7 +120,6 @@ def get_all_chips_data(is_intraday=False):
 # ==========================================
 def calculate_technical_indicators(df):
     if len(df) < 35: return 50, 50, False, 0, False, False, 0, False, False, 0.0
-    # KD
     low_min = df['Low'].rolling(window=9).min(); high_max = df['High'].rolling(window=9).max()
     rsv = (df['Close'] - low_min) / (high_max - low_min) * 100; rsv = rsv.fillna(50)
     k_values = [50]; d_values = [50]; rsv_list = rsv.tolist()
@@ -140,20 +128,20 @@ def calculate_technical_indicators(df):
         k_values.append(k); d_values.append(d)
     curr_k = k_values[-1]; curr_d = d_values[-1]; prev_k = k_values[-2]; prev_d = d_values[-2]
     is_kd_gc = (prev_k < prev_d) and (curr_k > curr_d) and (curr_k < 50)
-    # MA60
+    
     ma60_gap = 0
     if len(df) >= 60:
         ma60 = df['Close'].rolling(window=60).mean().iloc[-1]
         if ma60 > 0: ma60_gap = ((df['Close'].iloc[-1] - ma60) / ma60) * 100
-    # Bollinger
+    
     ma20 = df['Close'].rolling(window=20).mean(); std20 = df['Close'].rolling(window=20).std()
     upper = ma20 + (2 * std20); lower = ma20 - (2 * std20)
     is_bb_low = df['Close'].iloc[-1] <= (lower.iloc[-1] * 1.015)
-    # MACD
+    
     ema12 = df['Close'].ewm(span=12, adjust=False).mean(); ema26 = df['Close'].ewm(span=26, adjust=False).mean()
     dif = ema12 - ema26; dem = dif.ewm(span=9, adjust=False).mean(); osc = dif - dem
     is_macd_gc = (dif.iloc[-2] < dem.iloc[-2]) and (dif.iloc[-1] > dem.iloc[-1])
-    # Strategy
+    
     pct_change = ((df['Close'].iloc[-1] - df['Close'].iloc[-2]) / df['Close'].iloc[-2]) * 100
     is_spike_high = (df['Close'].iloc[-1] >= upper.iloc[-1]) and (pct_change > 2) and (pct_change < 9.5)
     is_strong_long = (df['Close'].iloc[-1] > ma20.iloc[-1]) and (pct_change > 1.5) and (df['Close'].iloc[-1] < upper.iloc[-1])
@@ -226,7 +214,7 @@ def export_data(df):
             "code": row['code'], "name": row['name'], "change": row['總變'],
             "three_inst_ratio": row.get('conc_ratio', 0),
             "foreign_ratio_diff": row['外資'], "trust_ratio_diff": row['投信'], 
-            "trust_streak": row.get('trust_streak', 0), # 🔥 新增連買天數
+            "trust_streak": row.get('trust_streak', 0), 
             "vol_ratio": row.get('vol_ratio', 0), "price_pos": row.get('price_pos', 0.5),
             "ma60_gap": row.get('ma60_gap', 0), "kd_gold_cross": row.get('kd_gold_cross', False),
             "k_val": row.get('k_val', 0), "bb_low": row.get('bb_low', False),     
@@ -236,7 +224,9 @@ def export_data(df):
         output_list.append(record)
     os.makedirs(os.path.dirname(JSON_PATH), exist_ok=True)
     with open(JSON_PATH, 'w', encoding='utf-8') as f: json.dump(output_list, f, ensure_ascii=False, indent=2)
+    print(f"✅ JSON 輸出成功！共 {len(output_list)} 筆")
     
+    # 準備報表 DataFrame
     excel_df = df.copy().rename(columns={
         'code': '代號', 'name': '名稱', 'market': '市場', '總變': '5日籌碼',
         '外資': '外資5日', '投信': '投信5日', 'trust_streak': '投信連買',
@@ -244,22 +234,15 @@ def export_data(df):
         'spike_high': '高檔爆量(空)', 'strong_long': '強勢動能(多)', 'pct_change': '漲幅%'
     })
     output_cols = ['代號', '名稱', '市場', '漲幅%', '5日籌碼', '外資5日', '投信5日', '投信連買', '5日集中%', '預估量比']
-    excel_df[[c for c in output_cols if c in excel_df.columns]].to_excel(EXCEL_PATH, index=False)
+    final_cols = [c for c in output_cols if c in excel_df.columns]
+    
+    # Excel 輸出
+    excel_df[final_cols].to_excel(EXCEL_PATH, index=False)
+    print(f"✅ Excel 輸出成功: {EXCEL_PATH}")
 
-def main():
-    tw_now = datetime.now(timezone.utc) + timedelta(hours=8)
-    is_intraday = (9 <= tw_now.hour < 14)
-    df = get_all_chips_data(is_intraday)
-    if not df.empty:
-        df = add_realtime_data(df, is_intraday)
-        export_data(df)
-
-if __name__ == "__main__": main()
-
-# ... (原本的 import) ...
-
-# ⚠️ 填入您的 GAS 部署網址
-GAS_URL = "https://script.google.com/macros/s/AKfycbzkOm64edpadEtMUJZGkzGvU_IjYdAPj8Hs2cute5J2BC82SFdflxaA3URszd3zWcnp/exec" 
+    # CSV 輸出 (含 BOM 解決中文亂碼)
+    excel_df[final_cols].to_csv(CSV_PATH, index=False, encoding='utf-8-sig')
+    print(f"✅ CSV 輸出成功: {CSV_PATH}")
 
 def trigger_gas():
     print(f"🔔 通知 GAS 立即發送戰報...")
