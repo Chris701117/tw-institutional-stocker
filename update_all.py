@@ -278,9 +278,16 @@ def add_realtime_data(df_chips, is_intraday):
             est_vol = current_vol * (270 / minutes_elapsed) if (is_intraday and minutes_elapsed < 270) else current_vol
             if is_intraday: sum_vol_5 = df_stock['Volume'].iloc[-5:-1].sum() + est_vol
 
-            vol_ratio = est_vol / avg_vol_5 if avg_vol_5 > 0 else 1.0
-            net_buy_shares = row['總變'] * 1000
-            conc = (net_buy_shares / sum_vol_5) * 100 if sum_vol_5 > 0 else 0
+            # 🔥【修正開始】排除量太小的股票
+            # 設定門檻: 5日成交量 < 500 張 (500,000 股)，直接將集中度設為 0
+            if sum_vol_5 < 500000:
+                conc = 0
+                vol_ratio = 0
+            else:
+                vol_ratio = est_vol / avg_vol_5 if avg_vol_5 > 0 else 1.0
+                net_buy_shares = row['總變'] * 1000
+                conc = (net_buy_shares / sum_vol_5) * 100 if sum_vol_5 > 0 else 0
+            # 🔥【修正結束】
 
             df_chips.at[index, 'vol_ratio'] = round(vol_ratio, 2)
             df_chips.at[index, 'conc_ratio'] = round(conc, 1)
