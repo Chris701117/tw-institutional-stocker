@@ -14,13 +14,19 @@ EXCEL_PATH = "docs/data/stock_report.xlsx"
 HISTORY_DAYS = 120 
 
 # ==========================================
-# 核心函式：抓取籌碼 (上市+上櫃)
+# 核心函式：抓取籌碼 (上市+上櫃) - V7.3 防呆修正版
 # ==========================================
 def get_twse_chips(date_obj):
     date_str = date_obj.strftime("%Y%m%d")
     url = f"https://www.twse.com.tw/rwd/zh/fund/T86?response=csv&selectType=ALL&date={date_str}"
     try:
+        # 先嘗試 header=1 (常見格式)
         df = pd.read_csv(url, header=1, encoding='cp950', thousands=',')
+        
+        # 如果找不到關鍵欄位，嘗試 header=2 (避開偶發的說明列)
+        if '證券代號' not in df.columns:
+             df = pd.read_csv(url, header=2, encoding='cp950', thousands=',')
+
         if '證券代號' in df.columns:
             df['code'] = df['證券代號'].astype(str).str.replace('=', '').str.replace('"', '').str.strip()
             df['name'] = df['證券名稱'].astype(str).str.strip()
@@ -34,7 +40,13 @@ def get_tpex_chips(date_obj):
     date_str = f"{minguo_year}/{date_obj.month:02d}/{date_obj.day:02d}"
     url = f"https://www.tpex.org.tw/web/stock/3insti/daily_trade/3itrade_hedge_result_download.php?l=zh-tw&se=EW&t=D&d={date_str}"
     try:
+        # 先嘗試 header=1
         df = pd.read_csv(url, header=1, encoding='cp950', thousands=',')
+        
+        # 如果找不到關鍵欄位，嘗試 header=2
+        if '代號' not in df.columns:
+             df = pd.read_csv(url, header=2, encoding='cp950', thousands=',')
+
         if '代號' in df.columns:
             df['code'] = df['代號'].astype(str).str.strip()
             df['name'] = df['名稱'].astype(str).str.strip()
@@ -190,14 +202,13 @@ def add_realtime_data(df_chips, is_intraday):
             
             k, d, is_kd_gc, ma60_gap, is_bb_low, is_macd_gc, osc, is_spike_high, is_strong_long, pct = calculate_technical_indicators(df_stock)
             
-            # --- 🔥 修正這裡：計算 5 日總成交量 (分母) ---
+            # --- 🔥 計算 5 日總成交量 (分母) ---
             sum_vol_5 = df_stock['Volume'].iloc[-5:].sum() # 5日總量
             avg_vol_5 = df_stock['Volume'].iloc[-6:-1].mean() # 5日均量
 
             if is_intraday:
                 est_vol = current_vol * (270 / minutes_elapsed)
                 if minutes_elapsed >= 270: est_vol = current_vol
-                # 盤中稍微修正總量預估
                 sum_vol_5 = df_stock['Volume'].iloc[-5:-1].sum() + est_vol
             else:
                 est_vol = current_vol
@@ -211,7 +222,7 @@ def add_realtime_data(df_chips, is_intraday):
             
             net_buy_shares = row['總變'] * 1000
             
-            # --- 🔥 修正集中度公式 (5日買超 / 5日成交) ---
+            # --- 🔥 集中度公式 (5日買超 / 5日成交) ---
             if sum_vol_5 > 0:
                 conc = (net_buy_shares / sum_vol_5) * 100
             else:
