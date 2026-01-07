@@ -259,7 +259,7 @@ if __name__ == "__main__": main()
 # ... (原本的 import) ...
 
 # ⚠️ 填入您的 GAS 部署網址
-GAS_URL = https://script.google.com/macros/s/AKfycbzkOm64edpadEtMUJZGkzGvU_IjYdAPj8Hs2cute5J2BC82SFdflxaA3URszd3zWcnp/exec" 
+GAS_URL = "https://script.google.com/macros/s/AKfycbzkOm64edpadEtMUJZGkzGvU_IjYdAPj8Hs2cute5J2BC82SFdflxaA3URszd3zWcnp/exec" 
 
 def trigger_gas():
     print(f"🔔 通知 GAS 立即發送戰報...")
