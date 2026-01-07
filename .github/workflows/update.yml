@@ -1,24 +1,19 @@
 name: Update TW Institutional Data
 
 on:
+  # 1. 定時排程 (GitHub 內建鬧鐘)
   schedule:
-    # ---------------------------------------------------------
-    # 盤中監控：每 15 分鐘跑一次 (極速衝刺模式)
-    # ---------------------------------------------------------
-    # UTC 01:00 ~ 05:59 (對應台北 09:00 ~ 13:59)
-    # */15 代表每 15 分鐘觸發一次 (00, 15, 30, 45分)
-    # 這是 GitHub 免費版的極限，再快容易卡死
+    # 盤中監控：每 15 分鐘 (UTC 01:00 ~ 05:59)
     - cron: "*/15 1-5 * * 1-5"
-    workflow_dispatch: {}        # 手動按鈕
-    repository_dispatch:         # 🔥 新增這個：允許外部遙控
-    types: [run-now]
-    
-    # ---------------------------------------------------------
-    # 盤後結算：台灣17:00 (UTC 08:30) 抓證交所收盤資料
-    # ---------------------------------------------------------
+    # 盤後結算：下午 17:00 (UTC 09:00)
     - cron: "00 09 * * 1-5"
 
+  # 2. 手動按鈕 (在 GitHub 網頁按 Run)
   workflow_dispatch: {}
+
+  # 3. 🔥 外部遙控 (給 GAS 用的) - 必須放在這裡，不能縮排進 schedule
+  repository_dispatch:
+    types: [run-now]
 
 permissions:
   contents: write
@@ -38,25 +33,24 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          # 🔥 關鍵修改：加入 yfinance (盤中抓價必備)
-          # 保留您原本需要的 lxml, pandas, playwright 相關依賴
-          pip install requests pandas openpyxl lxml html5lib yfinance
+          # 安裝所有必要套件 (含 yfinance)
+          pip install requests pandas openpyxl lxml html5lib yfinance playwright
           
-          # 如果您的 requirements.txt 裡面沒有 yfinance，這裡會自動補上
+          # 如果有 requirements.txt 也安裝
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-      # 保留 Playwright (您的 update_broker.py 似乎需要它)
+      # 只有在下午 17:00 的排程才安裝 Playwright (節省盤中時間)
       - name: Install Playwright browsers
+        if: github.event.schedule == '00 09 * * 1-5'
         run: |
-          python -m pip install playwright
           playwright install chromium
           playwright install-deps chromium
 
       - name: Run update_all.py
         run: python update_all.py
 
-      # 只有在 UTC 時間大於 6點 (台灣 14:00 後) 才跑券商分點
-      # 這樣盤中 (09:00-13:45) 就不會浪費時間跑這個
+      # 只有在下午 17:00 的排程才跑券商分點 (盤中跑也沒資料，浪費時間)
+      # GAS 觸發時 (repository_dispatch) 也不會跑這個，符合極速需求
       - name: Run update_broker.py
         if: github.event.schedule == '00 09 * * 1-5'
         run: python update_broker.py
@@ -65,7 +59,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          # 改為 add . 確保所有產生的 JSON 都被加入 (避免路徑錯誤漏檔)
           git add .
           if ! git diff --cached --quiet; then
             git commit -m "chore: update data via GitHub Actions"
