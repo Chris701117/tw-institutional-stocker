@@ -52,7 +52,10 @@ jobs:
       - name: Run update_all.py
         run: python update_all.py
 
+      # 只有在 UTC 時間大於 6點 (台灣 14:00 後) 才跑券商分點
+      # 這樣盤中 (09:00-13:45) 就不會浪費時間跑這個
       - name: Run update_broker.py
+        if: github.event.schedule == '00 09 * * 1-5'
         run: python update_broker.py
 
       - name: Commit and push changes
