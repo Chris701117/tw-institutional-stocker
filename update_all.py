@@ -255,3 +255,29 @@ def main():
         export_data(df)
 
 if __name__ == "__main__": main()
+
+# ... (原本的 import) ...
+
+# ⚠️ 填入您的 GAS 部署網址
+GAS_URL = https://script.google.com/macros/s/AKfycbzkOm64edpadEtMUJZGkzGvU_IjYdAPj8Hs2cute5J2BC82SFdflxaA3URszd3zWcnp/exec" 
+
+def trigger_gas():
+    print(f"🔔 通知 GAS 立即發送戰報...")
+    try:
+        response = requests.post(GAS_URL, json={"action": "run"})
+        print(f"✅ GAS 回應: {response.text}")
+    except Exception as e:
+        print(f"❌ GAS 觸發失敗: {e}")
+
+def main():
+    tw_now = datetime.now(timezone.utc) + timedelta(hours=8)
+    is_intraday = (9 <= tw_now.hour < 14)
+    df = get_all_chips_data(is_intraday)
+    if not df.empty:
+        df = add_realtime_data(df, is_intraday)
+        export_data(df)
+        
+        # 🔥 跑完資料後，直接踢 GAS 一腳，叫它起床工作
+        trigger_gas()
+
+if __name__ == "__main__": main()
