@@ -4,6 +4,7 @@ import time
 import requests
 import pandas as pd
 import yfinance as yf
+import io
 from datetime import datetime, timedelta, timezone
 
 # ==========================================
@@ -14,45 +15,92 @@ EXCEL_PATH = "docs/data/stock_report.xlsx"
 CSV_PATH = "docs/data/stock_report.csv"
 HISTORY_DAYS = 120 
 
-# ⚠️ 填入您的 GAS 部署網址 (用於主動觸發)
+# ⚠️ 請確認您的 GAS 部署網址是否正確
 GAS_URL = "https://script.google.com/macros/s/AKfycbzkOm64edpadEtMUJZGkzGvU_IjYdAPj8Hs2cute5J2BC82SFdflxaA3URszd3zWcnp/exec" 
 
+# 瀏覽器偽裝 (防止被擋)
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+}
+
 # ==========================================
-# 核心函式：抓取籌碼 (上市+上櫃)
+# 核心函式：抓取籌碼 (上市+上櫃) - 修正版
 # ==========================================
 def get_twse_chips(date_obj):
     date_str = date_obj.strftime("%Y%m%d")
+    # 上市網址
     url = f"https://www.twse.com.tw/rwd/zh/fund/T86?response=csv&selectType=ALL&date={date_str}"
+    
     try:
-        df = pd.read_csv(url, header=1, encoding='cp950', thousands=',')
+        res = requests.get(url, headers=HEADERS)
+        if res.status_code != 200: return None
+        
+        # 使用 StringIO 讀取，比直接 read_csv url 穩定
+        csv_content = io.StringIO(res.text)
+        
+        # 嘗試 header=1 (常見格式)
+        try:
+            df = pd.read_csv(csv_content, header=1, thousands=',')
+        except:
+            csv_content.seek(0)
+            df = pd.read_csv(csv_content, header=2, thousands=',')
+
+        # 二次確認 Header 位置
         if '證券代號' not in df.columns:
-             df = pd.read_csv(url, header=2, encoding='cp950', thousands=',')
+            csv_content.seek(0)
+            df = pd.read_csv(csv_content, header=2, thousands=',')
+            
         if '證券代號' in df.columns:
             df['code'] = df['證券代號'].astype(str).str.replace('=', '').str.replace('"', '').str.strip()
             df['name'] = df['證券名稱'].astype(str).str.strip()
             df['market'] = 'TW'
             return df
-    except: pass
+            
+    except Exception as e:
+        print(f"   ❌ TWSE 讀取錯誤 {date_str}: {e}")
+        pass
     return None
 
 def get_tpex_chips(date_obj):
     minguo_year = date_obj.year - 1911
     date_str = f"{minguo_year}/{date_obj.month:02d}/{date_obj.day:02d}"
+    # 上櫃網址
     url = f"https://www.tpex.org.tw/web/stock/3insti/daily_trade/3itrade_hedge_result_download.php?l=zh-tw&se=EW&t=D&d={date_str}"
+    
     try:
-        df = pd.read_csv(url, header=1, encoding='cp950', thousands=',')
+        res = requests.get(url, headers=HEADERS)
+        if res.status_code != 200: return None
+        
+        csv_content = io.StringIO(res.text)
+        
+        try:
+            df = pd.read_csv(csv_content, header=1, thousands=',')
+        except:
+            csv_content.seek(0)
+            df = pd.read_csv(csv_content, header=2, thousands=',')
+
         if '代號' not in df.columns:
-             df = pd.read_csv(url, header=2, encoding='cp950', thousands=',')
+             csv_content.seek(0)
+             df = pd.read_csv(csv_content, header=2, thousands=',')
+             
         if '代號' in df.columns:
             df['code'] = df['代號'].astype(str).str.strip()
             df['name'] = df['名稱'].astype(str).str.strip()
             df['證券代號'] = df['code']
             df['market'] = 'TWO'
-            df['外陸資買賣超股數(不含外資自營商)'] = df['外資及陸資(不含外資自營商)-買賣超股數']
-            df['投信買賣超股數'] = df['投信-買賣超股數']
-            df['三大法人買賣超股數'] = df['三大法人-買賣超股數']
+            
+            # 欄位名稱映射處理
+            if '外資及陸資(不含外資自營商)-買賣超股數' in df.columns:
+                df['外陸資買賣超股數(不含外資自營商)'] = df['外資及陸資(不含外資自營商)-買賣超股數']
+            if '投信-買賣超股數' in df.columns:
+                df['投信買賣超股數'] = df['投信-買賣超股數']
+            if '三大法人-買賣超股數' in df.columns:
+                df['三大法人買賣超股數'] = df['三大法人-買賣超股數']
+                
             return df
-    except: pass
+    except Exception as e:
+        print(f"   ❌ TPEX 讀取錯誤 {date_str}: {e}")
+        pass
     return None
 
 def get_all_chips_data(is_intraday=False):
@@ -63,37 +111,67 @@ def get_all_chips_data(is_intraday=False):
     target_days = 5 
     daily_records = []
 
-    for i in range(start_delay, start_delay + 14):
+    # 搜尋範圍擴大到 20 天，確保能湊滿 5 個交易日 (跨過連假)
+    for i in range(start_delay, start_delay + 20):
         if days_collected >= target_days: break
+        
         tw_now = datetime.now(timezone.utc) + timedelta(hours=8)
         date_obj = tw_now - timedelta(days=i)
+        
+        # 排除週末 (0=週一, 5=週六, 6=週日)
+        if date_obj.weekday() >= 5:
+            continue
+        
+        print(f"   🔍 嘗試抓取: {date_obj.strftime('%Y-%m-%d')} ...", end="")
         
         df_twse = get_twse_chips(date_obj)
         df_tpex = get_tpex_chips(date_obj)
         
         day_dfs = []
-        if df_twse is not None: day_dfs.append(df_twse)
-        if df_tpex is not None: day_dfs.append(df_tpex)
+        if df_twse is not None and not df_twse.empty: day_dfs.append(df_twse)
+        if df_tpex is not None and not df_tpex.empty: day_dfs.append(df_tpex)
         
         if day_dfs:
-            print(f"   ✅ 取得資料: {date_obj.strftime('%Y-%m-%d')}")
+            print(f" ✅ 成功")
             df_day = pd.concat(day_dfs)
+            
             def clean_num(x):
                 if isinstance(x, str): return float(x.replace(',', ''))
                 return float(x)
             
-            df_day['外資'] = df_day['外陸資買賣超股數(不含外資自營商)'].apply(clean_num) / 1000
-            df_day['投信'] = df_day['投信買賣超股數'].apply(clean_num) / 1000
-            df_day['總變'] = df_day['三大法人買賣超股數'].apply(clean_num) / 1000
-            df_day['date_idx'] = days_collected 
-            
-            cols = ['code', 'name', 'market', '外資', '投信', '總變', 'date_idx']
-            valid_dfs.append(df_day[cols])
-            daily_records.append(df_day[cols])
-            days_collected += 1
+            try:
+                # 確保欄位存在才運算
+                if '外陸資買賣超股數(不含外資自營商)' in df_day.columns:
+                    df_day['外資'] = df_day['外陸資買賣超股數(不含外資自營商)'].apply(clean_num) / 1000
+                else:
+                    df_day['外資'] = 0
+                    
+                if '投信買賣超股數' in df_day.columns:
+                    df_day['投信'] = df_day['投信買賣超股數'].apply(clean_num) / 1000
+                else:
+                    df_day['投信'] = 0
+                    
+                if '三大法人買賣超股數' in df_day.columns:
+                    df_day['總變'] = df_day['三大法人買賣超股數'].apply(clean_num) / 1000
+                else:
+                    df_day['總變'] = 0
+
+                df_day['date_idx'] = days_collected 
+                
+                cols = ['code', 'name', 'market', '外資', '投信', '總變', 'date_idx']
+                # 再次過濾，確保只留下有必要欄位的資料
+                df_day = df_day[cols].copy()
+                
+                valid_dfs.append(df_day)
+                daily_records.append(df_day)
+                days_collected += 1
+            except Exception as e:
+                print(f"      ⚠️ 資料清洗失敗: {e}")
         else:
-            print(f"   ⚠️ 無資料: {date_obj.strftime('%Y-%m-%d')}")
-            time.sleep(1)
+            print(f" ⚠️ 無資料 (可能是休市)")
+            
+        # 🔥【關鍵】強制休息，避免 IP 被鎖
+        time.sleep(3)
 
     if not valid_dfs: return pd.DataFrame()
     
@@ -105,7 +183,7 @@ def get_all_chips_data(is_intraday=False):
     all_daily = pd.concat(daily_records)
     streak_map = {}
     for code, group in all_daily.groupby('code'):
-        group = group.sort_values('date_idx') 
+        group = group.sort_values('date_idx') # 0=最新, 1=昨天...
         streak = 0
         for val in group['投信']:
             if val > 0: streak += 1
@@ -150,12 +228,18 @@ def calculate_technical_indicators(df):
 def add_realtime_data(df_chips, is_intraday):
     print(f"🚀 啟動 yfinance 抓取 (共 {len(df_chips)} 檔)...")
     df_valid = df_chips[df_chips['code'].str.len() == 4].copy()
+    if df_valid.empty: return df_chips
+
     df_valid['ticker'] = df_valid.apply(lambda x: f"{x['code']}.TW" if x['market'] == 'TW' else f"{x['code']}.TWO", axis=1)
     yf_tickers = df_valid['ticker'].tolist()
     if not yf_tickers: return df_chips
     
-    try: data = yf.download(yf_tickers, period="6mo", progress=False, group_by='ticker')
-    except: return df_chips
+    # 批次下載
+    try: 
+        data = yf.download(yf_tickers, period="6mo", progress=False, group_by='ticker')
+    except Exception as e: 
+        print(f"❌ yfinance 下載失敗: {e}")
+        return df_chips
 
     tw_now = datetime.now(timezone.utc) + timedelta(hours=8)
     market_open = tw_now.replace(hour=9, minute=0, second=0, microsecond=0)
@@ -163,10 +247,12 @@ def add_realtime_data(df_chips, is_intraday):
     if minutes_elapsed < 1: minutes_elapsed = 1
     if minutes_elapsed > 270: minutes_elapsed = 270
 
-    df_chips['vol_ratio'] = 0.0; df_chips['price_pos'] = 0.5; df_chips['conc_ratio'] = 0.0
-    df_chips['ma60_gap'] = 0.0; df_chips['kd_gold_cross'] = False; df_chips['k_val'] = 0.0
-    df_chips['bb_low'] = False; df_chips['macd_gc'] = False; df_chips['macd_osc'] = 0.0
-    df_chips['spike_high'] = False; df_chips['strong_long'] = False; df_chips['pct_change'] = 0.0
+    # 初始化欄位
+    for col in ['vol_ratio', 'conc_ratio', 'ma60_gap', 'k_val', 'macd_osc', 'pct_change']:
+        df_chips[col] = 0.0
+    for col in ['kd_gold_cross', 'bb_low', 'macd_gc', 'spike_high', 'strong_long']:
+        df_chips[col] = False
+    df_chips['price_pos'] = 0.5
 
     ticker_map = df_valid.set_index('code')['ticker'].to_dict()
 
@@ -175,8 +261,13 @@ def add_realtime_data(df_chips, is_intraday):
         if code not in ticker_map: continue
         ticker = ticker_map[code]
         try:
-            if ticker not in data.columns.levels[0]: continue
-            df_stock = data[ticker].dropna()
+            # 處理單檔與多檔的資料結構差異
+            if len(yf_tickers) == 1:
+                df_stock = data.dropna()
+            else:
+                if ticker not in data.columns.levels[0]: continue
+                df_stock = data[ticker].dropna()
+            
             if len(df_stock) < 35: continue
 
             current_vol = df_stock['Volume'].iloc[-1]
@@ -202,7 +293,9 @@ def add_realtime_data(df_chips, is_intraday):
             df_chips.at[index, 'spike_high'] = bool(is_spike_high and vol_ratio > 2.0)
             df_chips.at[index, 'strong_long'] = bool(is_strong_long and vol_ratio > 1.2)
             df_chips.at[index, 'pct_change'] = round(pct, 2)
-        except: continue
+        except Exception as e: 
+            # print(f"計算錯誤 {code}: {e}") # Debug 用，平常可註解
+            continue
     return df_chips
 
 def export_data(df):
@@ -217,7 +310,7 @@ def export_data(df):
             "trust_streak": row.get('trust_streak', 0), 
             "vol_ratio": row.get('vol_ratio', 0), "price_pos": row.get('price_pos', 0.5),
             "ma60_gap": row.get('ma60_gap', 0), "kd_gold_cross": row.get('kd_gold_cross', False),
-            "k_val": row.get('k_val', 0), "bb_low": row.get('bb_low', False),     
+            "k_val": row.get('k_val', 0), "bb_low": row.get('bb_low', False),      
             "macd_gc": row.get('macd_gc', False), "spike_high": row.get('spike_high', False),
             "strong_long": row.get('strong_long', False), "pct_change": row.get('pct_change', 0)
         }
@@ -255,12 +348,20 @@ def trigger_gas():
 def main():
     tw_now = datetime.now(timezone.utc) + timedelta(hours=8)
     is_intraday = (9 <= tw_now.hour < 14)
+    
+    # 1. 抓取籌碼
     df = get_all_chips_data(is_intraday)
+    
     if not df.empty:
+        # 2. 結合 yfinance
         df = add_realtime_data(df, is_intraday)
+        
+        # 3. 輸出檔案
         export_data(df)
         
-        # 🔥 跑完資料後，直接踢 GAS 一腳，叫它起床工作
+        # 4. 觸發 Google Apps Script
         trigger_gas()
+    else:
+        print("❌ 無法取得任何籌碼資料，程式結束。")
 
 if __name__ == "__main__": main()
