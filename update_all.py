@@ -20,8 +20,10 @@ TDCC_REPORT_PATH = "docs/data/tdcc_report.json"
 
 HISTORY_DAYS = 120 
 
-# ⚠️ 測試開關：設為 True 會強制執行週六的大戶功能 (測完請改回 False)
-FORCE_RUN_SATURDAY = False
+# 🔥【重要】測試開關
+# True = 強制執行「週六集保大戶」模式 (測試用，測完請改回 False)
+# False = 自動判斷日期 (週六才跑集保，平日跑籌碼)
+FORCE_RUN_SATURDAY = True 
 
 # ⚠️ 請確認您的 GAS 部署網址是否正確
 GAS_URL = "https://script.google.com/macros/s/AKfycbzkOm64edpadEtMUJZGkzGvU_IjYdAPj8Hs2cute5J2BC82SFdflxaA3URszd3zWcnp/exec" 
@@ -182,7 +184,7 @@ def get_all_chips_data(is_intraday=False):
     return final_df
 
 # ==========================================
-# 🔥【修正版】週六集保大戶抓取函式 (含 Headers 修正)
+# 🔥 週六集保大戶抓取函式 (修正版)
 # ==========================================
 def get_tdcc_data():
     print("🚀 啟動週六集保大戶抓取...")
@@ -191,7 +193,7 @@ def get_tdcc_data():
     print("   📥 下載集保 CSV 中 (約 10MB)...")
     
     try:
-        # 🔥 重點修正：加入 headers 避免被擋
+        # 🔥 加入 Headers 防止被擋
         res = requests.get(url, headers=HEADERS)
         if res.status_code != 200:
             return False, f"HTTP Error {res.status_code}"
@@ -201,7 +203,6 @@ def get_tdcc_data():
     except:
         print("   ⚠️ UTF-8 失敗，嘗試 Big5...")
         try:
-            # 重新請求也需要 headers
             res = requests.get(url, headers=HEADERS)
             s = res.content
             df = pd.read_csv(io.StringIO(s.decode('big5')), encoding='big5')
@@ -293,7 +294,7 @@ def get_tdcc_data():
     return True, "OK"
 
 # ==========================================
-# 技術指標與即時運算 (完整版)
+# 技術指標與即時運算
 # ==========================================
 def calculate_technical_indicators(df):
     if len(df) < 35: return 50, 50, False, 0, False, False, 0, False, False, 0.0
