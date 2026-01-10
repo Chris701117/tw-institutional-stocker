@@ -184,7 +184,7 @@ def get_all_chips_data(is_intraday=False):
     return final_df
 
 # ==========================================
-# 🔥 週六集保大戶抓取函式 (修正版)
+# 🔥 週六集保大戶抓取函式 (修正版：排除 ETF)
 # ==========================================
 def get_tdcc_data():
     print("🚀 啟動週六集保大戶抓取...")
@@ -213,6 +213,15 @@ def get_tdcc_data():
     # 資料清洗
     try:
         df.columns = [c.strip() for c in df.columns]
+        
+        # 🔥【新增】排除 ETF (代號 00 開頭) 及長度超過 4 的權證/特別股
+        # 只保留 4 碼且非 00 開頭的個股
+        df['證券代號'] = df['證券代號'].astype(str).str.strip()
+        df = df[
+            (df['證券代號'].str.len() == 4) & 
+            (~df['證券代號'].str.startswith('00'))
+        ].copy()
+
         target_tiers = [11, 12, 13, 14] 
         
         for col in ['持股分級', '人數', '股數', '占集保庫存數比例%']:
