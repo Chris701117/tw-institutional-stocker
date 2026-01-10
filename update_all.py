@@ -22,7 +22,7 @@ HISTORY_DAYS = 120
 
 # ⚠️ 測試開關：設為 True 會強制執行週六的大戶功能
 # 建議您現在設為 True 跑一次確認 ETF 消失，確認後再改回 False
-FORCE_RUN_SATURDAY = True
+FORCE_RUN_SATURDAY = False
 
 # ⚠️ 請確認您的 GAS 部署網址是否正確
 GAS_URL = "https://script.google.com/macros/s/AKfycbzkOm64edpadEtMUJZGkzGvU_IjYdAPj8Hs2cute5J2BC82SFdflxaA3URszd3zWcnp/exec" 
