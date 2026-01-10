@@ -14,11 +14,14 @@ JSON_PATH = "docs/data/top_three_inst_change_5_up.json"
 EXCEL_PATH = "docs/data/stock_report.xlsx"
 CSV_PATH = "docs/data/stock_report.csv"
 
-# 新增：集保資料路徑
+# 集保資料路徑
 TDCC_HISTORY_PATH = "docs/data/tdcc_history.json"
 TDCC_REPORT_PATH = "docs/data/tdcc_report.json"
 
 HISTORY_DAYS = 120 
+
+# ⚠️ 測試開關：設為 True 會強制執行週六的大戶功能 (測完請改回 False)
+FORCE_RUN_SATURDAY = False
 
 # ⚠️ 請確認您的 GAS 部署網址是否正確
 GAS_URL = "https://script.google.com/macros/s/AKfycbzkOm64edpadEtMUJZGkzGvU_IjYdAPj8Hs2cute5J2BC82SFdflxaA3URszd3zWcnp/exec" 
@@ -179,61 +182,66 @@ def get_all_chips_data(is_intraday=False):
     return final_df
 
 # ==========================================
-# 🔥【新增】週六集保大戶抓取函式
+# 🔥【修正版】週六集保大戶抓取函式 (含 Headers 修正)
 # ==========================================
 def get_tdcc_data():
     print("🚀 啟動週六集保大戶抓取...")
     
-    # 1. 下載集保 Open Data
     url = "https://smart.tdcc.com.tw/opendata/getOD.ashx?id=1-5"
     print("   📥 下載集保 CSV 中 (約 10MB)...")
+    
     try:
-        s = requests.get(url).content
+        # 🔥 重點修正：加入 headers 避免被擋
+        res = requests.get(url, headers=HEADERS)
+        if res.status_code != 200:
+            return False, f"HTTP Error {res.status_code}"
+            
+        s = res.content
         df = pd.read_csv(io.StringIO(s.decode('utf-8')), encoding='utf-8')
     except:
         print("   ⚠️ UTF-8 失敗，嘗試 Big5...")
         try:
-            s = requests.get(url).content
+            # 重新請求也需要 headers
+            res = requests.get(url, headers=HEADERS)
+            s = res.content
             df = pd.read_csv(io.StringIO(s.decode('big5')), encoding='big5')
         except Exception as e:
             print(f"❌ 下載失敗: {e}")
-            return False
+            return False, str(e)
 
-    # 2. 資料清洗
-    # 清除欄位空白
-    df.columns = [c.strip() for c in df.columns]
-    
-    # 400張以上分級: 11(400-600), 12(600-800), 13(800-1000), 14(1000以上)
-    target_tiers = [11, 12, 13, 14] 
-    
-    # 轉型與篩選
-    for col in ['持股分級', '人數', '股數', '占集保庫存數比例%']:
-        if col in df.columns:
-            df[col] = pd.to_numeric(df[col], errors='coerce')
-            
-    mask = df['持股分級'].isin(target_tiers)
-    df_big = df[mask].copy()
+    # 資料清洗
+    try:
+        df.columns = [c.strip() for c in df.columns]
+        target_tiers = [11, 12, 13, 14] 
+        
+        for col in ['持股分級', '人數', '股數', '占集保庫存數比例%']:
+            if col in df.columns:
+                df[col] = pd.to_numeric(df[col], errors='coerce')
+                
+        mask = df['持股分級'].isin(target_tiers)
+        df_big = df[mask].copy()
 
-    # 依股票代號加總
-    df_sum = df_big.groupby('證券代號').agg({
-        '人數': 'sum',
-        '占集保庫存數比例%': 'sum'
-    }).reset_index()
+        df_sum = df_big.groupby('證券代號').agg({
+            '人數': 'sum',
+            '占集保庫存數比例%': 'sum'
+        }).reset_index()
+    except Exception as e:
+        return False, f"資料清洗失敗: {e}"
     
-    # 3. 讀取 "上週" 資料來做比較
+    # 讀取上週資料
     last_week_map = {}
     if os.path.exists(TDCC_HISTORY_PATH):
         try:
             with open(TDCC_HISTORY_PATH, 'r', encoding='utf-8') as f:
                 old_data = json.load(f)
                 for d in old_data:
-                    last_week_map[d['code']] = d
+                    last_week_map[str(d['code'])] = d
             print("   ✅ 讀取到上週歷史資料，開始計算差異...")
         except: pass
     else:
         print("   ⚠️ 無歷史檔案 (第一次執行?)，差異將為 0")
 
-    # 4. 取得股票名稱 (嘗試從平日報表讀取，若無則只顯示代號)
+    # 取得名稱 (嘗試從 CSV 讀取)
     name_map = {}
     try:
         if os.path.exists(CSV_PATH):
@@ -265,14 +273,14 @@ def get_tdcc_data():
         }
         report_list.append(item)
         
-        # 存原始數據給下週比較
+        # 存原始數據給下週
         history_list.append({
             "code": code,
             "holders": holders,
             "pct": pct
         })
 
-    # 5. 存檔
+    # 存檔
     os.makedirs(os.path.dirname(TDCC_HISTORY_PATH), exist_ok=True)
     
     with open(TDCC_HISTORY_PATH, 'w', encoding='utf-8') as f:
@@ -282,10 +290,10 @@ def get_tdcc_data():
         json.dump(report_list, f, ensure_ascii=False)
         
     print(f"   💾 集保數據處理完成！共 {len(report_list)} 檔")
-    return True
+    return True, "OK"
 
 # ==========================================
-# 技術指標與即時運算
+# 技術指標與即時運算 (完整版)
 # ==========================================
 def calculate_technical_indicators(df):
     if len(df) < 35: return 50, 50, False, 0, False, False, 0, False, False, 0.0
@@ -337,6 +345,7 @@ def add_realtime_data(df_chips, is_intraday):
     if minutes_elapsed < 1: minutes_elapsed = 1
     if minutes_elapsed > 270: minutes_elapsed = 270
 
+    # 初始化欄位
     for col in ['vol_ratio', 'conc_ratio', 'ma60_gap', 'k_val', 'macd_osc', 'pct_change']:
         df_chips[col] = 0.0
     for col in ['kd_gold_cross', 'bb_low', 'macd_gc', 'spike_high', 'strong_long']:
@@ -366,6 +375,7 @@ def add_realtime_data(df_chips, is_intraday):
             est_vol = current_vol * (270 / minutes_elapsed) if (is_intraday and minutes_elapsed < 270) else current_vol
             if is_intraday: sum_vol_5 = df_stock['Volume'].iloc[-5:-1].sum() + est_vol
 
+            # 排除量太小的股票 (5日 < 500張)
             if sum_vol_5 < 500000:
                 conc = 0
                 vol_ratio = 0
@@ -385,7 +395,8 @@ def add_realtime_data(df_chips, is_intraday):
             df_chips.at[index, 'spike_high'] = bool(is_spike_high and vol_ratio > 2.0)
             df_chips.at[index, 'strong_long'] = bool(is_strong_long and vol_ratio > 1.2)
             df_chips.at[index, 'pct_change'] = round(pct, 2)
-        except Exception as e: continue
+        except Exception as e: 
+            continue
     return df_chips
 
 def export_data(df):
@@ -425,32 +436,43 @@ def export_data(df):
     print(f"✅ CSV 輸出成功: {CSV_PATH}")
 
 # ==========================================
-# 修改：觸發 GAS 函式 (增加 action_name 參數)
+# 修改：觸發 GAS 函式 (增加錯誤回報)
 # ==========================================
-def trigger_gas(action_name="run"):
+def trigger_gas(action_name="run", error_msg=None):
     print(f"🔔 通知 GAS (Action: {action_name})...")
+    payload = {"action": action_name}
+    if error_msg:
+        payload["error"] = error_msg
+        
     try:
-        response = requests.post(GAS_URL, json={"action": action_name})
+        response = requests.post(GAS_URL, json=payload)
         print(f"✅ GAS 回應: {response.text}")
     except Exception as e:
         print(f"❌ GAS 觸發失敗: {e}")
 
 # ==========================================
-# 修改：主程式 (區分 平日 vs 週六)
+# 修改：主程式
 # ==========================================
 def main():
     tw_now = datetime.now(timezone.utc) + timedelta(hours=8)
-    
-    # 判斷是否為週六 (Python weekday: 0=週一 ... 5=週六, 6=週日)
     is_saturday = (tw_now.weekday() == 5)
+
+    # 測試開關
+    if FORCE_RUN_SATURDAY:
+        print("⚠️ 強制執行週六模式 (測試用)")
+        is_saturday = True
 
     if is_saturday:
         # === 週六執行集保抓取 ===
-        success = get_tdcc_data()
+        success, msg = get_tdcc_data()
         if success:
             trigger_gas(action_name="run_weekly")
+        else:
+            # 失敗也要通知 GAS，不然會不知道發生什麼事
+            print(f"❌ 集保抓取失敗，發送錯誤通知: {msg}")
+            trigger_gas(action_name="error_report", error_msg=msg)
     else:
-        # === 平日執行原本的籌碼抓取 ===
+        # === 平日執行 ===
         is_intraday = (9 <= tw_now.hour < 14)
         df = get_all_chips_data(is_intraday)
         if not df.empty:
