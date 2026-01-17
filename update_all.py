@@ -135,7 +135,7 @@ def get_all_chips_data(is_intraday=False):
     return final_df
 
 # ==========================================
-# 🔥 週六集保大戶抓取 (最終修正：純數字過濾)
+# 🔥 週六集保大戶抓取 (最終修正：校正級距與逗號問題)
 # ==========================================
 def get_tdcc_data():
     print("🚀 啟動週六集保大戶抓取...")
@@ -147,36 +147,41 @@ def get_tdcc_data():
         res = requests.get(url, headers=HEADERS)
         if res.status_code != 200: return False, f"HTTP Error {res.status_code}"
         s = res.content
-        df = pd.read_csv(io.StringIO(s.decode('utf-8')), encoding='utf-8')
+        # 加入 thousands=',' 讓 pandas 能正確讀取帶逗號的數字
+        df = pd.read_csv(io.StringIO(s.decode('utf-8')), encoding='utf-8', thousands=',')
     except:
         print("   ⚠️ UTF-8 失敗，嘗試 Big5...")
         try:
             res = requests.get(url, headers=HEADERS)
             s = res.content
-            df = pd.read_csv(io.StringIO(s.decode('big5')), encoding='big5')
+            df = pd.read_csv(io.StringIO(s.decode('big5')), encoding='big5', thousands=',')
         except Exception as e: return False, str(e)
 
     # 1. 資料清洗 & 過濾
     try:
         df.columns = [c.strip() for c in df.columns]
         
-        # 轉換字串並去除空白
+        # 過濾代號：只留 4 碼純數字且非 00 開頭
         df['證券代號'] = df['證券代號'].astype(str).str.strip()
-        
-        # 🔥【關鍵修正】
-        # 1. 長度必須是 4 碼
-        # 2. 不能是 00 開頭 (排除 ETF)
-        # 3. 必須全部是數字 (排除 YLH5 等債券)
         df = df[
             (df['證券代號'].str.len() == 4) & 
             (~df['證券代號'].str.startswith('00')) &
             (df['證券代號'].str.isdigit()) 
         ].copy()
 
-        target_tiers = [11, 12, 13, 14] 
+        # 🔥【嚴重錯誤修正】
+        # 舊設定: [11, 12, 13, 14] -> 這是 200~1000張 (漏掉超級大戶!)
+        # 新設定: [12, 13, 14, 15] -> 這是 400張 ~ 1000張以上 (包含超級大戶)
+        # 12=400-600, 13=600-800, 14=800-1000, 15=>1000
+        target_tiers = [12, 13, 14, 15] 
+        
+        # 雙重保險：處理可能殘留的逗號
         for col in ['持股分級', '人數', '股數', '占集保庫存數比例%']:
             if col in df.columns:
-                df[col] = pd.to_numeric(df[col], errors='coerce')
+                if df[col].dtype == 'object':
+                    df[col] = df[col].astype(str).str.replace(',', '').apply(pd.to_numeric, errors='coerce')
+                else:
+                    df[col] = pd.to_numeric(df[col], errors='coerce')
                 
         mask = df['持股分級'].isin(target_tiers)
         df_big = df[mask].copy()
@@ -197,12 +202,9 @@ def get_tdcc_data():
                 if old_data:
                     is_first_run = False
                     for d in old_data: last_week_map[str(d['code'])] = d
-            print("   ✅ 讀取到歷史資料，進行比對...")
+            print("   ✅ 讀取到歷史資料...")
         except: pass
     
-    if is_first_run:
-        print("   ⚠️ 無歷史檔案 (第一次執行)，將建立初始資料庫")
-
     # 3. 取得名稱
     name_map = {}
     try:
@@ -224,7 +226,6 @@ def get_tdcc_data():
         diff_holders = holders - last['holders']
         diff_pct = pct - last['pct']
         
-        # 股票名稱若抓不到，嘗試保留原代號
         stock_name = name_map.get(code, code)
         
         item = {
