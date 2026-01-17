@@ -135,7 +135,7 @@ def get_all_chips_data(is_intraday=False):
     return final_df
 
 # ==========================================
-# 🔥 週六集保大戶抓取 (過濾 ETF 版)
+# 🔥 週六集保大戶抓取 (最終修正：純數字過濾)
 # ==========================================
 def get_tdcc_data():
     print("🚀 啟動週六集保大戶抓取...")
@@ -156,15 +156,21 @@ def get_tdcc_data():
             df = pd.read_csv(io.StringIO(s.decode('big5')), encoding='big5')
         except Exception as e: return False, str(e)
 
-    # 1. 資料清洗 & 過濾 ETF
+    # 1. 資料清洗 & 過濾
     try:
         df.columns = [c.strip() for c in df.columns]
         
-        # 🔥【關鍵修正】只留 4 碼且非 00 開頭的股票
+        # 轉換字串並去除空白
         df['證券代號'] = df['證券代號'].astype(str).str.strip()
+        
+        # 🔥【關鍵修正】
+        # 1. 長度必須是 4 碼
+        # 2. 不能是 00 開頭 (排除 ETF)
+        # 3. 必須全部是數字 (排除 YLH5 等債券)
         df = df[
             (df['證券代號'].str.len() == 4) & 
-            (~df['證券代號'].str.startswith('00'))
+            (~df['證券代號'].str.startswith('00')) &
+            (df['證券代號'].str.isdigit()) 
         ].copy()
 
         target_tiers = [11, 12, 13, 14] 
@@ -215,13 +221,15 @@ def get_tdcc_data():
         
         last = last_week_map.get(code, {'holders': holders, 'pct': pct})
         
-        # 第一次執行，diff 強制為 0
         diff_holders = holders - last['holders']
         diff_pct = pct - last['pct']
         
+        # 股票名稱若抓不到，嘗試保留原代號
+        stock_name = name_map.get(code, code)
+        
         item = {
             "code": code,
-            "name": name_map.get(code, code),
+            "name": stock_name,
             "holders": holders,
             "hold_pct": round(pct, 2),
             "diff_holders": diff_holders,
