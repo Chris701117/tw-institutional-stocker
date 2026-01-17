@@ -3,17 +3,23 @@ name: Update TW Institutional Data
 on:
   # 1. 定時排程 (GitHub 內建鬧鐘)
   schedule:
-    # 平日 (週一~週五)：每 20 分鐘執行一次盤中監控 (UTC 01:00 ~ 06:00)
+    # ---------------------------------------------------------
+    # (A) 平日盤中監控 (週一~週五)
+    # 時間: UTC 01:00 ~ 06:00 (台灣 09:00 ~ 14:00)
+    # 頻率: 每 20 分鐘一次 (避免太頻繁被擋)
     - cron: "*/20 1-6 * * 1-5"
-    
-    # 平日 (週一~週五)：下午 17:00 執行盤後結算 (UTC 09:00)
-    - cron: "00 09 * * 1-5"
-    
-    # 🔥【修正重點】週六：只在下午 15:00 執行一次集保大戶 (UTC 07:00)
-    # 這樣才不會反覆執行導致資料被覆蓋成 0
-    - cron: "00 07 * * 6"
 
-  # 2. 手動按鈕
+    # (B) 平日盤後結算 (週一~週五)
+    # 時間: UTC 09:00 (台灣 17:00)
+    - cron: "00 09 * * 1-5"
+
+    # (C) 🔥 週六集保大戶專用 (週六)
+    # 時間: UTC 07:00 (台灣 15:00)
+    # ⚠️ 關鍵修正：只跑這一次，避免重複執行導致資料覆蓋歸零
+    - cron: "00 07 * * 6"
+    # ---------------------------------------------------------
+
+  # 2. 手動按鈕 (在 GitHub 網頁按 Run)
   workflow_dispatch: {}
 
   # 3. 外部遙控 (給 GAS 用的)
@@ -38,26 +44,28 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
+          # 安裝必要套件
           pip install requests pandas openpyxl lxml html5lib yfinance playwright
+          
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-      # 只有在下午 17:00 的排程才安裝 Playwright
+      # 只有在下午 17:00 (UTC 09:00) 的排程才安裝 Playwright (節省時間)
       - name: Install Playwright browsers
         if: github.event.schedule == '00 09 * * 1-5'
         run: |
           playwright install chromium
           playwright install-deps chromium
 
-      # 執行主程式
-      - name: Run Main Script (update_all.py)
+      # 🔥 執行主程式 (確認檔名為 update_all.py)
+      - name: Run update_all.py
         run: python update_all.py
 
-      # (平日盤後) 跑券商分點
+      # (平日盤後) 跑券商分點 - 只有平日下午會跑
       - name: Run update_broker.py
         if: github.event.schedule == '00 09 * * 1-5'
         run: python update_broker.py
 
-      # 提交變更
+      # 提交變更 (確保資料能存檔，讓週六功能可以比對上週數據)
       - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
