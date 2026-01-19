@@ -180236,7 +180236,7 @@
   {
     "code": "042709",
     "name": "元債2X元大65購01",
-    "change": 200.0,
+    "change": 0.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -447096,16 +447096,16 @@
     "foreign_ratio_diff": 272.571,
     "trust_ratio_diff": 0.0,
     "trust_streak": 0,
-    "vol_ratio": 1.61,
+    "vol_ratio": 1.62,
     "price_pos": 0.5,
-    "ma60_gap": 17.15,
+    "ma60_gap": 19.69,
     "kd_gold_cross": false,
-    "k_val": 74.5,
+    "k_val": 78.9,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 2.22
   },
   {
     "code": "2441",
