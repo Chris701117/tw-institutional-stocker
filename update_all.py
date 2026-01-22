@@ -20,11 +20,10 @@ TDCC_REPORT_PATH = "docs/data/tdcc_report.json"
 
 HISTORY_DAYS = 120 
 
-# ⚠️ 測試開關：設為 True 會強制執行週六的大戶功能
-# 建議您現在設為 True 跑一次確認 ETF 消失，確認後再改回 False
+# ⚠️ 平日請設為 False (只有測試週六功能時才開 True)
 FORCE_RUN_SATURDAY = False
 
-# ⚠️ 請確認您的 GAS 部署網址是否正確
+# GAS 網址
 GAS_URL = "https://script.google.com/macros/s/AKfycbzkOm64edpadEtMUJZGkzGvU_IjYdAPj8Hs2cute5J2BC82SFdflxaA3URszd3zWcnp/exec" 
 
 # 瀏覽器偽裝
@@ -33,7 +32,7 @@ HEADERS = {
 }
 
 # ==========================================
-# 核心函式：抓取籌碼 (平日用)
+# 核心函式：抓取籌碼 (平日用 - 強效修正版)
 # ==========================================
 def get_twse_chips(date_obj):
     date_str = date_obj.strftime("%Y%m%d")
@@ -41,12 +40,19 @@ def get_twse_chips(date_obj):
     try:
         res = requests.get(url, headers=HEADERS)
         if res.status_code != 200: return None
-        csv_content = io.StringIO(res.text)
-        try: df = pd.read_csv(csv_content, header=1, thousands=',')
-        except: 
-            csv_content.seek(0)
-            df = pd.read_csv(csv_content, header=2, thousands=',')
+        # 加入 thousands=',' 讓 pandas 懂逗號
+        df = pd.read_csv(io.StringIO(res.text), header=1, thousands=',')
+        
+        # 🔥【關鍵修正 1】清除欄位名稱的所有空白 (避免 "投信 " 抓不到)
+        df.columns = [c.strip() for c in df.columns]
+        
+        # 二次確認 header (有時證交所格式會跑掉)
+        if '證券代號' not in df.columns:
+            df = pd.read_csv(io.StringIO(res.text), header=2, thousands=',')
+            df.columns = [c.strip() for c in df.columns]
+
         if '證券代號' in df.columns:
+            # 清洗代號 (去除 = " 等符號)
             df['code'] = df['證券代號'].astype(str).str.replace('=', '').str.replace('"', '').str.strip()
             df['name'] = df['證券名稱'].astype(str).str.strip()
             df['market'] = 'TW'
@@ -61,37 +67,50 @@ def get_tpex_chips(date_obj):
     try:
         res = requests.get(url, headers=HEADERS)
         if res.status_code != 200: return None
-        csv_content = io.StringIO(res.text)
-        try: df = pd.read_csv(csv_content, header=1, thousands=',')
-        except: 
-            csv_content.seek(0)
-            df = pd.read_csv(csv_content, header=2, thousands=',')
+        df = pd.read_csv(io.StringIO(res.text), header=1, thousands=',')
+        
+        # 🔥【關鍵修正 1】清除欄位名稱空白
+        df.columns = [c.strip() for c in df.columns]
+
+        if '代號' not in df.columns:
+             df = pd.read_csv(io.StringIO(res.text), header=2, thousands=',')
+             df.columns = [c.strip() for c in df.columns]
+             
         if '代號' in df.columns:
             df['code'] = df['代號'].astype(str).str.strip()
             df['name'] = df['名稱'].astype(str).str.strip()
             df['market'] = 'TWO'
-            if '三大法人-買賣超股數' in df.columns: df['三大法人買賣超股數'] = df['三大法人-買賣超股數']
+            # 櫃買中心欄位名稱標準化
+            if '三大法人買賣超股數' not in df.columns and '三大法人-買賣超股數' in df.columns:
+                df['三大法人買賣超股數'] = df['三大法人-買賣超股數']
             return df
     except: pass
     return None
 
 def get_all_chips_data(is_intraday=False):
     print(f"🚀 啟動抓取程序 (模式: 累計 5 日 | 上市+上櫃)...")
+    # 如果是盤中(True)，從昨天(1)開始推算；盤後(False)從今天(0)開始
     start_delay = 1 if is_intraday else 0
     valid_dfs = [] 
     days_collected = 0
     target_days = 5 
     daily_records = []
 
+    # 搜尋範圍擴大，確保能湊滿 5 個交易日
     for i in range(start_delay, start_delay + 20):
         if days_collected >= target_days: break
+        
         tw_now = datetime.now(timezone.utc) + timedelta(hours=8)
         date_obj = tw_now - timedelta(days=i)
+        
+        # 跳過週末
         if date_obj.weekday() >= 5: continue
         
         print(f"   🔍 嘗試抓取: {date_obj.strftime('%Y-%m-%d')} ...", end="")
+        
         df_twse = get_twse_chips(date_obj)
         df_tpex = get_tpex_chips(date_obj)
+        
         day_dfs = []
         if df_twse is not None and not df_twse.empty: day_dfs.append(df_twse)
         if df_tpex is not None and not df_tpex.empty: day_dfs.append(df_tpex)
@@ -99,55 +118,80 @@ def get_all_chips_data(is_intraday=False):
         if day_dfs:
             print(f" ✅ 成功")
             df_day = pd.concat(day_dfs)
-            def clean_num(x):
-                if isinstance(x, str): return float(x.replace(',', ''))
-                return float(x)
-            try:
-                col_foreign = '外陸資買賣超股數(不含外資自營商)'
-                col_trust = '投信買賣超股數'
-                col_total = '三大法人買賣超股數'
-                df_day['外資'] = df_day[col_foreign].apply(clean_num)/1000 if col_foreign in df_day.columns else 0
-                df_day['投信'] = df_day[col_trust].apply(clean_num)/1000 if col_trust in df_day.columns else 0
-                df_day['總變'] = df_day[col_total].apply(clean_num)/1000 if col_total in df_day.columns else 0
-                df_day['date_idx'] = days_collected 
-                cols = ['code', 'name', 'market', '外資', '投信', '總變', 'date_idx']
-                valid_dfs.append(df_day[cols])
-                daily_records.append(df_day[cols])
-                days_collected += 1
-            except: pass
-        else: print(f" ⚠️ 無資料")
-        time.sleep(3)
+            
+            # 🔥【關鍵修正 2】高強度數值清洗 (字串->去逗號->轉數字)
+            # 確保欄位名稱對應正確 (證交所 vs 櫃買)
+            col_foreign = '外陸資買賣超股數(不含外資自營商)'
+            col_trust = '投信買賣超股數'
+            col_total = '三大法人買賣超股數'
+            
+            # 櫃買的欄位可能稍有不同，做個映射檢查
+            if col_foreign not in df_day.columns and '外資及陸資(不含外資自營商)-買賣超股數' in df_day.columns:
+                col_foreign = '外資及陸資(不含外資自營商)-買賣超股數'
+            if col_trust not in df_day.columns and '投信-買賣超股數' in df_day.columns:
+                col_trust = '投信-買賣超股數'
+
+            # 定義清洗函式
+            def parse_col(df, col_name):
+                if col_name in df.columns:
+                    # 強制轉字串 -> 移除逗號 -> 轉數字 (無效值填0)
+                    return df[col_name].astype(str).str.replace(',', '').apply(pd.to_numeric, errors='coerce').fillna(0)
+                return 0
+
+            # 計算 (除以1000換算成張數)
+            df_day['外資'] = parse_col(df_day, col_foreign) / 1000
+            df_day['投信'] = parse_col(df_day, col_trust) / 1000
+            df_day['總變'] = parse_col(df_day, col_total) / 1000
+            
+            df_day['date_idx'] = days_collected 
+            
+            cols = ['code', 'name', 'market', '外資', '投信', '總變', 'date_idx']
+            # 只保留需要的欄位，避免 concat 時記憶體浪費
+            df_clean = df_day[cols].copy()
+            
+            valid_dfs.append(df_clean)
+            daily_records.append(df_clean)
+            days_collected += 1
+        else:
+            print(f" ⚠️ 無資料 (可能是休市)")
+        
+        # 避免請求過快
+        time.sleep(1)
 
     if not valid_dfs: return pd.DataFrame()
+    
+    print(f"📊 計算連買天數與加總...")
     merged_df = pd.concat(valid_dfs)
+    
+    # 群組加總
     final_df = merged_df.groupby(['code', 'name', 'market'], as_index=False)[['外資', '投信', '總變']].sum()
     
+    # 計算投信連買天數
     all_daily = pd.concat(daily_records)
     streak_map = {}
     for code, group in all_daily.groupby('code'):
-        group = group.sort_values('date_idx')
+        # 0是最近一天，數字越大越久遠
+        group = group.sort_values('date_idx') 
         streak = 0
         for val in group['投信']:
             if val > 0: streak += 1
             else: break 
         streak_map[code] = streak
+
     final_df['trust_streak'] = final_df['code'].map(streak_map).fillna(0).astype(int)
     return final_df
 
 # ==========================================
-# 🔥 週六集保大戶抓取 (最終修正：校正級距與逗號問題)
+# 週六集保大戶抓取 (維持您原本正確的版本)
 # ==========================================
 def get_tdcc_data():
     print("🚀 啟動週六集保大戶抓取...")
-    
     url = "https://smart.tdcc.com.tw/opendata/getOD.ashx?id=1-5"
     print("   📥 下載集保 CSV 中...")
-    
     try:
         res = requests.get(url, headers=HEADERS)
         if res.status_code != 200: return False, f"HTTP Error {res.status_code}"
         s = res.content
-        # 加入 thousands=',' 讓 pandas 能正確讀取帶逗號的數字
         df = pd.read_csv(io.StringIO(s.decode('utf-8')), encoding='utf-8', thousands=',')
     except:
         print("   ⚠️ UTF-8 失敗，嘗試 Big5...")
@@ -157,11 +201,8 @@ def get_tdcc_data():
             df = pd.read_csv(io.StringIO(s.decode('big5')), encoding='big5', thousands=',')
         except Exception as e: return False, str(e)
 
-    # 1. 資料清洗 & 過濾
     try:
         df.columns = [c.strip() for c in df.columns]
-        
-        # 過濾代號：只留 4 碼純數字且非 00 開頭
         df['證券代號'] = df['證券代號'].astype(str).str.strip()
         df = df[
             (df['證券代號'].str.len() == 4) & 
@@ -169,13 +210,7 @@ def get_tdcc_data():
             (df['證券代號'].str.isdigit()) 
         ].copy()
 
-        # 🔥【嚴重錯誤修正】
-        # 舊設定: [11, 12, 13, 14] -> 這是 200~1000張 (漏掉超級大戶!)
-        # 新設定: [12, 13, 14, 15] -> 這是 400張 ~ 1000張以上 (包含超級大戶)
-        # 12=400-600, 13=600-800, 14=800-1000, 15=>1000
         target_tiers = [12, 13, 14, 15] 
-        
-        # 雙重保險：處理可能殘留的逗號
         for col in ['持股分級', '人數', '股數', '占集保庫存數比例%']:
             if col in df.columns:
                 if df[col].dtype == 'object':
@@ -185,14 +220,9 @@ def get_tdcc_data():
                 
         mask = df['持股分級'].isin(target_tiers)
         df_big = df[mask].copy()
-
-        df_sum = df_big.groupby('證券代號').agg({
-            '人數': 'sum',
-            '占集保庫存數比例%': 'sum'
-        }).reset_index()
+        df_sum = df_big.groupby('證券代號').agg({'人數': 'sum', '占集保庫存數比例%': 'sum'}).reset_index()
     except Exception as e: return False, f"資料清洗失敗: {e}"
     
-    # 2. 讀取上週資料
     last_week_map = {}
     is_first_run = True
     if os.path.exists(TDCC_HISTORY_PATH):
@@ -202,10 +232,8 @@ def get_tdcc_data():
                 if old_data:
                     is_first_run = False
                     for d in old_data: last_week_map[str(d['code'])] = d
-            print("   ✅ 讀取到歷史資料...")
         except: pass
     
-    # 3. 取得名稱
     name_map = {}
     try:
         if os.path.exists(CSV_PATH):
@@ -215,35 +243,27 @@ def get_tdcc_data():
 
     report_list = []
     history_list = [] 
-
     for _, row in df_sum.iterrows():
         code = str(row['證券代號'])
         holders = int(row['人數'])
         pct = float(row['占集保庫存數比例%'])
-        
         last = last_week_map.get(code, {'holders': holders, 'pct': pct})
         
-        diff_holders = holders - last['holders']
-        diff_pct = pct - last['pct']
-        
         stock_name = name_map.get(code, code)
-        
         item = {
             "code": code,
             "name": stock_name,
             "holders": holders,
             "hold_pct": round(pct, 2),
-            "diff_holders": diff_holders,
-            "diff_pct": round(diff_pct, 2)
+            "diff_holders": holders - last['holders'],
+            "diff_pct": round(pct - last['pct'], 2)
         }
         report_list.append(item)
         history_list.append({"code": code, "holders": holders, "pct": pct})
 
-    # 4. 存檔
     os.makedirs(os.path.dirname(TDCC_HISTORY_PATH), exist_ok=True)
     with open(TDCC_HISTORY_PATH, 'w', encoding='utf-8') as f: json.dump(history_list, f, ensure_ascii=False)
     with open(TDCC_REPORT_PATH, 'w', encoding='utf-8') as f: json.dump(report_list, f, ensure_ascii=False)
-        
     print(f"   💾 集保數據處理完成！共 {len(report_list)} 檔")
     return True, "OK"
 
@@ -390,14 +410,11 @@ def export_data(df):
 def trigger_gas(action_name="run", error_msg=None):
     print(f"🔔 通知 GAS (Action: {action_name})...")
     payload = {"action": action_name}
-    if error_msg:
-        payload["error"] = error_msg
-        
+    if error_msg: payload["error"] = error_msg
     try:
         response = requests.post(GAS_URL, json=payload)
         print(f"✅ GAS 回應: {response.text}")
-    except Exception as e:
-        print(f"❌ GAS 觸發失敗: {e}")
+    except Exception as e: print(f"❌ GAS 觸發失敗: {e}")
 
 def main():
     tw_now = datetime.now(timezone.utc) + timedelta(hours=8)
@@ -409,10 +426,9 @@ def main():
 
     if is_saturday:
         success, msg = get_tdcc_data()
-        if success:
-            trigger_gas(action_name="run_weekly")
+        if success: trigger_gas(action_name="run_weekly")
         else:
-            print(f"❌ 集保抓取失敗，發送錯誤通知: {msg}")
+            print(f"❌ 集保抓取失敗: {msg}")
             trigger_gas(action_name="error_report", error_msg=msg)
     else:
         is_intraday = (9 <= tw_now.hour < 14)
@@ -421,7 +437,6 @@ def main():
             df = add_realtime_data(df, is_intraday)
             export_data(df)
             trigger_gas(action_name="run")
-        else:
-            print("❌ 無法取得任何籌碼資料，程式結束。")
+        else: print("❌ 無法取得任何籌碼資料，程式結束。")
 
 if __name__ == "__main__": main()
