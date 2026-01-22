@@ -5,17 +5,17 @@ on:
   schedule:
     # ---------------------------------------------------------
     # (A) 平日盤中監控 (週一~週五)
-    # 時間: UTC 01:00 ~ 06:00 (台灣 09:00 ~ 14:00)
-    # 頻率: 每 20 分鐘一次 (避免太頻繁被擋)
-    - cron: "*/20 1-6 * * 1-5"
+    # 時間: UTC 01:00 ~ 05:59 (台灣 09:00 ~ 13:59)
+    # 頻率: 每 20 分鐘一次
+    # 🔥 修正：把 1-6 改為 1-5，讓最後一次執行落在 13:40，避免撞到下午盤後邏輯
+    - cron: "*/20 1-5 * * 1-5"
 
     # (B) 平日盤後結算 (週一~週五)
-    # 時間: UTC 09:00 (台灣 17:00)
+    # 時間: UTC 09:00 (台灣 17:00) -> 這時候資料最齊全
     - cron: "00 09 * * 1-5"
 
-    # (C) 🔥 週六集保大戶專用 (週六)
+    # (C) 週六集保大戶專用 (週六)
     # 時間: UTC 07:00 (台灣 15:00)
-    # ⚠️ 關鍵修正：只跑這一次，避免重複執行導致資料覆蓋歸零
     - cron: "00 07 * * 6"
     # ---------------------------------------------------------
 
@@ -44,28 +44,27 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          # 安裝必要套件
           pip install requests pandas openpyxl lxml html5lib yfinance playwright
           
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-      # 只有在下午 17:00 (UTC 09:00) 的排程才安裝 Playwright (節省時間)
+      # 只有在下午 17:00 的排程才安裝 Playwright
       - name: Install Playwright browsers
         if: github.event.schedule == '00 09 * * 1-5'
         run: |
           playwright install chromium
           playwright install-deps chromium
 
-      # 🔥 執行主程式 (確認檔名為 update_all.py)
+      # 執行主程式
       - name: Run update_all.py
         run: python update_all.py
 
-      # (平日盤後) 跑券商分點 - 只有平日下午會跑
+      # (平日盤後) 跑券商分點
       - name: Run update_broker.py
         if: github.event.schedule == '00 09 * * 1-5'
         run: python update_broker.py
 
-      # 提交變更 (確保資料能存檔，讓週六功能可以比對上週數據)
+      # 提交變更
       - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
