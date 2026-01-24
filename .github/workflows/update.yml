@@ -1,28 +1,27 @@
 name: Update TW Institutional Data
 
 on:
-  # 1. 定時排程 (GitHub 內建鬧鐘)
+  # 1. 定時排程
   schedule:
-    # ---------------------------------------------------------
-    # (A) 平日盤中監控 (週一~週五)
+    # (A) 平日盤中 (週一~週五)
     # 時間: UTC 01:00 ~ 05:59 (台灣 09:00 ~ 13:59)
     # 頻率: 每 20 分鐘一次
-    # 🔥 修正：把 1-6 改為 1-5，讓最後一次執行落在 13:40，避免撞到下午盤後邏輯
+    # 🔥 關鍵修正：設定為 1-5，確保最後一次執行是 13:40，避開 14:00 的盤後誤判區
     - cron: "*/20 1-5 * * 1-5"
 
-    # (B) 平日盤後結算 (週一~週五)
-    # 時間: UTC 09:00 (台灣 17:00) -> 這時候資料最齊全
+    # (B) 平日盤後 (週一~週五)
+    # 時間: UTC 09:00 (台灣 17:00)
     - cron: "00 09 * * 1-5"
 
-    # (C) 週六集保大戶專用 (週六)
-    # 時間: UTC 07:00 (台灣 15:00)
-    - cron: "00 07 * * 6"
-    # ---------------------------------------------------------
+    # (C) 週六集保大戶 (週六)
+    # 時間: UTC 10:00 (台灣 18:00)
+    # ⚠️ 設定為單次執行，避免重複跑導致資料覆蓋歸零
+    - cron: "00 10 * * 6"
 
-  # 2. 手動按鈕 (在 GitHub 網頁按 Run)
+  # 2. 手動按鈕
   workflow_dispatch: {}
 
-  # 3. 外部遙控 (給 GAS 用的)
+  # 3. 外部遙控
   repository_dispatch:
     types: [run-now, run-weekly]
 
@@ -45,10 +44,9 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install requests pandas openpyxl lxml html5lib yfinance playwright
-          
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-      # 只有在下午 17:00 的排程才安裝 Playwright
+      # 平日盤後才安裝 Playwright
       - name: Install Playwright browsers
         if: github.event.schedule == '00 09 * * 1-5'
         run: |
@@ -59,7 +57,7 @@ jobs:
       - name: Run update_all.py
         run: python update_all.py
 
-      # (平日盤後) 跑券商分點
+      # 平日盤後跑券商分點
       - name: Run update_broker.py
         if: github.event.schedule == '00 09 * * 1-5'
         run: python update_broker.py
