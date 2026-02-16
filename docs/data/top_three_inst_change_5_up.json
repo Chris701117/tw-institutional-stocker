@@ -7507,7 +7507,7 @@
   {
     "code": "030528",
     "name": "金像電凱基57購01",
-    "change": -2.0,
+    "change": -1.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -12447,7 +12447,7 @@
   {
     "code": "031274",
     "name": "鴻海統一68購01",
-    "change": -2795.0,
+    "change": -893.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -30573,7 +30573,7 @@
   {
     "code": "033262",
     "name": "大銀國票53購01",
-    "change": 968.0,
+    "change": 1217.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -47008,7 +47008,7 @@
   {
     "code": "034947",
     "name": "聯強國泰54購01",
-    "change": 53.0,
+    "change": 61.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -92304,7 +92304,7 @@
   {
     "code": "039082",
     "name": "彩晶永豐56購01",
-    "change": 70.0,
+    "change": 71.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -99448,7 +99448,7 @@
   {
     "code": "039674",
     "name": "中砂元大54購14",
-    "change": 294.0,
+    "change": 345.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -123939,7 +123939,7 @@
   {
     "code": "041547",
     "name": "三集瑞元大54購01",
-    "change": -42.0,
+    "change": 28.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -158462,7 +158462,7 @@
   {
     "code": "044128",
     "name": "智邦元大55購16",
-    "change": 40.0,
+    "change": 175.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -191427,7 +191427,7 @@
   {
     "code": "046548",
     "name": "愛普元大56購05",
-    "change": -33.0,
+    "change": 90.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -194277,7 +194277,7 @@
   {
     "code": "046759",
     "name": "辛耘元富56購01",
-    "change": -7.0,
+    "change": 3.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -299803,7 +299803,7 @@
   {
     "code": "053471",
     "name": "道瓊銀凱基57購06",
-    "change": -54.0,
+    "change": -14.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -350286,7 +350286,7 @@
   {
     "code": "06240U",
     "name": "美時元大54售03",
-    "change": -2.0,
+    "change": -1.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -383859,7 +383859,7 @@
   {
     "code": "08031U",
     "name": "智邦群益57售06",
-    "change": -20.0,
+    "change": 0.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -389616,7 +389616,7 @@
   {
     "code": "08188U",
     "name": "國巨凱基57售10",
-    "change": 0.0,
+    "change": 25.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -391782,7 +391782,7 @@
   {
     "code": "08249U",
     "name": "台積電元大58售03",
-    "change": -664.0,
+    "change": -653.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -391839,7 +391839,7 @@
   {
     "code": "08250U",
     "name": "臺股指元大58售11",
-    "change": -692.0,
+    "change": -616.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -396171,7 +396171,7 @@
   {
     "code": "084012",
     "name": "美時統一66購01",
-    "change": -76.0,
+    "change": -66.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -423455,10 +423455,10 @@
   {
     "code": "2834",
     "name": "臺企銀",
-    "change": 13044.792,
-    "three_inst_ratio": 17.7,
+    "change": 17287.959,
+    "three_inst_ratio": 23.5,
     "foreign_ratio_diff": 11662.759999999998,
-    "trust_ratio_diff": -72.55799999999999,
+    "trust_ratio_diff": 154.781,
     "trust_streak": 0,
     "vol_ratio": 1.29,
     "price_pos": 0.5,
@@ -428471,10 +428471,10 @@
   {
     "code": "4952",
     "name": "凌通",
-    "change": -43.446,
-    "three_inst_ratio": -2.0,
+    "change": -1.6539999999999964,
+    "three_inst_ratio": -0.1,
     "foreign_ratio_diff": -47.792,
-    "trust_ratio_diff": 0.0,
+    "trust_ratio_diff": 1.0,
     "trust_streak": 0,
     "vol_ratio": 1.23,
     "price_pos": 0.5,
