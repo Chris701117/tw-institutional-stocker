@@ -431,7 +431,7 @@ def main():
             print(f"❌ 集保抓取失敗: {msg}")
             trigger_gas(action_name="error_report", error_msg=msg)
     else:
-        is_intraday = (9 <= tw_now.hour < 14)
+        is_intraday = (9 <= tw_now.hour < 15)
         df = get_all_chips_data(is_intraday)
         if not df.empty:
             df = add_realtime_data(df, is_intraday)
