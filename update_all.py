@@ -21,24 +21,18 @@ JSON_PATH = "docs/data/top_three_inst_change_5_up.json"
 EXCEL_PATH = "docs/data/stock_report.xlsx"
 CSV_PATH = "docs/data/stock_report.csv"
 
-# 集保資料路徑
 TDCC_HISTORY_PATH = "docs/data/tdcc_history.json"
 TDCC_REPORT_PATH = "docs/data/tdcc_report.json"
 
 HISTORY_DAYS = 120 
 
-# ⚠️ 平日請設為 False (只有測試週六功能時才開 True)
 FORCE_RUN_SATURDAY = False
-
-# GAS 網址 (保留作為錯誤回報使用)
 GAS_URL = "https://script.google.com/macros/s/AKfycbzkOm64edpadEtMUJZGkzGvU_IjYdAPj8Hs2cute5J2BC82SFdflxaA3URszd3zWcnp/exec" 
 
-# 瀏覽器偽裝
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 }
 
-# 富果 API 金鑰 (由 GitHub Secrets 傳入)
 FUGLE_API_KEY = os.getenv("FUGLE_API_KEY", "")
 
 # ==========================================
@@ -57,15 +51,15 @@ def get_twse_chips(date_obj):
     date_str = date_obj.strftime("%Y%m%d")
     url = f"https://www.twse.com.tw/rwd/zh/fund/T86?response=csv&selectType=ALL&date={date_str}"
     try:
-        time.sleep(3) # 嚴格減速，保護 IP 不被證交所封鎖
+        time.sleep(3)
         res = session.get(url, headers=HEADERS, timeout=15)
         
         if res.status_code != 200: 
             raise ValueError(f"TWSE 回傳錯誤碼: {res.status_code}")
             
         text = res.text
-        # 若內容過短(只有標題或為空)，代表真的是假日休市
-        if len(text.strip()) < 50:
+        # 🔥【修正】若內容行數少於等於2行(只有標題)，代表當天尚未出資料或休市，正常略過
+        if len(text.strip().split('\n')) <= 2:
             return pd.DataFrame() 
 
         df = pd.read_csv(io.StringIO(text), header=1, thousands=',')
@@ -84,20 +78,21 @@ def get_twse_chips(date_obj):
             raise ValueError("欄位解析失敗，可能證交所格式已更改")
     except Exception as e:
         print(f" ❌ [錯誤] TWSE 抓取異常: {e}", end="")
-        return None # 回傳 None 觸發嚴格攔截
+        return None
 
 def get_tpex_chips(date_obj):
     minguo_year = date_obj.year - 1911
     date_str = f"{minguo_year}/{date_obj.month:02d}/{date_obj.day:02d}"
     url = f"https://www.tpex.org.tw/web/stock/3insti/daily_trade/3itrade_hedge_result_download.php?l=zh-tw&se=EW&t=D&d={date_str}"
     try:
-        time.sleep(3) # 嚴格減速
+        time.sleep(3)
         res = session.get(url, headers=HEADERS, timeout=15)
         if res.status_code != 200: 
             raise ValueError(f"TPEX 回傳錯誤碼: {res.status_code}")
             
         text = res.text
-        if len(text.strip()) < 50:
+        # 🔥【修正】若內容行數少於等於2行，代表當天尚未出資料或休市，正常略過
+        if len(text.strip().split('\n')) <= 2:
             return pd.DataFrame()
 
         df = pd.read_csv(io.StringIO(text), header=1, thousands=',')
@@ -118,11 +113,17 @@ def get_tpex_chips(date_obj):
             raise ValueError("欄位解析失敗")
     except Exception as e:
         print(f" ❌ [錯誤] TPEX 抓取異常: {e}", end="")
-        return None # 回傳 None 觸發嚴格攔截
+        return None
 
 def get_all_chips_data(is_intraday=False):
     print(f"🚀 啟動抓取程序 (嚴格真實模式 | 上市+上櫃)...")
-    start_delay = 1 if is_intraday else 0
+    
+    tw_now = datetime.now(timezone.utc) + timedelta(hours=8)
+    
+    # 🔥【修正】確保時間邏輯正確：
+    # 如果是下午 3 點以後，才能抓「今天(0)」的資料；否則（半夜、早上、盤中）都從「昨天(1)」開始推算
+    start_delay = 0 if tw_now.hour >= 15 else 1
+    
     valid_dfs = [] 
     days_collected = 0
     target_days = 5 
@@ -131,7 +132,6 @@ def get_all_chips_data(is_intraday=False):
     for i in range(start_delay, start_delay + 20):
         if days_collected >= target_days: break
         
-        tw_now = datetime.now(timezone.utc) + timedelta(hours=8)
         date_obj = tw_now - timedelta(days=i)
         
         if date_obj.weekday() >= 5: continue
@@ -141,7 +141,6 @@ def get_all_chips_data(is_intraday=False):
         df_twse = get_twse_chips(date_obj)
         df_tpex = get_tpex_chips(date_obj)
         
-        # 🔥【零容忍防線】只要發生非休市的真實異常，立刻中斷，拒絕產出錯誤報告！
         if df_twse is None or df_tpex is None:
             print("\n🚨 [嚴格模式攔截] 偵測到資料連線失敗或被封鎖。為確保數據 100% 真實，已強制中斷程式，拒絕使用舊資料拼湊！")
             return pd.DataFrame()
@@ -180,7 +179,7 @@ def get_all_chips_data(is_intraday=False):
             daily_records.append(df_clean)
             days_collected += 1
         else:
-            print(f" 💤 無資料 (確認為假日休市或盤前)")
+            print(f" 💤 無資料 (確認為假日休市或盤後資料尚未結算)")
 
     if not valid_dfs: return pd.DataFrame()
     
@@ -374,24 +373,20 @@ def add_realtime_data(df_chips, is_intraday):
             # =========================================
             if fugle_client and is_intraday:
                 try:
-                    # 呼叫富果 API 取得最新報價與總量
                     quote = fugle_client.stock.intraday.quote(symbol=code)
                     fugle_price = quote.get('lastPrice', None)
                     fugle_vol = quote.get('total', {}).get('tradeVolume', 0)
                     
                     if fugle_price is not None and fugle_vol > 0:
-                        # 用富果最新的即時價格與總量，覆蓋 df_stock 最後一天 (今天) 的數據
                         df_stock.iloc[-1, df_stock.columns.get_loc('Close')] = fugle_price
                         df_stock.iloc[-1, df_stock.columns.get_loc('Volume')] = fugle_vol
-                        # 同步推升最高/最低價，確保算指標不失真
                         df_stock.iloc[-1, df_stock.columns.get_loc('High')] = max(df_stock['High'].iloc[-1], fugle_price)
                         df_stock.iloc[-1, df_stock.columns.get_loc('Low')] = min(df_stock['Low'].iloc[-1], fugle_price)
                     
-                    # 遵守基本方案限制 (60次/分鐘)，這裡設定停頓 1.1 秒
                     time.sleep(1.1)
                 except Exception as e:
                     print(f"⚠️ 富果抓取 {code} 異常，回退使用 yfinance ({e})")
-                    time.sleep(1.1) # 即使出錯也停頓，保護 API 配額
+                    time.sleep(1.1)
 
             current_vol = df_stock['Volume'].iloc[-1]
             k, d, is_kd_gc, ma60_gap, is_bb_low, is_macd_gc, osc, is_spike_high, is_strong_long, pct = calculate_technical_indicators(df_stock)
@@ -482,7 +477,10 @@ def main():
             print(f"❌ 集保抓取失敗: {msg}")
             trigger_gas(action_name="error_report", error_msg=msg) 
     else:
-        is_intraday = (9 <= tw_now.hour < 15)
+        # ⚠️ 測試用：強制設定 is_intraday 為 True，觀察盤中預估量邏輯是否運作
+        # 測試完畢後，請記得改回: is_intraday = (9 <= tw_now.hour < 15)
+        is_intraday = True 
+        
         df = get_all_chips_data(is_intraday)
         if not df.empty:
             df = add_realtime_data(df, is_intraday)
