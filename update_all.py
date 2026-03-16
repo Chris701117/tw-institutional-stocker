@@ -10,6 +10,10 @@ from datetime import datetime, timedelta, timezone
 # 引入富果 API
 from fugle_marketdata import RestClient
 
+# 引入嚴格連線重試機制
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
+
 # ==========================================
 # 設定區
 # ==========================================
@@ -38,19 +42,37 @@ HEADERS = {
 FUGLE_API_KEY = os.getenv("FUGLE_API_KEY", "")
 
 # ==========================================
-# 核心函式：抓取籌碼 (平日用 - 強效修正版)
+# 建立強健連線與嚴格重試機制
+# ==========================================
+session = requests.Session()
+retry = Retry(connect=5, backoff_factor=1, status_forcelist=[403, 500, 502, 503, 504])
+adapter = HTTPAdapter(max_retries=retry)
+session.mount('http://', adapter)
+session.mount('https://', adapter)
+
+# ==========================================
+# 核心函式：抓取籌碼 (嚴格真實模式)
 # ==========================================
 def get_twse_chips(date_obj):
     date_str = date_obj.strftime("%Y%m%d")
     url = f"https://www.twse.com.tw/rwd/zh/fund/T86?response=csv&selectType=ALL&date={date_str}"
     try:
-        res = requests.get(url, headers=HEADERS)
-        if res.status_code != 200: return None
-        df = pd.read_csv(io.StringIO(res.text), header=1, thousands=',')
+        time.sleep(3) # 嚴格減速，保護 IP 不被證交所封鎖
+        res = session.get(url, headers=HEADERS, timeout=15)
+        
+        if res.status_code != 200: 
+            raise ValueError(f"TWSE 回傳錯誤碼: {res.status_code}")
+            
+        text = res.text
+        # 若內容過短(只有標題或為空)，代表真的是假日休市
+        if len(text.strip()) < 50:
+            return pd.DataFrame() 
+
+        df = pd.read_csv(io.StringIO(text), header=1, thousands=',')
         df.columns = [c.strip() for c in df.columns]
         
         if '證券代號' not in df.columns:
-            df = pd.read_csv(io.StringIO(res.text), header=2, thousands=',')
+            df = pd.read_csv(io.StringIO(text), header=2, thousands=',')
             df.columns = [c.strip() for c in df.columns]
 
         if '證券代號' in df.columns:
@@ -58,21 +80,31 @@ def get_twse_chips(date_obj):
             df['name'] = df['證券名稱'].astype(str).str.strip()
             df['market'] = 'TW'
             return df
-    except: pass
-    return None
+        else:
+            raise ValueError("欄位解析失敗，可能證交所格式已更改")
+    except Exception as e:
+        print(f" ❌ [錯誤] TWSE 抓取異常: {e}", end="")
+        return None # 回傳 None 觸發嚴格攔截
 
 def get_tpex_chips(date_obj):
     minguo_year = date_obj.year - 1911
     date_str = f"{minguo_year}/{date_obj.month:02d}/{date_obj.day:02d}"
     url = f"https://www.tpex.org.tw/web/stock/3insti/daily_trade/3itrade_hedge_result_download.php?l=zh-tw&se=EW&t=D&d={date_str}"
     try:
-        res = requests.get(url, headers=HEADERS)
-        if res.status_code != 200: return None
-        df = pd.read_csv(io.StringIO(res.text), header=1, thousands=',')
+        time.sleep(3) # 嚴格減速
+        res = session.get(url, headers=HEADERS, timeout=15)
+        if res.status_code != 200: 
+            raise ValueError(f"TPEX 回傳錯誤碼: {res.status_code}")
+            
+        text = res.text
+        if len(text.strip()) < 50:
+            return pd.DataFrame()
+
+        df = pd.read_csv(io.StringIO(text), header=1, thousands=',')
         df.columns = [c.strip() for c in df.columns]
 
         if '代號' not in df.columns:
-             df = pd.read_csv(io.StringIO(res.text), header=2, thousands=',')
+             df = pd.read_csv(io.StringIO(text), header=2, thousands=',')
              df.columns = [c.strip() for c in df.columns]
              
         if '代號' in df.columns:
@@ -82,11 +114,14 @@ def get_tpex_chips(date_obj):
             if '三大法人買賣超股數' not in df.columns and '三大法人-買賣超股數' in df.columns:
                 df['三大法人買賣超股數'] = df['三大法人-買賣超股數']
             return df
-    except: pass
-    return None
+        else:
+            raise ValueError("欄位解析失敗")
+    except Exception as e:
+        print(f" ❌ [錯誤] TPEX 抓取異常: {e}", end="")
+        return None # 回傳 None 觸發嚴格攔截
 
 def get_all_chips_data(is_intraday=False):
-    print(f"🚀 啟動抓取程序 (模式: 累計 5 日 | 上市+上櫃)...")
+    print(f"🚀 啟動抓取程序 (嚴格真實模式 | 上市+上櫃)...")
     start_delay = 1 if is_intraday else 0
     valid_dfs = [] 
     days_collected = 0
@@ -106,9 +141,14 @@ def get_all_chips_data(is_intraday=False):
         df_twse = get_twse_chips(date_obj)
         df_tpex = get_tpex_chips(date_obj)
         
+        # 🔥【零容忍防線】只要發生非休市的真實異常，立刻中斷，拒絕產出錯誤報告！
+        if df_twse is None or df_tpex is None:
+            print("\n🚨 [嚴格模式攔截] 偵測到資料連線失敗或被封鎖。為確保數據 100% 真實，已強制中斷程式，拒絕使用舊資料拼湊！")
+            return pd.DataFrame()
+        
         day_dfs = []
-        if df_twse is not None and not df_twse.empty: day_dfs.append(df_twse)
-        if df_tpex is not None and not df_tpex.empty: day_dfs.append(df_tpex)
+        if not df_twse.empty: day_dfs.append(df_twse)
+        if not df_tpex.empty: day_dfs.append(df_tpex)
         
         if day_dfs:
             print(f" ✅ 成功")
@@ -140,12 +180,11 @@ def get_all_chips_data(is_intraday=False):
             daily_records.append(df_clean)
             days_collected += 1
         else:
-            print(f" ⚠️ 無資料 (可能是休市)")
-        time.sleep(1)
+            print(f" 💤 無資料 (確認為假日休市或盤前)")
 
     if not valid_dfs: return pd.DataFrame()
     
-    print(f"📊 計算連買天數與加總...")
+    print(f"\n📊 計算連買天數與加總...")
     merged_df = pd.concat(valid_dfs)
     final_df = merged_df.groupby(['code', 'name', 'market'], as_index=False)[['外資', '投信', '總變']].sum()
     
