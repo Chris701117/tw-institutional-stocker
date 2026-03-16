@@ -74,3 +74,22 @@ jobs:
           else
             echo "No changes to commit."
           fi
+
+      # 🔥 新增步驟：確保 Push 完成，且等待快取更新後才呼叫 GAS
+      - name: Trigger GAS Webhook
+        run: |
+          echo "等待 30 秒讓 GitHub Raw 快取更新..."
+          sleep 30
+          
+          # 判斷今天是星期幾 (0=日, 1=一 ... 6=六)
+          DAYOFWEEK=$(date +%w)
+          if [ "$DAYOFWEEK" -eq 6 ]; then
+            ACTION="run_weekly"
+          else
+            ACTION="run"
+          fi
+          
+          echo "觸發 GAS，執行動作: $ACTION"
+          curl -L -X POST "https://script.google.com/macros/s/AKfycbzkOm64edpadEtMUJZGkzGvU_IjYdAPj8Hs2cute5J2BC82SFdflxaA3URszd3zWcnp/exec" \
+          -H "Content-Type: application/json" \
+          -d "{\"action\": \"$ACTION\"}"
