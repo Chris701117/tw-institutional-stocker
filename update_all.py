@@ -316,7 +316,7 @@ def calculate_technical_indicators(df):
     return curr_k, curr_d, is_kd_gc, ma60_gap, is_bb_low, is_macd_gc, osc.iloc[-1], is_spike_high, is_strong_long, pct_change
 
 def add_realtime_data(df_chips, is_intraday):
-    print(f"🚀 啟動 yfinance 抓取 (共 {len(df_chips)} 檔)...")
+    print(f"🚀 啟抓 yfinance (共 {len(df_chips)} 檔)...")
     df_valid = df_chips[df_chips['code'].str.len() == 4].copy()
     if df_valid.empty: return df_chips
 
@@ -344,9 +344,6 @@ def add_realtime_data(df_chips, is_intraday):
 
     ticker_map = df_valid.set_index('code')['ticker'].to_dict()
 
-    # =========================================
-    # 🔥 啟動富果 API 客戶端 (混血模式核心)
-    # =========================================
     fugle_client = None
     if FUGLE_API_KEY:
         try:
@@ -368,9 +365,6 @@ def add_realtime_data(df_chips, is_intraday):
             
             if len(df_stock) < 35: continue
 
-            # =========================================
-            # 🔥 富果即時數據覆蓋
-            # =========================================
             if fugle_client and is_intraday:
                 try:
                     quote = fugle_client.stock.intraday.quote(symbol=code)
@@ -477,9 +471,8 @@ def main():
             print(f"❌ 集保抓取失敗: {msg}")
             trigger_gas(action_name="error_report", error_msg=msg) 
     else:
-        # ⚠️ 測試用：強制設定 is_intraday 為 True，觀察盤中預估量邏輯是否運作
-        # 測試完畢後，請記得改回: is_intraday = (9 <= tw_now.hour < 15)
-        is_intraday = True 
+        # ✅ 改回真實時間判斷：早上 9 點到 下午 3 點前為盤中，其餘為盤後
+        is_intraday = (9 <= tw_now.hour < 15) 
         
         df = get_all_chips_data(is_intraday)
         if not df.empty:
