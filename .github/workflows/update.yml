@@ -5,9 +5,8 @@ on:
   schedule:
     # (A) 平日盤中 (週一~週五)
     # 時間: UTC 01:00 ~ 05:59 (台灣 09:00 ~ 13:59)
-    # 頻率: 每 20 分鐘一次
-    # 🔥 設定為 1-5，確保最後一次執行是 13:40，避開 14:00 的盤後誤判區
-    - cron: "*/20 1-5 * * 1-5"
+    # 頻率: 每 5 分鐘一次 🔥 (確保 90 檔股票有充足時間運作不塞車)
+    - cron: "*/5 1-5 * * 1-5"
 
     # (B) 平日盤後 (週一~週五)
     # 時間: UTC 09:00 (台灣 17:00)
@@ -53,8 +52,10 @@ jobs:
           playwright install chromium
           playwright install-deps chromium
 
-      # 執行主程式
+      # 執行主程式 🔥 (這裡必須把 GitHub Secrets 裡的富果金鑰讀出來給 Python 用)
       - name: Run update_all.py
+        env:
+          FUGLE_API_KEY: ${{ secrets.FUGLE_API_KEY }}
         run: python update_all.py
 
       # 平日盤後跑券商分點
