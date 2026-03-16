@@ -4,3 +4,4 @@ python-dateutil
 playwright
 beautifulsoup4
 yfinance
+pip install fugle-marketdata
