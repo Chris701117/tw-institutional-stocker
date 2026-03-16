@@ -23,7 +23,7 @@ HISTORY_DAYS = 120
 # ⚠️ 平日請設為 False (只有測試週六功能時才開 True)
 FORCE_RUN_SATURDAY = False
 
-# GAS 網址
+# GAS 網址 (保留作為錯誤回報使用)
 GAS_URL = "https://script.google.com/macros/s/AKfycbzkOm64edpadEtMUJZGkzGvU_IjYdAPj8Hs2cute5J2BC82SFdflxaA3URszd3zWcnp/exec" 
 
 # 瀏覽器偽裝
@@ -383,7 +383,7 @@ def export_data(df):
             "trust_streak": row.get('trust_streak', 0), 
             "vol_ratio": row.get('vol_ratio', 0), "price_pos": row.get('price_pos', 0.5),
             "ma60_gap": row.get('ma60_gap', 0), "kd_gold_cross": row.get('kd_gold_cross', False),
-            "k_val": row.get('k_val', 0), "bb_low": row.get('bb_low', False),      
+            "k_val": row.get('k_val', 0), "bb_low": row.get('bb_low', False),     
             "macd_gc": row.get('macd_gc', False), "spike_high": row.get('spike_high', False),
             "strong_long": row.get('strong_long', False), "pct_change": row.get('pct_change', 0)
         }
@@ -426,17 +426,18 @@ def main():
 
     if is_saturday:
         success, msg = get_tdcc_data()
-        if success: trigger_gas(action_name="run_weekly")
-        else:
+        # if success: trigger_gas(action_name="run_weekly")  <-- 已註解，交由 Actions 觸發
+        if not success:
             print(f"❌ 集保抓取失敗: {msg}")
-            trigger_gas(action_name="error_report", error_msg=msg)
+            trigger_gas(action_name="error_report", error_msg=msg) # 錯誤回報保留
     else:
         is_intraday = (9 <= tw_now.hour < 15)
         df = get_all_chips_data(is_intraday)
         if not df.empty:
             df = add_realtime_data(df, is_intraday)
             export_data(df)
-            trigger_gas(action_name="run")
+            # trigger_gas(action_name="run")  <-- 已註解，交由 Actions 觸發
+            print("✅ 資料處理完畢，等待 GitHub Actions 執行 Push 與通知 GAS...")
         else: print("❌ 無法取得任何籌碼資料，程式結束。")
 
 if __name__ == "__main__": main()
