@@ -7,10 +7,6 @@ import yfinance as yf
 import io
 from datetime import datetime, timedelta, timezone
 
-# 引入嚴格連線重試機制
-from requests.adapters import HTTPAdapter
-from urllib3.util.retry import Retry
-
 # ==========================================
 # 設定區
 # ==========================================
@@ -18,49 +14,37 @@ JSON_PATH = "docs/data/top_three_inst_change_5_up.json"
 EXCEL_PATH = "docs/data/stock_report.xlsx"
 CSV_PATH = "docs/data/stock_report.csv"
 
+# 集保資料路徑
 TDCC_HISTORY_PATH = "docs/data/tdcc_history.json"
 TDCC_REPORT_PATH = "docs/data/tdcc_report.json"
 
 HISTORY_DAYS = 120 
 
+# ⚠️ 平日請設為 False (只有測試週六功能時才開 True)
 FORCE_RUN_SATURDAY = False
+
+# GAS 網址
 GAS_URL = "https://script.google.com/macros/s/AKfycbzkOm64edpadEtMUJZGkzGvU_IjYdAPj8Hs2cute5J2BC82SFdflxaA3URszd3zWcnp/exec" 
 
+# 瀏覽器偽裝
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 }
 
 # ==========================================
-# 建立強健連線與嚴格重試機制 (針對證交所/櫃買)
-# ==========================================
-session = requests.Session()
-retry = Retry(connect=5, backoff_factor=1, status_forcelist=[403, 500, 502, 503, 504])
-adapter = HTTPAdapter(max_retries=retry)
-session.mount('http://', adapter)
-session.mount('https://', adapter)
-
-# ==========================================
-# 核心函式：抓取籌碼 (嚴格真實模式)
+# 核心函式：抓取籌碼 (容錯穩定版)
 # ==========================================
 def get_twse_chips(date_obj):
     date_str = date_obj.strftime("%Y%m%d")
     url = f"https://www.twse.com.tw/rwd/zh/fund/T86?response=csv&selectType=ALL&date={date_str}"
     try:
-        time.sleep(3)
-        res = session.get(url, headers=HEADERS, timeout=15)
-        
-        if res.status_code != 200: 
-            raise ValueError(f"TWSE 回傳錯誤碼: {res.status_code}")
-            
-        text = res.text
-        if len(text.strip().split('\n')) <= 2:
-            return pd.DataFrame() 
-
-        df = pd.read_csv(io.StringIO(text), header=1, thousands=',')
+        res = requests.get(url, headers=HEADERS, timeout=10)
+        if res.status_code != 200: return None
+        df = pd.read_csv(io.StringIO(res.text), header=1, thousands=',')
         df.columns = [c.strip() for c in df.columns]
         
         if '證券代號' not in df.columns:
-            df = pd.read_csv(io.StringIO(text), header=2, thousands=',')
+            df = pd.read_csv(io.StringIO(res.text), header=2, thousands=',')
             df.columns = [c.strip() for c in df.columns]
 
         if '證券代號' in df.columns:
@@ -68,31 +52,21 @@ def get_twse_chips(date_obj):
             df['name'] = df['證券名稱'].astype(str).str.strip()
             df['market'] = 'TW'
             return df
-        else:
-            raise ValueError("欄位解析失敗，可能證交所格式已更改")
-    except Exception as e:
-        print(f" ❌ [錯誤] TWSE 抓取異常: {e}", end="")
-        return None
+    except: pass
+    return None
 
 def get_tpex_chips(date_obj):
     minguo_year = date_obj.year - 1911
     date_str = f"{minguo_year}/{date_obj.month:02d}/{date_obj.day:02d}"
     url = f"https://www.tpex.org.tw/web/stock/3insti/daily_trade/3itrade_hedge_result_download.php?l=zh-tw&se=EW&t=D&d={date_str}"
     try:
-        time.sleep(3)
-        res = session.get(url, headers=HEADERS, timeout=15)
-        if res.status_code != 200: 
-            raise ValueError(f"TPEX 回傳錯誤碼: {res.status_code}")
-            
-        text = res.text
-        if len(text.strip().split('\n')) <= 2:
-            return pd.DataFrame()
-
-        df = pd.read_csv(io.StringIO(text), header=1, thousands=',')
+        res = requests.get(url, headers=HEADERS, timeout=10)
+        if res.status_code != 200: return None
+        df = pd.read_csv(io.StringIO(res.text), header=1, thousands=',')
         df.columns = [c.strip() for c in df.columns]
 
         if '代號' not in df.columns:
-             df = pd.read_csv(io.StringIO(text), header=2, thousands=',')
+             df = pd.read_csv(io.StringIO(res.text), header=2, thousands=',')
              df.columns = [c.strip() for c in df.columns]
              
         if '代號' in df.columns:
@@ -102,19 +76,12 @@ def get_tpex_chips(date_obj):
             if '三大法人買賣超股數' not in df.columns and '三大法人-買賣超股數' in df.columns:
                 df['三大法人買賣超股數'] = df['三大法人-買賣超股數']
             return df
-        else:
-            raise ValueError("欄位解析失敗")
-    except Exception as e:
-        print(f" ❌ [錯誤] TPEX 抓取異常: {e}", end="")
-        return None
+    except: pass
+    return None
 
 def get_all_chips_data(is_intraday=False):
-    print(f"🚀 啟動抓取程序 (嚴格真實模式 | 上市+上櫃)...")
-    tw_now = datetime.now(timezone.utc) + timedelta(hours=8)
-    
-    # 下午 3 點以後才能抓「今天(0)」，否則抓「昨天(1)」
-    start_delay = 0 if tw_now.hour >= 15 else 1
-    
+    print(f"🚀 啟動抓取程序 (容錯穩定版 | 上市+上櫃)...")
+    start_delay = 1 if is_intraday else 0
     valid_dfs = [] 
     days_collected = 0
     target_days = 5 
@@ -123,6 +90,7 @@ def get_all_chips_data(is_intraday=False):
     for i in range(start_delay, start_delay + 20):
         if days_collected >= target_days: break
         
+        tw_now = datetime.now(timezone.utc) + timedelta(hours=8)
         date_obj = tw_now - timedelta(days=i)
         
         if date_obj.weekday() >= 5: continue
@@ -132,13 +100,9 @@ def get_all_chips_data(is_intraday=False):
         df_twse = get_twse_chips(date_obj)
         df_tpex = get_tpex_chips(date_obj)
         
-        if df_twse is None or df_tpex is None:
-            print("\n🚨 [嚴格模式攔截] 偵測到資料連線失敗或被封鎖。為確保數據 100% 真實，已強制中斷程式！")
-            return pd.DataFrame()
-        
         day_dfs = []
-        if not df_twse.empty: day_dfs.append(df_twse)
-        if not df_tpex.empty: day_dfs.append(df_tpex)
+        if df_twse is not None and not df_twse.empty: day_dfs.append(df_twse)
+        if df_tpex is not None and not df_tpex.empty: day_dfs.append(df_tpex)
         
         if day_dfs:
             print(f" ✅ 成功")
@@ -170,7 +134,9 @@ def get_all_chips_data(is_intraday=False):
             daily_records.append(df_clean)
             days_collected += 1
         else:
-            print(f" 💤 無資料 (確認為假日休市或盤後資料尚未結算)")
+            print(f" ⚠️ 無資料 (可能是休市，自動往下一天找)")
+        
+        time.sleep(1)
 
     if not valid_dfs: return pd.DataFrame()
     
@@ -275,7 +241,7 @@ def get_tdcc_data():
     return True, "OK"
 
 # ==========================================
-# 技術指標與即時運算
+# 技術指標與即時運算 (純 Yahoo 版)
 # ==========================================
 def calculate_technical_indicators(df):
     if len(df) < 35: return 50, 50, False, 0, False, False, 0, False, False, 0.0
@@ -316,7 +282,7 @@ def add_realtime_data(df_chips, is_intraday):
     if not yf_tickers: return df_chips
     
     try: 
-        # 使用 Yahoo 批次下載，完全免費且無限制
+        # 僅使用 Yahoo，確保不會有跨日覆蓋的 20% Bug
         data = yf.download(yf_tickers, period="6mo", progress=False, group_by='ticker')
     except Exception as e: 
         print(f"❌ yfinance 下載失敗: {e}")
@@ -376,7 +342,6 @@ def add_realtime_data(df_chips, is_intraday):
             df_chips.at[index, 'spike_high'] = bool(is_spike_high and vol_ratio > 2.0)
             df_chips.at[index, 'strong_long'] = bool(is_strong_long and vol_ratio > 1.2)
             df_chips.at[index, 'pct_change'] = round(pct, 2)
-            
         except Exception as e: continue
     return df_chips
 
