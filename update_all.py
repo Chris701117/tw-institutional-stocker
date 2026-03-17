@@ -7,9 +7,6 @@ import yfinance as yf
 import io
 from datetime import datetime, timedelta, timezone
 
-# 引入富果 API
-from fugle_marketdata import RestClient
-
 # 引入嚴格連線重試機制
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
@@ -33,10 +30,8 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 }
 
-FUGLE_API_KEY = os.getenv("FUGLE_API_KEY", "")
-
 # ==========================================
-# 建立強健連線與嚴格重試機制
+# 建立強健連線與嚴格重試機制 (針對證交所/櫃買)
 # ==========================================
 session = requests.Session()
 retry = Retry(connect=5, backoff_factor=1, status_forcelist=[403, 500, 502, 503, 504])
@@ -117,6 +112,7 @@ def get_all_chips_data(is_intraday=False):
     print(f"🚀 啟動抓取程序 (嚴格真實模式 | 上市+上櫃)...")
     tw_now = datetime.now(timezone.utc) + timedelta(hours=8)
     
+    # 下午 3 點以後才能抓「今天(0)」，否則抓「昨天(1)」
     start_delay = 0 if tw_now.hour >= 15 else 1
     
     valid_dfs = [] 
@@ -137,7 +133,7 @@ def get_all_chips_data(is_intraday=False):
         df_tpex = get_tpex_chips(date_obj)
         
         if df_twse is None or df_tpex is None:
-            print("\n🚨 [嚴格模式攔截] 偵測到資料連線失敗或被封鎖。為確保數據 100% 真實，已強制中斷程式，拒絕使用舊資料拼湊！")
+            print("\n🚨 [嚴格模式攔截] 偵測到資料連線失敗或被封鎖。為確保數據 100% 真實，已強制中斷程式！")
             return pd.DataFrame()
         
         day_dfs = []
@@ -311,7 +307,7 @@ def calculate_technical_indicators(df):
     return curr_k, curr_d, is_kd_gc, ma60_gap, is_bb_low, is_macd_gc, osc.iloc[-1], is_spike_high, is_strong_long, pct_change
 
 def add_realtime_data(df_chips, is_intraday):
-    print(f"🚀 啟動 yfinance 抓取 (共 {len(df_chips)} 檔)...")
+    print(f"🚀 啟動純 Yahoo 抓取 (共 {len(df_chips)} 檔)...")
     df_valid = df_chips[df_chips['code'].str.len() == 4].copy()
     if df_valid.empty: return df_chips
 
@@ -320,6 +316,7 @@ def add_realtime_data(df_chips, is_intraday):
     if not yf_tickers: return df_chips
     
     try: 
+        # 使用 Yahoo 批次下載，完全免費且無限制
         data = yf.download(yf_tickers, period="6mo", progress=False, group_by='ticker')
     except Exception as e: 
         print(f"❌ yfinance 下載失敗: {e}")
@@ -339,14 +336,6 @@ def add_realtime_data(df_chips, is_intraday):
 
     ticker_map = df_valid.set_index('code')['ticker'].to_dict()
 
-    fugle_client = None
-    if FUGLE_API_KEY:
-        try:
-            fugle_client = RestClient(api_key=FUGLE_API_KEY)
-            print("💎 已掛載富果 API 金鑰，啟用【零延遲精準報價】混血模式！")
-        except Exception as e:
-            print(f"⚠️ 富果初始化失敗 ({e})，降級為純 yfinance 模式")
-
     for index, row in df_chips.iterrows():
         code = row['code']
         if code not in ticker_map: continue
@@ -359,37 +348,6 @@ def add_realtime_data(df_chips, is_intraday):
                 df_stock = data[ticker].dropna()
             
             if len(df_stock) < 35: continue
-
-            if fugle_client and is_intraday:
-                try:
-                    quote = fugle_client.stock.intraday.quote(symbol=code)
-                    fugle_price = quote.get('lastPrice', None)
-                    fugle_vol = quote.get('total', {}).get('tradeVolume', 0)
-                    
-                    if fugle_price is not None and fugle_vol > 0:
-                        last_date_str = df_stock.index[-1].strftime('%Y-%m-%d')
-                        today_str = tw_now.strftime('%Y-%m-%d')
-                        
-                        if last_date_str != today_str:
-                            # 🚨 關鍵修復：Yahoo 沒有今天資料，新增一筆今天，不能覆蓋昨天
-                            next_idx = df_stock.index[-1] + pd.Timedelta(days=1)
-                            df_stock.loc[next_idx] = df_stock.iloc[-1].copy()
-                            df_stock.iloc[-1, df_stock.columns.get_loc('Open')] = quote.get('openPrice', fugle_price)
-                            df_stock.iloc[-1, df_stock.columns.get_loc('High')] = quote.get('highPrice', fugle_price)
-                            df_stock.iloc[-1, df_stock.columns.get_loc('Low')] = quote.get('lowPrice', fugle_price)
-                            df_stock.iloc[-1, df_stock.columns.get_loc('Close')] = fugle_price
-                            df_stock.iloc[-1, df_stock.columns.get_loc('Volume')] = fugle_vol
-                        else:
-                            # Yahoo 已經有今天，直接更新
-                            df_stock.iloc[-1, df_stock.columns.get_loc('Close')] = fugle_price
-                            df_stock.iloc[-1, df_stock.columns.get_loc('Volume')] = fugle_vol
-                            df_stock.iloc[-1, df_stock.columns.get_loc('High')] = max(df_stock['High'].iloc[-1], fugle_price)
-                            df_stock.iloc[-1, df_stock.columns.get_loc('Low')] = min(df_stock['Low'].iloc[-1], fugle_price)
-                    
-                    time.sleep(1.1)
-                except Exception as e:
-                    print(f"⚠️ 富果抓取 {code} 異常，回退使用 yfinance ({e})")
-                    time.sleep(1.1)
 
             current_vol = df_stock['Volume'].iloc[-1]
             k, d, is_kd_gc, ma60_gap, is_bb_low, is_macd_gc, osc, is_spike_high, is_strong_long, pct = calculate_technical_indicators(df_stock)
@@ -418,6 +376,7 @@ def add_realtime_data(df_chips, is_intraday):
             df_chips.at[index, 'spike_high'] = bool(is_spike_high and vol_ratio > 2.0)
             df_chips.at[index, 'strong_long'] = bool(is_strong_long and vol_ratio > 1.2)
             df_chips.at[index, 'pct_change'] = round(pct, 2)
+            
         except Exception as e: continue
     return df_chips
 
