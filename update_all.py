@@ -270,6 +270,7 @@ def get_tdcc_data():
 # ==========================================
 # 技術指標與即時運算
 # ==========================================
+# 🔥 這裡加入了 is_yahoo_delayed 參數來防禦 20% Bug
 def calculate_technical_indicators(df, is_yahoo_delayed=False):
     if len(df) < 35: return 50, 50, False, 0, False, False, 0, False, False, 0.0
     low_min = df['Low'].rolling(window=9).min(); high_max = df['High'].rolling(window=9).max()
@@ -294,7 +295,7 @@ def calculate_technical_indicators(df, is_yahoo_delayed=False):
     dif = ema12 - ema26; dem = dif.ewm(span=9, adjust=False).mean(); osc = dif - dem
     is_macd_gc = (dif.iloc[-2] < dem.iloc[-2]) and (dif.iloc[-1] > dem.iloc[-1])
     
-    # 🔥 防禦 Yahoo 跨日 Bug：如果資料延遲，強制漲跌幅為 0，避免算出 20%
+    # 🔥 防禦 Yahoo 跨日 Bug：如果資料延遲，強制漲跌幅為 0，避免算出 20% 並錯發爆量空/強勢多訊號
     if is_yahoo_delayed:
         pct_change = 0.0
         is_spike_high = False
@@ -360,7 +361,7 @@ def add_realtime_data(df_chips, is_intraday):
             sum_vol_5 = df_stock['Volume'].iloc[-5:].sum()
             avg_vol_5 = df_stock['Volume'].iloc[-6:-1].mean()
             
-            # 如果 Yahoo 延遲了，預估量也失去意義，強制不放大
+            # 🔥 如果 Yahoo 延遲了，預估量也失去意義，強制不放大
             if is_yahoo_delayed:
                 est_vol = current_vol
             else:
