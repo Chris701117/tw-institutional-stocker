@@ -40,19 +40,15 @@ def get_twse_chips(date_obj):
     try:
         res = requests.get(url, headers=HEADERS)
         if res.status_code != 200: return None
-        # 加入 thousands=',' 讓 pandas 懂逗號
         df = pd.read_csv(io.StringIO(res.text), header=1, thousands=',')
         
-        # 🔥【關鍵修正 1】清除欄位名稱的所有空白 (避免 "投信 " 抓不到)
         df.columns = [c.strip() for c in df.columns]
         
-        # 二次確認 header (有時證交所格式會跑掉)
         if '證券代號' not in df.columns:
             df = pd.read_csv(io.StringIO(res.text), header=2, thousands=',')
             df.columns = [c.strip() for c in df.columns]
 
         if '證券代號' in df.columns:
-            # 清洗代號 (去除 = " 等符號)
             df['code'] = df['證券代號'].astype(str).str.replace('=', '').str.replace('"', '').str.strip()
             df['name'] = df['證券名稱'].astype(str).str.strip()
             df['market'] = 'TW'
@@ -69,7 +65,6 @@ def get_tpex_chips(date_obj):
         if res.status_code != 200: return None
         df = pd.read_csv(io.StringIO(res.text), header=1, thousands=',')
         
-        # 🔥【關鍵修正 1】清除欄位名稱空白
         df.columns = [c.strip() for c in df.columns]
 
         if '代號' not in df.columns:
@@ -80,7 +75,6 @@ def get_tpex_chips(date_obj):
             df['code'] = df['代號'].astype(str).str.strip()
             df['name'] = df['名稱'].astype(str).str.strip()
             df['market'] = 'TWO'
-            # 櫃買中心欄位名稱標準化
             if '三大法人買賣超股數' not in df.columns and '三大法人-買賣超股數' in df.columns:
                 df['三大法人買賣超股數'] = df['三大法人-買賣超股數']
             return df
@@ -89,21 +83,18 @@ def get_tpex_chips(date_obj):
 
 def get_all_chips_data(is_intraday=False):
     print(f"🚀 啟動抓取程序 (模式: 累計 5 日 | 上市+上櫃)...")
-    # 如果是盤中(True)，從昨天(1)開始推算；盤後(False)從今天(0)開始
     start_delay = 1 if is_intraday else 0
     valid_dfs = [] 
     days_collected = 0
     target_days = 5 
     daily_records = []
 
-    # 搜尋範圍擴大，確保能湊滿 5 個交易日
     for i in range(start_delay, start_delay + 20):
         if days_collected >= target_days: break
         
         tw_now = datetime.now(timezone.utc) + timedelta(hours=8)
         date_obj = tw_now - timedelta(days=i)
         
-        # 跳過週末
         if date_obj.weekday() >= 5: continue
         
         print(f"   🔍 嘗試抓取: {date_obj.strftime('%Y-%m-%d')} ...", end="")
@@ -119,26 +110,20 @@ def get_all_chips_data(is_intraday=False):
             print(f" ✅ 成功")
             df_day = pd.concat(day_dfs)
             
-            # 🔥【關鍵修正 2】高強度數值清洗 (字串->去逗號->轉數字)
-            # 確保欄位名稱對應正確 (證交所 vs 櫃買)
             col_foreign = '外陸資買賣超股數(不含外資自營商)'
             col_trust = '投信買賣超股數'
             col_total = '三大法人買賣超股數'
             
-            # 櫃買的欄位可能稍有不同，做個映射檢查
             if col_foreign not in df_day.columns and '外資及陸資(不含外資自營商)-買賣超股數' in df_day.columns:
                 col_foreign = '外資及陸資(不含外資自營商)-買賣超股數'
             if col_trust not in df_day.columns and '投信-買賣超股數' in df_day.columns:
                 col_trust = '投信-買賣超股數'
 
-            # 定義清洗函式
             def parse_col(df, col_name):
                 if col_name in df.columns:
-                    # 強制轉字串 -> 移除逗號 -> 轉數字 (無效值填0)
                     return df[col_name].astype(str).str.replace(',', '').apply(pd.to_numeric, errors='coerce').fillna(0)
                 return 0
 
-            # 計算 (除以1000換算成張數)
             df_day['外資'] = parse_col(df_day, col_foreign) / 1000
             df_day['投信'] = parse_col(df_day, col_trust) / 1000
             df_day['總變'] = parse_col(df_day, col_total) / 1000
@@ -146,7 +131,6 @@ def get_all_chips_data(is_intraday=False):
             df_day['date_idx'] = days_collected 
             
             cols = ['code', 'name', 'market', '外資', '投信', '總變', 'date_idx']
-            # 只保留需要的欄位，避免 concat 時記憶體浪費
             df_clean = df_day[cols].copy()
             
             valid_dfs.append(df_clean)
@@ -155,7 +139,6 @@ def get_all_chips_data(is_intraday=False):
         else:
             print(f" ⚠️ 無資料 (可能是休市)")
         
-        # 避免請求過快
         time.sleep(1)
 
     if not valid_dfs: return pd.DataFrame()
@@ -163,14 +146,11 @@ def get_all_chips_data(is_intraday=False):
     print(f"📊 計算連買天數與加總...")
     merged_df = pd.concat(valid_dfs)
     
-    # 群組加總
     final_df = merged_df.groupby(['code', 'name', 'market'], as_index=False)[['外資', '投信', '總變']].sum()
     
-    # 計算投信連買天數
     all_daily = pd.concat(daily_records)
     streak_map = {}
     for code, group in all_daily.groupby('code'):
-        # 0是最近一天，數字越大越久遠
         group = group.sort_values('date_idx') 
         streak = 0
         for val in group['投信']:
@@ -181,9 +161,6 @@ def get_all_chips_data(is_intraday=False):
     final_df['trust_streak'] = final_df['code'].map(streak_map).fillna(0).astype(int)
     return final_df
 
-# ==========================================
-# 週六集保大戶抓取 (維持您原本正確的版本)
-# ==========================================
 def get_tdcc_data():
     print("🚀 啟動週六集保大戶抓取...")
     url = "https://smart.tdcc.com.tw/opendata/getOD.ashx?id=1-5"
@@ -270,7 +247,6 @@ def get_tdcc_data():
 # ==========================================
 # 技術指標與即時運算
 # ==========================================
-# 🔥 這裡加入了 is_yahoo_delayed 參數來防禦 20% Bug
 def calculate_technical_indicators(df, is_yahoo_delayed=False):
     if len(df) < 35: return 50, 50, False, 0, False, False, 0, False, False, 0.0
     low_min = df['Low'].rolling(window=9).min(); high_max = df['High'].rolling(window=9).max()
@@ -295,13 +271,16 @@ def calculate_technical_indicators(df, is_yahoo_delayed=False):
     dif = ema12 - ema26; dem = dif.ewm(span=9, adjust=False).mean(); osc = dif - dem
     is_macd_gc = (dif.iloc[-2] < dem.iloc[-2]) and (dif.iloc[-1] > dem.iloc[-1])
     
-    # 🔥 防禦 Yahoo 跨日 Bug：如果資料延遲，強制漲跌幅為 0，避免算出 20% 並錯發爆量空/強勢多訊號
-    if is_yahoo_delayed:
+    # 🔥 終極物理防禦：計算漲跌幅後，驗證是否超過台股 10% 限制
+    raw_pct_change = ((df['Close'].iloc[-1] - df['Close'].iloc[-2]) / df['Close'].iloc[-2]) * 100
+    
+    if is_yahoo_delayed or abs(raw_pct_change) > 10.5:
+        # 若大於 10.5%，代表 Yahoo 絕對漏了昨天的 K 線，強制歸零！
         pct_change = 0.0
         is_spike_high = False
         is_strong_long = False
     else:
-        pct_change = ((df['Close'].iloc[-1] - df['Close'].iloc[-2]) / df['Close'].iloc[-2]) * 100
+        pct_change = raw_pct_change
         is_spike_high = (df['Close'].iloc[-1] >= upper.iloc[-1]) and (pct_change > 2) and (pct_change < 9.5)
         is_strong_long = (df['Close'].iloc[-1] > ma20.iloc[-1]) and (pct_change > 1.5) and (df['Close'].iloc[-1] < upper.iloc[-1])
     
@@ -351,7 +330,7 @@ def add_realtime_data(df_chips, is_intraday):
             
             if len(df_stock) < 35: continue
 
-            # 🔥 檢查 Yahoo 給的資料是不是最新的
+            # 檢查 Yahoo 日期有沒有更新到今天
             last_date_str = df_stock.index[-1].strftime('%Y-%m-%d')
             is_yahoo_delayed = (is_intraday and last_date_str != today_str)
 
@@ -361,7 +340,6 @@ def add_realtime_data(df_chips, is_intraday):
             sum_vol_5 = df_stock['Volume'].iloc[-5:].sum()
             avg_vol_5 = df_stock['Volume'].iloc[-6:-1].mean()
             
-            # 🔥 如果 Yahoo 延遲了，預估量也失去意義，強制不放大
             if is_yahoo_delayed:
                 est_vol = current_vol
             else:
@@ -446,17 +424,15 @@ def main():
 
     if is_saturday:
         success, msg = get_tdcc_data()
-        # if success: trigger_gas(action_name="run_weekly")  <-- 已註解，交由 Actions 觸發
         if not success:
             print(f"❌ 集保抓取失敗: {msg}")
-            trigger_gas(action_name="error_report", error_msg=msg) # 錯誤回報保留
+            trigger_gas(action_name="error_report", error_msg=msg) 
     else:
         is_intraday = (9 <= tw_now.hour < 15)
         df = get_all_chips_data(is_intraday)
         if not df.empty:
             df = add_realtime_data(df, is_intraday)
             export_data(df)
-            # trigger_gas(action_name="run")  <-- 已註解，交由 Actions 觸發
             print("✅ 資料處理完畢，等待 GitHub Actions 執行 Push 與通知 GAS...")
         else: print("❌ 無法取得任何籌碼資料，程式結束。")
 
