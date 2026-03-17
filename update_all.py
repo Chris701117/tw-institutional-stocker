@@ -58,7 +58,6 @@ def get_twse_chips(date_obj):
             raise ValueError(f"TWSE 回傳錯誤碼: {res.status_code}")
             
         text = res.text
-        # 🔥【修正】若內容行數少於等於2行(只有標題)，代表當天尚未出資料或休市，正常略過
         if len(text.strip().split('\n')) <= 2:
             return pd.DataFrame() 
 
@@ -91,7 +90,6 @@ def get_tpex_chips(date_obj):
             raise ValueError(f"TPEX 回傳錯誤碼: {res.status_code}")
             
         text = res.text
-        # 🔥【修正】若內容行數少於等於2行，代表當天尚未出資料或休市，正常略過
         if len(text.strip().split('\n')) <= 2:
             return pd.DataFrame()
 
@@ -117,11 +115,8 @@ def get_tpex_chips(date_obj):
 
 def get_all_chips_data(is_intraday=False):
     print(f"🚀 啟動抓取程序 (嚴格真實模式 | 上市+上櫃)...")
-    
     tw_now = datetime.now(timezone.utc) + timedelta(hours=8)
     
-    # 🔥【修正】確保時間邏輯正確：
-    # 如果是下午 3 點以後，才能抓「今天(0)」的資料；否則（半夜、早上、盤中）都從「昨天(1)」開始推算
     start_delay = 0 if tw_now.hour >= 15 else 1
     
     valid_dfs = [] 
@@ -316,7 +311,7 @@ def calculate_technical_indicators(df):
     return curr_k, curr_d, is_kd_gc, ma60_gap, is_bb_low, is_macd_gc, osc.iloc[-1], is_spike_high, is_strong_long, pct_change
 
 def add_realtime_data(df_chips, is_intraday):
-    print(f"🚀 啟抓 yfinance (共 {len(df_chips)} 檔)...")
+    print(f"🚀 啟動 yfinance 抓取 (共 {len(df_chips)} 檔)...")
     df_valid = df_chips[df_chips['code'].str.len() == 4].copy()
     if df_valid.empty: return df_chips
 
@@ -372,10 +367,24 @@ def add_realtime_data(df_chips, is_intraday):
                     fugle_vol = quote.get('total', {}).get('tradeVolume', 0)
                     
                     if fugle_price is not None and fugle_vol > 0:
-                        df_stock.iloc[-1, df_stock.columns.get_loc('Close')] = fugle_price
-                        df_stock.iloc[-1, df_stock.columns.get_loc('Volume')] = fugle_vol
-                        df_stock.iloc[-1, df_stock.columns.get_loc('High')] = max(df_stock['High'].iloc[-1], fugle_price)
-                        df_stock.iloc[-1, df_stock.columns.get_loc('Low')] = min(df_stock['Low'].iloc[-1], fugle_price)
+                        last_date_str = df_stock.index[-1].strftime('%Y-%m-%d')
+                        today_str = tw_now.strftime('%Y-%m-%d')
+                        
+                        if last_date_str != today_str:
+                            # 🚨 關鍵修復：Yahoo 沒有今天資料，新增一筆今天，不能覆蓋昨天
+                            next_idx = df_stock.index[-1] + pd.Timedelta(days=1)
+                            df_stock.loc[next_idx] = df_stock.iloc[-1].copy()
+                            df_stock.iloc[-1, df_stock.columns.get_loc('Open')] = quote.get('openPrice', fugle_price)
+                            df_stock.iloc[-1, df_stock.columns.get_loc('High')] = quote.get('highPrice', fugle_price)
+                            df_stock.iloc[-1, df_stock.columns.get_loc('Low')] = quote.get('lowPrice', fugle_price)
+                            df_stock.iloc[-1, df_stock.columns.get_loc('Close')] = fugle_price
+                            df_stock.iloc[-1, df_stock.columns.get_loc('Volume')] = fugle_vol
+                        else:
+                            # Yahoo 已經有今天，直接更新
+                            df_stock.iloc[-1, df_stock.columns.get_loc('Close')] = fugle_price
+                            df_stock.iloc[-1, df_stock.columns.get_loc('Volume')] = fugle_vol
+                            df_stock.iloc[-1, df_stock.columns.get_loc('High')] = max(df_stock['High'].iloc[-1], fugle_price)
+                            df_stock.iloc[-1, df_stock.columns.get_loc('Low')] = min(df_stock['Low'].iloc[-1], fugle_price)
                     
                     time.sleep(1.1)
                 except Exception as e:
@@ -471,7 +480,6 @@ def main():
             print(f"❌ 集保抓取失敗: {msg}")
             trigger_gas(action_name="error_report", error_msg=msg) 
     else:
-        # ✅ 改回真實時間判斷：早上 9 點到 下午 3 點前為盤中，其餘為盤後
         is_intraday = (9 <= tw_now.hour < 15) 
         
         df = get_all_chips_data(is_intraday)
