@@ -270,7 +270,7 @@ def get_tdcc_data():
 # ==========================================
 # 技術指標與即時運算
 # ==========================================
-def calculate_technical_indicators(df):
+def calculate_technical_indicators(df, is_yahoo_delayed=False):
     if len(df) < 35: return 50, 50, False, 0, False, False, 0, False, False, 0.0
     low_min = df['Low'].rolling(window=9).min(); high_max = df['High'].rolling(window=9).max()
     rsv = (df['Close'] - low_min) / (high_max - low_min) * 100; rsv = rsv.fillna(50)
@@ -294,9 +294,16 @@ def calculate_technical_indicators(df):
     dif = ema12 - ema26; dem = dif.ewm(span=9, adjust=False).mean(); osc = dif - dem
     is_macd_gc = (dif.iloc[-2] < dem.iloc[-2]) and (dif.iloc[-1] > dem.iloc[-1])
     
-    pct_change = ((df['Close'].iloc[-1] - df['Close'].iloc[-2]) / df['Close'].iloc[-2]) * 100
-    is_spike_high = (df['Close'].iloc[-1] >= upper.iloc[-1]) and (pct_change > 2) and (pct_change < 9.5)
-    is_strong_long = (df['Close'].iloc[-1] > ma20.iloc[-1]) and (pct_change > 1.5) and (df['Close'].iloc[-1] < upper.iloc[-1])
+    # 🔥 防禦 Yahoo 跨日 Bug：如果資料延遲，強制漲跌幅為 0，避免算出 20%
+    if is_yahoo_delayed:
+        pct_change = 0.0
+        is_spike_high = False
+        is_strong_long = False
+    else:
+        pct_change = ((df['Close'].iloc[-1] - df['Close'].iloc[-2]) / df['Close'].iloc[-2]) * 100
+        is_spike_high = (df['Close'].iloc[-1] >= upper.iloc[-1]) and (pct_change > 2) and (pct_change < 9.5)
+        is_strong_long = (df['Close'].iloc[-1] > ma20.iloc[-1]) and (pct_change > 1.5) and (df['Close'].iloc[-1] < upper.iloc[-1])
+    
     return curr_k, curr_d, is_kd_gc, ma60_gap, is_bb_low, is_macd_gc, osc.iloc[-1], is_spike_high, is_strong_long, pct_change
 
 def add_realtime_data(df_chips, is_intraday):
@@ -319,6 +326,8 @@ def add_realtime_data(df_chips, is_intraday):
     minutes_elapsed = (tw_now - market_open).total_seconds() / 60
     if minutes_elapsed < 1: minutes_elapsed = 1
     if minutes_elapsed > 270: minutes_elapsed = 270
+    
+    today_str = tw_now.strftime('%Y-%m-%d')
 
     for col in ['vol_ratio', 'conc_ratio', 'ma60_gap', 'k_val', 'macd_osc', 'pct_change']:
         df_chips[col] = 0.0
@@ -341,12 +350,22 @@ def add_realtime_data(df_chips, is_intraday):
             
             if len(df_stock) < 35: continue
 
+            # 🔥 檢查 Yahoo 給的資料是不是最新的
+            last_date_str = df_stock.index[-1].strftime('%Y-%m-%d')
+            is_yahoo_delayed = (is_intraday and last_date_str != today_str)
+
             current_vol = df_stock['Volume'].iloc[-1]
-            k, d, is_kd_gc, ma60_gap, is_bb_low, is_macd_gc, osc, is_spike_high, is_strong_long, pct = calculate_technical_indicators(df_stock)
+            k, d, is_kd_gc, ma60_gap, is_bb_low, is_macd_gc, osc, is_spike_high, is_strong_long, pct = calculate_technical_indicators(df_stock, is_yahoo_delayed)
             
             sum_vol_5 = df_stock['Volume'].iloc[-5:].sum()
             avg_vol_5 = df_stock['Volume'].iloc[-6:-1].mean()
-            est_vol = current_vol * (270 / minutes_elapsed) if (is_intraday and minutes_elapsed < 270) else current_vol
+            
+            # 如果 Yahoo 延遲了，預估量也失去意義，強制不放大
+            if is_yahoo_delayed:
+                est_vol = current_vol
+            else:
+                est_vol = current_vol * (270 / minutes_elapsed) if (is_intraday and minutes_elapsed < 270) else current_vol
+            
             if is_intraday: sum_vol_5 = df_stock['Volume'].iloc[-5:-1].sum() + est_vol
 
             if sum_vol_5 < 500000:
