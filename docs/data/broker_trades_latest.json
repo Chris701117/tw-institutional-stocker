@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-03T09:58:56.315836",
+  "updated": "2026-04-06T10:15:33.032372",
   "count": 600,
   "data": [
     {
@@ -1265,7 +1265,7 @@
     {
       "date": "4/02",
       "stock_code": "2308",
-      "broker_name": "元富",
+      "broker_name": "台新",
       "broker_id": "0039004200300030",
       "buy_vol": 18,
       "sell_vol": 87,
@@ -2669,8 +2669,8 @@
     {
       "date": "4/02",
       "stock_code": "2882",
-      "broker_name": "元富",
-      "broker_id": "0039004200300030",
+      "broker_name": "台新-台北",
+      "broker_id": "0039004200320030",
       "buy_vol": 120,
       "sell_vol": 10,
       "net_vol": 110,
@@ -6353,8 +6353,8 @@
     {
       "date": "4/02",
       "stock_code": "2379",
-      "broker_name": "台新證券",
-      "broker_id": "8150",
+      "broker_name": "台新-營業部",
+      "broker_id": "0039004200310037",
       "buy_vol": 0,
       "sell_vol": 17,
       "net_vol": -17,
@@ -6509,8 +6509,8 @@
     {
       "date": "4/02",
       "stock_code": "3034",
-      "broker_name": "元富",
-      "broker_id": "0039004200300030",
+      "broker_name": "台新-台北",
+      "broker_id": "0039004200320030",
       "buy_vol": 100,
       "sell_vol": 0,
       "net_vol": 100,
