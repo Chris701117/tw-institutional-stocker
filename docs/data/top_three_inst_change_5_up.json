@@ -253101,7 +253101,7 @@
   {
     "code": "057473",
     "name": "台灣50國票59購01",
-    "change": -3619.0,
+    "change": -1952.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -391668,7 +391668,7 @@
   {
     "code": "080672",
     "name": "世芯元富5B購02",
-    "change": 69.0,
+    "change": 54.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -416824,10 +416824,10 @@
   {
     "code": "1310",
     "name": "台苯",
-    "change": -3635.1000000000004,
-    "three_inst_ratio": -11.1,
+    "change": -1948.247,
+    "three_inst_ratio": -5.9,
     "foreign_ratio_diff": -3644.939,
-    "trust_ratio_diff": 0.0,
+    "trust_ratio_diff": 17.103,
     "trust_streak": 0,
     "vol_ratio": 1.65,
     "price_pos": 0.5,
@@ -417762,14 +417762,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": 0.0,
+    "ma60_gap": 2.32,
     "kd_gold_cross": false,
-    "k_val": 0.0,
+    "k_val": 27.5,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.72
   },
   {
     "code": "1457",
