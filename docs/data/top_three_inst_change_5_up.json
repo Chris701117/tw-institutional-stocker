@@ -5417,7 +5417,7 @@
   {
     "code": "03021T",
     "name": "華泰台新5A售01",
-    "change": -1.0,
+    "change": 0.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -15335,7 +15335,7 @@
   {
     "code": "033970",
     "name": "佳必琪統一5A購01",
-    "change": -398.0,
+    "change": -337.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -109594,7 +109594,7 @@
   {
     "code": "049340",
     "name": "金寶國泰57購01",
-    "change": -9.0,
+    "change": -28.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -200072,7 +200072,7 @@
   {
     "code": "056083",
     "name": "嘉澤統一62購01",
-    "change": 84.0,
+    "change": 227.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -217457,7 +217457,7 @@
   {
     "code": "057203",
     "name": "盟立富邦5A購01",
-    "change": 94.0,
+    "change": 82.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -221637,7 +221637,7 @@
   {
     "code": "057463",
     "name": "聯電國泰5A購01",
-    "change": 0.0,
+    "change": -2.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -283881,7 +283881,7 @@
   {
     "code": "061288",
     "name": "臺股指國票5A購03",
-    "change": 21.0,
+    "change": -28.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -391245,7 +391245,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -5.99
   },
   {
     "code": "1539",
@@ -395886,10 +395886,10 @@
   {
     "code": "2464",
     "name": "盟立",
-    "change": 4530.424999999999,
-    "three_inst_ratio": 2.6,
+    "change": 7646.441999999999,
+    "three_inst_ratio": 4.4,
     "foreign_ratio_diff": 4678.757,
-    "trust_ratio_diff": 0.0,
+    "trust_ratio_diff": 175.497,
     "trust_streak": 0,
     "vol_ratio": 0.71,
     "price_pos": 0.5,
