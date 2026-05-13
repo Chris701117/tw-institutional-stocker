@@ -20389,7 +20389,7 @@
   {
     "code": "035132",
     "name": "鴻海國泰57購02",
-    "change": 32.0,
+    "change": 33.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -117669,7 +117669,7 @@
   {
     "code": "050302",
     "name": "國巨國泰57購02",
-    "change": 4.0,
+    "change": 5.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -188254,7 +188254,7 @@
   {
     "code": "055343",
     "name": "亞光凱基58購02",
-    "change": -10.0,
+    "change": -100.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -282570,7 +282570,7 @@
   {
     "code": "061348",
     "name": "新唐元大63購01",
-    "change": 11.0,
+    "change": 12.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -284850,7 +284850,7 @@
   {
     "code": "061479",
     "name": "禾伸堂國票61購01",
-    "change": 17.0,
+    "change": 18.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -348671,7 +348671,7 @@
   {
     "code": "065176",
     "name": "南亞群益5A購04",
-    "change": -339.0,
+    "change": -249.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -405824,20 +405824,20 @@
     "code": "1434",
     "name": "福懋",
     "change": -1372.986,
-    "three_inst_ratio": -12.8,
+    "three_inst_ratio": 0.0,
     "foreign_ratio_diff": -1343.0,
     "trust_ratio_diff": 33.0,
     "trust_streak": 2,
-    "vol_ratio": 1.14,
+    "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": -6.93,
+    "ma60_gap": 0.0,
     "kd_gold_cross": false,
-    "k_val": 26.7,
-    "bb_low": true,
+    "k_val": 0.0,
+    "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.96
+    "pct_change": 0.0
   },
   {
     "code": "1436",
@@ -410682,7 +410682,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -2.43
   },
   {
     "code": "2393",
@@ -417047,7 +417047,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.97
   },
   {
     "code": "3714",
@@ -422063,7 +422063,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.79
   },
   {
     "code": "6807",
