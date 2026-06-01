@@ -18299,7 +18299,7 @@
   {
     "code": "03383T",
     "name": "盟立台新5B售05",
-    "change": -535.0,
+    "change": -525.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -26659,7 +26659,7 @@
   {
     "code": "036639",
     "name": "仁寶永豐56購01",
-    "change": 421.0,
+    "change": 426.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -189869,7 +189869,7 @@
   {
     "code": "057405",
     "name": "奇鋐群益58購06",
-    "change": 0.0,
+    "change": 1.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -410954,20 +410954,20 @@
     "code": "1417",
     "name": "嘉裕",
     "change": 109.633,
-    "three_inst_ratio": 0.0,
+    "three_inst_ratio": 13.2,
     "foreign_ratio_diff": 100.633,
     "trust_ratio_diff": 0.0,
     "trust_streak": 0,
-    "vol_ratio": 0.0,
+    "vol_ratio": 1.09,
     "price_pos": 0.5,
-    "ma60_gap": 0.0,
+    "ma60_gap": -6.31,
     "kd_gold_cross": false,
-    "k_val": 0.0,
+    "k_val": 42.2,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.49
   },
   {
     "code": "1418",
