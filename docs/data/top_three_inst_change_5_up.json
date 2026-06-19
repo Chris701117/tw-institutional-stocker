@@ -118258,7 +118258,7 @@
   {
     "code": "055165",
     "name": "祥碩元大58購05",
-    "change": 256.0,
+    "change": 260.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -284698,7 +284698,7 @@
   {
     "code": "067120",
     "name": "臻鼎元大5B購05",
-    "change": 32.0,
+    "change": 66.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -323382,7 +323382,7 @@
   {
     "code": "069324",
     "name": "超豐凱基5B購03",
-    "change": -272.0,
+    "change": -268.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -331362,7 +331362,7 @@
   {
     "code": "069785",
     "name": "力積電永豐64購02",
-    "change": -376.0,
+    "change": -372.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -384277,10 +384277,10 @@
   {
     "code": "1303",
     "name": "南亞",
-    "change": 71912.424,
-    "three_inst_ratio": 15.3,
+    "change": 49586.443,
+    "three_inst_ratio": 10.6,
     "foreign_ratio_diff": 68469.436,
-    "trust_ratio_diff": 1170.58,
+    "trust_ratio_diff": 954.913,
     "trust_streak": 1,
     "vol_ratio": 1.7,
     "price_pos": 0.5,
@@ -397444,10 +397444,10 @@
   {
     "code": "4915",
     "name": "致伸",
-    "change": -7207.0019999999995,
-    "three_inst_ratio": -23.8,
+    "change": -8954.555,
+    "three_inst_ratio": -29.6,
     "foreign_ratio_diff": -13979.902999999998,
-    "trust_ratio_diff": 5990.193,
+    "trust_ratio_diff": 4349.3150000000005,
     "trust_streak": 5,
     "vol_ratio": 0.73,
     "price_pos": 0.5,
