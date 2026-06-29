@@ -402524,14 +402524,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": -12.84,
+    "ma60_gap": -9.13,
     "kd_gold_cross": false,
-    "k_val": 25.6,
-    "bb_low": true,
+    "k_val": 40.5,
+    "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -4.75
+    "pct_change": -0.63
   },
   {
     "code": "3596",
