@@ -2776,10 +2776,10 @@
   {
     "code": "00913",
     "name": "兆豐台灣晶圓製造",
-    "change": -1567.685,
+    "change": -3511.1769999999997,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": -277.90999999999997,
-    "trust_ratio_diff": 187.0,
+    "trust_ratio_diff": 0.0,
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
@@ -4695,7 +4695,7 @@
   {
     "code": "020036",
     "name": "元大金融配息N",
-    "change": 37.0,
+    "change": 35.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -12143,7 +12143,7 @@
   {
     "code": "03257T",
     "name": "台灣50台新5B售08",
-    "change": -1054.0,
+    "change": -1219.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -12181,7 +12181,7 @@
   {
     "code": "03259T",
     "name": "鴻海台新5B售05",
-    "change": -362.0,
+    "change": -1087.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -12960,7 +12960,7 @@
   {
     "code": "032955",
     "name": "臻鼎統一58購02",
-    "change": -17.0,
+    "change": -15.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -14347,7 +14347,7 @@
   {
     "code": "03354T",
     "name": "臻鼎國票5B售04",
-    "change": 106.0,
+    "change": 54.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -15088,7 +15088,7 @@
   {
     "code": "033600",
     "name": "台達電中信58購03",
-    "change": -20.0,
+    "change": -22.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -16513,7 +16513,7 @@
   {
     "code": "033957",
     "name": "鉅祥統一64購01",
-    "change": -212.0,
+    "change": -80.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -19211,7 +19211,7 @@
   {
     "code": "03494T",
     "name": "華碩台新5C售04",
-    "change": -1245.0,
+    "change": -1064.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -20275,7 +20275,7 @@
   {
     "code": "035170",
     "name": "亞光元大59購01",
-    "change": -32.0,
+    "change": -695.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -22859,7 +22859,7 @@
   {
     "code": "035747",
     "name": "鉅祥統一5C購02",
-    "change": 161.0,
+    "change": 289.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -24626,7 +24626,7 @@
   {
     "code": "036282",
     "name": "富世達元大59購01",
-    "change": -4.0,
+    "change": -54.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -25120,7 +25120,7 @@
   {
     "code": "036450",
     "name": "台積電中信59購02",
-    "change": 22.0,
+    "change": 5.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -29699,7 +29699,7 @@
   {
     "code": "038831",
     "name": "友達統一5A購01",
-    "change": 175.0,
+    "change": 166.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -30041,7 +30041,7 @@
   {
     "code": "038862",
     "name": "緯穎統一6A購01",
-    "change": -505.0,
+    "change": -595.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -32397,7 +32397,7 @@
   {
     "code": "039767",
     "name": "富世達群益58購02",
-    "change": 0.0,
+    "change": 2.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -37850,7 +37850,7 @@
   {
     "code": "042664",
     "name": "楠梓電國票59購02",
-    "change": 6.0,
+    "change": 7.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -42296,7 +42296,7 @@
   {
     "code": "044350",
     "name": "緯創元大58購04",
-    "change": 35.0,
+    "change": 36.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -43341,7 +43341,7 @@
   {
     "code": "044773",
     "name": "台塑化元大58購01",
-    "change": -2.0,
+    "change": -3.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -44120,7 +44120,7 @@
   {
     "code": "044942",
     "name": "萬海元大5A購03",
-    "change": -407.0,
+    "change": -96.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -56888,7 +56888,7 @@
   {
     "code": "049469",
     "name": "中信金富邦57購02",
-    "change": 3.0,
+    "change": 5.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -57610,7 +57610,7 @@
   {
     "code": "049689",
     "name": "國泰金凱基57購02",
-    "change": -33.0,
+    "change": -15.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -59396,7 +59396,7 @@
   {
     "code": "050136",
     "name": "AES國泰57購02",
-    "change": 25.0,
+    "change": -110.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -63709,7 +63709,7 @@
   {
     "code": "050889",
     "name": "大立光中信5A購01",
-    "change": 0.0,
+    "change": 11.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -68193,7 +68193,7 @@
   {
     "code": "051412",
     "name": "福懋科凱基57購01",
-    "change": 0.0,
+    "change": 89.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -68782,7 +68782,7 @@
   {
     "code": "051484",
     "name": "超豐元大57購03",
-    "change": 4.0,
+    "change": 5.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -72886,7 +72886,7 @@
   {
     "code": "051915",
     "name": "威盛國票58購01",
-    "change": 1.0,
+    "change": 21.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -77541,7 +77541,7 @@
   {
     "code": "052448",
     "name": "力成凱基5A購02",
-    "change": -9.0,
+    "change": 1.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -79783,7 +79783,7 @@
   {
     "code": "052705",
     "name": "新興兆豐59購01",
-    "change": -9.0,
+    "change": -20.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -81246,7 +81246,7 @@
   {
     "code": "052852",
     "name": "金寶元大57購01",
-    "change": -4.0,
+    "change": 0.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -85673,7 +85673,7 @@
   {
     "code": "053296",
     "name": "上銀凱基57購01",
-    "change": -3.0,
+    "change": 7.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -86870,7 +86870,7 @@
   {
     "code": "053432",
     "name": "南亞富邦59購03",
-    "change": 10.0,
+    "change": 12.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -95762,7 +95762,7 @@
   {
     "code": "054279",
     "name": "華新科元富57購05",
-    "change": 19.0,
+    "change": 24.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -96636,7 +96636,7 @@
   {
     "code": "054361",
     "name": "廣宇元大61購01",
-    "change": -21.0,
+    "change": 260.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -104027,7 +104027,7 @@
   {
     "code": "055074",
     "name": "華泰台新58購01",
-    "change": -25.0,
+    "change": 0.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -110316,7 +110316,7 @@
   {
     "code": "055684",
     "name": "健鼎統一61購01",
-    "change": -125.0,
+    "change": -132.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -118144,7 +118144,7 @@
   {
     "code": "056478",
     "name": "道瓊銀統一64購02",
-    "change": 13.0,
+    "change": 8.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -120215,7 +120215,7 @@
   {
     "code": "056677",
     "name": "達興凱基5A購01",
-    "change": -20.0,
+    "change": -33.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -120481,7 +120481,7 @@
   {
     "code": "056696",
     "name": "偉詮電國票59購02",
-    "change": 84.0,
+    "change": 43.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -122362,7 +122362,7 @@
   {
     "code": "056871",
     "name": "宇瞻統一72購05",
-    "change": -15.0,
+    "change": -16.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -123787,7 +123787,7 @@
   {
     "code": "057011",
     "name": "天虹統一72購02",
-    "change": -44.0,
+    "change": -164.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -125269,7 +125269,7 @@
   {
     "code": "057154",
     "name": "華通統一62購05",
-    "change": 17.0,
+    "change": -129.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -125592,7 +125592,7 @@
   {
     "code": "057171",
     "name": "京元電統一62購03",
-    "change": 190.0,
+    "change": 416.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -127169,7 +127169,7 @@
   {
     "code": "057289",
     "name": "台達電國票5A購03",
-    "change": -231.0,
+    "change": -480.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -130209,7 +130209,7 @@
   {
     "code": "057535",
     "name": "達興統一73購01",
-    "change": -58.0,
+    "change": 14.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -131368,7 +131368,7 @@
   {
     "code": "057624",
     "name": "華城元大5A購01",
-    "change": -643.0,
+    "change": -648.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -135130,7 +135130,7 @@
   {
     "code": "057919",
     "name": "瀚荃國票59購01",
-    "change": -293.0,
+    "change": -416.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -135776,7 +135776,7 @@
   {
     "code": "057971",
     "name": "AES凱基5A購01",
-    "change": 15.0,
+    "change": 18.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -136308,7 +136308,7 @@
   {
     "code": "058012",
     "name": "同欣電元大59購01",
-    "change": 500.0,
+    "change": 563.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -138189,7 +138189,7 @@
   {
     "code": "058153",
     "name": "SGBR2X元大59購04",
-    "change": 10.0,
+    "change": -10.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -139025,7 +139025,7 @@
   {
     "code": "058220",
     "name": "長興群益59購02",
-    "change": 57.0,
+    "change": 27.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -156068,7 +156068,7 @@
   {
     "code": "059651",
     "name": "台虹統一66購01",
-    "change": -145.0,
+    "change": -95.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -156391,7 +156391,7 @@
   {
     "code": "059674",
     "name": "義隆永豐5C購02",
-    "change": 291.0,
+    "change": -646.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -157721,7 +157721,7 @@
   {
     "code": "059775",
     "name": "金像電國泰5A購01",
-    "change": 151.0,
+    "change": 0.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -160419,7 +160419,7 @@
   {
     "code": "060006",
     "name": "光寶科富邦5B購01",
-    "change": -1.0,
+    "change": 8.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -160799,7 +160799,7 @@
   {
     "code": "060039",
     "name": "華立凱基59購01",
-    "change": 249.0,
+    "change": 50.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -162300,7 +162300,7 @@
   {
     "code": "060163",
     "name": "台虹元大59購10",
-    "change": 13.0,
+    "change": 7.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -163326,7 +163326,7 @@
   {
     "code": "060234",
     "name": "文曄統一63購03",
-    "change": -70.0,
+    "change": -165.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -163630,7 +163630,7 @@
   {
     "code": "060254",
     "name": "創見凱基63購01",
-    "change": -43.0,
+    "change": -33.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -164352,7 +164352,7 @@
   {
     "code": "060308",
     "name": "景碩國票61購02",
-    "change": 21.0,
+    "change": 63.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -169577,7 +169577,7 @@
   {
     "code": "060732",
     "name": "昇貿富邦5B購01",
-    "change": 52.0,
+    "change": 22.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -173016,7 +173016,7 @@
   {
     "code": "060999",
     "name": "牧德凱基5B購01",
-    "change": 0.0,
+    "change": -2.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -173434,7 +173434,7 @@
   {
     "code": "061028",
     "name": "智邦元大59購10",
-    "change": 22.0,
+    "change": 32.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -174707,7 +174707,7 @@
   {
     "code": "061125",
     "name": "建準凱基59購03",
-    "change": -128.0,
+    "change": -102.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -177367,7 +177367,7 @@
   {
     "code": "061336",
     "name": "立隆電元大59購01",
-    "change": 4.0,
+    "change": 5.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -177861,7 +177861,7 @@
   {
     "code": "061383",
     "name": "亞翔台新59購01",
-    "change": 14.0,
+    "change": 23.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -178526,7 +178526,7 @@
   {
     "code": "061430",
     "name": "台塑化統一63購04",
-    "change": -200.0,
+    "change": -198.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -180331,7 +180331,7 @@
   {
     "code": "061582",
     "name": "台聚富邦5C購01",
-    "change": -304.0,
+    "change": 35.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -189337,7 +189337,7 @@
   {
     "code": "062296",
     "name": "奇鋐元大61購12",
-    "change": 96.0,
+    "change": -42.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -191845,7 +191845,7 @@
   {
     "code": "062525",
     "name": "T50反1群益5A購03",
-    "change": -364.0,
+    "change": -609.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -196595,7 +196595,7 @@
   {
     "code": "062869",
     "name": "至上元大61購04",
-    "change": 206.0,
+    "change": 58.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -198894,7 +198894,7 @@
   {
     "code": "063027",
     "name": "台積電元大61購24",
-    "change": 103.0,
+    "change": 43.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -203549,7 +203549,7 @@
   {
     "code": "063376",
     "name": "緯穎永豐5C購03",
-    "change": 20.0,
+    "change": 29.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -208793,7 +208793,7 @@
   {
     "code": "063717",
     "name": "台積電凱基61購05",
-    "change": 30.0,
+    "change": 60.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -215557,7 +215557,7 @@
   {
     "code": "064179",
     "name": "新日興國票5A購02",
-    "change": -10.0,
+    "change": -12.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -216355,7 +216355,7 @@
   {
     "code": "064237",
     "name": "華城元大63購02",
-    "change": -385.0,
+    "change": -412.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -219927,7 +219927,7 @@
   {
     "code": "064476",
     "name": "TPK元大5A購03",
-    "change": 1312.0,
+    "change": 1314.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -222853,7 +222853,7 @@
   {
     "code": "064666",
     "name": "龍德船國泰5B購01",
-    "change": 81.0,
+    "change": 49.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -224582,7 +224582,7 @@
   {
     "code": "064781",
     "name": "勤誠兆豐5C購01",
-    "change": 92.0,
+    "change": 114.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -225532,7 +225532,7 @@
   {
     "code": "064841",
     "name": "燿華元大5A購03",
-    "change": -65.0,
+    "change": 101.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -229142,7 +229142,7 @@
   {
     "code": "065069",
     "name": "智原永豐5C購01",
-    "change": 89.0,
+    "change": 38.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -229598,7 +229598,7 @@
   {
     "code": "065098",
     "name": "威盛國票5B購02",
-    "change": -229.0,
+    "change": -239.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -231479,7 +231479,7 @@
   {
     "code": "065213",
     "name": "臻鼎元大5A購16",
-    "change": 165.0,
+    "change": 74.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -231498,7 +231498,7 @@
   {
     "code": "065214",
     "name": "昇陽半元大5A購07",
-    "change": 50.0,
+    "change": 88.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -234310,7 +234310,7 @@
   {
     "code": "065402",
     "name": "台灣50富邦64購05",
-    "change": 147.0,
+    "change": 105.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -235165,7 +235165,7 @@
   {
     "code": "065457",
     "name": "智邦中信62購02",
-    "change": 51.0,
+    "change": -2.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -235621,7 +235621,7 @@
   {
     "code": "065483",
     "name": "聯發科凱基5C購10",
-    "change": -3.0,
+    "change": 2.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -238338,7 +238338,7 @@
   {
     "code": "065643",
     "name": "耀登國泰61購01",
-    "change": -215.0,
+    "change": -243.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -247553,7 +247553,7 @@
   {
     "code": "066225",
     "name": "台積電台新65購02",
-    "change": 151.0,
+    "change": 207.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -247629,7 +247629,7 @@
   {
     "code": "066229",
     "name": "台積電台新65購06",
-    "change": 18.0,
+    "change": 17.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -251999,7 +251999,7 @@
   {
     "code": "066494",
     "name": "世芯元大64購07",
-    "change": -80.0,
+    "change": -40.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -252227,7 +252227,7 @@
   {
     "code": "066507",
     "name": "南亞國票5C購01",
-    "change": 278.0,
+    "change": 266.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -253462,7 +253462,7 @@
   {
     "code": "066583",
     "name": "T50正2富邦5B購05",
-    "change": 60.0,
+    "change": 59.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -254583,7 +254583,7 @@
   {
     "code": "066650",
     "name": "南亞科元大5B購09",
-    "change": 302.0,
+    "change": 310.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -255172,7 +255172,7 @@
   {
     "code": "066684",
     "name": "ITH凱基5B購01",
-    "change": 70.0,
+    "change": 85.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -258820,7 +258820,7 @@
   {
     "code": "066911",
     "name": "達發元大5B購03",
-    "change": 156.0,
+    "change": 182.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -259865,7 +259865,7 @@
   {
     "code": "066974",
     "name": "晶豪科凱基5B購07",
-    "change": 49.0,
+    "change": 7.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -260340,7 +260340,7 @@
   {
     "code": "067001",
     "name": "文曄群益5B購01",
-    "change": 0.0,
+    "change": -20.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -269023,7 +269023,7 @@
   {
     "code": "067523",
     "name": "威健元大5B購01",
-    "change": 117.0,
+    "change": 104.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -271075,7 +271075,7 @@
   {
     "code": "067639",
     "name": "大立光富邦62購02",
-    "change": -5341.0,
+    "change": -5688.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -273526,7 +273526,7 @@
   {
     "code": "067784",
     "name": "臻鼎中信65購01",
-    "change": 431.0,
+    "change": -1176.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -275312,7 +275312,7 @@
   {
     "code": "067888",
     "name": "國巨凱基63購02",
-    "change": 700.0,
+    "change": 512.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -275464,7 +275464,7 @@
   {
     "code": "067900",
     "name": "盟立凱基61購01",
-    "change": 49.0,
+    "change": 50.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -277212,7 +277212,7 @@
   {
     "code": "068007",
     "name": "華邦電統一63購01",
-    "change": 290.0,
+    "change": 280.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -277535,7 +277535,7 @@
   {
     "code": "068024",
     "name": "微星統一75購01",
-    "change": -410.0,
+    "change": -401.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -278599,7 +278599,7 @@
   {
     "code": "068088",
     "name": "嘉基統一64購01",
-    "change": -142.0,
+    "change": -292.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -280233,7 +280233,7 @@
   {
     "code": "068189",
     "name": "超豐凱基5B購01",
-    "change": 114.0,
+    "change": 94.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -280708,7 +280708,7 @@
   {
     "code": "068215",
     "name": "台郡國泰5C購01",
-    "change": -20.0,
+    "change": 48.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -285591,7 +285591,7 @@
   {
     "code": "068504",
     "name": "台化台新65購01",
-    "change": 7.0,
+    "change": 5.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -286750,7 +286750,7 @@
   {
     "code": "068571",
     "name": "增你強元大5B購01",
-    "change": 2364.0,
+    "change": 446.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -290645,7 +290645,7 @@
   {
     "code": "068796",
     "name": "南亞科統一64購02",
-    "change": -386.0,
+    "change": -656.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -295547,7 +295547,7 @@
   {
     "code": "069076",
     "name": "祥碩群益5B購05",
-    "change": -219.0,
+    "change": -209.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -298435,7 +298435,7 @@
   {
     "code": "069240",
     "name": "華碩台新5B購02",
-    "change": 139.0,
+    "change": 137.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -299537,7 +299537,7 @@
   {
     "code": "069306",
     "name": "富鼎台新5B購03",
-    "change": -57.0,
+    "change": -118.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -300658,7 +300658,7 @@
   {
     "code": "069369",
     "name": "富鼎群益5B購04",
-    "change": 336.0,
+    "change": 236.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -301038,7 +301038,7 @@
   {
     "code": "069392",
     "name": "日月光元大63購04",
-    "change": 539.0,
+    "change": 548.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -304097,7 +304097,7 @@
   {
     "code": "069563",
     "name": "啟碁元大5B購16",
-    "change": -19.0,
+    "change": -2.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -309208,7 +309208,7 @@
   {
     "code": "069870",
     "name": "南亞科群益5C購01",
-    "change": 324.0,
+    "change": 274.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -309816,7 +309816,7 @@
   {
     "code": "069903",
     "name": "佳能元大5C購01",
-    "change": 207.0,
+    "change": 197.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -312134,7 +312134,7 @@
   {
     "code": "070032",
     "name": "南亞科凱基61購04",
-    "change": 469.0,
+    "change": 210.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -312818,7 +312818,7 @@
   {
     "code": "070069",
     "name": "智邦元大64購04",
-    "change": -919.0,
+    "change": -382.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -314509,7 +314509,7 @@
   {
     "code": "070167",
     "name": "南亞科國票61購03",
-    "change": -161.0,
+    "change": -410.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -319107,7 +319107,7 @@
   {
     "code": "070428",
     "name": "晟銘電群益63購01",
-    "change": 0.0,
+    "change": 10.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -319506,7 +319506,7 @@
   {
     "code": "070449",
     "name": "鴻海元大61購24",
-    "change": 360.0,
+    "change": 306.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -322774,7 +322774,7 @@
   {
     "code": "070639",
     "name": "臺股指凱基5C購23",
-    "change": 40.0,
+    "change": 4.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -324902,7 +324902,7 @@
   {
     "code": "070768",
     "name": "晶豪科元大5C購01",
-    "change": -732.0,
+    "change": -819.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -325149,7 +325149,7 @@
   {
     "code": "070781",
     "name": "台郡元大5C購02",
-    "change": -103.0,
+    "change": -179.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -327315,7 +327315,7 @@
   {
     "code": "070905",
     "name": "緯創國票61購02",
-    "change": 10.0,
+    "change": 0.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -334383,7 +334383,7 @@
   {
     "code": "071293",
     "name": "聯強凱基61購01",
-    "change": 40.0,
+    "change": 0.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -336739,7 +336739,7 @@
   {
     "code": "071434",
     "name": "晶技統一63購01",
-    "change": 48.0,
+    "change": -1665.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -338734,7 +338734,7 @@
   {
     "code": "071545",
     "name": "微星統一63購01",
-    "change": -271.0,
+    "change": -509.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -339475,7 +339475,7 @@
   {
     "code": "071585",
     "name": "上銀凱基5C購05",
-    "change": -110.0,
+    "change": -100.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -345080,7 +345080,7 @@
   {
     "code": "071915",
     "name": "永擎永豐64購01",
-    "change": -17.0,
+    "change": -97.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -346277,7 +346277,7 @@
   {
     "code": "071983",
     "name": "永擎凱基5C購01",
-    "change": -45.0,
+    "change": -111.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -346657,7 +346657,7 @@
   {
     "code": "072002",
     "name": "臺股指元大63購24",
-    "change": 79.0,
+    "change": 309.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -347892,7 +347892,7 @@
   {
     "code": "072073",
     "name": "聯詠國票5C購04",
-    "change": -63.0,
+    "change": 17.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -348747,7 +348747,7 @@
   {
     "code": "072123",
     "name": "亞力統一58購03",
-    "change": -25.0,
+    "change": -55.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -351369,7 +351369,7 @@
   {
     "code": "072275",
     "name": "富邦金永豐61購01",
-    "change": -132.0,
+    "change": -77.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -355625,7 +355625,7 @@
   {
     "code": "072536",
     "name": "華邦電元大5C購21",
-    "change": -116.0,
+    "change": -310.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -357202,7 +357202,7 @@
   {
     "code": "072630",
     "name": "南茂台新5C購04",
-    "change": 5.0,
+    "change": 0.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -358570,7 +358570,7 @@
   {
     "code": "072717",
     "name": "聯電群益5C購06",
-    "change": -664.0,
+    "change": -1020.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -360660,7 +360660,7 @@
   {
     "code": "072850",
     "name": "強茂國泰61購02",
-    "change": 30.0,
+    "change": 0.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -371794,7 +371794,7 @@
   {
     "code": "08398U",
     "name": "台化元富58售05",
-    "change": -9.0,
+    "change": 0.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -371984,7 +371984,7 @@
   {
     "code": "08410U",
     "name": "鴻海凱基63售03",
-    "change": -5.0,
+    "change": 27.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -373295,7 +373295,7 @@
   {
     "code": "08520U",
     "name": "臺股指凱基5A售28",
-    "change": -20.0,
+    "change": -5.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -374511,7 +374511,7 @@
   {
     "code": "08609U",
     "name": "台積電富邦73售01",
-    "change": -532.0,
+    "change": -837.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -377722,7 +377722,7 @@
   {
     "code": "08772U",
     "name": "臺股指中信62售03",
-    "change": 0.0,
+    "change": 70.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -378482,7 +378482,7 @@
   {
     "code": "088189",
     "name": "元金2X凱基57購01",
-    "change": 0.0,
+    "change": 18.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 0.0,
     "trust_ratio_diff": 0.0,
@@ -382472,10 +382472,10 @@
   {
     "code": "1215",
     "name": "卜蜂",
-    "change": -1003.324,
-    "three_inst_ratio": -20.7,
+    "change": -1188.811,
+    "three_inst_ratio": -24.5,
     "foreign_ratio_diff": -1185.638,
-    "trust_ratio_diff": 28.477,
+    "trust_ratio_diff": 0.0,
     "trust_streak": 0,
     "vol_ratio": 0.84,
     "price_pos": 0.5,
@@ -382510,10 +382510,10 @@
   {
     "code": "1217",
     "name": "愛之味",
-    "change": 297.21299999999997,
-    "three_inst_ratio": 11.3,
+    "change": 7.212999999999994,
+    "three_inst_ratio": 0.3,
     "foreign_ratio_diff": 8.212999999999994,
-    "trust_ratio_diff": 4.0,
+    "trust_ratio_diff": 0.0,
     "trust_streak": 0,
     "vol_ratio": 0.96,
     "price_pos": 0.5,
@@ -382738,7 +382738,7 @@
   {
     "code": "1236",
     "name": "宏亞",
-    "change": -2.0,
+    "change": -5.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": -7.0,
     "trust_ratio_diff": 0.0,
@@ -382795,10 +382795,10 @@
   {
     "code": "1303",
     "name": "南亞",
-    "change": 30407.996,
-    "three_inst_ratio": 16.9,
+    "change": 30268.996,
+    "three_inst_ratio": 16.8,
     "foreign_ratio_diff": 6019.4039999999995,
-    "trust_ratio_diff": 29594.465,
+    "trust_ratio_diff": 29455.465,
     "trust_streak": 5,
     "vol_ratio": 1.09,
     "price_pos": 0.5,
@@ -384353,10 +384353,10 @@
   {
     "code": "1519",
     "name": "華城",
-    "change": -3007.16,
-    "three_inst_ratio": -27.4,
+    "change": -3057.7599999999998,
+    "three_inst_ratio": -27.9,
     "foreign_ratio_diff": -2482.395,
-    "trust_ratio_diff": -333.362,
+    "trust_ratio_diff": -383.962,
     "trust_streak": 0,
     "vol_ratio": 2.03,
     "price_pos": 0.5,
@@ -385398,10 +385398,10 @@
   {
     "code": "1720",
     "name": "生達",
-    "change": 31.879999999999995,
-    "three_inst_ratio": 3.9,
+    "change": -30.120000000000005,
+    "three_inst_ratio": -3.7,
     "foreign_ratio_diff": -30.120000000000005,
-    "trust_ratio_diff": 2.0,
+    "trust_ratio_diff": 1.0,
     "trust_streak": 0,
     "vol_ratio": 1.05,
     "price_pos": 0.5,
@@ -385626,10 +385626,10 @@
   {
     "code": "1735",
     "name": "日勝化",
-    "change": 67.917,
-    "three_inst_ratio": 6.8,
+    "change": 9.280000000000001,
+    "three_inst_ratio": 0.9,
     "foreign_ratio_diff": 8.003999999999998,
-    "trust_ratio_diff": 5.637,
+    "trust_ratio_diff": 0.0,
     "trust_streak": 0,
     "vol_ratio": 1.4,
     "price_pos": 0.5,
@@ -386139,10 +386139,10 @@
   {
     "code": "2007",
     "name": "燁興",
-    "change": -254.0,
-    "three_inst_ratio": -15.8,
+    "change": -345.0,
+    "three_inst_ratio": -21.4,
     "foreign_ratio_diff": -335.0,
-    "trust_ratio_diff": 7.0,
+    "trust_ratio_diff": 0.0,
     "trust_streak": 0,
     "vol_ratio": 1.05,
     "price_pos": 0.5,
@@ -386595,10 +386595,10 @@
   {
     "code": "2059",
     "name": "川湖",
-    "change": -17.599999999999994,
-    "three_inst_ratio": -0.7,
+    "change": -20.19999999999999,
+    "three_inst_ratio": -0.8,
     "foreign_ratio_diff": 8.324000000000012,
-    "trust_ratio_diff": -20.733,
+    "trust_ratio_diff": -23.333000000000002,
     "trust_streak": 0,
     "vol_ratio": 1.16,
     "price_pos": 0.5,
@@ -387279,10 +387279,10 @@
   {
     "code": "2303",
     "name": "聯電",
-    "change": -79306.274,
-    "three_inst_ratio": -5.2,
+    "change": -78480.274,
+    "three_inst_ratio": -5.1,
     "foreign_ratio_diff": 106518.577,
-    "trust_ratio_diff": -196536.737,
+    "trust_ratio_diff": -195710.737,
     "trust_streak": 0,
     "vol_ratio": 0.66,
     "price_pos": 0.5,
@@ -387355,10 +387355,10 @@
   {
     "code": "2313",
     "name": "華通",
-    "change": -14730.309000000001,
+    "change": -14720.309000000001,
     "three_inst_ratio": -10.1,
     "foreign_ratio_diff": -13656.142,
-    "trust_ratio_diff": -531.0,
+    "trust_ratio_diff": -521.0,
     "trust_streak": 0,
     "vol_ratio": 0.87,
     "price_pos": 0.5,
@@ -387412,10 +387412,10 @@
   {
     "code": "2317",
     "name": "鴻海",
-    "change": -42934.658,
-    "three_inst_ratio": -15.2,
+    "change": -72161.534,
+    "three_inst_ratio": -25.6,
     "foreign_ratio_diff": -76458.409,
-    "trust_ratio_diff": 2032.814,
+    "trust_ratio_diff": 2576.014,
     "trust_streak": 0,
     "vol_ratio": 1.19,
     "price_pos": 0.5,
@@ -387469,10 +387469,10 @@
   {
     "code": "2327",
     "name": "國巨*",
-    "change": -6481.719999999999,
+    "change": -6435.719999999999,
     "three_inst_ratio": -2.3,
     "foreign_ratio_diff": 2060.8610000000003,
-    "trust_ratio_diff": -7906.29,
+    "trust_ratio_diff": -7860.29,
     "trust_streak": 0,
     "vol_ratio": 1.41,
     "price_pos": 0.5,
@@ -387526,10 +387526,10 @@
   {
     "code": "2330",
     "name": "台積電",
-    "change": -8207.933999999997,
-    "three_inst_ratio": -4.5,
+    "change": -7875.794999999999,
+    "three_inst_ratio": -4.3,
     "foreign_ratio_diff": -16323.468,
-    "trust_ratio_diff": 6153.536999999999,
+    "trust_ratio_diff": 6485.6759999999995,
     "trust_streak": 1,
     "vol_ratio": 0.81,
     "price_pos": 0.5,
@@ -387678,10 +387678,10 @@
   {
     "code": "2345",
     "name": "智邦",
-    "change": 969.6540000000001,
-    "three_inst_ratio": 4.8,
+    "change": 994.6540000000001,
+    "three_inst_ratio": 5.0,
     "foreign_ratio_diff": 1225.8429999999998,
-    "trust_ratio_diff": -376.909,
+    "trust_ratio_diff": -351.909,
     "trust_streak": 2,
     "vol_ratio": 1.25,
     "price_pos": 0.5,
@@ -388229,10 +388229,10 @@
   {
     "code": "2383",
     "name": "台光電",
-    "change": 26.646000000000015,
-    "three_inst_ratio": 0.5,
+    "change": 20.646000000000015,
+    "three_inst_ratio": 0.4,
     "foreign_ratio_diff": 474.598,
-    "trust_ratio_diff": -431.05400000000003,
+    "trust_ratio_diff": -437.05400000000003,
     "trust_streak": 0,
     "vol_ratio": 0.84,
     "price_pos": 0.5,
@@ -388362,10 +388362,10 @@
   {
     "code": "2395",
     "name": "研華",
-    "change": 2334.215,
+    "change": 2333.532,
     "three_inst_ratio": 18.2,
     "foreign_ratio_diff": 2119.415,
-    "trust_ratio_diff": 213.059,
+    "trust_ratio_diff": 212.376,
     "trust_streak": 0,
     "vol_ratio": 1.01,
     "price_pos": 0.5,
@@ -388514,10 +388514,10 @@
   {
     "code": "2408",
     "name": "南亞科",
-    "change": -20512.066,
+    "change": -20432.066,
     "three_inst_ratio": -3.8,
     "foreign_ratio_diff": -33777.436,
-    "trust_ratio_diff": 19752.532,
+    "trust_ratio_diff": 19832.532,
     "trust_streak": 0,
     "vol_ratio": 0.91,
     "price_pos": 0.5,
@@ -388780,10 +388780,10 @@
   {
     "code": "2427",
     "name": "三商電",
-    "change": 111.89500000000001,
-    "three_inst_ratio": 4.8,
+    "change": -68.10499999999999,
+    "three_inst_ratio": -2.9,
     "foreign_ratio_diff": -67.10499999999999,
-    "trust_ratio_diff": 1.0,
+    "trust_ratio_diff": 0.0,
     "trust_streak": 0,
     "vol_ratio": 0.75,
     "price_pos": 0.5,
@@ -389141,10 +389141,10 @@
   {
     "code": "2454",
     "name": "聯發科",
-    "change": -6468.722000000001,
+    "change": -6462.422000000001,
     "three_inst_ratio": -10.3,
     "foreign_ratio_diff": -1442.3999999999999,
-    "trust_ratio_diff": -4084.322,
+    "trust_ratio_diff": -4078.022,
     "trust_streak": 0,
     "vol_ratio": 0.68,
     "price_pos": 0.5,
@@ -389692,10 +389692,10 @@
   {
     "code": "2492",
     "name": "華新科",
-    "change": 4893.002,
-    "three_inst_ratio": 31.4,
+    "change": 4913.002,
+    "three_inst_ratio": 31.6,
     "foreign_ratio_diff": 6452.051,
-    "trust_ratio_diff": 30.0,
+    "trust_ratio_diff": 50.0,
     "trust_streak": 1,
     "vol_ratio": 1.46,
     "price_pos": 0.5,
@@ -391250,10 +391250,10 @@
   {
     "code": "2849",
     "name": "安泰銀",
-    "change": 203.0,
-    "three_inst_ratio": 35.4,
+    "change": 101.0,
+    "three_inst_ratio": 17.6,
     "foreign_ratio_diff": 88.0,
-    "trust_ratio_diff": 9.0,
+    "trust_ratio_diff": 0.0,
     "trust_streak": 0,
     "vol_ratio": 0.58,
     "price_pos": 0.5,
@@ -391744,10 +391744,10 @@
   {
     "code": "2891",
     "name": "中信金",
-    "change": -4716.992,
-    "three_inst_ratio": -2.2,
+    "change": -5116.992,
+    "three_inst_ratio": -2.4,
     "foreign_ratio_diff": -19874.091999999997,
-    "trust_ratio_diff": 8675.903,
+    "trust_ratio_diff": 8275.903,
     "trust_streak": 0,
     "vol_ratio": 1.1,
     "price_pos": 0.5,
@@ -393150,10 +393150,10 @@
   {
     "code": "3090",
     "name": "日電貿",
-    "change": 1357.004,
-    "three_inst_ratio": 23.7,
+    "change": 1970.403,
+    "three_inst_ratio": 34.5,
     "foreign_ratio_diff": 467.56100000000004,
-    "trust_ratio_diff": 863.769,
+    "trust_ratio_diff": 1561.769,
     "trust_streak": 4,
     "vol_ratio": 1.22,
     "price_pos": 0.5,
@@ -394005,11 +394005,11 @@
   {
     "code": "3532",
     "name": "台勝科",
-    "change": -34.360000000000014,
-    "three_inst_ratio": -0.9,
+    "change": 70.64,
+    "three_inst_ratio": 1.8,
     "foreign_ratio_diff": -132.722,
-    "trust_ratio_diff": -1.0,
-    "trust_streak": 0,
+    "trust_ratio_diff": 104.0,
+    "trust_streak": 1,
     "vol_ratio": 3.33,
     "price_pos": 0.5,
     "ma60_gap": 53.43,
@@ -394917,10 +394917,10 @@
   {
     "code": "4142",
     "name": "國光生",
-    "change": 1012.123,
-    "three_inst_ratio": 15.6,
+    "change": 147.33300000000008,
+    "three_inst_ratio": 2.3,
     "foreign_ratio_diff": 164.96900000000005,
-    "trust_ratio_diff": 9.79,
+    "trust_ratio_diff": 0.0,
     "trust_streak": 0,
     "vol_ratio": 0.67,
     "price_pos": 0.5,
@@ -396190,10 +396190,10 @@
   {
     "code": "4958",
     "name": "臻鼎-KY",
-    "change": -15268.100999999999,
+    "change": -15320.100999999999,
     "three_inst_ratio": -7.3,
     "foreign_ratio_diff": -16179.143999999998,
-    "trust_ratio_diff": 675.46,
+    "trust_ratio_diff": 623.46,
     "trust_streak": 1,
     "vol_ratio": 1.41,
     "price_pos": 0.5,
@@ -398318,10 +398318,10 @@
   {
     "code": "6431",
     "name": "光麗-KY",
-    "change": -39.0,
+    "change": -68.0,
     "three_inst_ratio": 0.0,
     "foreign_ratio_diff": -68.0,
-    "trust_ratio_diff": 1.0,
+    "trust_ratio_diff": 0.0,
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
@@ -398413,10 +398413,10 @@
   {
     "code": "6449",
     "name": "鈺邦",
-    "change": 184.03800000000015,
-    "three_inst_ratio": 1.5,
+    "change": -13.961999999999847,
+    "three_inst_ratio": -0.1,
     "foreign_ratio_diff": 177.81500000000008,
-    "trust_ratio_diff": 0.0,
+    "trust_ratio_diff": -198.0,
     "trust_streak": 0,
     "vol_ratio": 1.41,
     "price_pos": 0.5,
@@ -399021,10 +399021,10 @@
   {
     "code": "6625",
     "name": "必應",
-    "change": 34.994,
-    "three_inst_ratio": 4.4,
+    "change": 20.029999999999994,
+    "three_inst_ratio": 2.5,
     "foreign_ratio_diff": 21.955,
-    "trust_ratio_diff": 2.0,
+    "trust_ratio_diff": 0.0,
     "trust_streak": 0,
     "vol_ratio": 1.5,
     "price_pos": 0.5,
@@ -399173,10 +399173,10 @@
   {
     "code": "6669",
     "name": "緯穎",
-    "change": -151.95900000000003,
+    "change": -153.95900000000003,
     "three_inst_ratio": -1.7,
     "foreign_ratio_diff": -778.527,
-    "trust_ratio_diff": 730.75,
+    "trust_ratio_diff": 728.75,
     "trust_streak": 2,
     "vol_ratio": 1.91,
     "price_pos": 0.5,
@@ -400921,10 +400921,10 @@
   {
     "code": "7769",
     "name": "鴻勁",
-    "change": -28.06700000000001,
-    "three_inst_ratio": -0.9,
+    "change": -23.067000000000018,
+    "three_inst_ratio": -0.7,
     "foreign_ratio_diff": -182.141,
-    "trust_ratio_diff": 159.694,
+    "trust_ratio_diff": 164.694,
     "trust_streak": 1,
     "vol_ratio": 1.89,
     "price_pos": 0.5,
