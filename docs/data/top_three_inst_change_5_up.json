@@ -180,14 +180,14 @@
     "trust_streak": 5,
     "vol_ratio": 0.81,
     "price_pos": 0.5,
-    "ma60_gap": 5.16,
+    "ma60_gap": 5.26,
     "kd_gold_cross": false,
-    "k_val": 44.2,
+    "k_val": 44.7,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.09
   },
   {
     "code": "0051",
@@ -199,14 +199,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": 4.17,
+    "ma60_gap": 3.04,
     "kd_gold_cross": false,
-    "k_val": 40.2,
+    "k_val": 36.7,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.11
   },
   {
     "code": "0052",
@@ -256,14 +256,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.75,
     "price_pos": 0.5,
-    "ma60_gap": 11.92,
+    "ma60_gap": 11.71,
     "kd_gold_cross": false,
-    "k_val": 59.8,
+    "k_val": 58.3,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.19
   },
   {
     "code": "0056",
@@ -275,14 +275,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.95,
     "price_pos": 0.5,
-    "ma60_gap": 8.76,
+    "ma60_gap": 8.05,
     "kd_gold_cross": false,
-    "k_val": 57.4,
+    "k_val": 54.1,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.66
   },
   {
     "code": "0057",
@@ -294,14 +294,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": 5.03,
+    "ma60_gap": 5.02,
     "kd_gold_cross": true,
     "k_val": 44.7,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.02
   },
   {
     "code": "0061",
@@ -380655,14 +380655,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.83,
     "price_pos": 0.5,
-    "ma60_gap": 5.1,
+    "ma60_gap": -0.19,
     "kd_gold_cross": false,
-    "k_val": 122.2,
+    "k_val": 58.2,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 6.55
+    "pct_change": 1.09
   },
   {
     "code": "1110",
@@ -380674,14 +380674,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.93,
     "price_pos": 0.5,
-    "ma60_gap": 8.33,
+    "ma60_gap": 8.0,
     "kd_gold_cross": false,
-    "k_val": 83.1,
+    "k_val": 81.0,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.31
   },
   {
     "code": "1201",
@@ -380712,14 +380712,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": 4.01,
+    "ma60_gap": 4.35,
     "kd_gold_cross": false,
-    "k_val": 81.0,
+    "k_val": 83.0,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.33
   },
   {
     "code": "1210",
@@ -380750,14 +380750,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.78,
     "price_pos": 0.5,
-    "ma60_gap": -8.6,
+    "ma60_gap": -8.19,
     "kd_gold_cross": false,
-    "k_val": 62.1,
+    "k_val": 66.8,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.45
   },
   {
     "code": "1216",
@@ -380769,14 +380769,14 @@
     "trust_streak": 5,
     "vol_ratio": 1.41,
     "price_pos": 0.5,
-    "ma60_gap": 6.18,
+    "ma60_gap": 6.71,
     "kd_gold_cross": false,
-    "k_val": 79.1,
+    "k_val": 83.4,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.51
   },
   {
     "code": "1217",
@@ -380788,14 +380788,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.98,
     "price_pos": 0.5,
-    "ma60_gap": 1.9,
+    "ma60_gap": 2.4,
     "kd_gold_cross": false,
-    "k_val": 35.5,
+    "k_val": 40.1,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.5
   },
   {
     "code": "1218",
@@ -380902,14 +380902,14 @@
     "trust_streak": 5,
     "vol_ratio": 1.38,
     "price_pos": 0.5,
-    "ma60_gap": 3.77,
-    "kd_gold_cross": true,
-    "k_val": 35.0,
+    "ma60_gap": 6.16,
+    "kd_gold_cross": false,
+    "k_val": 50.8,
     "bb_low": false,
-    "macd_gc": false,
+    "macd_gc": true,
     "spike_high": false,
-    "strong_long": false,
-    "pct_change": 0.0
+    "strong_long": true,
+    "pct_change": 2.35
   },
   {
     "code": "1231",
@@ -381016,14 +381016,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.41,
     "price_pos": 0.5,
-    "ma60_gap": -0.7,
+    "ma60_gap": -2.36,
     "kd_gold_cross": false,
-    "k_val": 21.1,
-    "bb_low": false,
+    "k_val": 16.1,
+    "bb_low": true,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.7
   },
   {
     "code": "1256",
@@ -381073,14 +381073,14 @@
     "trust_streak": 5,
     "vol_ratio": 1.28,
     "price_pos": 0.5,
-    "ma60_gap": 86.25,
+    "ma60_gap": 81.09,
     "kd_gold_cross": false,
-    "k_val": 91.1,
+    "k_val": 87.8,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -2.86
   },
   {
     "code": "1304",
@@ -381111,14 +381111,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.94,
     "price_pos": 0.5,
-    "ma60_gap": -1.2,
+    "ma60_gap": -0.08,
     "kd_gold_cross": false,
-    "k_val": 20.9,
+    "k_val": 23.1,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 1.15
   },
   {
     "code": "1307",
@@ -381168,14 +381168,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.61,
     "price_pos": 0.5,
-    "ma60_gap": -6.43,
+    "ma60_gap": -6.13,
     "kd_gold_cross": false,
-    "k_val": 28.1,
+    "k_val": 28.9,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.33
   },
   {
     "code": "1310",
@@ -381244,14 +381244,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.4,
     "price_pos": 0.5,
-    "ma60_gap": 13.29,
+    "ma60_gap": 15.8,
     "kd_gold_cross": false,
-    "k_val": 23.1,
+    "k_val": 26.2,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
-    "strong_long": false,
-    "pct_change": 0.0
+    "strong_long": true,
+    "pct_change": 2.26
   },
   {
     "code": "1315",
@@ -381263,14 +381263,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": 4.54,
+    "ma60_gap": 4.23,
     "kd_gold_cross": false,
-    "k_val": 78.3,
+    "k_val": 74.4,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.31
   },
   {
     "code": "1316",
@@ -381282,14 +381282,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.12,
     "price_pos": 0.5,
-    "ma60_gap": -2.44,
+    "ma60_gap": -3.36,
     "kd_gold_cross": true,
-    "k_val": 27.9,
+    "k_val": 25.2,
     "bb_low": false,
-    "macd_gc": true,
+    "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.96
   },
   {
     "code": "1319",
@@ -381396,14 +381396,14 @@
     "trust_streak": 3,
     "vol_ratio": 1.49,
     "price_pos": 0.5,
-    "ma60_gap": 34.59,
+    "ma60_gap": 31.05,
     "kd_gold_cross": false,
-    "k_val": 71.1,
+    "k_val": 66.5,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -2.68
   },
   {
     "code": "1337",
@@ -381491,14 +381491,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": 1.91,
+    "ma60_gap": 2.25,
     "kd_gold_cross": false,
-    "k_val": 58.4,
+    "k_val": 60.8,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.34
   },
   {
     "code": "1342",
@@ -381529,14 +381529,14 @@
     "trust_streak": 5,
     "vol_ratio": 0.73,
     "price_pos": 0.5,
-    "ma60_gap": 6.53,
+    "ma60_gap": 7.48,
     "kd_gold_cross": false,
-    "k_val": 46.1,
+    "k_val": 49.0,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.91
   },
   {
     "code": "1409",
@@ -381643,14 +381643,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.7,
     "price_pos": 0.5,
-    "ma60_gap": 2.65,
+    "ma60_gap": 3.56,
     "kd_gold_cross": false,
-    "k_val": 33.4,
+    "k_val": 37.7,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.91
   },
   {
     "code": "1418",
@@ -381662,14 +381662,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": 1.67,
+    "ma60_gap": 0.33,
     "kd_gold_cross": false,
-    "k_val": 36.6,
+    "k_val": 32.6,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.33
   },
   {
     "code": "1419",
@@ -381776,14 +381776,14 @@
     "trust_streak": 0,
     "vol_ratio": 2.96,
     "price_pos": 0.5,
-    "ma60_gap": -3.49,
-    "kd_gold_cross": false,
-    "k_val": 27.1,
+    "ma60_gap": -1.17,
+    "kd_gold_cross": true,
+    "k_val": 46.4,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
-    "strong_long": false,
-    "pct_change": 0.0
+    "strong_long": true,
+    "pct_change": 2.45
   },
   {
     "code": "1437",
@@ -381833,14 +381833,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": -2.01,
+    "ma60_gap": 4.4,
     "kd_gold_cross": false,
-    "k_val": 50.2,
+    "k_val": 68.5,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 6.65
   },
   {
     "code": "1440",
@@ -382023,14 +382023,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.72,
     "price_pos": 0.5,
-    "ma60_gap": 2.59,
+    "ma60_gap": 2.3,
     "kd_gold_cross": false,
-    "k_val": 56.2,
+    "k_val": 53.7,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.29
   },
   {
     "code": "1452",
@@ -382156,14 +382156,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": 1.09,
+    "ma60_gap": 0.25,
     "kd_gold_cross": false,
-    "k_val": 28.6,
+    "k_val": 23.4,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.85
   },
   {
     "code": "1460",
@@ -382213,14 +382213,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.99,
     "price_pos": 0.5,
-    "ma60_gap": 4.73,
+    "ma60_gap": 4.26,
     "kd_gold_cross": false,
-    "k_val": 36.0,
+    "k_val": 34.3,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.46
   },
   {
     "code": "1465",
@@ -382346,14 +382346,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": 6.27,
+    "ma60_gap": 5.23,
     "kd_gold_cross": false,
-    "k_val": 74.5,
+    "k_val": 68.2,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.99
   },
   {
     "code": "1473",
@@ -382517,14 +382517,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": -2.46,
+    "ma60_gap": -3.43,
     "kd_gold_cross": false,
-    "k_val": 39.3,
+    "k_val": 36.4,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.02
   },
   {
     "code": "1513",
@@ -382555,14 +382555,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.5,
     "price_pos": 0.5,
-    "ma60_gap": -8.59,
+    "ma60_gap": -11.85,
     "kd_gold_cross": false,
-    "k_val": 18.3,
+    "k_val": 12.7,
     "bb_low": true,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -3.62
   },
   {
     "code": "1515",
@@ -382574,14 +382574,14 @@
     "trust_streak": 0,
     "vol_ratio": 2.99,
     "price_pos": 0.5,
-    "ma60_gap": 53.4,
+    "ma60_gap": 67.0,
     "kd_gold_cross": false,
-    "k_val": 52.6,
+    "k_val": 70.3,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
-    "strong_long": false,
-    "pct_change": 0.0
+    "strong_long": true,
+    "pct_change": 9.12
   },
   {
     "code": "1516",
@@ -382593,14 +382593,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": -12.72,
+    "ma60_gap": -14.65,
     "kd_gold_cross": false,
-    "k_val": 27.5,
+    "k_val": 18.0,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -2.25
   },
   {
     "code": "1517",
@@ -382631,14 +382631,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.65,
     "price_pos": 0.5,
-    "ma60_gap": -13.98,
+    "ma60_gap": -16.14,
     "kd_gold_cross": false,
-    "k_val": 26.9,
+    "k_val": 22.8,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -2.54
   },
   {
     "code": "1521",
@@ -382688,14 +382688,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.81,
     "price_pos": 0.5,
-    "ma60_gap": -5.67,
-    "kd_gold_cross": true,
-    "k_val": 17.9,
+    "ma60_gap": -6.67,
+    "kd_gold_cross": false,
+    "k_val": 14.9,
     "bb_low": true,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.08
   },
   {
     "code": "1525",
@@ -382726,14 +382726,14 @@
     "trust_streak": 0,
     "vol_ratio": 13.86,
     "price_pos": 0.5,
-    "ma60_gap": -4.14,
+    "ma60_gap": 5.08,
     "kd_gold_cross": false,
-    "k_val": 29.5,
+    "k_val": 54.1,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 9.79
   },
   {
     "code": "1527",
@@ -382745,14 +382745,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.72,
     "price_pos": 0.5,
-    "ma60_gap": 3.44,
+    "ma60_gap": 3.29,
     "kd_gold_cross": false,
-    "k_val": 56.2,
+    "k_val": 54.7,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.15
   },
   {
     "code": "1528",
@@ -382764,14 +382764,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.84,
     "price_pos": 0.5,
-    "ma60_gap": -12.91,
+    "ma60_gap": -15.42,
     "kd_gold_cross": false,
-    "k_val": 23.4,
+    "k_val": 17.5,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -2.92
   },
   {
     "code": "1529",
@@ -382802,14 +382802,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": 1.03,
+    "ma60_gap": 3.05,
     "kd_gold_cross": false,
-    "k_val": 35.8,
+    "k_val": 43.5,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 2.04
   },
   {
     "code": "1531",
@@ -382935,14 +382935,14 @@
     "trust_streak": 0,
     "vol_ratio": 10.9,
     "price_pos": 0.5,
-    "ma60_gap": -0.13,
-    "kd_gold_cross": false,
-    "k_val": 29.1,
+    "ma60_gap": 6.68,
+    "kd_gold_cross": true,
+    "k_val": 48.3,
     "bb_low": false,
     "macd_gc": false,
-    "spike_high": false,
+    "spike_high": true,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 6.94
   },
   {
     "code": "1540",
@@ -382954,14 +382954,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.71,
     "price_pos": 0.5,
-    "ma60_gap": 7.46,
+    "ma60_gap": 3.6,
     "kd_gold_cross": false,
-    "k_val": 64.1,
+    "k_val": 45.8,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -3.65
   },
   {
     "code": "1541",
@@ -382992,14 +382992,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": 1.94,
+    "ma60_gap": 3.67,
     "kd_gold_cross": false,
-    "k_val": 75.8,
+    "k_val": 90.6,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 1.72
   },
   {
     "code": "1560",
@@ -383011,14 +383011,14 @@
     "trust_streak": 0,
     "vol_ratio": 3.28,
     "price_pos": 0.5,
-    "ma60_gap": 12.03,
+    "ma60_gap": 9.95,
     "kd_gold_cross": false,
-    "k_val": 55.2,
+    "k_val": 51.4,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.67
+    "pct_change": -1.23
   },
   {
     "code": "1563",
@@ -383087,14 +383087,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": 2.45,
+    "ma60_gap": 0.48,
     "kd_gold_cross": false,
-    "k_val": 53.7,
+    "k_val": 44.3,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.95
   },
   {
     "code": "1587",
@@ -383144,14 +383144,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.82,
     "price_pos": 0.5,
-    "ma60_gap": -12.46,
+    "ma60_gap": -12.15,
     "kd_gold_cross": true,
-    "k_val": 27.4,
+    "k_val": 27.9,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.36
   },
   {
     "code": "1598",
@@ -383201,14 +383201,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.52,
     "price_pos": 0.5,
-    "ma60_gap": 1.42,
-    "kd_gold_cross": false,
-    "k_val": 40.4,
+    "ma60_gap": 1.63,
+    "kd_gold_cross": true,
+    "k_val": 42.6,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.21
   },
   {
     "code": "1605",
@@ -383315,14 +383315,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": 4.92,
+    "ma60_gap": 1.57,
     "kd_gold_cross": false,
-    "k_val": 117.4,
+    "k_val": 73.5,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 3.08
+    "pct_change": -0.26
   },
   {
     "code": "1615",
@@ -383391,14 +383391,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.33,
     "price_pos": 0.5,
-    "ma60_gap": -4.85,
+    "ma60_gap": -5.58,
     "kd_gold_cross": false,
-    "k_val": 19.9,
+    "k_val": 18.2,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.78
   },
   {
     "code": "1623",
@@ -383429,14 +383429,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": -0.57,
+    "ma60_gap": -1.04,
     "kd_gold_cross": false,
-    "k_val": 16.6,
+    "k_val": 15.7,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.48
   },
   {
     "code": "1702",
@@ -383448,14 +383448,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.88,
     "price_pos": 0.5,
-    "ma60_gap": 5.05,
+    "ma60_gap": 4.75,
     "kd_gold_cross": false,
-    "k_val": 64.7,
+    "k_val": 62.9,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.3
   },
   {
     "code": "1707",
@@ -383486,14 +383486,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.66,
     "price_pos": 0.5,
-    "ma60_gap": 24.49,
+    "ma60_gap": 22.77,
     "kd_gold_cross": false,
-    "k_val": 35.4,
+    "k_val": 32.8,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.41
   },
   {
     "code": "1709",
@@ -383524,14 +383524,14 @@
     "trust_streak": 0,
     "vol_ratio": 2.94,
     "price_pos": 0.5,
-    "ma60_gap": 12.48,
+    "ma60_gap": 23.18,
     "kd_gold_cross": false,
-    "k_val": 20.4,
+    "k_val": 30.6,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
-    "strong_long": false,
-    "pct_change": 0.0
+    "strong_long": true,
+    "pct_change": 9.72
   },
   {
     "code": "1711",
@@ -383619,14 +383619,14 @@
     "trust_streak": 1,
     "vol_ratio": 0.56,
     "price_pos": 0.5,
-    "ma60_gap": -6.38,
+    "ma60_gap": -7.28,
     "kd_gold_cross": false,
-    "k_val": 22.2,
+    "k_val": 21.1,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.98
   },
   {
     "code": "1718",
@@ -383638,14 +383638,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.66,
     "price_pos": 0.5,
-    "ma60_gap": 62.14,
+    "ma60_gap": 59.49,
     "kd_gold_cross": false,
-    "k_val": 54.2,
+    "k_val": 51.3,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.68
   },
   {
     "code": "1720",
@@ -383657,14 +383657,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.77,
     "price_pos": 0.5,
-    "ma60_gap": 3.13,
+    "ma60_gap": 3.45,
     "kd_gold_cross": false,
-    "k_val": 67.4,
+    "k_val": 71.1,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.31
   },
   {
     "code": "1721",
@@ -383714,14 +383714,14 @@
     "trust_streak": 0,
     "vol_ratio": 2.92,
     "price_pos": 0.5,
-    "ma60_gap": 5.46,
+    "ma60_gap": 10.42,
     "kd_gold_cross": false,
-    "k_val": 57.0,
+    "k_val": 68.3,
     "bb_low": false,
     "macd_gc": false,
-    "spike_high": false,
+    "spike_high": true,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 4.79
   },
   {
     "code": "1725",
@@ -383733,14 +383733,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.5,
     "price_pos": 0.5,
-    "ma60_gap": -4.78,
+    "ma60_gap": -5.56,
     "kd_gold_cross": false,
-    "k_val": 13.3,
+    "k_val": 12.2,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.83
   },
   {
     "code": "1726",
@@ -383809,14 +383809,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.62,
     "price_pos": 0.5,
-    "ma60_gap": 1.35,
+    "ma60_gap": 1.11,
     "kd_gold_cross": false,
-    "k_val": 55.1,
+    "k_val": 50.9,
     "bb_low": true,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.24
   },
   {
     "code": "1732",
@@ -383847,14 +383847,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.71,
     "price_pos": 0.5,
-    "ma60_gap": 9.55,
+    "ma60_gap": 10.06,
     "kd_gold_cross": false,
-    "k_val": 82.7,
+    "k_val": 85.0,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.48
   },
   {
     "code": "1734",
@@ -383866,14 +383866,14 @@
     "trust_streak": 0,
     "vol_ratio": 4.06,
     "price_pos": 0.5,
-    "ma60_gap": 3.69,
+    "ma60_gap": 2.6,
     "kd_gold_cross": false,
-    "k_val": 25.8,
+    "k_val": 20.4,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.07
   },
   {
     "code": "1735",
@@ -383999,14 +383999,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.54,
     "price_pos": 0.5,
-    "ma60_gap": 6.39,
+    "ma60_gap": 4.69,
     "kd_gold_cross": false,
-    "k_val": 62.8,
+    "k_val": 57.4,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.63
   },
   {
     "code": "1776",
@@ -384037,14 +384037,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": 3.09,
+    "ma60_gap": 4.1,
     "kd_gold_cross": false,
-    "k_val": 54.2,
+    "k_val": 59.5,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.99
   },
   {
     "code": "1786",
@@ -384113,14 +384113,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.86,
     "price_pos": 0.5,
-    "ma60_gap": -6.98,
+    "ma60_gap": -9.15,
     "kd_gold_cross": false,
-    "k_val": 31.0,
+    "k_val": 26.9,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -2.37
   },
   {
     "code": "1805",
@@ -384284,14 +384284,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.55,
     "price_pos": 0.5,
-    "ma60_gap": 7.02,
+    "ma60_gap": 6.32,
     "kd_gold_cross": false,
-    "k_val": 10.9,
+    "k_val": 9.9,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.67
   },
   {
     "code": "1906",
@@ -384303,14 +384303,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.55,
     "price_pos": 0.5,
-    "ma60_gap": 1.24,
-    "kd_gold_cross": true,
-    "k_val": 39.2,
+    "ma60_gap": 0.8,
+    "kd_gold_cross": false,
+    "k_val": 37.2,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.45
   },
   {
     "code": "1907",
@@ -384398,14 +384398,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.12,
     "price_pos": 0.5,
-    "ma60_gap": -0.39,
-    "kd_gold_cross": true,
-    "k_val": 32.4,
+    "ma60_gap": -2.13,
+    "kd_gold_cross": false,
+    "k_val": 25.1,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.77
   },
   {
     "code": "2008",
@@ -384417,14 +384417,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": 8.17,
+    "ma60_gap": 9.91,
     "kd_gold_cross": false,
-    "k_val": 69.5,
+    "k_val": 76.2,
     "bb_low": false,
     "macd_gc": true,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 1.64
   },
   {
     "code": "2009",
@@ -384436,14 +384436,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.81,
     "price_pos": 0.5,
-    "ma60_gap": -1.54,
+    "ma60_gap": -2.54,
     "kd_gold_cross": false,
-    "k_val": 29.8,
+    "k_val": 25.6,
     "bb_low": false,
-    "macd_gc": true,
+    "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.03
   },
   {
     "code": "2010",
@@ -384455,14 +384455,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.77,
     "price_pos": 0.5,
-    "ma60_gap": -1.45,
+    "ma60_gap": -2.36,
     "kd_gold_cross": false,
-    "k_val": 42.6,
+    "k_val": 35.2,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.93
   },
   {
     "code": "2012",
@@ -384531,14 +384531,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.96,
     "price_pos": 0.5,
-    "ma60_gap": 3.09,
+    "ma60_gap": 3.57,
     "kd_gold_cross": false,
-    "k_val": 81.3,
+    "k_val": 84.5,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.47
   },
   {
     "code": "2017",
@@ -384626,14 +384626,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": -0.6,
+    "ma60_gap": 0.46,
     "kd_gold_cross": false,
-    "k_val": 65.9,
+    "k_val": 73.6,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 1.08
   },
   {
     "code": "2025",
@@ -384645,14 +384645,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.98,
     "price_pos": 0.5,
-    "ma60_gap": -5.47,
+    "ma60_gap": -6.65,
     "kd_gold_cross": false,
-    "k_val": 16.2,
+    "k_val": 14.0,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.27
   },
   {
     "code": "2027",
@@ -384683,14 +384683,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": -3.63,
+    "ma60_gap": -5.41,
     "kd_gold_cross": false,
-    "k_val": 58.7,
+    "k_val": 46.2,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.88
   },
   {
     "code": "2029",
@@ -384702,14 +384702,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.98,
     "price_pos": 0.5,
-    "ma60_gap": 2.61,
+    "ma60_gap": 3.35,
     "kd_gold_cross": false,
-    "k_val": 59.9,
+    "k_val": 66.7,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.73
   },
   {
     "code": "2030",
@@ -384816,14 +384816,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.83,
     "price_pos": 0.5,
-    "ma60_gap": -4.03,
-    "kd_gold_cross": true,
-    "k_val": 26.8,
+    "ma60_gap": -4.75,
+    "kd_gold_cross": false,
+    "k_val": 24.1,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.76
   },
   {
     "code": "2049",
@@ -384873,14 +384873,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.69,
     "price_pos": 0.5,
-    "ma60_gap": -1.54,
+    "ma60_gap": -1.29,
     "kd_gold_cross": false,
-    "k_val": 58.3,
+    "k_val": 60.9,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.26
   },
   {
     "code": "2069",
@@ -384968,14 +384968,14 @@
     "trust_streak": 0,
     "vol_ratio": 2.62,
     "price_pos": 0.5,
-    "ma60_gap": 22.15,
+    "ma60_gap": 17.24,
     "kd_gold_cross": false,
-    "k_val": 70.5,
+    "k_val": 63.6,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -4.1
   },
   {
     "code": "2104",
@@ -384987,14 +384987,14 @@
     "trust_streak": 0,
     "vol_ratio": 3.52,
     "price_pos": 0.5,
-    "ma60_gap": 1.62,
-    "kd_gold_cross": false,
-    "k_val": 29.8,
+    "ma60_gap": 6.33,
+    "kd_gold_cross": true,
+    "k_val": 40.9,
     "bb_low": false,
-    "macd_gc": false,
+    "macd_gc": true,
     "spike_high": false,
-    "strong_long": false,
-    "pct_change": 0.0
+    "strong_long": true,
+    "pct_change": 4.72
   },
   {
     "code": "2105",
@@ -385063,14 +385063,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.9,
     "price_pos": 0.5,
-    "ma60_gap": 2.08,
+    "ma60_gap": 1.38,
     "kd_gold_cross": false,
-    "k_val": 39.3,
+    "k_val": 37.1,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.7
   },
   {
     "code": "2109",
@@ -385120,14 +385120,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": 8.05,
+    "ma60_gap": 7.81,
     "kd_gold_cross": false,
-    "k_val": 78.2,
+    "k_val": 76.6,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.23
   },
   {
     "code": "2201",
@@ -385158,14 +385158,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.62,
     "price_pos": 0.5,
-    "ma60_gap": 5.05,
+    "ma60_gap": 5.58,
     "kd_gold_cross": false,
-    "k_val": 73.6,
+    "k_val": 79.2,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.52
   },
   {
     "code": "2206",
@@ -385215,14 +385215,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.39,
     "price_pos": 0.5,
-    "ma60_gap": 12.5,
+    "ma60_gap": 8.64,
     "kd_gold_cross": false,
-    "k_val": 61.7,
+    "k_val": 54.7,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -3.49
   },
   {
     "code": "2211",
@@ -385234,14 +385234,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.65,
     "price_pos": 0.5,
-    "ma60_gap": 0.33,
+    "ma60_gap": 0.02,
     "kd_gold_cross": false,
-    "k_val": 38.7,
+    "k_val": 35.8,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.31
   },
   {
     "code": "2227",
@@ -385291,14 +385291,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.94,
     "price_pos": 0.5,
-    "ma60_gap": 16.74,
+    "ma60_gap": 9.04,
     "kd_gold_cross": false,
-    "k_val": 76.6,
+    "k_val": 59.9,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -6.72
   },
   {
     "code": "2233",
@@ -385329,14 +385329,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.82,
     "price_pos": 0.5,
-    "ma60_gap": 14.83,
+    "ma60_gap": 11.77,
     "kd_gold_cross": false,
-    "k_val": 39.0,
+    "k_val": 34.1,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -2.72
   },
   {
     "code": "2239",
@@ -385367,14 +385367,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.57,
     "price_pos": 0.5,
-    "ma60_gap": 5.21,
+    "ma60_gap": 1.75,
     "kd_gold_cross": false,
-    "k_val": 14.1,
+    "k_val": 10.4,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -3.35
   },
   {
     "code": "2243",
@@ -385386,14 +385386,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.66,
     "price_pos": 0.5,
-    "ma60_gap": 41.58,
+    "ma60_gap": 46.44,
     "kd_gold_cross": false,
-    "k_val": 19.2,
+    "k_val": 22.2,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 3.52
   },
   {
     "code": "2247",
@@ -385405,14 +385405,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": 6.68,
+    "ma60_gap": 4.63,
     "kd_gold_cross": true,
-    "k_val": 41.3,
+    "k_val": 29.4,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 3.6
+    "pct_change": 1.58
   },
   {
     "code": "2248",
@@ -385443,14 +385443,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.73,
     "price_pos": 0.5,
-    "ma60_gap": 0.81,
+    "ma60_gap": 1.28,
     "kd_gold_cross": false,
-    "k_val": 16.5,
+    "k_val": 17.5,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.47
   },
   {
     "code": "2254",
@@ -385481,14 +385481,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.51,
     "price_pos": 0.5,
-    "ma60_gap": 6.7,
+    "ma60_gap": 6.38,
     "kd_gold_cross": false,
-    "k_val": 57.8,
+    "k_val": 56.4,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.31
   },
   {
     "code": "2301",
@@ -385557,14 +385557,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.73,
     "price_pos": 0.5,
-    "ma60_gap": 36.27,
+    "ma60_gap": 33.8,
     "kd_gold_cross": false,
-    "k_val": 28.7,
+    "k_val": 26.3,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.85
   },
   {
     "code": "2308",
@@ -385595,14 +385595,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.65,
     "price_pos": 0.5,
-    "ma60_gap": 4.86,
+    "ma60_gap": 1.88,
     "kd_gold_cross": false,
-    "k_val": 44.2,
+    "k_val": 37.4,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -2.89
   },
   {
     "code": "2313",
@@ -385690,14 +385690,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": 14.33,
+    "ma60_gap": 13.97,
     "kd_gold_cross": false,
-    "k_val": 73.6,
+    "k_val": 73.2,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.32
   },
   {
     "code": "2323",
@@ -385766,14 +385766,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.82,
     "price_pos": 0.5,
-    "ma60_gap": -1.79,
+    "ma60_gap": -3.24,
     "kd_gold_cross": false,
-    "k_val": 47.4,
+    "k_val": 43.9,
     "bb_low": false,
-    "macd_gc": true,
+    "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.5
   },
   {
     "code": "2329",
@@ -385785,14 +385785,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.95,
     "price_pos": 0.5,
-    "ma60_gap": -6.69,
+    "ma60_gap": -11.07,
     "kd_gold_cross": false,
-    "k_val": 33.1,
+    "k_val": 25.5,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -4.77
   },
   {
     "code": "2330",
@@ -385804,14 +385804,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.18,
     "price_pos": 0.5,
-    "ma60_gap": 5.09,
-    "kd_gold_cross": false,
-    "k_val": 40.5,
+    "ma60_gap": 6.36,
+    "kd_gold_cross": true,
+    "k_val": 49.6,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 1.23
   },
   {
     "code": "2331",
@@ -385823,14 +385823,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.89,
     "price_pos": 0.5,
-    "ma60_gap": -2.24,
+    "ma60_gap": -3.41,
     "kd_gold_cross": false,
-    "k_val": 37.8,
+    "k_val": 33.5,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.21
   },
   {
     "code": "2332",
@@ -385880,14 +385880,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.52,
     "price_pos": 0.5,
-    "ma60_gap": -4.85,
+    "ma60_gap": -5.04,
     "kd_gold_cross": false,
-    "k_val": 41.5,
+    "k_val": 41.2,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.21
   },
   {
     "code": "2340",
@@ -385899,14 +385899,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.54,
     "price_pos": 0.5,
-    "ma60_gap": -3.68,
+    "ma60_gap": -6.71,
     "kd_gold_cross": false,
-    "k_val": 29.8,
+    "k_val": 24.9,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -3.19
   },
   {
     "code": "2342",
@@ -385956,14 +385956,14 @@
     "trust_streak": 1,
     "vol_ratio": 0.65,
     "price_pos": 0.5,
-    "ma60_gap": -4.23,
+    "ma60_gap": -5.03,
     "kd_gold_cross": false,
-    "k_val": 22.5,
+    "k_val": 21.4,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.85
   },
   {
     "code": "2347",
@@ -385975,14 +385975,14 @@
     "trust_streak": 5,
     "vol_ratio": 0.56,
     "price_pos": 0.5,
-    "ma60_gap": 4.51,
+    "ma60_gap": 4.63,
     "kd_gold_cross": false,
-    "k_val": 39.9,
+    "k_val": 40.2,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.11
   },
   {
     "code": "2348",
@@ -386051,14 +386051,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.79,
     "price_pos": 0.5,
-    "ma60_gap": 8.28,
+    "ma60_gap": 7.77,
     "kd_gold_cross": false,
-    "k_val": 29.6,
+    "k_val": 28.9,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.48
   },
   {
     "code": "2353",
@@ -386070,14 +386070,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.94,
     "price_pos": 0.5,
-    "ma60_gap": -1.08,
+    "ma60_gap": -2.02,
     "kd_gold_cross": false,
-    "k_val": 26.9,
-    "bb_low": false,
+    "k_val": 24.3,
+    "bb_low": true,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.97
   },
   {
     "code": "2354",
@@ -386165,14 +386165,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.89,
     "price_pos": 0.5,
-    "ma60_gap": 8.9,
+    "ma60_gap": 11.12,
     "kd_gold_cross": false,
-    "k_val": 60.0,
+    "k_val": 65.2,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 2.08
   },
   {
     "code": "2360",
@@ -386184,14 +386184,14 @@
     "trust_streak": 1,
     "vol_ratio": 1.77,
     "price_pos": 0.5,
-    "ma60_gap": -13.69,
+    "ma60_gap": -9.9,
     "kd_gold_cross": false,
-    "k_val": 23.5,
+    "k_val": 28.5,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 4.46
   },
   {
     "code": "2362",
@@ -386279,14 +386279,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.91,
     "price_pos": 0.5,
-    "ma60_gap": -14.23,
+    "ma60_gap": -19.48,
     "kd_gold_cross": false,
-    "k_val": 37.5,
+    "k_val": 26.9,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -6.2
   },
   {
     "code": "2368",
@@ -386298,14 +386298,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.74,
     "price_pos": 0.5,
-    "ma60_gap": -20.68,
-    "kd_gold_cross": true,
-    "k_val": 15.3,
+    "ma60_gap": -22.21,
+    "kd_gold_cross": false,
+    "k_val": 13.5,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.95
   },
   {
     "code": "2369",
@@ -386317,14 +386317,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.52,
     "price_pos": 0.5,
-    "ma60_gap": 15.2,
+    "ma60_gap": 12.3,
     "kd_gold_cross": false,
-    "k_val": 44.5,
+    "k_val": 40.3,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -2.57
   },
   {
     "code": "2371",
@@ -386336,14 +386336,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.77,
     "price_pos": 0.5,
-    "ma60_gap": -5.92,
+    "ma60_gap": -6.43,
     "kd_gold_cross": false,
-    "k_val": 32.0,
+    "k_val": 29.5,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.55
   },
   {
     "code": "2373",
@@ -386412,14 +386412,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.52,
     "price_pos": 0.5,
-    "ma60_gap": 4.5,
+    "ma60_gap": 2.41,
     "kd_gold_cross": false,
-    "k_val": 73.1,
+    "k_val": 62.5,
     "bb_low": false,
-    "macd_gc": true,
+    "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -2.03
   },
   {
     "code": "2377",
@@ -386450,14 +386450,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.6,
     "price_pos": 0.5,
-    "ma60_gap": 14.14,
+    "ma60_gap": 8.04,
     "kd_gold_cross": false,
-    "k_val": 26.6,
-    "bb_low": false,
+    "k_val": 16.6,
+    "bb_low": true,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -5.44
   },
   {
     "code": "2380",
@@ -386488,14 +386488,14 @@
     "trust_streak": 5,
     "vol_ratio": 2.29,
     "price_pos": 0.5,
-    "ma60_gap": 12.7,
+    "ma60_gap": 4.27,
     "kd_gold_cross": false,
-    "k_val": 70.6,
-    "bb_low": false,
-    "macd_gc": true,
-    "spike_high": true,
+    "k_val": 36.0,
+    "bb_low": true,
+    "macd_gc": false,
+    "spike_high": false,
     "strong_long": false,
-    "pct_change": 4.27
+    "pct_change": -3.67
   },
   {
     "code": "2383",
@@ -386507,14 +386507,14 @@
     "trust_streak": 5,
     "vol_ratio": 0.92,
     "price_pos": 0.5,
-    "ma60_gap": 1.06,
+    "ma60_gap": -0.7,
     "kd_gold_cross": false,
-    "k_val": 18.5,
+    "k_val": 16.5,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.77
   },
   {
     "code": "2385",
@@ -386621,14 +386621,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.06,
     "price_pos": 0.5,
-    "ma60_gap": 0.31,
+    "ma60_gap": 1.46,
     "kd_gold_cross": false,
-    "k_val": 44.5,
+    "k_val": 49.3,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 1.16
   },
   {
     "code": "2395",
@@ -386640,14 +386640,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.73,
     "price_pos": 0.5,
-    "ma60_gap": 12.74,
+    "ma60_gap": 12.12,
     "kd_gold_cross": false,
-    "k_val": 47.4,
+    "k_val": 46.4,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.56
   },
   {
     "code": "2397",
@@ -386678,14 +386678,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.44,
     "price_pos": 0.5,
-    "ma60_gap": -10.92,
+    "ma60_gap": -13.13,
     "kd_gold_cross": false,
-    "k_val": 13.1,
-    "bb_low": false,
+    "k_val": 10.8,
+    "bb_low": true,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -2.52
   },
   {
     "code": "2401",
@@ -386716,14 +386716,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.67,
     "price_pos": 0.5,
-    "ma60_gap": -4.81,
+    "ma60_gap": -5.98,
     "kd_gold_cross": false,
-    "k_val": 28.9,
+    "k_val": 26.7,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.25
   },
   {
     "code": "2404",
@@ -386735,14 +386735,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.6,
     "price_pos": 0.5,
-    "ma60_gap": 14.14,
+    "ma60_gap": 11.08,
     "kd_gold_cross": false,
-    "k_val": 51.2,
+    "k_val": 45.4,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
-    "strong_long": true,
-    "pct_change": 3.21
+    "strong_long": false,
+    "pct_change": 0.4
   },
   {
     "code": "2405",
@@ -386754,14 +386754,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.67,
     "price_pos": 0.5,
-    "ma60_gap": 4.12,
+    "ma60_gap": 0.95,
     "kd_gold_cross": false,
-    "k_val": 59.7,
+    "k_val": 50.1,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -3.1
   },
   {
     "code": "2406",
@@ -386773,14 +386773,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.58,
     "price_pos": 0.5,
-    "ma60_gap": 0.31,
+    "ma60_gap": -2.65,
     "kd_gold_cross": false,
-    "k_val": 17.3,
+    "k_val": 13.3,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -3.0
   },
   {
     "code": "2408",
@@ -386830,14 +386830,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.9,
     "price_pos": 0.5,
-    "ma60_gap": -1.02,
+    "ma60_gap": 1.17,
     "kd_gold_cross": false,
-    "k_val": 16.3,
-    "bb_low": true,
+    "k_val": 35.6,
+    "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 2.26
   },
   {
     "code": "2413",
@@ -386849,14 +386849,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.42,
     "price_pos": 0.5,
-    "ma60_gap": -8.63,
+    "ma60_gap": -10.92,
     "kd_gold_cross": false,
-    "k_val": 26.1,
+    "k_val": 20.3,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -2.55
   },
   {
     "code": "2414",
@@ -386887,14 +386887,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.52,
     "price_pos": 0.5,
-    "ma60_gap": 16.97,
+    "ma60_gap": 15.34,
     "kd_gold_cross": false,
-    "k_val": 21.9,
+    "k_val": 20.0,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.42
   },
   {
     "code": "2417",
@@ -386906,14 +386906,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.79,
     "price_pos": 0.5,
-    "ma60_gap": -7.67,
+    "ma60_gap": -9.88,
     "kd_gold_cross": false,
-    "k_val": 23.7,
-    "bb_low": false,
+    "k_val": 18.6,
+    "bb_low": true,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -2.43
   },
   {
     "code": "2419",
@@ -386925,14 +386925,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.72,
     "price_pos": 0.5,
-    "ma60_gap": -8.26,
+    "ma60_gap": -8.59,
     "kd_gold_cross": false,
-    "k_val": 25.0,
+    "k_val": 24.1,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.37
   },
   {
     "code": "2420",
@@ -386963,14 +386963,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.87,
     "price_pos": 0.5,
-    "ma60_gap": -4.53,
-    "kd_gold_cross": true,
-    "k_val": 37.7,
-    "bb_low": false,
+    "ma60_gap": -7.24,
+    "kd_gold_cross": false,
+    "k_val": 32.1,
+    "bb_low": true,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -2.88
   },
   {
     "code": "2423",
@@ -386982,14 +386982,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.58,
     "price_pos": 0.5,
-    "ma60_gap": 18.59,
+    "ma60_gap": 15.71,
     "kd_gold_cross": false,
-    "k_val": 80.1,
+    "k_val": 75.7,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -2.48
   },
   {
     "code": "2424",
@@ -387001,14 +387001,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": -34.61,
-    "kd_gold_cross": true,
-    "k_val": 36.3,
+    "ma60_gap": -37.17,
+    "kd_gold_cross": false,
+    "k_val": 28.4,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -3.95
   },
   {
     "code": "2425",
@@ -387020,14 +387020,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.56,
     "price_pos": 0.5,
-    "ma60_gap": 22.02,
+    "ma60_gap": 19.33,
     "kd_gold_cross": false,
-    "k_val": 53.4,
+    "k_val": 49.8,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -2.25
   },
   {
     "code": "2426",
@@ -387058,14 +387058,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.36,
     "price_pos": 0.5,
-    "ma60_gap": 14.92,
+    "ma60_gap": 10.77,
     "kd_gold_cross": false,
-    "k_val": 60.5,
+    "k_val": 48.3,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -3.68
   },
   {
     "code": "2428",
@@ -387134,14 +387134,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.57,
     "price_pos": 0.5,
-    "ma60_gap": 0.53,
+    "ma60_gap": -0.81,
     "kd_gold_cross": false,
-    "k_val": 28.4,
+    "k_val": 25.6,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.36
   },
   {
     "code": "2432",
@@ -387153,14 +387153,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": 7.74,
+    "ma60_gap": 6.82,
     "kd_gold_cross": false,
-    "k_val": 64.7,
+    "k_val": 57.1,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.87
   },
   {
     "code": "2433",
@@ -387172,14 +387172,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": 1.36,
+    "ma60_gap": 0.07,
     "kd_gold_cross": false,
-    "k_val": 59.1,
-    "bb_low": false,
+    "k_val": 38.7,
+    "bb_low": true,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.29
   },
   {
     "code": "2434",
@@ -387210,14 +387210,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.65,
     "price_pos": 0.5,
-    "ma60_gap": -11.28,
+    "ma60_gap": -13.51,
     "kd_gold_cross": false,
-    "k_val": 16.4,
+    "k_val": 13.7,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -2.55
   },
   {
     "code": "2438",
@@ -387248,14 +387248,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.88,
     "price_pos": 0.5,
-    "ma60_gap": -3.31,
+    "ma60_gap": -3.64,
     "kd_gold_cross": false,
-    "k_val": 12.9,
+    "k_val": 11.7,
     "bb_low": true,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.35
   },
   {
     "code": "2440",
@@ -387419,14 +387419,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.99,
     "price_pos": 0.5,
-    "ma60_gap": -1.57,
-    "kd_gold_cross": true,
-    "k_val": 22.9,
+    "ma60_gap": -2.61,
+    "kd_gold_cross": false,
+    "k_val": 21.2,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.07
   },
   {
     "code": "2455",
@@ -387495,14 +387495,14 @@
     "trust_streak": 0,
     "vol_ratio": 8.72,
     "price_pos": 0.5,
-    "ma60_gap": 1.32,
+    "ma60_gap": 5.65,
     "kd_gold_cross": false,
-    "k_val": 44.7,
+    "k_val": 64.2,
     "bb_low": false,
     "macd_gc": false,
-    "spike_high": false,
+    "spike_high": true,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 4.35
   },
   {
     "code": "2460",
@@ -387609,14 +387609,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.47,
     "price_pos": 0.5,
-    "ma60_gap": 92.46,
+    "ma60_gap": 101.31,
     "kd_gold_cross": false,
-    "k_val": 87.7,
+    "k_val": 92.3,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
-    "strong_long": false,
-    "pct_change": 0.0
+    "strong_long": true,
+    "pct_change": 4.76
   },
   {
     "code": "2467",
@@ -387704,14 +387704,14 @@
     "trust_streak": 2,
     "vol_ratio": 0.76,
     "price_pos": 0.5,
-    "ma60_gap": -4.48,
+    "ma60_gap": -5.46,
     "kd_gold_cross": false,
-    "k_val": 22.6,
+    "k_val": 18.9,
     "bb_low": true,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.05
   },
   {
     "code": "2476",
@@ -387742,14 +387742,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.83,
     "price_pos": 0.5,
-    "ma60_gap": -0.84,
+    "ma60_gap": -0.39,
     "kd_gold_cross": false,
-    "k_val": 34.7,
+    "k_val": 36.2,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.47
   },
   {
     "code": "2478",
@@ -387780,14 +387780,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.79,
     "price_pos": 0.5,
-    "ma60_gap": 9.2,
+    "ma60_gap": 9.54,
     "kd_gold_cross": false,
-    "k_val": 46.3,
+    "k_val": 47.9,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.31
   },
   {
     "code": "2481",
@@ -387799,14 +387799,14 @@
     "trust_streak": 1,
     "vol_ratio": 0.87,
     "price_pos": 0.5,
-    "ma60_gap": 16.67,
+    "ma60_gap": 11.75,
     "kd_gold_cross": false,
-    "k_val": 22.9,
+    "k_val": 19.3,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -4.3
   },
   {
     "code": "2482",
@@ -387818,14 +387818,14 @@
     "trust_streak": 0,
     "vol_ratio": 4.76,
     "price_pos": 0.5,
-    "ma60_gap": 17.47,
+    "ma60_gap": 12.86,
     "kd_gold_cross": false,
-    "k_val": 73.1,
+    "k_val": 65.9,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -4.0
   },
   {
     "code": "2483",
@@ -387856,14 +387856,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.66,
     "price_pos": 0.5,
-    "ma60_gap": 37.01,
+    "ma60_gap": 50.29,
     "kd_gold_cross": false,
-    "k_val": 30.3,
+    "k_val": 40.8,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
-    "strong_long": false,
-    "pct_change": 0.0
+    "strong_long": true,
+    "pct_change": 9.94
   },
   {
     "code": "2485",
@@ -387875,14 +387875,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.89,
     "price_pos": 0.5,
-    "ma60_gap": -21.33,
+    "ma60_gap": -24.64,
     "kd_gold_cross": false,
-    "k_val": 29.9,
+    "k_val": 22.7,
     "bb_low": false,
-    "macd_gc": true,
+    "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -4.25
   },
   {
     "code": "2486",
@@ -387913,14 +387913,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.68,
     "price_pos": 0.5,
-    "ma60_gap": -2.96,
-    "kd_gold_cross": false,
-    "k_val": 16.2,
-    "bb_low": true,
+    "ma60_gap": -0.69,
+    "kd_gold_cross": true,
+    "k_val": 26.7,
+    "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 2.38
   },
   {
     "code": "2489",
@@ -387932,14 +387932,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.68,
     "price_pos": 0.5,
-    "ma60_gap": -14.36,
+    "ma60_gap": -17.59,
     "kd_gold_cross": false,
-    "k_val": 21.4,
+    "k_val": 15.6,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -3.83
   },
   {
     "code": "2491",
@@ -387970,14 +387970,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.31,
     "price_pos": 0.5,
-    "ma60_gap": 5.32,
+    "ma60_gap": -4.93,
     "kd_gold_cross": false,
-    "k_val": 10.7,
-    "bb_low": false,
+    "k_val": 5.6,
+    "bb_low": true,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -9.89
   },
   {
     "code": "2493",
@@ -388046,14 +388046,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.72,
     "price_pos": 0.5,
-    "ma60_gap": -0.29,
+    "ma60_gap": 0.21,
     "kd_gold_cross": false,
-    "k_val": 24.5,
+    "k_val": 25.3,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.51
   },
   {
     "code": "2498",
@@ -388084,14 +388084,14 @@
     "trust_streak": 5,
     "vol_ratio": 0.39,
     "price_pos": 0.5,
-    "ma60_gap": -0.64,
+    "ma60_gap": 1.31,
     "kd_gold_cross": true,
-    "k_val": 34.9,
+    "k_val": 41.9,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 2.0
   },
   {
     "code": "2504",
@@ -388103,14 +388103,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.9,
     "price_pos": 0.5,
-    "ma60_gap": -4.96,
+    "ma60_gap": -3.46,
     "kd_gold_cross": false,
-    "k_val": 18.3,
-    "bb_low": true,
+    "k_val": 24.3,
+    "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 1.61
   },
   {
     "code": "2505",
@@ -388141,14 +388141,14 @@
     "trust_streak": 0,
     "vol_ratio": 2.02,
     "price_pos": 0.5,
-    "ma60_gap": 3.85,
+    "ma60_gap": 2.14,
     "kd_gold_cross": false,
-    "k_val": 79.6,
+    "k_val": 61.5,
     "bb_low": false,
     "macd_gc": false,
-    "spike_high": true,
+    "spike_high": false,
     "strong_long": false,
-    "pct_change": 2.29
+    "pct_change": 0.57
   },
   {
     "code": "2509",
@@ -388236,14 +388236,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.15,
     "price_pos": 0.5,
-    "ma60_gap": 4.51,
+    "ma60_gap": 3.77,
     "kd_gold_cross": false,
-    "k_val": 26.3,
+    "k_val": 24.0,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.72
   },
   {
     "code": "2520",
@@ -388255,14 +388255,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.9,
     "price_pos": 0.5,
-    "ma60_gap": 12.15,
+    "ma60_gap": 10.79,
     "kd_gold_cross": false,
-    "k_val": 80.9,
+    "k_val": 74.3,
     "bb_low": false,
     "macd_gc": true,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.24
   },
   {
     "code": "2524",
@@ -388293,14 +388293,14 @@
     "trust_streak": 0,
     "vol_ratio": 3.35,
     "price_pos": 0.5,
-    "ma60_gap": 20.85,
+    "ma60_gap": 32.66,
     "kd_gold_cross": false,
-    "k_val": 60.5,
+    "k_val": 77.5,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 9.99
   },
   {
     "code": "2528",
@@ -388426,14 +388426,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.82,
     "price_pos": 0.5,
-    "ma60_gap": 0.01,
-    "kd_gold_cross": false,
-    "k_val": 30.5,
-    "bb_low": true,
+    "ma60_gap": 0.91,
+    "kd_gold_cross": true,
+    "k_val": 41.7,
+    "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.92
   },
   {
     "code": "2539",
@@ -388464,14 +388464,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.96,
     "price_pos": 0.5,
-    "ma60_gap": -0.99,
+    "ma60_gap": 0.46,
     "kd_gold_cross": false,
-    "k_val": 37.6,
+    "k_val": 50.3,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 1.5
   },
   {
     "code": "2542",
@@ -388521,14 +388521,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.78,
     "price_pos": 0.5,
-    "ma60_gap": -1.39,
-    "kd_gold_cross": false,
-    "k_val": 17.3,
-    "bb_low": true,
+    "ma60_gap": -0.41,
+    "kd_gold_cross": true,
+    "k_val": 22.5,
+    "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 1.01
   },
   {
     "code": "2546",
@@ -388616,14 +388616,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.31,
     "price_pos": 0.5,
-    "ma60_gap": 25.79,
+    "ma60_gap": 22.68,
     "kd_gold_cross": false,
-    "k_val": 56.5,
+    "k_val": 53.0,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -2.52
   },
   {
     "code": "2603",
@@ -388654,14 +388654,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.9,
     "price_pos": 0.5,
-    "ma60_gap": 2.66,
+    "ma60_gap": 1.39,
     "kd_gold_cross": false,
-    "k_val": 78.0,
+    "k_val": 71.8,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.26
   },
   {
     "code": "2606",
@@ -388673,14 +388673,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.78,
     "price_pos": 0.5,
-    "ma60_gap": 2.4,
+    "ma60_gap": 1.46,
     "kd_gold_cross": false,
-    "k_val": 77.6,
+    "k_val": 71.3,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.93
   },
   {
     "code": "2607",
@@ -388692,14 +388692,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.85,
     "price_pos": 0.5,
-    "ma60_gap": 2.49,
+    "ma60_gap": 3.13,
     "kd_gold_cross": false,
-    "k_val": 68.3,
+    "k_val": 73.3,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.64
   },
   {
     "code": "2608",
@@ -388768,14 +388768,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.74,
     "price_pos": 0.5,
-    "ma60_gap": 5.03,
+    "ma60_gap": 4.31,
     "kd_gold_cross": false,
-    "k_val": 53.6,
+    "k_val": 49.4,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.7
   },
   {
     "code": "2612",
@@ -388787,14 +388787,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.45,
     "price_pos": 0.5,
-    "ma60_gap": 0.9,
+    "ma60_gap": -0.0,
     "kd_gold_cross": false,
-    "k_val": 72.2,
+    "k_val": 66.4,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.91
   },
   {
     "code": "2613",
@@ -388806,14 +388806,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.83,
     "price_pos": 0.5,
-    "ma60_gap": -0.85,
+    "ma60_gap": -1.97,
     "kd_gold_cross": false,
-    "k_val": 30.7,
+    "k_val": 25.3,
     "bb_low": false,
-    "macd_gc": true,
+    "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.15
   },
   {
     "code": "2614",
@@ -388825,14 +388825,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.57,
     "price_pos": 0.5,
-    "ma60_gap": -2.58,
+    "ma60_gap": -2.06,
     "kd_gold_cross": false,
-    "k_val": 46.0,
+    "k_val": 49.7,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.54
   },
   {
     "code": "2615",
@@ -388863,14 +388863,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.22,
     "price_pos": 0.5,
-    "ma60_gap": -1.1,
-    "kd_gold_cross": false,
-    "k_val": 36.1,
+    "ma60_gap": -0.39,
+    "kd_gold_cross": true,
+    "k_val": 40.2,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.74
   },
   {
     "code": "2617",
@@ -388882,14 +388882,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.55,
     "price_pos": 0.5,
-    "ma60_gap": 2.87,
+    "ma60_gap": 3.05,
     "kd_gold_cross": false,
-    "k_val": 55.8,
+    "k_val": 57.1,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.17
   },
   {
     "code": "2618",
@@ -388939,14 +388939,14 @@
     "trust_streak": 5,
     "vol_ratio": 0.43,
     "price_pos": 0.5,
-    "ma60_gap": 4.04,
+    "ma60_gap": 4.83,
     "kd_gold_cross": false,
-    "k_val": 74.2,
+    "k_val": 80.9,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.77
   },
   {
     "code": "2634",
@@ -389034,14 +389034,14 @@
     "trust_streak": 1,
     "vol_ratio": 0.81,
     "price_pos": 0.5,
-    "ma60_gap": 39.32,
+    "ma60_gap": 33.41,
     "kd_gold_cross": false,
-    "k_val": 75.1,
+    "k_val": 67.8,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -4.34
   },
   {
     "code": "2646",
@@ -389205,14 +389205,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": -0.26,
+    "ma60_gap": -2.39,
     "kd_gold_cross": false,
-    "k_val": 49.9,
-    "bb_low": false,
-    "macd_gc": true,
+    "k_val": 37.6,
+    "bb_low": true,
+    "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -2.18
   },
   {
     "code": "2723",
@@ -389224,14 +389224,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.58,
     "price_pos": 0.5,
-    "ma60_gap": 0.36,
+    "ma60_gap": 0.21,
     "kd_gold_cross": false,
-    "k_val": 31.5,
+    "k_val": 30.8,
     "bb_low": true,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.15
   },
   {
     "code": "2727",
@@ -389281,14 +389281,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": 4.37,
+    "ma60_gap": 5.7,
     "kd_gold_cross": false,
-    "k_val": 46.6,
+    "k_val": 54.0,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 1.29
   },
   {
     "code": "2748",
@@ -389319,14 +389319,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.22,
     "price_pos": 0.5,
-    "ma60_gap": 1.34,
+    "ma60_gap": 2.18,
     "kd_gold_cross": true,
-    "k_val": 26.7,
-    "bb_low": true,
+    "k_val": 33.0,
+    "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.85
   },
   {
     "code": "2762",
@@ -389357,14 +389357,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.03,
     "price_pos": 0.5,
-    "ma60_gap": 8.58,
+    "ma60_gap": 9.48,
     "kd_gold_cross": false,
-    "k_val": 54.5,
+    "k_val": 61.9,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.84
   },
   {
     "code": "2812",
@@ -389471,14 +389471,14 @@
     "trust_streak": 0,
     "vol_ratio": 4.82,
     "price_pos": 0.5,
-    "ma60_gap": 3.88,
+    "ma60_gap": 5.1,
     "kd_gold_cross": false,
-    "k_val": 64.8,
+    "k_val": 75.9,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 1.2
   },
   {
     "code": "2836A",
@@ -389509,14 +389509,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.76,
     "price_pos": 0.5,
-    "ma60_gap": 6.2,
+    "ma60_gap": 5.45,
     "kd_gold_cross": false,
-    "k_val": 28.3,
+    "k_val": 26.1,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.71
   },
   {
     "code": "2838A",
@@ -389661,14 +389661,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.66,
     "price_pos": 0.5,
-    "ma60_gap": 9.03,
+    "ma60_gap": 9.76,
     "kd_gold_cross": false,
-    "k_val": 74.4,
+    "k_val": 79.1,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.68
   },
   {
     "code": "2880",
@@ -389680,14 +389680,14 @@
     "trust_streak": 3,
     "vol_ratio": 2.17,
     "price_pos": 0.5,
-    "ma60_gap": 10.82,
+    "ma60_gap": 12.36,
     "kd_gold_cross": false,
-    "k_val": 68.4,
+    "k_val": 76.7,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 1.42
   },
   {
     "code": "2881",
@@ -389813,14 +389813,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.23,
     "price_pos": 0.5,
-    "ma60_gap": 21.01,
+    "ma60_gap": 22.58,
     "kd_gold_cross": false,
-    "k_val": 62.9,
+    "k_val": 67.9,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 1.33
   },
   {
     "code": "2883B",
@@ -389851,14 +389851,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.03,
     "price_pos": 0.5,
-    "ma60_gap": 7.35,
+    "ma60_gap": 8.72,
     "kd_gold_cross": false,
-    "k_val": 57.1,
+    "k_val": 66.5,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 1.31
   },
   {
     "code": "2885",
@@ -390193,14 +390193,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.24,
     "price_pos": 0.5,
-    "ma60_gap": 3.33,
+    "ma60_gap": 3.79,
     "kd_gold_cross": false,
-    "k_val": 58.1,
+    "k_val": 61.1,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.45
   },
   {
     "code": "2904",
@@ -390231,14 +390231,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.18,
     "price_pos": 0.5,
-    "ma60_gap": 9.18,
+    "ma60_gap": 8.49,
     "kd_gold_cross": false,
-    "k_val": 86.0,
+    "k_val": 80.9,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.64
   },
   {
     "code": "2906",
@@ -390269,14 +390269,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.69,
     "price_pos": 0.5,
-    "ma60_gap": 4.96,
+    "ma60_gap": 5.2,
     "kd_gold_cross": false,
-    "k_val": 81.2,
+    "k_val": 83.2,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.23
   },
   {
     "code": "2910",
@@ -390326,14 +390326,14 @@
     "trust_streak": 0,
     "vol_ratio": 2.21,
     "price_pos": 0.5,
-    "ma60_gap": 7.24,
+    "ma60_gap": 7.68,
     "kd_gold_cross": false,
-    "k_val": 83.9,
+    "k_val": 85.8,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.41
   },
   {
     "code": "2913",
@@ -390345,14 +390345,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.52,
     "price_pos": 0.5,
-    "ma60_gap": 2.46,
+    "ma60_gap": 3.35,
     "kd_gold_cross": false,
-    "k_val": 40.1,
+    "k_val": 42.8,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.88
   },
   {
     "code": "2915",
@@ -390402,14 +390402,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.55,
     "price_pos": 0.5,
-    "ma60_gap": 1.63,
+    "ma60_gap": 1.29,
     "kd_gold_cross": true,
-    "k_val": 45.9,
+    "k_val": 44.6,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.34
   },
   {
     "code": "2939",
@@ -390440,14 +390440,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": 3.0,
+    "ma60_gap": 1.91,
     "kd_gold_cross": false,
-    "k_val": 58.5,
+    "k_val": 46.9,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.08
   },
   {
     "code": "3002",
@@ -390497,14 +390497,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.59,
     "price_pos": 0.5,
-    "ma60_gap": 19.34,
+    "ma60_gap": 14.45,
     "kd_gold_cross": false,
-    "k_val": 66.0,
+    "k_val": 54.9,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -4.18
   },
   {
     "code": "3005",
@@ -390820,14 +390820,14 @@
     "trust_streak": 1,
     "vol_ratio": 1.22,
     "price_pos": 0.5,
-    "ma60_gap": 39.3,
+    "ma60_gap": 27.59,
     "kd_gold_cross": false,
-    "k_val": 33.6,
+    "k_val": 25.3,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -8.59
   },
   {
     "code": "3027",
@@ -390839,14 +390839,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.46,
     "price_pos": 0.5,
-    "ma60_gap": -2.09,
+    "ma60_gap": -3.08,
     "kd_gold_cross": false,
-    "k_val": 23.6,
+    "k_val": 22.3,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.03
   },
   {
     "code": "3028",
@@ -390858,14 +390858,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.93,
     "price_pos": 0.5,
-    "ma60_gap": 2.83,
+    "ma60_gap": -2.3,
     "kd_gold_cross": false,
-    "k_val": 38.7,
+    "k_val": 30.4,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -5.06
   },
   {
     "code": "3029",
@@ -390877,14 +390877,14 @@
     "trust_streak": 1,
     "vol_ratio": 1.5,
     "price_pos": 0.5,
-    "ma60_gap": 2.48,
+    "ma60_gap": 3.95,
     "kd_gold_cross": false,
-    "k_val": 49.1,
+    "k_val": 55.2,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 1.46
   },
   {
     "code": "3030",
@@ -390915,14 +390915,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.56,
     "price_pos": 0.5,
-    "ma60_gap": -7.41,
+    "ma60_gap": -9.17,
     "kd_gold_cross": false,
-    "k_val": 12.0,
+    "k_val": 9.8,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.93
   },
   {
     "code": "3032",
@@ -390953,14 +390953,14 @@
     "trust_streak": 0,
     "vol_ratio": 3.95,
     "price_pos": 0.5,
-    "ma60_gap": 17.45,
+    "ma60_gap": 14.55,
     "kd_gold_cross": false,
-    "k_val": 58.3,
+    "k_val": 53.8,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -2.52
   },
   {
     "code": "3034",
@@ -391048,14 +391048,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.6,
     "price_pos": 0.5,
-    "ma60_gap": -6.64,
-    "kd_gold_cross": true,
-    "k_val": 29.8,
-    "bb_low": false,
+    "ma60_gap": -7.29,
+    "kd_gold_cross": false,
+    "k_val": 27.9,
+    "bb_low": true,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.71
   },
   {
     "code": "3040",
@@ -391067,14 +391067,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.29,
     "price_pos": 0.5,
-    "ma60_gap": -4.23,
+    "ma60_gap": -2.24,
     "kd_gold_cross": false,
-    "k_val": 61.2,
+    "k_val": 68.2,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
-    "strong_long": false,
-    "pct_change": 0.0
+    "strong_long": true,
+    "pct_change": 2.11
   },
   {
     "code": "3041",
@@ -391200,14 +391200,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.64,
     "price_pos": 0.5,
-    "ma60_gap": 3.28,
+    "ma60_gap": 0.73,
     "kd_gold_cross": false,
-    "k_val": 39.0,
+    "k_val": 33.3,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -2.51
   },
   {
     "code": "3048",
@@ -391352,14 +391352,14 @@
     "trust_streak": 0,
     "vol_ratio": 2.3,
     "price_pos": 0.5,
-    "ma60_gap": 3.46,
-    "kd_gold_cross": false,
-    "k_val": 40.4,
+    "ma60_gap": 4.15,
+    "kd_gold_cross": true,
+    "k_val": 44.3,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.68
   },
   {
     "code": "3057",
@@ -391409,14 +391409,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.89,
     "price_pos": 0.5,
-    "ma60_gap": 1.82,
-    "kd_gold_cross": true,
-    "k_val": 23.1,
-    "bb_low": false,
+    "ma60_gap": -0.93,
+    "kd_gold_cross": false,
+    "k_val": 19.1,
+    "bb_low": true,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -2.75
   },
   {
     "code": "3060",
@@ -391428,14 +391428,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.55,
     "price_pos": 0.5,
-    "ma60_gap": 6.48,
+    "ma60_gap": 2.27,
     "kd_gold_cross": false,
-    "k_val": 28.2,
-    "bb_low": false,
+    "k_val": 21.5,
+    "bb_low": true,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -4.02
   },
   {
     "code": "3062",
@@ -391447,14 +391447,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.88,
     "price_pos": 0.5,
-    "ma60_gap": -12.56,
+    "ma60_gap": -13.86,
     "kd_gold_cross": false,
-    "k_val": 23.4,
-    "bb_low": false,
+    "k_val": 19.2,
+    "bb_low": true,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.51
   },
   {
     "code": "3090",
@@ -391466,14 +391466,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.26,
     "price_pos": 0.5,
-    "ma60_gap": 5.41,
+    "ma60_gap": -1.97,
     "kd_gold_cross": false,
-    "k_val": 12.0,
+    "k_val": 8.0,
     "bb_low": true,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -7.11
   },
   {
     "code": "3092",
@@ -391485,14 +391485,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.61,
     "price_pos": 0.5,
-    "ma60_gap": -14.0,
+    "ma60_gap": -16.11,
     "kd_gold_cross": false,
-    "k_val": 13.0,
-    "bb_low": false,
+    "k_val": 11.0,
+    "bb_low": true,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -2.5
   },
   {
     "code": "3094",
@@ -391523,14 +391523,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.97,
     "price_pos": 0.5,
-    "ma60_gap": -1.43,
+    "ma60_gap": -1.66,
     "kd_gold_cross": false,
-    "k_val": 22.2,
+    "k_val": 18.6,
     "bb_low": true,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.25
   },
   {
     "code": "3135",
@@ -391580,14 +391580,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.76,
     "price_pos": 0.5,
-    "ma60_gap": 21.92,
+    "ma60_gap": 26.29,
     "kd_gold_cross": false,
-    "k_val": 39.8,
+    "k_val": 47.6,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
-    "strong_long": false,
-    "pct_change": 0.0
+    "strong_long": true,
+    "pct_change": 3.66
   },
   {
     "code": "3150",
@@ -391656,14 +391656,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": 1.36,
+    "ma60_gap": 0.23,
     "kd_gold_cross": false,
-    "k_val": 39.8,
+    "k_val": 35.4,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.13
   },
   {
     "code": "3189",
@@ -391732,14 +391732,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.41,
     "price_pos": 0.5,
-    "ma60_gap": -0.76,
+    "ma60_gap": -0.09,
     "kd_gold_cross": false,
-    "k_val": 27.5,
+    "k_val": 29.4,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.69
   },
   {
     "code": "3257",
@@ -391770,14 +391770,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": 5.2,
+    "ma60_gap": 5.57,
     "kd_gold_cross": false,
-    "k_val": 62.0,
+    "k_val": 63.8,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.36
   },
   {
     "code": "3296",
@@ -391789,14 +391789,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.72,
     "price_pos": 0.5,
-    "ma60_gap": 14.95,
+    "ma60_gap": 14.74,
     "kd_gold_cross": false,
-    "k_val": 28.8,
+    "k_val": 28.5,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.18
   },
   {
     "code": "3305",
@@ -391846,14 +391846,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.48,
     "price_pos": 0.5,
-    "ma60_gap": 3.33,
+    "ma60_gap": 1.65,
     "kd_gold_cross": false,
-    "k_val": 26.1,
+    "k_val": 21.8,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.66
   },
   {
     "code": "3312",
@@ -391865,14 +391865,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.85,
     "price_pos": 0.5,
-    "ma60_gap": 1.84,
+    "ma60_gap": -1.86,
     "kd_gold_cross": false,
-    "k_val": 27.2,
+    "k_val": 21.1,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -3.69
   },
   {
     "code": "3321",
@@ -391884,14 +391884,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.41,
     "price_pos": 0.5,
-    "ma60_gap": 3.8,
+    "ma60_gap": 2.31,
     "kd_gold_cross": false,
-    "k_val": 14.4,
+    "k_val": 13.0,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.46
   },
   {
     "code": "3338",
@@ -391903,14 +391903,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.55,
     "price_pos": 0.5,
-    "ma60_gap": -8.36,
+    "ma60_gap": -6.88,
     "kd_gold_cross": true,
-    "k_val": 31.1,
+    "k_val": 34.6,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 1.64
   },
   {
     "code": "3346",
@@ -391941,14 +391941,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.68,
     "price_pos": 0.5,
-    "ma60_gap": 4.73,
-    "kd_gold_cross": true,
-    "k_val": 39.6,
+    "ma60_gap": 3.53,
+    "kd_gold_cross": false,
+    "k_val": 34.8,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.16
   },
   {
     "code": "3376",
@@ -391998,14 +391998,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.04,
     "price_pos": 0.5,
-    "ma60_gap": -7.81,
+    "ma60_gap": -7.32,
     "kd_gold_cross": false,
-    "k_val": 10.7,
+    "k_val": 11.5,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.54
   },
   {
     "code": "3413",
@@ -392017,14 +392017,14 @@
     "trust_streak": 0,
     "vol_ratio": 3.84,
     "price_pos": 0.5,
-    "ma60_gap": 9.9,
+    "ma60_gap": 20.43,
     "kd_gold_cross": false,
-    "k_val": 56.1,
+    "k_val": 72.4,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 9.77
   },
   {
     "code": "3416",
@@ -392036,14 +392036,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.64,
     "price_pos": 0.5,
-    "ma60_gap": 2.84,
+    "ma60_gap": 1.68,
     "kd_gold_cross": false,
-    "k_val": 27.5,
+    "k_val": 24.8,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.15
   },
   {
     "code": "3419",
@@ -392093,14 +392093,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.66,
     "price_pos": 0.5,
-    "ma60_gap": -14.65,
+    "ma60_gap": -17.41,
     "kd_gold_cross": false,
-    "k_val": 20.9,
-    "bb_low": false,
+    "k_val": 15.7,
+    "bb_low": true,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -3.27
   },
   {
     "code": "3443",
@@ -392131,14 +392131,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.34,
     "price_pos": 0.5,
-    "ma60_gap": -11.08,
+    "ma60_gap": -12.41,
     "kd_gold_cross": false,
-    "k_val": 15.5,
+    "k_val": 13.0,
     "bb_low": true,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.52
   },
   {
     "code": "3450",
@@ -392188,14 +392188,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": -2.42,
+    "ma60_gap": -2.05,
     "kd_gold_cross": false,
-    "k_val": 34.8,
+    "k_val": 37.0,
     "bb_low": true,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.39
   },
   {
     "code": "3501",
@@ -392226,14 +392226,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.62,
     "price_pos": 0.5,
-    "ma60_gap": -9.12,
+    "ma60_gap": -8.6,
     "kd_gold_cross": false,
-    "k_val": 22.0,
+    "k_val": 22.8,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.58
   },
   {
     "code": "3515",
@@ -392340,14 +392340,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.08,
     "price_pos": 0.5,
-    "ma60_gap": -14.78,
+    "ma60_gap": -14.98,
     "kd_gold_cross": false,
-    "k_val": 26.7,
+    "k_val": 26.4,
     "bb_low": false,
     "macd_gc": true,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.25
   },
   {
     "code": "3535",
@@ -392435,14 +392435,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": 0.34,
+    "ma60_gap": 0.72,
     "kd_gold_cross": false,
-    "k_val": 60.0,
+    "k_val": 61.8,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.38
   },
   {
     "code": "3563",
@@ -392511,14 +392511,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.78,
     "price_pos": 0.5,
-    "ma60_gap": -0.49,
+    "ma60_gap": -4.87,
     "kd_gold_cross": false,
-    "k_val": 19.4,
+    "k_val": 14.1,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -4.47
   },
   {
     "code": "3591",
@@ -392549,14 +392549,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.2,
     "price_pos": 0.5,
-    "ma60_gap": -1.21,
+    "ma60_gap": -2.58,
     "kd_gold_cross": false,
-    "k_val": 36.0,
+    "k_val": 32.9,
     "bb_low": true,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.4
   },
   {
     "code": "3593",
@@ -392568,14 +392568,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": -4.44,
+    "ma60_gap": -0.99,
     "kd_gold_cross": false,
-    "k_val": 71.2,
+    "k_val": 77.0,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 3.67
   },
   {
     "code": "3596",
@@ -392587,14 +392587,14 @@
     "trust_streak": 5,
     "vol_ratio": 1.01,
     "price_pos": 0.5,
-    "ma60_gap": 3.86,
+    "ma60_gap": 2.79,
     "kd_gold_cross": false,
-    "k_val": 39.2,
+    "k_val": 35.4,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.05
   },
   {
     "code": "3605",
@@ -392720,14 +392720,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.63,
     "price_pos": 0.5,
-    "ma60_gap": -14.14,
+    "ma60_gap": -11.17,
     "kd_gold_cross": false,
-    "k_val": 41.2,
+    "k_val": 49.1,
     "bb_low": false,
-    "macd_gc": false,
+    "macd_gc": true,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 3.51
   },
   {
     "code": "3661",
@@ -392758,14 +392758,14 @@
     "trust_streak": 1,
     "vol_ratio": 1.7,
     "price_pos": 0.5,
-    "ma60_gap": -13.68,
+    "ma60_gap": -11.68,
     "kd_gold_cross": false,
-    "k_val": 35.8,
+    "k_val": 39.5,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
-    "strong_long": false,
-    "pct_change": 0.0
+    "strong_long": true,
+    "pct_change": 2.36
   },
   {
     "code": "3669",
@@ -392834,14 +392834,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.94,
     "price_pos": 0.5,
-    "ma60_gap": -5.74,
-    "kd_gold_cross": true,
-    "k_val": 25.4,
-    "bb_low": false,
+    "ma60_gap": -6.31,
+    "kd_gold_cross": false,
+    "k_val": 23.7,
+    "bb_low": true,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.62
   },
   {
     "code": "3694",
@@ -392910,14 +392910,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.31,
     "price_pos": 0.5,
-    "ma60_gap": 3.04,
+    "ma60_gap": 3.53,
     "kd_gold_cross": true,
-    "k_val": 43.6,
+    "k_val": 47.1,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.48
   },
   {
     "code": "3704",
@@ -392929,14 +392929,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.57,
     "price_pos": 0.5,
-    "ma60_gap": 16.45,
+    "ma60_gap": 9.22,
     "kd_gold_cross": false,
-    "k_val": 75.7,
+    "k_val": 60.5,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -6.33
   },
   {
     "code": "3705",
@@ -393024,14 +393024,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.34,
     "price_pos": 0.5,
-    "ma60_gap": -11.26,
+    "ma60_gap": -6.4,
     "kd_gold_cross": false,
-    "k_val": 10.3,
+    "k_val": 17.6,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 5.57
   },
   {
     "code": "3714",
@@ -393119,14 +393119,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.91,
     "price_pos": 0.5,
-    "ma60_gap": 2.92,
+    "ma60_gap": 2.5,
     "kd_gold_cross": false,
-    "k_val": 94.5,
+    "k_val": 91.5,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.41
   },
   {
     "code": "4106",
@@ -393176,14 +393176,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.98,
     "price_pos": 0.5,
-    "ma60_gap": 6.14,
+    "ma60_gap": 8.4,
     "kd_gold_cross": false,
-    "k_val": 63.2,
+    "k_val": 73.3,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 2.17
   },
   {
     "code": "4133",
@@ -393195,14 +393195,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.82,
     "price_pos": 0.5,
-    "ma60_gap": -2.6,
+    "ma60_gap": -3.07,
     "kd_gold_cross": false,
-    "k_val": 26.5,
-    "bb_low": false,
+    "k_val": 24.6,
+    "bb_low": true,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.49
   },
   {
     "code": "4137",
@@ -393252,14 +393252,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": -5.2,
+    "ma60_gap": -4.89,
     "kd_gold_cross": false,
-    "k_val": 60.2,
+    "k_val": 62.3,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.33
   },
   {
     "code": "4155",
@@ -393328,14 +393328,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.84,
     "price_pos": 0.5,
-    "ma60_gap": -2.52,
+    "ma60_gap": -3.04,
     "kd_gold_cross": false,
-    "k_val": 47.7,
+    "k_val": 46.0,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.54
   },
   {
     "code": "4190",
@@ -393347,14 +393347,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": 3.92,
+    "ma60_gap": 2.74,
     "kd_gold_cross": false,
-    "k_val": 43.6,
+    "k_val": 38.6,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.16
   },
   {
     "code": "4195",
@@ -393385,14 +393385,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.73,
     "price_pos": 0.5,
-    "ma60_gap": 6.38,
-    "kd_gold_cross": false,
-    "k_val": 22.5,
+    "ma60_gap": 8.49,
+    "kd_gold_cross": true,
+    "k_val": 28.4,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 2.01
   },
   {
     "code": "4414",
@@ -393461,14 +393461,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": 17.92,
+    "ma60_gap": 10.38,
     "kd_gold_cross": false,
-    "k_val": 82.4,
+    "k_val": 72.1,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 3.92
+    "pct_change": -2.85
   },
   {
     "code": "4440",
@@ -393480,14 +393480,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": -1.16,
+    "ma60_gap": -0.05,
     "kd_gold_cross": false,
-    "k_val": 36.6,
+    "k_val": 41.2,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 1.14
   },
   {
     "code": "4441",
@@ -393499,14 +393499,14 @@
     "trust_streak": 0,
     "vol_ratio": 3.77,
     "price_pos": 0.5,
-    "ma60_gap": -8.45,
+    "ma60_gap": -8.2,
     "kd_gold_cross": false,
-    "k_val": 21.4,
+    "k_val": 22.4,
     "bb_low": true,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.28
   },
   {
     "code": "4526",
@@ -393518,14 +393518,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.48,
     "price_pos": 0.5,
-    "ma60_gap": -6.89,
+    "ma60_gap": -8.29,
     "kd_gold_cross": false,
-    "k_val": 21.6,
+    "k_val": 19.5,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.54
   },
   {
     "code": "4532",
@@ -393613,14 +393613,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.49,
     "price_pos": 0.5,
-    "ma60_gap": 14.23,
+    "ma60_gap": 12.28,
     "kd_gold_cross": false,
-    "k_val": 13.3,
+    "k_val": 12.1,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.74
   },
   {
     "code": "4552",
@@ -393689,14 +393689,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.6,
     "price_pos": 0.5,
-    "ma60_gap": 1.02,
+    "ma60_gap": 1.16,
     "kd_gold_cross": false,
-    "k_val": 59.3,
+    "k_val": 60.3,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.15
   },
   {
     "code": "4562",
@@ -393708,14 +393708,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.58,
     "price_pos": 0.5,
-    "ma60_gap": -9.25,
-    "kd_gold_cross": true,
-    "k_val": 23.3,
+    "ma60_gap": -9.91,
+    "kd_gold_cross": false,
+    "k_val": 21.8,
     "bb_low": false,
-    "macd_gc": true,
+    "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.75
   },
   {
     "code": "4564",
@@ -393746,14 +393746,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.56,
     "price_pos": 0.5,
-    "ma60_gap": 3.11,
+    "ma60_gap": 1.15,
     "kd_gold_cross": false,
-    "k_val": 56.1,
+    "k_val": 51.0,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.93
   },
   {
     "code": "4569",
@@ -393765,14 +393765,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": -5.26,
+    "ma60_gap": -4.7,
     "kd_gold_cross": false,
-    "k_val": 34.6,
+    "k_val": 35.8,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.6
   },
   {
     "code": "4571",
@@ -393936,14 +393936,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.59,
     "price_pos": 0.5,
-    "ma60_gap": 23.88,
+    "ma60_gap": 20.05,
     "kd_gold_cross": false,
-    "k_val": 75.2,
+    "k_val": 68.3,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -3.16
   },
   {
     "code": "4720",
@@ -393974,14 +393974,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.87,
     "price_pos": 0.5,
-    "ma60_gap": 9.91,
+    "ma60_gap": 1.45,
     "kd_gold_cross": false,
-    "k_val": 52.9,
+    "k_val": 38.0,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -7.83
   },
   {
     "code": "4736",
@@ -394012,14 +394012,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.38,
     "price_pos": 0.5,
-    "ma60_gap": 0.86,
+    "ma60_gap": -2.04,
     "kd_gold_cross": false,
-    "k_val": 41.9,
+    "k_val": 38.0,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -2.92
   },
   {
     "code": "4739",
@@ -394050,14 +394050,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.57,
     "price_pos": 0.5,
-    "ma60_gap": 1.52,
+    "ma60_gap": -0.14,
     "kd_gold_cross": false,
-    "k_val": 41.8,
+    "k_val": 35.7,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.67
   },
   {
     "code": "4755",
@@ -394069,14 +394069,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.49,
     "price_pos": 0.5,
-    "ma60_gap": -2.17,
+    "ma60_gap": -3.22,
     "kd_gold_cross": false,
-    "k_val": 47.8,
+    "k_val": 45.4,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.09
   },
   {
     "code": "4763",
@@ -394107,14 +394107,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.81,
     "price_pos": 0.5,
-    "ma60_gap": 21.39,
+    "ma60_gap": 9.62,
     "kd_gold_cross": false,
-    "k_val": 83.0,
+    "k_val": 71.7,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -9.88
   },
   {
     "code": "4766",
@@ -394126,14 +394126,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.83,
     "price_pos": 0.5,
-    "ma60_gap": -3.22,
+    "ma60_gap": -2.8,
     "kd_gold_cross": false,
-    "k_val": 20.8,
+    "k_val": 21.8,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.44
   },
   {
     "code": "4770",
@@ -394183,14 +394183,14 @@
     "trust_streak": 0,
     "vol_ratio": 2.92,
     "price_pos": 0.5,
-    "ma60_gap": 27.91,
+    "ma60_gap": 37.84,
     "kd_gold_cross": false,
-    "k_val": 46.4,
+    "k_val": 60.2,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
-    "strong_long": false,
-    "pct_change": 0.0
+    "strong_long": true,
+    "pct_change": 7.94
   },
   {
     "code": "4904",
@@ -394278,14 +394278,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.48,
     "price_pos": 0.5,
-    "ma60_gap": 19.47,
+    "ma60_gap": 16.88,
     "kd_gold_cross": false,
-    "k_val": 58.1,
+    "k_val": 52.2,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -2.21
   },
   {
     "code": "4919",
@@ -394411,14 +394411,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": 0.06,
+    "ma60_gap": -0.34,
     "kd_gold_cross": false,
-    "k_val": 49.1,
+    "k_val": 45.4,
     "bb_low": false,
     "macd_gc": true,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.4
   },
   {
     "code": "4943",
@@ -394468,14 +394468,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.58,
     "price_pos": 0.5,
-    "ma60_gap": 4.42,
+    "ma60_gap": -0.27,
     "kd_gold_cross": false,
-    "k_val": 34.6,
-    "bb_low": false,
+    "k_val": 25.8,
+    "bb_low": true,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -4.57
   },
   {
     "code": "4956",
@@ -394506,14 +394506,14 @@
     "trust_streak": 4,
     "vol_ratio": 0.78,
     "price_pos": 0.5,
-    "ma60_gap": 21.36,
+    "ma60_gap": 13.66,
     "kd_gold_cross": false,
-    "k_val": 64.1,
+    "k_val": 52.2,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -6.47
   },
   {
     "code": "4960",
@@ -394563,14 +394563,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.71,
     "price_pos": 0.5,
-    "ma60_gap": -14.9,
+    "ma60_gap": -16.72,
     "kd_gold_cross": false,
-    "k_val": 22.0,
+    "k_val": 18.8,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -2.17
   },
   {
     "code": "4968",
@@ -394582,14 +394582,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.18,
     "price_pos": 0.5,
-    "ma60_gap": -6.92,
+    "ma60_gap": -8.22,
     "kd_gold_cross": false,
-    "k_val": 14.9,
-    "bb_low": false,
+    "k_val": 12.2,
+    "bb_low": true,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.42
   },
   {
     "code": "4976",
@@ -394677,14 +394677,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": -2.85,
+    "ma60_gap": -3.33,
     "kd_gold_cross": false,
-    "k_val": 33.4,
+    "k_val": 30.4,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.5
   },
   {
     "code": "5007",
@@ -394715,14 +394715,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": 1.45,
+    "ma60_gap": 0.72,
     "kd_gold_cross": false,
-    "k_val": 36.0,
+    "k_val": 33.3,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.74
   },
   {
     "code": "5215",
@@ -394766,20 +394766,20 @@
     "code": "5225",
     "name": "東科-KY",
     "change": -82.713,
-    "three_inst_ratio": -12.2,
+    "three_inst_ratio": -12.1,
     "foreign_ratio_diff": -82.0,
     "trust_ratio_diff": 0.0,
     "trust_streak": 0,
-    "vol_ratio": 0.38,
+    "vol_ratio": 0.43,
     "price_pos": 0.5,
-    "ma60_gap": -1.72,
+    "ma60_gap": -1.85,
     "kd_gold_cross": false,
-    "k_val": 28.8,
+    "k_val": 28.4,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.69
+    "pct_change": -0.83
   },
   {
     "code": "5234",
@@ -394791,14 +394791,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.99,
     "price_pos": 0.5,
-    "ma60_gap": -7.04,
-    "kd_gold_cross": true,
-    "k_val": 26.7,
-    "bb_low": false,
+    "ma60_gap": -9.96,
+    "kd_gold_cross": false,
+    "k_val": 21.8,
+    "bb_low": true,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -3.19
   },
   {
     "code": "5243",
@@ -394810,14 +394810,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.09,
     "price_pos": 0.5,
-    "ma60_gap": -9.1,
+    "ma60_gap": -11.81,
     "kd_gold_cross": false,
-    "k_val": 36.8,
+    "k_val": 31.8,
     "bb_low": false,
-    "macd_gc": true,
+    "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -3.03
   },
   {
     "code": "5244",
@@ -394924,14 +394924,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.68,
     "price_pos": 0.5,
-    "ma60_gap": 13.67,
+    "ma60_gap": 11.88,
     "kd_gold_cross": false,
-    "k_val": 29.1,
+    "k_val": 26.8,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.6
   },
   {
     "code": "5288",
@@ -394962,14 +394962,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.21,
     "price_pos": 0.5,
-    "ma60_gap": -10.51,
+    "ma60_gap": -12.0,
     "kd_gold_cross": false,
-    "k_val": 27.1,
-    "bb_low": false,
+    "k_val": 24.4,
+    "bb_low": true,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.69
   },
   {
     "code": "5306",
@@ -394981,14 +394981,14 @@
     "trust_streak": 0,
     "vol_ratio": 10.67,
     "price_pos": 0.5,
-    "ma60_gap": 7.84,
+    "ma60_gap": 18.13,
     "kd_gold_cross": false,
-    "k_val": 68.5,
+    "k_val": 90.4,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 9.73
   },
   {
     "code": "5388",
@@ -395019,14 +395019,14 @@
     "trust_streak": 5,
     "vol_ratio": 2.45,
     "price_pos": 0.5,
-    "ma60_gap": 22.42,
+    "ma60_gap": 31.03,
     "kd_gold_cross": false,
-    "k_val": 62.9,
+    "k_val": 75.4,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
-    "strong_long": true,
-    "pct_change": 2.47
+    "strong_long": false,
+    "pct_change": 9.85
   },
   {
     "code": "5469",
@@ -395057,14 +395057,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.51,
     "price_pos": 0.5,
-    "ma60_gap": 17.81,
+    "ma60_gap": 12.31,
     "kd_gold_cross": false,
-    "k_val": 53.0,
+    "k_val": 42.6,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -4.75
   },
   {
     "code": "5484",
@@ -395114,14 +395114,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.55,
     "price_pos": 0.5,
-    "ma60_gap": 0.81,
+    "ma60_gap": 0.12,
     "kd_gold_cross": false,
-    "k_val": 36.0,
+    "k_val": 32.3,
     "bb_low": true,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.7
   },
   {
     "code": "5521",
@@ -395152,14 +395152,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.99,
     "price_pos": 0.5,
-    "ma60_gap": 2.87,
+    "ma60_gap": 4.5,
     "kd_gold_cross": false,
-    "k_val": 77.8,
+    "k_val": 84.1,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 1.61
   },
   {
     "code": "5525",
@@ -395171,14 +395171,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.82,
     "price_pos": 0.5,
-    "ma60_gap": -0.93,
+    "ma60_gap": -0.71,
     "kd_gold_cross": false,
-    "k_val": 61.8,
+    "k_val": 63.4,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.23
   },
   {
     "code": "5531",
@@ -395247,14 +395247,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": 10.13,
+    "ma60_gap": 8.9,
     "kd_gold_cross": false,
-    "k_val": 76.7,
+    "k_val": 73.1,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.14
   },
   {
     "code": "5546",
@@ -395266,14 +395266,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": 0.08,
+    "ma60_gap": 1.27,
     "kd_gold_cross": false,
-    "k_val": 48.2,
+    "k_val": 51.9,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 1.21
   },
   {
     "code": "5607",
@@ -395285,14 +395285,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.59,
     "price_pos": 0.5,
-    "ma60_gap": 1.47,
+    "ma60_gap": 1.27,
     "kd_gold_cross": false,
-    "k_val": 40.1,
+    "k_val": 39.1,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.2
   },
   {
     "code": "5608",
@@ -395323,14 +395323,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.81,
     "price_pos": 0.5,
-    "ma60_gap": -0.46,
+    "ma60_gap": -0.15,
     "kd_gold_cross": false,
-    "k_val": 34.4,
+    "k_val": 36.4,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.32
   },
   {
     "code": "5871",
@@ -395342,14 +395342,14 @@
     "trust_streak": 5,
     "vol_ratio": 1.49,
     "price_pos": 0.5,
-    "ma60_gap": 3.77,
+    "ma60_gap": 5.06,
     "kd_gold_cross": false,
-    "k_val": 70.1,
+    "k_val": 77.3,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 1.26
   },
   {
     "code": "5876",
@@ -395361,14 +395361,14 @@
     "trust_streak": 2,
     "vol_ratio": 0.99,
     "price_pos": 0.5,
-    "ma60_gap": 8.7,
+    "ma60_gap": 9.53,
     "kd_gold_cross": false,
-    "k_val": 84.5,
+    "k_val": 87.7,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.78
   },
   {
     "code": "5880",
@@ -395380,14 +395380,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.16,
     "price_pos": 0.5,
-    "ma60_gap": 6.79,
+    "ma60_gap": 7.41,
     "kd_gold_cross": false,
-    "k_val": 76.8,
+    "k_val": 81.8,
     "bb_low": false,
-    "macd_gc": false,
+    "macd_gc": true,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.59
   },
   {
     "code": "5906",
@@ -395399,14 +395399,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": -14.02,
+    "ma60_gap": -14.13,
     "kd_gold_cross": false,
-    "k_val": 87.1,
+    "k_val": 86.8,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.13
   },
   {
     "code": "5907",
@@ -395418,14 +395418,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.65,
     "price_pos": 0.5,
-    "ma60_gap": -3.12,
+    "ma60_gap": -3.51,
     "kd_gold_cross": false,
-    "k_val": 29.0,
+    "k_val": 27.7,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.4
   },
   {
     "code": "6005",
@@ -395437,14 +395437,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.55,
     "price_pos": 0.5,
-    "ma60_gap": -2.3,
+    "ma60_gap": -1.6,
     "kd_gold_cross": false,
-    "k_val": 13.4,
+    "k_val": 14.8,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.73
   },
   {
     "code": "6024",
@@ -395456,14 +395456,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.67,
     "price_pos": 0.5,
-    "ma60_gap": 9.0,
+    "ma60_gap": 9.66,
     "kd_gold_cross": false,
-    "k_val": 79.3,
+    "k_val": 82.9,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.62
   },
   {
     "code": "6108",
@@ -395551,14 +395551,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.7,
     "price_pos": 0.5,
-    "ma60_gap": -14.51,
-    "kd_gold_cross": true,
-    "k_val": 22.8,
+    "ma60_gap": -14.88,
+    "kd_gold_cross": false,
+    "k_val": 21.7,
     "bb_low": true,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.44
   },
   {
     "code": "6120",
@@ -395570,14 +395570,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.21,
     "price_pos": 0.5,
-    "ma60_gap": 2.4,
+    "ma60_gap": 3.11,
     "kd_gold_cross": false,
-    "k_val": 45.7,
+    "k_val": 47.8,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.71
   },
   {
     "code": "6128",
@@ -395589,14 +395589,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": 0.99,
+    "ma60_gap": 1.72,
     "kd_gold_cross": false,
-    "k_val": 42.5,
+    "k_val": 46.5,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.73
   },
   {
     "code": "6133",
@@ -395665,14 +395665,14 @@
     "trust_streak": 0,
     "vol_ratio": 5.36,
     "price_pos": 0.5,
-    "ma60_gap": 11.39,
+    "ma60_gap": 22.22,
     "kd_gold_cross": false,
-    "k_val": 61.1,
+    "k_val": 75.0,
     "bb_low": false,
     "macd_gc": true,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 9.92
   },
   {
     "code": "6142",
@@ -395684,14 +395684,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.28,
     "price_pos": 0.5,
-    "ma60_gap": 13.23,
+    "ma60_gap": 12.14,
     "kd_gold_cross": false,
-    "k_val": 45.1,
+    "k_val": 44.0,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.99
   },
   {
     "code": "6152",
@@ -395760,14 +395760,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.82,
     "price_pos": 0.5,
-    "ma60_gap": 6.66,
+    "ma60_gap": 4.77,
     "kd_gold_cross": false,
-    "k_val": 27.6,
+    "k_val": 25.6,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.8
   },
   {
     "code": "6165",
@@ -395874,14 +395874,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": -0.15,
+    "ma60_gap": 0.06,
     "kd_gold_cross": false,
-    "k_val": 71.1,
+    "k_val": 73.5,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.22
   },
   {
     "code": "6184",
@@ -395893,14 +395893,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": -0.91,
+    "ma60_gap": -1.25,
     "kd_gold_cross": false,
-    "k_val": 36.5,
-    "bb_low": false,
+    "k_val": 31.7,
+    "bb_low": true,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.35
   },
   {
     "code": "6189",
@@ -395969,14 +395969,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.8,
     "price_pos": 0.5,
-    "ma60_gap": 20.98,
+    "ma60_gap": 21.99,
     "kd_gold_cross": false,
-    "k_val": 60.4,
+    "k_val": 62.1,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.85
   },
   {
     "code": "6197",
@@ -396045,14 +396045,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.46,
     "price_pos": 0.5,
-    "ma60_gap": -15.07,
+    "ma60_gap": -15.32,
     "kd_gold_cross": false,
-    "k_val": 23.1,
+    "k_val": 22.7,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.3
   },
   {
     "code": "6206",
@@ -396083,14 +396083,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.69,
     "price_pos": 0.5,
-    "ma60_gap": 0.5,
+    "ma60_gap": -1.26,
     "kd_gold_cross": false,
-    "k_val": 42.7,
+    "k_val": 38.1,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.79
   },
   {
     "code": "6213",
@@ -396102,14 +396102,14 @@
     "trust_streak": 5,
     "vol_ratio": 0.58,
     "price_pos": 0.5,
-    "ma60_gap": 14.3,
+    "ma60_gap": 10.95,
     "kd_gold_cross": false,
-    "k_val": 25.6,
+    "k_val": 22.4,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -2.99
   },
   {
     "code": "6214",
@@ -396140,14 +396140,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.43,
     "price_pos": 0.5,
-    "ma60_gap": -7.24,
+    "ma60_gap": -6.37,
     "kd_gold_cross": false,
-    "k_val": 34.3,
+    "k_val": 36.2,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.95
   },
   {
     "code": "6216",
@@ -396216,14 +396216,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.05,
     "price_pos": 0.5,
-    "ma60_gap": 76.19,
+    "ma60_gap": 59.22,
     "kd_gold_cross": false,
-    "k_val": 75.6,
+    "k_val": 60.0,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -9.89
   },
   {
     "code": "6230",
@@ -396235,14 +396235,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": -12.22,
+    "ma60_gap": -14.36,
     "kd_gold_cross": false,
-    "k_val": 38.5,
+    "k_val": 32.7,
     "bb_low": false,
-    "macd_gc": true,
+    "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -2.48
   },
   {
     "code": "6235",
@@ -396254,14 +396254,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.96,
     "price_pos": 0.5,
-    "ma60_gap": 4.28,
-    "kd_gold_cross": true,
-    "k_val": 44.0,
+    "ma60_gap": -0.01,
+    "kd_gold_cross": false,
+    "k_val": 36.5,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -4.19
   },
   {
     "code": "6239",
@@ -396387,14 +396387,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.65,
     "price_pos": 0.5,
-    "ma60_gap": 2.05,
+    "ma60_gap": 1.91,
     "kd_gold_cross": false,
-    "k_val": 61.0,
+    "k_val": 60.6,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.13
   },
   {
     "code": "6278",
@@ -396425,14 +396425,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": 1.41,
-    "kd_gold_cross": true,
-    "k_val": 49.0,
+    "ma60_gap": 1.03,
+    "kd_gold_cross": false,
+    "k_val": 44.8,
     "bb_low": false,
-    "macd_gc": true,
+    "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.39
   },
   {
     "code": "6282",
@@ -396482,14 +396482,14 @@
     "trust_streak": 2,
     "vol_ratio": 0.59,
     "price_pos": 0.5,
-    "ma60_gap": 2.5,
+    "ma60_gap": -1.28,
     "kd_gold_cross": false,
-    "k_val": 63.4,
+    "k_val": 54.9,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -3.75
   },
   {
     "code": "6405",
@@ -396520,14 +396520,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.93,
     "price_pos": 0.5,
-    "ma60_gap": 22.94,
+    "ma60_gap": 16.25,
     "kd_gold_cross": false,
-    "k_val": 19.1,
+    "k_val": 13.5,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -5.56
   },
   {
     "code": "6412",
@@ -396558,14 +396558,14 @@
     "trust_streak": 1,
     "vol_ratio": 1.12,
     "price_pos": 0.5,
-    "ma60_gap": 11.27,
+    "ma60_gap": 12.79,
     "kd_gold_cross": false,
-    "k_val": 50.3,
+    "k_val": 53.8,
     "bb_low": false,
-    "macd_gc": false,
+    "macd_gc": true,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 1.39
   },
   {
     "code": "6415",
@@ -396596,14 +396596,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.97,
     "price_pos": 0.5,
-    "ma60_gap": 17.16,
+    "ma60_gap": 9.68,
     "kd_gold_cross": false,
-    "k_val": 89.3,
+    "k_val": 78.2,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -6.5
   },
   {
     "code": "6426",
@@ -396615,14 +396615,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.61,
     "price_pos": 0.5,
-    "ma60_gap": -20.12,
+    "ma60_gap": -24.06,
     "kd_gold_cross": false,
-    "k_val": 32.7,
+    "k_val": 25.5,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -5.0
   },
   {
     "code": "6431",
@@ -396634,14 +396634,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": -4.68,
+    "ma60_gap": -6.72,
     "kd_gold_cross": false,
-    "k_val": 41.8,
+    "k_val": 35.4,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -2.17
   },
   {
     "code": "6438",
@@ -396653,14 +396653,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.02,
     "price_pos": 0.5,
-    "ma60_gap": -4.45,
+    "ma60_gap": -4.15,
     "kd_gold_cross": true,
-    "k_val": 35.6,
+    "k_val": 36.2,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.32
   },
   {
     "code": "6442",
@@ -396729,14 +396729,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.84,
     "price_pos": 0.5,
-    "ma60_gap": -4.1,
+    "ma60_gap": -8.47,
     "kd_gold_cross": false,
-    "k_val": 22.7,
+    "k_val": 16.9,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -4.63
   },
   {
     "code": "6451",
@@ -396767,14 +396767,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.89,
     "price_pos": 0.5,
-    "ma60_gap": -3.22,
+    "ma60_gap": -4.84,
     "kd_gold_cross": false,
-    "k_val": 59.6,
+    "k_val": 55.9,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.69
   },
   {
     "code": "6464",
@@ -396805,14 +396805,14 @@
     "trust_streak": 0,
     "vol_ratio": 2.46,
     "price_pos": 0.5,
-    "ma60_gap": 6.98,
-    "kd_gold_cross": true,
-    "k_val": 29.7,
+    "ma60_gap": 3.79,
+    "kd_gold_cross": false,
+    "k_val": 17.8,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -3.03
   },
   {
     "code": "6477",
@@ -396976,14 +396976,14 @@
     "trust_streak": 0,
     "vol_ratio": 3.19,
     "price_pos": 0.5,
-    "ma60_gap": 3.52,
+    "ma60_gap": 3.97,
     "kd_gold_cross": false,
-    "k_val": 67.4,
+    "k_val": 68.0,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.44
   },
   {
     "code": "6534",
@@ -397185,14 +397185,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.84,
     "price_pos": 0.5,
-    "ma60_gap": 3.54,
+    "ma60_gap": 1.28,
     "kd_gold_cross": false,
-    "k_val": 24.6,
+    "k_val": 20.1,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -2.22
   },
   {
     "code": "6591",
@@ -397337,14 +397337,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": -0.2,
+    "ma60_gap": -0.47,
     "kd_gold_cross": false,
-    "k_val": 28.8,
+    "k_val": 28.1,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.28
   },
   {
     "code": "6645",
@@ -397432,14 +397432,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": 7.23,
+    "ma60_gap": 7.11,
     "kd_gold_cross": false,
-    "k_val": 82.4,
+    "k_val": 81.6,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.11
   },
   {
     "code": "6668",
@@ -397527,14 +397527,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.7,
     "price_pos": 0.5,
-    "ma60_gap": 14.44,
+    "ma60_gap": 14.23,
     "kd_gold_cross": false,
-    "k_val": 25.0,
+    "k_val": 24.8,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.19
   },
   {
     "code": "6674",
@@ -397546,14 +397546,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": -8.88,
-    "kd_gold_cross": false,
-    "k_val": 22.2,
-    "bb_low": true,
+    "ma60_gap": -4.14,
+    "kd_gold_cross": true,
+    "k_val": 41.1,
+    "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 5.3
   },
   {
     "code": "6689",
@@ -397660,14 +397660,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.84,
     "price_pos": 0.5,
-    "ma60_gap": -14.98,
+    "ma60_gap": -6.7,
     "kd_gold_cross": true,
-    "k_val": 13.7,
+    "k_val": 20.0,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 9.89
   },
   {
     "code": "6719",
@@ -397679,14 +397679,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.58,
     "price_pos": 0.5,
-    "ma60_gap": 5.76,
+    "ma60_gap": 4.09,
     "kd_gold_cross": false,
-    "k_val": 18.9,
+    "k_val": 17.4,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.61
   },
   {
     "code": "6722",
@@ -397755,14 +397755,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.53,
     "price_pos": 0.5,
-    "ma60_gap": 16.86,
+    "ma60_gap": 9.51,
     "kd_gold_cross": false,
-    "k_val": 55.4,
+    "k_val": 42.6,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -6.41
   },
   {
     "code": "6754",
@@ -397869,14 +397869,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": -0.34,
+    "ma60_gap": -1.84,
     "kd_gold_cross": false,
-    "k_val": 37.8,
+    "k_val": 31.1,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.53
   },
   {
     "code": "6776",
@@ -397907,14 +397907,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.97,
     "price_pos": 0.5,
-    "ma60_gap": -9.14,
+    "ma60_gap": -8.71,
     "kd_gold_cross": false,
-    "k_val": 16.2,
+    "k_val": 16.7,
     "bb_low": true,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.48
   },
   {
     "code": "6782",
@@ -397926,14 +397926,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.6,
     "price_pos": 0.5,
-    "ma60_gap": 0.15,
+    "ma60_gap": -0.83,
     "kd_gold_cross": false,
-    "k_val": 36.6,
+    "k_val": 33.7,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.0
   },
   {
     "code": "6789",
@@ -397945,14 +397945,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.78,
     "price_pos": 0.5,
-    "ma60_gap": -0.97,
+    "ma60_gap": -1.15,
     "kd_gold_cross": false,
-    "k_val": 50.0,
+    "k_val": 49.6,
     "bb_low": false,
     "macd_gc": true,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.19
   },
   {
     "code": "6790",
@@ -397983,14 +397983,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": -6.63,
+    "ma60_gap": -8.69,
     "kd_gold_cross": false,
-    "k_val": 14.1,
-    "bb_low": false,
+    "k_val": 11.0,
+    "bb_low": true,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -2.23
   },
   {
     "code": "6794",
@@ -398059,14 +398059,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.82,
     "price_pos": 0.5,
-    "ma60_gap": -22.14,
+    "ma60_gap": -21.03,
     "kd_gold_cross": false,
-    "k_val": 25.1,
+    "k_val": 26.9,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 1.43
   },
   {
     "code": "6807",
@@ -398097,14 +398097,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.81,
     "price_pos": 0.5,
-    "ma60_gap": -37.79,
+    "ma60_gap": -36.92,
     "kd_gold_cross": false,
-    "k_val": 20.4,
+    "k_val": 21.9,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 1.41
   },
   {
     "code": "6831",
@@ -398135,14 +398135,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.65,
     "price_pos": 0.5,
-    "ma60_gap": 38.78,
+    "ma60_gap": 33.89,
     "kd_gold_cross": false,
-    "k_val": 27.2,
+    "k_val": 23.8,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -3.6
   },
   {
     "code": "6835",
@@ -398173,14 +398173,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": -4.98,
-    "kd_gold_cross": true,
-    "k_val": 30.1,
+    "ma60_gap": -5.76,
+    "kd_gold_cross": false,
+    "k_val": 27.5,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.83
   },
   {
     "code": "6854",
@@ -398211,14 +398211,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.77,
     "price_pos": 0.5,
-    "ma60_gap": -31.3,
+    "ma60_gap": -28.02,
     "kd_gold_cross": false,
-    "k_val": 4.5,
+    "k_val": 7.9,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 4.82
   },
   {
     "code": "6862",
@@ -398249,14 +398249,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.51,
     "price_pos": 0.5,
-    "ma60_gap": 2.18,
+    "ma60_gap": 3.15,
     "kd_gold_cross": false,
-    "k_val": 70.6,
+    "k_val": 72.4,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.96
   },
   {
     "code": "6869",
@@ -398306,14 +398306,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.13,
     "price_pos": 0.5,
-    "ma60_gap": -3.75,
-    "kd_gold_cross": false,
-    "k_val": 45.7,
+    "ma60_gap": -3.53,
+    "kd_gold_cross": true,
+    "k_val": 46.6,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.23
   },
   {
     "code": "6887",
@@ -398325,14 +398325,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.74,
     "price_pos": 0.5,
-    "ma60_gap": 10.29,
+    "ma60_gap": 4.42,
     "kd_gold_cross": false,
-    "k_val": 66.8,
+    "k_val": 57.6,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -5.42
   },
   {
     "code": "6890",
@@ -398382,14 +398382,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": 4.76,
+    "ma60_gap": 3.21,
     "kd_gold_cross": false,
-    "k_val": 49.6,
+    "k_val": 44.0,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.5
   },
   {
     "code": "6906",
@@ -398401,14 +398401,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": -8.54,
+    "ma60_gap": -11.23,
     "kd_gold_cross": false,
-    "k_val": 12.0,
+    "k_val": 7.9,
     "bb_low": true,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -2.99
   },
   {
     "code": "6908",
@@ -398458,14 +398458,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": 1.38,
+    "ma60_gap": 2.07,
     "kd_gold_cross": false,
-    "k_val": 61.1,
+    "k_val": 67.2,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.69
   },
   {
     "code": "6916",
@@ -398496,14 +398496,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": -0.76,
+    "ma60_gap": -1.69,
     "kd_gold_cross": false,
-    "k_val": 25.7,
-    "bb_low": false,
+    "k_val": 20.8,
+    "bb_low": true,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.95
   },
   {
     "code": "6919",
@@ -398515,14 +398515,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.72,
     "price_pos": 0.5,
-    "ma60_gap": 8.27,
+    "ma60_gap": 12.15,
     "kd_gold_cross": false,
-    "k_val": 66.1,
+    "k_val": 74.1,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
-    "strong_long": false,
-    "pct_change": 0.0
+    "strong_long": true,
+    "pct_change": 3.65
   },
   {
     "code": "6921",
@@ -398553,14 +398553,14 @@
     "trust_streak": 0,
     "vol_ratio": 2.26,
     "price_pos": 0.5,
-    "ma60_gap": 3.79,
+    "ma60_gap": 2.14,
     "kd_gold_cross": false,
-    "k_val": 69.6,
+    "k_val": 62.9,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.62
   },
   {
     "code": "6924",
@@ -398629,14 +398629,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.75,
     "price_pos": 0.5,
-    "ma60_gap": 6.95,
+    "ma60_gap": 1.4,
     "kd_gold_cross": false,
-    "k_val": 89.0,
+    "k_val": 79.8,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -5.28
   },
   {
     "code": "6934",
@@ -398743,14 +398743,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": 6.78,
+    "ma60_gap": 6.36,
     "kd_gold_cross": false,
-    "k_val": 81.4,
+    "k_val": 79.6,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.41
   },
   {
     "code": "6952",
@@ -398857,14 +398857,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": 3.07,
+    "ma60_gap": 2.56,
     "kd_gold_cross": false,
-    "k_val": 77.7,
+    "k_val": 75.1,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.5
   },
   {
     "code": "6969",
@@ -398952,14 +398952,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": 8.13,
-    "kd_gold_cross": true,
-    "k_val": 34.4,
+    "ma60_gap": 7.4,
+    "kd_gold_cross": false,
+    "k_val": 33.2,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.69
   },
   {
     "code": "7705",
@@ -398990,14 +398990,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.77,
     "price_pos": 0.5,
-    "ma60_gap": -12.22,
+    "ma60_gap": -13.17,
     "kd_gold_cross": false,
-    "k_val": 46.6,
+    "k_val": 42.9,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.1
   },
   {
     "code": "7721",
@@ -399009,14 +399009,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.51,
     "price_pos": 0.5,
-    "ma60_gap": -7.72,
-    "kd_gold_cross": true,
-    "k_val": 28.2,
-    "bb_low": false,
+    "ma60_gap": -10.93,
+    "kd_gold_cross": false,
+    "k_val": 20.8,
+    "bb_low": true,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.49
+    "pct_change": -2.09
   },
   {
     "code": "7722",
@@ -399066,14 +399066,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": 0.12,
+    "ma60_gap": -0.15,
     "kd_gold_cross": false,
-    "k_val": 68.5,
+    "k_val": 65.4,
     "bb_low": true,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.28
   },
   {
     "code": "7736",
@@ -399104,14 +399104,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.96,
     "price_pos": 0.5,
-    "ma60_gap": -2.53,
+    "ma60_gap": -5.17,
     "kd_gold_cross": false,
-    "k_val": 74.0,
+    "k_val": 67.0,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -2.76
   },
   {
     "code": "7749",
@@ -399142,14 +399142,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.0,
     "price_pos": 0.5,
-    "ma60_gap": -13.76,
+    "ma60_gap": -15.25,
     "kd_gold_cross": false,
-    "k_val": 39.1,
+    "k_val": 36.3,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.76
   },
   {
     "code": "7760",
@@ -399161,14 +399161,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": 6.35,
+    "ma60_gap": 4.98,
     "kd_gold_cross": false,
-    "k_val": 40.8,
+    "k_val": 36.7,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.3
   },
   {
     "code": "7765",
@@ -399199,14 +399199,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": -12.05,
+    "ma60_gap": -15.04,
     "kd_gold_cross": false,
-    "k_val": 29.8,
-    "bb_low": false,
+    "k_val": 22.3,
+    "bb_low": true,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -3.45
   },
   {
     "code": "7769",
@@ -399218,14 +399218,14 @@
     "trust_streak": 5,
     "vol_ratio": 1.07,
     "price_pos": 0.5,
-    "ma60_gap": 0.73,
+    "ma60_gap": 0.36,
     "kd_gold_cross": false,
-    "k_val": 59.2,
+    "k_val": 58.4,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.37
   },
   {
     "code": "7780",
@@ -399237,14 +399237,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.86,
     "price_pos": 0.5,
-    "ma60_gap": 0.67,
+    "ma60_gap": 0.94,
     "kd_gold_cross": true,
-    "k_val": 26.1,
-    "bb_low": true,
+    "k_val": 27.8,
+    "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.28
   },
   {
     "code": "7786",
@@ -399353,12 +399353,12 @@
     "price_pos": 0.5,
     "ma60_gap": 0.0,
     "kd_gold_cross": false,
-    "k_val": 34.7,
+    "k_val": 28.6,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.53
   },
   {
     "code": "7818",
@@ -399370,14 +399370,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.31,
     "price_pos": 0.5,
-    "ma60_gap": -9.23,
+    "ma60_gap": -9.61,
     "kd_gold_cross": false,
-    "k_val": 79.5,
+    "k_val": 75.0,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.43
   },
   {
     "code": "7821",
@@ -399465,14 +399465,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.45,
     "price_pos": 0.5,
-    "ma60_gap": -4.66,
+    "ma60_gap": -5.76,
     "kd_gold_cross": false,
-    "k_val": 33.7,
-    "bb_low": false,
+    "k_val": 30.4,
+    "bb_low": true,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.17
   },
   {
     "code": "8016",
@@ -399484,14 +399484,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.58,
     "price_pos": 0.5,
-    "ma60_gap": 5.97,
+    "ma60_gap": 3.56,
     "kd_gold_cross": false,
-    "k_val": 24.3,
+    "k_val": 21.5,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -2.32
   },
   {
     "code": "8021",
@@ -399503,14 +399503,14 @@
     "trust_streak": 2,
     "vol_ratio": 0.92,
     "price_pos": 0.5,
-    "ma60_gap": 11.46,
+    "ma60_gap": 5.91,
     "kd_gold_cross": false,
-    "k_val": 48.0,
+    "k_val": 39.7,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -5.08
   },
   {
     "code": "8028",
@@ -399617,14 +399617,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.97,
     "price_pos": 0.5,
-    "ma60_gap": 3.0,
+    "ma60_gap": 0.68,
     "kd_gold_cross": false,
-    "k_val": 25.0,
+    "k_val": 21.5,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -2.29
   },
   {
     "code": "8072",
@@ -399693,14 +399693,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.69,
     "price_pos": 0.5,
-    "ma60_gap": -14.87,
-    "kd_gold_cross": true,
-    "k_val": 20.5,
-    "bb_low": false,
+    "ma60_gap": -17.22,
+    "kd_gold_cross": false,
+    "k_val": 16.8,
+    "bb_low": true,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -2.8
   },
   {
     "code": "8104",
@@ -399712,14 +399712,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.34,
     "price_pos": 0.5,
-    "ma60_gap": 1.93,
+    "ma60_gap": -1.84,
     "kd_gold_cross": false,
-    "k_val": 37.8,
+    "k_val": 29.6,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -3.76
   },
   {
     "code": "8105",
@@ -399769,14 +399769,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.81,
     "price_pos": 0.5,
-    "ma60_gap": 2.16,
+    "ma60_gap": 0.1,
     "kd_gold_cross": false,
-    "k_val": 39.6,
+    "k_val": 34.0,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -2.05
   },
   {
     "code": "8112A",
@@ -399826,14 +399826,14 @@
     "trust_streak": 0,
     "vol_ratio": 2.73,
     "price_pos": 0.5,
-    "ma60_gap": 17.49,
+    "ma60_gap": 10.95,
     "kd_gold_cross": false,
-    "k_val": 60.6,
+    "k_val": 51.4,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -5.67
   },
   {
     "code": "8150",
@@ -399902,14 +399902,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": -4.01,
+    "ma60_gap": -3.26,
     "kd_gold_cross": false,
-    "k_val": 12.0,
+    "k_val": 14.9,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.8
   },
   {
     "code": "8210",
@@ -399959,14 +399959,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.45,
     "price_pos": 0.5,
-    "ma60_gap": -4.23,
+    "ma60_gap": -5.09,
     "kd_gold_cross": false,
-    "k_val": 24.4,
+    "k_val": 22.9,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.91
   },
   {
     "code": "8222",
@@ -399997,14 +399997,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.56,
     "price_pos": 0.5,
-    "ma60_gap": -3.61,
+    "ma60_gap": -4.81,
     "kd_gold_cross": false,
-    "k_val": 33.7,
+    "k_val": 29.4,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.27
   },
   {
     "code": "8261",
@@ -400054,14 +400054,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.54,
     "price_pos": 0.5,
-    "ma60_gap": 3.23,
+    "ma60_gap": 4.43,
     "kd_gold_cross": false,
-    "k_val": 42.6,
+    "k_val": 50.5,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 1.18
   },
   {
     "code": "8367",
@@ -400073,14 +400073,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": -0.91,
+    "ma60_gap": -1.39,
     "kd_gold_cross": false,
-    "k_val": 56.5,
+    "k_val": 51.4,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.49
   },
   {
     "code": "8374",
@@ -400130,14 +400130,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.84,
     "price_pos": 0.5,
-    "ma60_gap": 3.79,
+    "ma60_gap": 4.2,
     "kd_gold_cross": false,
-    "k_val": 90.2,
+    "k_val": 93.0,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.4
   },
   {
     "code": "8422",
@@ -400149,14 +400149,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.61,
     "price_pos": 0.5,
-    "ma60_gap": -1.34,
-    "kd_gold_cross": false,
-    "k_val": 19.6,
+    "ma60_gap": 0.68,
+    "kd_gold_cross": true,
+    "k_val": 23.9,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 2.08
   },
   {
     "code": "8429",
@@ -400206,14 +400206,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": 5.25,
+    "ma60_gap": 4.35,
     "kd_gold_cross": false,
-    "k_val": 61.5,
+    "k_val": 59.4,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.87
   },
   {
     "code": "8443",
@@ -400263,14 +400263,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.39,
     "price_pos": 0.5,
-    "ma60_gap": 14.95,
+    "ma60_gap": 14.25,
     "kd_gold_cross": false,
-    "k_val": 80.2,
+    "k_val": 78.6,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.62
   },
   {
     "code": "8463",
@@ -400472,14 +400472,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": 1.21,
+    "ma60_gap": 1.69,
     "kd_gold_cross": false,
-    "k_val": 31.8,
+    "k_val": 33.8,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.49
   },
   {
     "code": "8499",
@@ -400529,14 +400529,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": -3.07,
-    "kd_gold_cross": true,
-    "k_val": 16.5,
-    "bb_low": false,
+    "ma60_gap": -3.66,
+    "kd_gold_cross": false,
+    "k_val": 11.7,
+    "bb_low": true,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.61
   },
   {
     "code": "8996",
@@ -400548,14 +400548,14 @@
     "trust_streak": 1,
     "vol_ratio": 0.83,
     "price_pos": 0.5,
-    "ma60_gap": -3.13,
-    "kd_gold_cross": true,
-    "k_val": 16.2,
+    "ma60_gap": -7.96,
+    "kd_gold_cross": false,
+    "k_val": 10.4,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -5.06
   },
   {
     "code": "9103",
@@ -400567,14 +400567,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.82,
     "price_pos": 0.5,
-    "ma60_gap": -0.59,
+    "ma60_gap": -1.36,
     "kd_gold_cross": false,
-    "k_val": 40.5,
+    "k_val": 38.1,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.78
   },
   {
     "code": "910322",
@@ -400605,14 +400605,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.67,
     "price_pos": 0.5,
-    "ma60_gap": 10.52,
+    "ma60_gap": 8.59,
     "kd_gold_cross": false,
-    "k_val": 43.2,
+    "k_val": 38.7,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -1.79
   },
   {
     "code": "910861",
@@ -400700,14 +400700,14 @@
     "trust_streak": 0,
     "vol_ratio": 2.31,
     "price_pos": 0.5,
-    "ma60_gap": -7.2,
+    "ma60_gap": -6.83,
     "kd_gold_cross": false,
-    "k_val": 15.6,
+    "k_val": 16.6,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.4
   },
   {
     "code": "9802",
@@ -400719,14 +400719,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.26,
     "price_pos": 0.5,
-    "ma60_gap": -2.46,
+    "ma60_gap": -0.79,
     "kd_gold_cross": false,
-    "k_val": 57.9,
+    "k_val": 68.7,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
-    "strong_long": false,
-    "pct_change": 0.0
+    "strong_long": true,
+    "pct_change": 1.74
   },
   {
     "code": "9902",
@@ -400757,14 +400757,14 @@
     "trust_streak": 0,
     "vol_ratio": 2.61,
     "price_pos": 0.5,
-    "ma60_gap": -1.03,
+    "ma60_gap": 0.17,
     "kd_gold_cross": false,
-    "k_val": 41.0,
+    "k_val": 51.6,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 1.23
   },
   {
     "code": "9905",
@@ -400776,14 +400776,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.31,
     "price_pos": 0.5,
-    "ma60_gap": 3.51,
+    "ma60_gap": 3.75,
     "kd_gold_cross": false,
-    "k_val": 77.8,
+    "k_val": 80.0,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.24
   },
   {
     "code": "9906",
@@ -400795,14 +400795,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": 4.58,
+    "ma60_gap": 6.47,
     "kd_gold_cross": false,
-    "k_val": 42.0,
+    "k_val": 46.7,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 1.84
   },
   {
     "code": "9907",
@@ -400871,14 +400871,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.83,
     "price_pos": 0.5,
-    "ma60_gap": 0.91,
+    "ma60_gap": 1.27,
     "kd_gold_cross": false,
-    "k_val": 37.2,
+    "k_val": 41.4,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.36
   },
   {
     "code": "9912",
@@ -400909,14 +400909,14 @@
     "trust_streak": 5,
     "vol_ratio": 9.93,
     "price_pos": 0.5,
-    "ma60_gap": 12.19,
+    "ma60_gap": 23.09,
     "kd_gold_cross": false,
-    "k_val": 42.3,
+    "k_val": 64.6,
     "bb_low": false,
-    "macd_gc": false,
+    "macd_gc": true,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 9.92
   },
   {
     "code": "9917",
@@ -400928,14 +400928,14 @@
     "trust_streak": 5,
     "vol_ratio": 1.03,
     "price_pos": 0.5,
-    "ma60_gap": -1.2,
+    "ma60_gap": -0.29,
     "kd_gold_cross": false,
-    "k_val": 64.9,
+    "k_val": 76.0,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.93
   },
   {
     "code": "9918",
@@ -400947,14 +400947,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": 1.56,
+    "ma60_gap": 1.33,
     "kd_gold_cross": false,
-    "k_val": 81.0,
+    "k_val": 78.8,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.23
   },
   {
     "code": "9919",
@@ -400966,14 +400966,14 @@
     "trust_streak": 0,
     "vol_ratio": 4.85,
     "price_pos": 0.5,
-    "ma60_gap": -1.42,
+    "ma60_gap": -0.02,
     "kd_gold_cross": false,
-    "k_val": 42.4,
+    "k_val": 51.3,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 1.44
   },
   {
     "code": "9921",
@@ -401042,14 +401042,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": 1.3,
+    "ma60_gap": 1.5,
     "kd_gold_cross": false,
-    "k_val": 73.4,
+    "k_val": 76.1,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.2
   },
   {
     "code": "9927",
@@ -401118,14 +401118,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.94,
     "price_pos": 0.5,
-    "ma60_gap": -2.22,
+    "ma60_gap": -2.37,
     "kd_gold_cross": false,
-    "k_val": 34.5,
+    "k_val": 33.2,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.16
   },
   {
     "code": "9931",
@@ -401156,14 +401156,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.72,
     "price_pos": 0.5,
-    "ma60_gap": 2.12,
+    "ma60_gap": 2.36,
     "kd_gold_cross": false,
-    "k_val": 38.2,
+    "k_val": 39.4,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 0.25
   },
   {
     "code": "9934",
@@ -401194,14 +401194,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.48,
     "price_pos": 0.5,
-    "ma60_gap": 5.48,
-    "kd_gold_cross": true,
-    "k_val": 45.2,
+    "ma60_gap": 4.93,
+    "kd_gold_cross": false,
+    "k_val": 42.3,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": -0.53
   },
   {
     "code": "9937",
@@ -401213,14 +401213,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": 5.85,
+    "ma60_gap": 2.74,
     "kd_gold_cross": false,
-    "k_val": 97.8,
+    "k_val": 79.4,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 4.02
+    "pct_change": 0.91
   },
   {
     "code": "9938",
@@ -401365,14 +401365,14 @@
     "trust_streak": 0,
     "vol_ratio": 1.45,
     "price_pos": 0.5,
-    "ma60_gap": 9.77,
+    "ma60_gap": 11.61,
     "kd_gold_cross": false,
-    "k_val": 62.9,
+    "k_val": 71.5,
     "bb_low": false,
-    "macd_gc": false,
+    "macd_gc": true,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 1.7
   },
   {
     "code": "9946",
