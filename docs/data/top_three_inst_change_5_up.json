@@ -374867,7 +374867,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.0
+    "pct_change": 2.0
   },
   {
     "code": "1539",
@@ -384810,20 +384810,20 @@
     "code": "3701",
     "name": "大眾控",
     "change": 495.859,
-    "three_inst_ratio": 12.0,
+    "three_inst_ratio": 0.0,
     "foreign_ratio_diff": 494.04200000000003,
     "trust_ratio_diff": 0.0,
     "trust_streak": 0,
-    "vol_ratio": 0.66,
+    "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": -25.15,
+    "ma60_gap": 0.0,
     "kd_gold_cross": false,
-    "k_val": 26.6,
+    "k_val": 0.0,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 7.46
+    "pct_change": 0.0
   },
   {
     "code": "3702",
