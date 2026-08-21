@@ -424735,14 +424735,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": -18.06,
+    "ma60_gap": -15.03,
     "kd_gold_cross": false,
-    "k_val": 35.6,
+    "k_val": 54.9,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -2.33
+    "pct_change": 1.33
   },
   {
     "code": "1517",
@@ -427528,14 +427528,14 @@
     "trust_streak": 0,
     "vol_ratio": 0.0,
     "price_pos": 0.5,
-    "ma60_gap": -6.78,
+    "ma60_gap": -5.63,
     "kd_gold_cross": false,
-    "k_val": 60.3,
+    "k_val": 65.2,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.5
+    "pct_change": 0.75
   },
   {
     "code": "2241",
@@ -439781,16 +439781,16 @@
     "foreign_ratio_diff": 12.957,
     "trust_ratio_diff": 0.0,
     "trust_streak": 0,
-    "vol_ratio": 0.72,
+    "vol_ratio": 0.75,
     "price_pos": 0.5,
-    "ma60_gap": -16.15,
+    "ma60_gap": -15.89,
     "kd_gold_cross": false,
-    "k_val": 27.1,
+    "k_val": 28.1,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -2.19
+    "pct_change": -1.88
   },
   {
     "code": "6706",
