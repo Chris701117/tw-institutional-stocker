@@ -206,7 +206,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.81
+    "pct_change": 0.0
   },
   {
     "code": "0051",
@@ -225,7 +225,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.25
+    "pct_change": 0.0
   },
   {
     "code": "0052",
@@ -244,7 +244,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.49
+    "pct_change": 0.0
   },
   {
     "code": "0053",
@@ -263,7 +263,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.42
+    "pct_change": 0.0
   },
   {
     "code": "0055",
@@ -282,7 +282,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.2
+    "pct_change": 0.0
   },
   {
     "code": "0056",
@@ -301,7 +301,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.19
+    "pct_change": 0.0
   },
   {
     "code": "0057",
@@ -320,7 +320,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.21
+    "pct_change": 0.0
   },
   {
     "code": "0061",
@@ -339,7 +339,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.19
+    "pct_change": 0.0
   },
   {
     "code": "006203",
@@ -420619,7 +420619,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.4
+    "pct_change": 0.0
   },
   {
     "code": "1102",
@@ -420638,7 +420638,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.29
+    "pct_change": 0.0
   },
   {
     "code": "1103",
@@ -420676,7 +420676,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.56
+    "pct_change": 0.0
   },
   {
     "code": "1108",
@@ -420695,7 +420695,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.43
+    "pct_change": 0.0
   },
   {
     "code": "1109",
@@ -420714,7 +420714,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.37
+    "pct_change": 0.0
   },
   {
     "code": "1110",
@@ -420733,7 +420733,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.31
+    "pct_change": 0.0
   },
   {
     "code": "1201",
@@ -420752,7 +420752,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.21
+    "pct_change": 0.0
   },
   {
     "code": "1203",
@@ -420771,7 +420771,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.34
+    "pct_change": 0.0
   },
   {
     "code": "1210",
@@ -420847,7 +420847,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.65
+    "pct_change": 0.0
   },
   {
     "code": "1217",
@@ -420866,7 +420866,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.5
+    "pct_change": 0.0
   },
   {
     "code": "1218",
@@ -420885,7 +420885,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.03
+    "pct_change": 0.0
   },
   {
     "code": "1219",
@@ -420923,7 +420923,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.91
+    "pct_change": 0.0
   },
   {
     "code": "1225",
@@ -420961,7 +420961,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.69
+    "pct_change": 0.0
   },
   {
     "code": "1229",
@@ -420980,7 +420980,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.48
+    "pct_change": 0.0
   },
   {
     "code": "1231",
@@ -420999,7 +420999,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.37
+    "pct_change": 0.0
   },
   {
     "code": "1232",
@@ -421018,7 +421018,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.32
+    "pct_change": 0.0
   },
   {
     "code": "1233",
@@ -421056,7 +421056,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.89
+    "pct_change": 0.0
   },
   {
     "code": "1235",
@@ -421075,7 +421075,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.1
+    "pct_change": 0.0
   },
   {
     "code": "1236",
@@ -421094,7 +421094,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.2
+    "pct_change": 0.0
   },
   {
     "code": "1256",
@@ -421113,7 +421113,7 @@
     "macd_gc": true,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.96
+    "pct_change": 0.0
   },
   {
     "code": "1301",
@@ -421132,7 +421132,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.4
+    "pct_change": 0.0
   },
   {
     "code": "1303",
@@ -421151,7 +421151,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 4.72
+    "pct_change": 0.0
   },
   {
     "code": "1304",
@@ -421208,7 +421208,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.65
+    "pct_change": 0.0
   },
   {
     "code": "1308",
@@ -421227,7 +421227,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.73
+    "pct_change": 0.0
   },
   {
     "code": "1309",
@@ -421265,7 +421265,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.37
+    "pct_change": 0.0
   },
   {
     "code": "1312",
@@ -421284,7 +421284,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.42
+    "pct_change": 0.0
   },
   {
     "code": "1313",
@@ -421303,7 +421303,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.43
+    "pct_change": 0.0
   },
   {
     "code": "1314",
@@ -421322,7 +421322,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.0
+    "pct_change": 0.0
   },
   {
     "code": "1315",
@@ -421341,7 +421341,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.15
+    "pct_change": 0.0
   },
   {
     "code": "1316",
@@ -421360,7 +421360,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -2.21
+    "pct_change": 0.0
   },
   {
     "code": "1319",
@@ -421396,9 +421396,9 @@
     "k_val": 66.1,
     "bb_low": false,
     "macd_gc": false,
-    "spike_high": true,
+    "spike_high": false,
     "strong_long": false,
-    "pct_change": 2.32
+    "pct_change": 0.0
   },
   {
     "code": "1323",
@@ -421436,7 +421436,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.7
+    "pct_change": 0.0
   },
   {
     "code": "1325",
@@ -421455,7 +421455,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.96
+    "pct_change": 0.0
   },
   {
     "code": "1326",
@@ -421474,7 +421474,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.58
+    "pct_change": 0.0
   },
   {
     "code": "1337",
@@ -421493,7 +421493,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.43
+    "pct_change": 0.0
   },
   {
     "code": "1338",
@@ -421512,7 +421512,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.03
+    "pct_change": 0.0
   },
   {
     "code": "1339",
@@ -421531,7 +421531,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.55
+    "pct_change": 0.0
   },
   {
     "code": "1340",
@@ -421548,9 +421548,9 @@
     "k_val": 48.1,
     "bb_low": false,
     "macd_gc": false,
-    "spike_high": true,
+    "spike_high": false,
     "strong_long": false,
-    "pct_change": 3.29
+    "pct_change": 0.0
   },
   {
     "code": "1341",
@@ -421569,7 +421569,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.5
+    "pct_change": 0.0
   },
   {
     "code": "1342",
@@ -421607,7 +421607,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.53
+    "pct_change": 0.0
   },
   {
     "code": "1409",
@@ -421626,7 +421626,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.62
+    "pct_change": 0.0
   },
   {
     "code": "1410",
@@ -421645,7 +421645,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -2.17
+    "pct_change": 0.0
   },
   {
     "code": "1413",
@@ -421664,7 +421664,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.96
+    "pct_change": 0.0
   },
   {
     "code": "1414",
@@ -421683,7 +421683,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.29
+    "pct_change": 0.0
   },
   {
     "code": "1416",
@@ -421702,7 +421702,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.24
+    "pct_change": 0.0
   },
   {
     "code": "1417",
@@ -421721,7 +421721,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.2
+    "pct_change": 0.0
   },
   {
     "code": "1418",
@@ -421740,7 +421740,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.28
+    "pct_change": 0.0
   },
   {
     "code": "1419",
@@ -421759,7 +421759,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.06
+    "pct_change": 0.0
   },
   {
     "code": "1423",
@@ -421778,7 +421778,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.57
+    "pct_change": 0.0
   },
   {
     "code": "1432",
@@ -421797,7 +421797,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.33
+    "pct_change": 0.0
   },
   {
     "code": "1434",
@@ -421816,7 +421816,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.28
+    "pct_change": 0.0
   },
   {
     "code": "1435",
@@ -421835,7 +421835,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -3.95
+    "pct_change": 0.0
   },
   {
     "code": "1436",
@@ -421854,7 +421854,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.68
+    "pct_change": 0.0
   },
   {
     "code": "1437",
@@ -421873,7 +421873,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.16
+    "pct_change": 0.0
   },
   {
     "code": "1438",
@@ -421892,7 +421892,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.67
+    "pct_change": 0.0
   },
   {
     "code": "1439",
@@ -421911,7 +421911,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.34
+    "pct_change": 0.0
   },
   {
     "code": "1440",
@@ -421930,7 +421930,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.74
+    "pct_change": 0.0
   },
   {
     "code": "1441",
@@ -421949,7 +421949,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -2.52
+    "pct_change": 0.0
   },
   {
     "code": "1442",
@@ -421968,7 +421968,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.63
+    "pct_change": 0.0
   },
   {
     "code": "1443",
@@ -421987,7 +421987,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.4
+    "pct_change": 0.0
   },
   {
     "code": "1444",
@@ -422006,7 +422006,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.92
+    "pct_change": 0.0
   },
   {
     "code": "1445",
@@ -422025,7 +422025,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.48
+    "pct_change": 0.0
   },
   {
     "code": "1446",
@@ -422044,7 +422044,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.37
+    "pct_change": 0.0
   },
   {
     "code": "1447",
@@ -422063,7 +422063,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.72
+    "pct_change": 0.0
   },
   {
     "code": "1449",
@@ -422082,7 +422082,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.4
+    "pct_change": 0.0
   },
   {
     "code": "1451",
@@ -422101,7 +422101,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.58
+    "pct_change": 0.0
   },
   {
     "code": "1452",
@@ -422120,7 +422120,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.43
+    "pct_change": 0.0
   },
   {
     "code": "1453",
@@ -422158,7 +422158,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.81
+    "pct_change": 0.0
   },
   {
     "code": "1455",
@@ -422177,7 +422177,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.6
+    "pct_change": 0.0
   },
   {
     "code": "1456",
@@ -422196,7 +422196,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.37
+    "pct_change": 0.0
   },
   {
     "code": "1457",
@@ -422215,7 +422215,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.04
+    "pct_change": 0.0
   },
   {
     "code": "1459",
@@ -422234,7 +422234,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.7
+    "pct_change": 0.0
   },
   {
     "code": "1460",
@@ -422253,7 +422253,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.77
+    "pct_change": 0.0
   },
   {
     "code": "1463",
@@ -422272,7 +422272,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.85
+    "pct_change": 0.0
   },
   {
     "code": "1464",
@@ -422291,7 +422291,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.48
+    "pct_change": 0.0
   },
   {
     "code": "1465",
@@ -422310,7 +422310,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.41
+    "pct_change": 0.0
   },
   {
     "code": "1466",
@@ -422329,7 +422329,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -2.17
+    "pct_change": 0.0
   },
   {
     "code": "1467",
@@ -422348,7 +422348,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.31
+    "pct_change": 0.0
   },
   {
     "code": "1468",
@@ -422367,7 +422367,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.14
+    "pct_change": 0.0
   },
   {
     "code": "1470",
@@ -422386,7 +422386,7 @@
     "macd_gc": true,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.84
+    "pct_change": 0.0
   },
   {
     "code": "1471",
@@ -422405,7 +422405,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -3.98
+    "pct_change": 0.0
   },
   {
     "code": "1472",
@@ -422424,7 +422424,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.49
+    "pct_change": 0.0
   },
   {
     "code": "1473",
@@ -422462,7 +422462,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.5
+    "pct_change": 0.0
   },
   {
     "code": "1475",
@@ -422481,7 +422481,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.89
+    "pct_change": 0.0
   },
   {
     "code": "1476",
@@ -422500,7 +422500,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.27
+    "pct_change": 0.0
   },
   {
     "code": "1477",
@@ -422557,7 +422557,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.98
+    "pct_change": 0.0
   },
   {
     "code": "1506",
@@ -422576,7 +422576,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.98
+    "pct_change": 0.0
   },
   {
     "code": "1512",
@@ -422595,7 +422595,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.15
+    "pct_change": 0.0
   },
   {
     "code": "1513",
@@ -422614,7 +422614,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.91
+    "pct_change": 0.0
   },
   {
     "code": "1514",
@@ -422633,7 +422633,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.99
+    "pct_change": 0.0
   },
   {
     "code": "1515",
@@ -422652,7 +422652,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.3
+    "pct_change": 0.0
   },
   {
     "code": "1516",
@@ -422671,7 +422671,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 2.74
+    "pct_change": 0.0
   },
   {
     "code": "1517",
@@ -422690,7 +422690,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.88
+    "pct_change": 0.0
   },
   {
     "code": "1519",
@@ -422709,7 +422709,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.7
+    "pct_change": 0.0
   },
   {
     "code": "1521",
@@ -422728,7 +422728,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.78
+    "pct_change": 0.0
   },
   {
     "code": "1522",
@@ -422747,7 +422747,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.18
+    "pct_change": 0.0
   },
   {
     "code": "1522A",
@@ -422785,7 +422785,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.55
+    "pct_change": 0.0
   },
   {
     "code": "1525",
@@ -422804,7 +422804,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.64
+    "pct_change": 0.0
   },
   {
     "code": "1526",
@@ -422823,7 +422823,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.81
+    "pct_change": 0.0
   },
   {
     "code": "1527",
@@ -422842,7 +422842,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.31
+    "pct_change": 0.0
   },
   {
     "code": "1528",
@@ -422861,7 +422861,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.07
+    "pct_change": 0.0
   },
   {
     "code": "1529",
@@ -422880,7 +422880,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.58
+    "pct_change": 0.0
   },
   {
     "code": "1530",
@@ -422899,7 +422899,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.03
+    "pct_change": 0.0
   },
   {
     "code": "1531",
@@ -422937,7 +422937,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.65
+    "pct_change": 0.0
   },
   {
     "code": "1533",
@@ -422956,7 +422956,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.78
+    "pct_change": 0.0
   },
   {
     "code": "1535",
@@ -422975,7 +422975,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.22
+    "pct_change": 0.0
   },
   {
     "code": "1536",
@@ -422994,7 +422994,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.02
+    "pct_change": 0.0
   },
   {
     "code": "1537",
@@ -423013,7 +423013,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.42
+    "pct_change": 0.0
   },
   {
     "code": "1539",
@@ -423032,7 +423032,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.26
+    "pct_change": 0.0
   },
   {
     "code": "1540",
@@ -423070,7 +423070,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.69
+    "pct_change": 0.0
   },
   {
     "code": "1558",
@@ -423089,7 +423089,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.98
+    "pct_change": 0.0
   },
   {
     "code": "1560",
@@ -423108,7 +423108,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.44
+    "pct_change": 0.0
   },
   {
     "code": "1563",
@@ -423126,8 +423126,8 @@
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
-    "strong_long": true,
-    "pct_change": 3.33
+    "strong_long": false,
+    "pct_change": 0.0
   },
   {
     "code": "1568",
@@ -423146,7 +423146,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.05
+    "pct_change": 0.0
   },
   {
     "code": "1582",
@@ -423165,7 +423165,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.27
+    "pct_change": 0.0
   },
   {
     "code": "1583",
@@ -423184,7 +423184,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.39
+    "pct_change": 0.0
   },
   {
     "code": "1587",
@@ -423203,7 +423203,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.21
+    "pct_change": 0.0
   },
   {
     "code": "1590",
@@ -423222,7 +423222,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.74
+    "pct_change": 0.0
   },
   {
     "code": "1597",
@@ -423241,7 +423241,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.14
+    "pct_change": 0.0
   },
   {
     "code": "1598",
@@ -423260,7 +423260,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.91
+    "pct_change": 0.0
   },
   {
     "code": "1603",
@@ -423279,7 +423279,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.48
+    "pct_change": 0.0
   },
   {
     "code": "1604",
@@ -423317,21 +423317,21 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.92
+    "pct_change": 0.0
   },
   {
     "code": "1608",
     "name": "華榮",
     "change": 1418.4009999999998,
-    "three_inst_ratio": 0.0,
+    "three_inst_ratio": 9.3,
     "foreign_ratio_diff": 1433.189,
     "trust_ratio_diff": -6.0,
     "trust_streak": 0,
-    "vol_ratio": 0.0,
+    "vol_ratio": 0.76,
     "price_pos": 0.5,
-    "ma60_gap": 0.0,
-    "kd_gold_cross": false,
-    "k_val": 0.0,
+    "ma60_gap": 12.03,
+    "kd_gold_cross": true,
+    "k_val": 45.5,
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
@@ -423374,7 +423374,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -2.46
+    "pct_change": 0.0
   },
   {
     "code": "1612",
@@ -423393,7 +423393,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.43
+    "pct_change": 0.0
   },
   {
     "code": "1614",
@@ -423431,7 +423431,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.23
+    "pct_change": 0.0
   },
   {
     "code": "1616",
@@ -423450,7 +423450,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.26
+    "pct_change": 0.0
   },
   {
     "code": "1617",
@@ -423469,7 +423469,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.86
+    "pct_change": 0.0
   },
   {
     "code": "1618",
@@ -423488,7 +423488,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.76
+    "pct_change": 0.0
   },
   {
     "code": "1623",
@@ -423507,7 +423507,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.76
+    "pct_change": 0.0
   },
   {
     "code": "1626",
@@ -423526,7 +423526,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.42
+    "pct_change": 0.0
   },
   {
     "code": "1702",
@@ -423545,7 +423545,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.06
+    "pct_change": 0.0
   },
   {
     "code": "1707",
@@ -423564,7 +423564,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.55
+    "pct_change": 0.0
   },
   {
     "code": "1708",
@@ -423583,7 +423583,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.61
+    "pct_change": 0.0
   },
   {
     "code": "1709",
@@ -423602,7 +423602,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -2.6
+    "pct_change": 0.0
   },
   {
     "code": "1710",
@@ -423620,8 +423620,8 @@
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
-    "strong_long": true,
-    "pct_change": 3.92
+    "strong_long": false,
+    "pct_change": 0.0
   },
   {
     "code": "1711",
@@ -423640,7 +423640,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.36
+    "pct_change": 0.0
   },
   {
     "code": "1712",
@@ -423659,7 +423659,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.5
+    "pct_change": 0.0
   },
   {
     "code": "1713",
@@ -423678,7 +423678,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.57
+    "pct_change": 0.0
   },
   {
     "code": "1714",
@@ -423697,7 +423697,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.9
+    "pct_change": 0.0
   },
   {
     "code": "1717",
@@ -423716,7 +423716,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.56
+    "pct_change": 0.0
   },
   {
     "code": "1718",
@@ -423735,7 +423735,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.93
+    "pct_change": 0.0
   },
   {
     "code": "1720",
@@ -423754,7 +423754,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.18
+    "pct_change": 0.0
   },
   {
     "code": "1721",
@@ -423773,7 +423773,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.02
+    "pct_change": 0.0
   },
   {
     "code": "1722",
@@ -423792,7 +423792,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.9
+    "pct_change": 0.0
   },
   {
     "code": "1723",
@@ -423811,7 +423811,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.13
+    "pct_change": 0.0
   },
   {
     "code": "1725",
@@ -423830,7 +423830,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.48
+    "pct_change": 0.0
   },
   {
     "code": "1726",
@@ -423849,7 +423849,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.39
+    "pct_change": 0.0
   },
   {
     "code": "1727",
@@ -423868,7 +423868,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.44
+    "pct_change": 0.0
   },
   {
     "code": "1730",
@@ -423887,7 +423887,7 @@
     "macd_gc": true,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.17
+    "pct_change": 0.0
   },
   {
     "code": "1731",
@@ -423906,7 +423906,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.24
+    "pct_change": 0.0
   },
   {
     "code": "1732",
@@ -423925,7 +423925,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.57
+    "pct_change": 0.0
   },
   {
     "code": "1733",
@@ -423944,7 +423944,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.16
+    "pct_change": 0.0
   },
   {
     "code": "1734",
@@ -423963,7 +423963,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.31
+    "pct_change": 0.0
   },
   {
     "code": "1735",
@@ -423982,7 +423982,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.5
+    "pct_change": 0.0
   },
   {
     "code": "1736",
@@ -424001,7 +424001,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.39
+    "pct_change": 0.0
   },
   {
     "code": "1737",
@@ -424020,7 +424020,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.16
+    "pct_change": 0.0
   },
   {
     "code": "1752",
@@ -424039,7 +424039,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.31
+    "pct_change": 0.0
   },
   {
     "code": "1760",
@@ -424077,7 +424077,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.1
+    "pct_change": 0.0
   },
   {
     "code": "1773",
@@ -424096,7 +424096,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.25
+    "pct_change": 0.0
   },
   {
     "code": "1776",
@@ -424115,7 +424115,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.79
+    "pct_change": 0.0
   },
   {
     "code": "1783",
@@ -424134,7 +424134,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.12
+    "pct_change": 0.0
   },
   {
     "code": "1786",
@@ -424153,7 +424153,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -2.1
+    "pct_change": 0.0
   },
   {
     "code": "1789",
@@ -424172,7 +424172,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.3
+    "pct_change": 0.0
   },
   {
     "code": "1795",
@@ -424191,7 +424191,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.02
+    "pct_change": 0.0
   },
   {
     "code": "1802",
@@ -424210,7 +424210,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.93
+    "pct_change": 0.0
   },
   {
     "code": "1805",
@@ -424229,7 +424229,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.49
+    "pct_change": 0.0
   },
   {
     "code": "1806",
@@ -424248,7 +424248,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.37
+    "pct_change": 0.0
   },
   {
     "code": "1808",
@@ -424267,7 +424267,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.82
+    "pct_change": 0.0
   },
   {
     "code": "1809",
@@ -424305,7 +424305,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.59
+    "pct_change": 0.0
   },
   {
     "code": "1817",
@@ -424343,7 +424343,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.12
+    "pct_change": 0.0
   },
   {
     "code": "1904",
@@ -424362,7 +424362,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.55
+    "pct_change": 0.0
   },
   {
     "code": "1905",
@@ -424381,7 +424381,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.12
+    "pct_change": 0.0
   },
   {
     "code": "1906",
@@ -424400,7 +424400,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.43
+    "pct_change": 0.0
   },
   {
     "code": "1907",
@@ -424419,7 +424419,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.77
+    "pct_change": 0.0
   },
   {
     "code": "1909",
@@ -424438,7 +424438,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.46
+    "pct_change": 0.0
   },
   {
     "code": "2002",
@@ -424457,7 +424457,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.78
+    "pct_change": 0.0
   },
   {
     "code": "2006",
@@ -424476,7 +424476,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.61
+    "pct_change": 0.0
   },
   {
     "code": "2007",
@@ -424495,7 +424495,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.13
+    "pct_change": 0.0
   },
   {
     "code": "2008",
@@ -424533,7 +424533,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.55
+    "pct_change": 0.0
   },
   {
     "code": "2010",
@@ -424552,7 +424552,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.66
+    "pct_change": 0.0
   },
   {
     "code": "2012",
@@ -424571,7 +424571,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.37
+    "pct_change": 0.0
   },
   {
     "code": "2013",
@@ -424609,7 +424609,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.58
+    "pct_change": 0.0
   },
   {
     "code": "2015",
@@ -424647,7 +424647,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.88
+    "pct_change": 0.0
   },
   {
     "code": "2020",
@@ -424666,7 +424666,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.46
+    "pct_change": 0.0
   },
   {
     "code": "2022",
@@ -424685,7 +424685,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.29
+    "pct_change": 0.0
   },
   {
     "code": "2023",
@@ -424704,7 +424704,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.72
+    "pct_change": 0.0
   },
   {
     "code": "2024",
@@ -424761,7 +424761,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.78
+    "pct_change": 0.0
   },
   {
     "code": "2028",
@@ -424780,7 +424780,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.32
+    "pct_change": 0.0
   },
   {
     "code": "2029",
@@ -424799,7 +424799,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.67
+    "pct_change": 0.0
   },
   {
     "code": "2030",
@@ -424818,7 +424818,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 2.83
+    "pct_change": 0.0
   },
   {
     "code": "2031",
@@ -424837,7 +424837,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.54
+    "pct_change": 0.0
   },
   {
     "code": "2032",
@@ -424856,7 +424856,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.29
+    "pct_change": 0.0
   },
   {
     "code": "2033",
@@ -424874,8 +424874,8 @@
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
-    "strong_long": true,
-    "pct_change": 7.95
+    "strong_long": false,
+    "pct_change": 0.0
   },
   {
     "code": "2034",
@@ -424894,7 +424894,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.73
+    "pct_change": 0.0
   },
   {
     "code": "2038",
@@ -424932,7 +424932,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.58
+    "pct_change": 0.0
   },
   {
     "code": "2059",
@@ -424951,7 +424951,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.87
+    "pct_change": 0.0
   },
   {
     "code": "2062",
@@ -424970,7 +424970,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.26
+    "pct_change": 0.0
   },
   {
     "code": "2069",
@@ -424989,7 +424989,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.24
+    "pct_change": 0.0
   },
   {
     "code": "2072",
@@ -425008,7 +425008,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.0
+    "pct_change": 0.0
   },
   {
     "code": "2101",
@@ -425027,7 +425027,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.04
+    "pct_change": 0.0
   },
   {
     "code": "2102",
@@ -425046,7 +425046,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.27
+    "pct_change": 0.0
   },
   {
     "code": "2103",
@@ -425065,7 +425065,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.71
+    "pct_change": 0.0
   },
   {
     "code": "2104",
@@ -425084,7 +425084,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.45
+    "pct_change": 0.0
   },
   {
     "code": "2105",
@@ -425103,7 +425103,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.32
+    "pct_change": 0.0
   },
   {
     "code": "2106",
@@ -425122,7 +425122,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.15
+    "pct_change": 0.0
   },
   {
     "code": "2107",
@@ -425141,7 +425141,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.19
+    "pct_change": 0.0
   },
   {
     "code": "2108",
@@ -425160,7 +425160,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.66
+    "pct_change": 0.0
   },
   {
     "code": "2109",
@@ -425179,7 +425179,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.67
+    "pct_change": 0.0
   },
   {
     "code": "2114",
@@ -425198,7 +425198,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.11
+    "pct_change": 0.0
   },
   {
     "code": "2115",
@@ -425217,7 +425217,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.42
+    "pct_change": 0.0
   },
   {
     "code": "2201",
@@ -425236,7 +425236,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.56
+    "pct_change": 0.0
   },
   {
     "code": "2204",
@@ -425255,7 +425255,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.55
+    "pct_change": 0.0
   },
   {
     "code": "2206",
@@ -425274,7 +425274,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.16
+    "pct_change": 0.0
   },
   {
     "code": "2207",
@@ -425293,7 +425293,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.57
+    "pct_change": 0.0
   },
   {
     "code": "2208",
@@ -425312,7 +425312,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.52
+    "pct_change": 0.0
   },
   {
     "code": "2211",
@@ -425331,7 +425331,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.3
+    "pct_change": 0.0
   },
   {
     "code": "2227",
@@ -425350,7 +425350,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -2.04
+    "pct_change": 0.0
   },
   {
     "code": "2228",
@@ -425369,7 +425369,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.27
+    "pct_change": 0.0
   },
   {
     "code": "2231",
@@ -425388,7 +425388,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.87
+    "pct_change": 0.0
   },
   {
     "code": "2233",
@@ -425407,7 +425407,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -4.01
+    "pct_change": 0.0
   },
   {
     "code": "2236",
@@ -425426,7 +425426,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.41
+    "pct_change": 0.0
   },
   {
     "code": "2237",
@@ -425445,7 +425445,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.67
+    "pct_change": 0.0
   },
   {
     "code": "2239",
@@ -425464,7 +425464,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.26
+    "pct_change": 0.0
   },
   {
     "code": "2241",
@@ -425483,7 +425483,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.74
+    "pct_change": 0.0
   },
   {
     "code": "2243",
@@ -425501,8 +425501,8 @@
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
-    "strong_long": true,
-    "pct_change": 3.27
+    "strong_long": false,
+    "pct_change": 0.0
   },
   {
     "code": "2247",
@@ -425521,7 +425521,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.22
+    "pct_change": 0.0
   },
   {
     "code": "2248",
@@ -425540,7 +425540,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.16
+    "pct_change": 0.0
   },
   {
     "code": "2250",
@@ -425559,7 +425559,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.0
+    "pct_change": 0.0
   },
   {
     "code": "2254",
@@ -425578,7 +425578,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.51
+    "pct_change": 0.0
   },
   {
     "code": "2258",
@@ -425597,7 +425597,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.43
+    "pct_change": 0.0
   },
   {
     "code": "2301",
@@ -425615,8 +425615,8 @@
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
-    "strong_long": true,
-    "pct_change": 3.14
+    "strong_long": false,
+    "pct_change": 0.0
   },
   {
     "code": "2302",
@@ -425635,7 +425635,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -2.46
+    "pct_change": 0.0
   },
   {
     "code": "2303",
@@ -425654,7 +425654,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.21
+    "pct_change": 0.0
   },
   {
     "code": "2305",
@@ -425673,7 +425673,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 5.82
+    "pct_change": 0.0
   },
   {
     "code": "2308",
@@ -425692,7 +425692,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.44
+    "pct_change": 0.0
   },
   {
     "code": "2312",
@@ -425711,7 +425711,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.1
+    "pct_change": 0.0
   },
   {
     "code": "2313",
@@ -425730,7 +425730,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 2.35
+    "pct_change": 0.0
   },
   {
     "code": "2314",
@@ -425749,7 +425749,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.42
+    "pct_change": 0.0
   },
   {
     "code": "2316",
@@ -425768,7 +425768,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.32
+    "pct_change": 0.0
   },
   {
     "code": "2317",
@@ -425787,7 +425787,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.21
+    "pct_change": 0.0
   },
   {
     "code": "2323",
@@ -425806,7 +425806,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.93
+    "pct_change": 0.0
   },
   {
     "code": "2324",
@@ -425825,7 +425825,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.92
+    "pct_change": 0.0
   },
   {
     "code": "2327",
@@ -425844,7 +425844,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.27
+    "pct_change": 0.0
   },
   {
     "code": "2328",
@@ -425863,7 +425863,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.45
+    "pct_change": 0.0
   },
   {
     "code": "2329",
@@ -425882,7 +425882,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.8
+    "pct_change": 0.0
   },
   {
     "code": "2330",
@@ -425901,7 +425901,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.05
+    "pct_change": 0.0
   },
   {
     "code": "2331",
@@ -425920,7 +425920,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.26
+    "pct_change": 0.0
   },
   {
     "code": "2332",
@@ -425939,7 +425939,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.23
+    "pct_change": 0.0
   },
   {
     "code": "2337",
@@ -425958,7 +425958,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.61
+    "pct_change": 0.0
   },
   {
     "code": "2338",
@@ -425977,7 +425977,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.52
+    "pct_change": 0.0
   },
   {
     "code": "2340",
@@ -425996,7 +425996,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.4
+    "pct_change": 0.0
   },
   {
     "code": "2342",
@@ -426015,7 +426015,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.42
+    "pct_change": 0.0
   },
   {
     "code": "2344",
@@ -426034,7 +426034,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.13
+    "pct_change": 0.0
   },
   {
     "code": "2345",
@@ -426053,7 +426053,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.93
+    "pct_change": 0.0
   },
   {
     "code": "2347",
@@ -426072,7 +426072,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.81
+    "pct_change": 0.0
   },
   {
     "code": "2348",
@@ -426091,7 +426091,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -2.09
+    "pct_change": 0.0
   },
   {
     "code": "2348A",
@@ -426129,7 +426129,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.91
+    "pct_change": 0.0
   },
   {
     "code": "2351",
@@ -426148,7 +426148,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.5
+    "pct_change": 0.0
   },
   {
     "code": "2352",
@@ -426167,7 +426167,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.75
+    "pct_change": 0.0
   },
   {
     "code": "2353",
@@ -426186,7 +426186,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.16
+    "pct_change": 0.0
   },
   {
     "code": "2354",
@@ -426243,7 +426243,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.06
+    "pct_change": 0.0
   },
   {
     "code": "2357",
@@ -426262,7 +426262,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.22
+    "pct_change": 0.0
   },
   {
     "code": "2359",
@@ -426281,7 +426281,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.34
+    "pct_change": 0.0
   },
   {
     "code": "2360",
@@ -426300,7 +426300,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -5.07
+    "pct_change": 0.0
   },
   {
     "code": "2362",
@@ -426319,7 +426319,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.61
+    "pct_change": 0.0
   },
   {
     "code": "2363",
@@ -426338,7 +426338,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.4
+    "pct_change": 0.0
   },
   {
     "code": "2364",
@@ -426357,7 +426357,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.67
+    "pct_change": 0.0
   },
   {
     "code": "2365",
@@ -426376,7 +426376,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.33
+    "pct_change": 0.0
   },
   {
     "code": "2367",
@@ -426395,7 +426395,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.29
+    "pct_change": 0.0
   },
   {
     "code": "2368",
@@ -426414,7 +426414,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 2.43
+    "pct_change": 0.0
   },
   {
     "code": "2369",
@@ -426433,7 +426433,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -2.95
+    "pct_change": 0.0
   },
   {
     "code": "2371",
@@ -426452,7 +426452,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.91
+    "pct_change": 0.0
   },
   {
     "code": "2373",
@@ -426471,7 +426471,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.38
+    "pct_change": 0.0
   },
   {
     "code": "2374",
@@ -426490,7 +426490,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.3
+    "pct_change": 0.0
   },
   {
     "code": "2375",
@@ -426509,7 +426509,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.66
+    "pct_change": 0.0
   },
   {
     "code": "2376",
@@ -426528,7 +426528,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.91
+    "pct_change": 0.0
   },
   {
     "code": "2377",
@@ -426566,7 +426566,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.96
+    "pct_change": 0.0
   },
   {
     "code": "2380",
@@ -426585,7 +426585,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.04
+    "pct_change": 0.0
   },
   {
     "code": "2382",
@@ -426604,7 +426604,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.08
+    "pct_change": 0.0
   },
   {
     "code": "2383",
@@ -426623,7 +426623,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 3.04
+    "pct_change": 0.0
   },
   {
     "code": "2385",
@@ -426642,7 +426642,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.47
+    "pct_change": 0.0
   },
   {
     "code": "2387",
@@ -426661,7 +426661,7 @@
     "macd_gc": true,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.96
+    "pct_change": 0.0
   },
   {
     "code": "2388",
@@ -426680,7 +426680,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.28
+    "pct_change": 0.0
   },
   {
     "code": "2390",
@@ -426718,7 +426718,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.92
+    "pct_change": 0.0
   },
   {
     "code": "2393",
@@ -426737,7 +426737,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.31
+    "pct_change": 0.0
   },
   {
     "code": "2395",
@@ -426756,7 +426756,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.82
+    "pct_change": 0.0
   },
   {
     "code": "2397",
@@ -426775,7 +426775,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.32
+    "pct_change": 0.0
   },
   {
     "code": "2399",
@@ -426794,7 +426794,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.1
+    "pct_change": 0.0
   },
   {
     "code": "2401",
@@ -426813,7 +426813,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.2
+    "pct_change": 0.0
   },
   {
     "code": "2402",
@@ -426832,7 +426832,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 2.57
+    "pct_change": 0.0
   },
   {
     "code": "2404",
@@ -426851,7 +426851,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.47
+    "pct_change": 0.0
   },
   {
     "code": "2405",
@@ -426870,7 +426870,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.97
+    "pct_change": 0.0
   },
   {
     "code": "2406",
@@ -426908,7 +426908,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.8
+    "pct_change": 0.0
   },
   {
     "code": "2409",
@@ -426927,7 +426927,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.58
+    "pct_change": 0.0
   },
   {
     "code": "2412",
@@ -426965,7 +426965,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.58
+    "pct_change": 0.0
   },
   {
     "code": "2414",
@@ -426984,7 +426984,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.52
+    "pct_change": 0.0
   },
   {
     "code": "2415",
@@ -427003,7 +427003,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.82
+    "pct_change": 0.0
   },
   {
     "code": "2417",
@@ -427022,7 +427022,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.46
+    "pct_change": 0.0
   },
   {
     "code": "2419",
@@ -427041,7 +427041,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.41
+    "pct_change": 0.0
   },
   {
     "code": "2420",
@@ -427060,7 +427060,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.22
+    "pct_change": 0.0
   },
   {
     "code": "2421",
@@ -427079,7 +427079,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.35
+    "pct_change": 0.0
   },
   {
     "code": "2423",
@@ -427098,7 +427098,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.54
+    "pct_change": 0.0
   },
   {
     "code": "2424",
@@ -427136,7 +427136,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.4
+    "pct_change": 0.0
   },
   {
     "code": "2426",
@@ -427155,7 +427155,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 9.93
+    "pct_change": 0.0
   },
   {
     "code": "2427",
@@ -427174,7 +427174,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.35
+    "pct_change": 0.0
   },
   {
     "code": "2428",
@@ -427193,7 +427193,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.4
+    "pct_change": 0.0
   },
   {
     "code": "2429",
@@ -427212,7 +427212,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.15
+    "pct_change": 0.0
   },
   {
     "code": "2430",
@@ -427231,7 +427231,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.28
+    "pct_change": 0.0
   },
   {
     "code": "2431",
@@ -427250,7 +427250,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.97
+    "pct_change": 0.0
   },
   {
     "code": "2432",
@@ -427269,7 +427269,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.36
+    "pct_change": 0.0
   },
   {
     "code": "2433",
@@ -427307,7 +427307,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -2.43
+    "pct_change": 0.0
   },
   {
     "code": "2436",
@@ -427326,7 +427326,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.63
+    "pct_change": 0.0
   },
   {
     "code": "2438",
@@ -427345,7 +427345,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -2.75
+    "pct_change": 0.0
   },
   {
     "code": "2439",
@@ -427364,7 +427364,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.12
+    "pct_change": 0.0
   },
   {
     "code": "2440",
@@ -427383,7 +427383,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.08
+    "pct_change": 0.0
   },
   {
     "code": "2441",
@@ -427402,7 +427402,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.32
+    "pct_change": 0.0
   },
   {
     "code": "2442",
@@ -427421,7 +427421,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.26
+    "pct_change": 0.0
   },
   {
     "code": "2444",
@@ -427440,7 +427440,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.92
+    "pct_change": 0.0
   },
   {
     "code": "2449",
@@ -427459,7 +427459,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.21
+    "pct_change": 0.0
   },
   {
     "code": "2450",
@@ -427478,7 +427478,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.18
+    "pct_change": 0.0
   },
   {
     "code": "2451",
@@ -427497,7 +427497,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -5.38
+    "pct_change": 0.0
   },
   {
     "code": "2453",
@@ -427535,7 +427535,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.8
+    "pct_change": 0.0
   },
   {
     "code": "2455",
@@ -427554,7 +427554,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 9.96
+    "pct_change": 0.0
   },
   {
     "code": "2457",
@@ -427573,7 +427573,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.44
+    "pct_change": 0.0
   },
   {
     "code": "2458",
@@ -427592,7 +427592,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.08
+    "pct_change": 0.0
   },
   {
     "code": "2459",
@@ -427611,7 +427611,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.74
+    "pct_change": 0.0
   },
   {
     "code": "2460",
@@ -427630,7 +427630,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.56
+    "pct_change": 0.0
   },
   {
     "code": "2461",
@@ -427649,7 +427649,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.27
+    "pct_change": 0.0
   },
   {
     "code": "2462",
@@ -427668,7 +427668,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.51
+    "pct_change": 0.0
   },
   {
     "code": "2464",
@@ -427687,7 +427687,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 2.93
+    "pct_change": 0.0
   },
   {
     "code": "2465",
@@ -427706,7 +427706,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -2.51
+    "pct_change": 0.0
   },
   {
     "code": "2466",
@@ -427725,7 +427725,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.98
+    "pct_change": 0.0
   },
   {
     "code": "2467",
@@ -427744,7 +427744,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.38
+    "pct_change": 0.0
   },
   {
     "code": "2468",
@@ -427763,7 +427763,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.47
+    "pct_change": 0.0
   },
   {
     "code": "2471",
@@ -427782,7 +427782,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.31
+    "pct_change": 0.0
   },
   {
     "code": "2472",
@@ -427801,7 +427801,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.91
+    "pct_change": 0.0
   },
   {
     "code": "2474",
@@ -427838,8 +427838,8 @@
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
-    "strong_long": true,
-    "pct_change": 4.33
+    "strong_long": false,
+    "pct_change": 0.0
   },
   {
     "code": "2477",
@@ -427858,7 +427858,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.48
+    "pct_change": 0.0
   },
   {
     "code": "2478",
@@ -427896,7 +427896,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.93
+    "pct_change": 0.0
   },
   {
     "code": "2481",
@@ -427915,7 +427915,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 2.24
+    "pct_change": 0.0
   },
   {
     "code": "2482",
@@ -427934,7 +427934,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.31
+    "pct_change": 0.0
   },
   {
     "code": "2483",
@@ -427953,7 +427953,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -2.35
+    "pct_change": 0.0
   },
   {
     "code": "2484",
@@ -427971,8 +427971,8 @@
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
-    "strong_long": true,
-    "pct_change": 9.99
+    "strong_long": false,
+    "pct_change": 0.0
   },
   {
     "code": "2485",
@@ -427991,7 +427991,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -2.26
+    "pct_change": 0.0
   },
   {
     "code": "2486",
@@ -428010,7 +428010,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 3.61
+    "pct_change": 0.0
   },
   {
     "code": "2488",
@@ -428029,7 +428029,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.12
+    "pct_change": 0.0
   },
   {
     "code": "2489",
@@ -428048,7 +428048,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 9.89
+    "pct_change": 0.0
   },
   {
     "code": "2491",
@@ -428066,8 +428066,8 @@
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
-    "strong_long": true,
-    "pct_change": 9.95
+    "strong_long": false,
+    "pct_change": 0.0
   },
   {
     "code": "2492",
@@ -428086,7 +428086,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.13
+    "pct_change": 0.0
   },
   {
     "code": "2493",
@@ -428105,7 +428105,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.72
+    "pct_change": 0.0
   },
   {
     "code": "2495",
@@ -428123,8 +428123,8 @@
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
-    "strong_long": true,
-    "pct_change": 3.2
+    "strong_long": false,
+    "pct_change": 0.0
   },
   {
     "code": "2496",
@@ -428143,7 +428143,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.18
+    "pct_change": 0.0
   },
   {
     "code": "2497",
@@ -428162,7 +428162,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.11
+    "pct_change": 0.0
   },
   {
     "code": "2498",
@@ -428200,7 +428200,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.87
+    "pct_change": 0.0
   },
   {
     "code": "2504",
@@ -428219,7 +428219,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.16
+    "pct_change": 0.0
   },
   {
     "code": "2505",
@@ -428238,7 +428238,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.29
+    "pct_change": 0.0
   },
   {
     "code": "2506",
@@ -428257,7 +428257,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.23
+    "pct_change": 0.0
   },
   {
     "code": "2509",
@@ -428276,7 +428276,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.68
+    "pct_change": 0.0
   },
   {
     "code": "2511",
@@ -428295,7 +428295,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.36
+    "pct_change": 0.0
   },
   {
     "code": "2514",
@@ -428314,7 +428314,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.25
+    "pct_change": 0.0
   },
   {
     "code": "2515",
@@ -428352,7 +428352,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.04
+    "pct_change": 0.0
   },
   {
     "code": "2520",
@@ -428371,7 +428371,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -2.88
+    "pct_change": 0.0
   },
   {
     "code": "2524",
@@ -428390,7 +428390,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.85
+    "pct_change": 0.0
   },
   {
     "code": "2527",
@@ -428409,7 +428409,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.99
+    "pct_change": 0.0
   },
   {
     "code": "2528",
@@ -428428,7 +428428,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.24
+    "pct_change": 0.0
   },
   {
     "code": "2530",
@@ -428447,7 +428447,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.51
+    "pct_change": 0.0
   },
   {
     "code": "2534",
@@ -428466,7 +428466,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.29
+    "pct_change": 0.0
   },
   {
     "code": "2535",
@@ -428485,7 +428485,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.88
+    "pct_change": 0.0
   },
   {
     "code": "2536",
@@ -428504,7 +428504,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.72
+    "pct_change": 0.0
   },
   {
     "code": "2537",
@@ -428523,7 +428523,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.87
+    "pct_change": 0.0
   },
   {
     "code": "2538",
@@ -428542,7 +428542,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.11
+    "pct_change": 0.0
   },
   {
     "code": "2539",
@@ -428561,7 +428561,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.43
+    "pct_change": 0.0
   },
   {
     "code": "2540",
@@ -428580,7 +428580,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.65
+    "pct_change": 0.0
   },
   {
     "code": "2542",
@@ -428599,7 +428599,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.66
+    "pct_change": 0.0
   },
   {
     "code": "2543",
@@ -428618,7 +428618,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.39
+    "pct_change": 0.0
   },
   {
     "code": "2545",
@@ -428637,7 +428637,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.29
+    "pct_change": 0.0
   },
   {
     "code": "2546",
@@ -428656,7 +428656,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.47
+    "pct_change": 0.0
   },
   {
     "code": "2547",
@@ -428675,7 +428675,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.99
+    "pct_change": 0.0
   },
   {
     "code": "2548",
@@ -428694,7 +428694,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.21
+    "pct_change": 0.0
   },
   {
     "code": "2597",
@@ -428713,7 +428713,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.3
+    "pct_change": 0.0
   },
   {
     "code": "2601",
@@ -428732,7 +428732,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.69
+    "pct_change": 0.0
   },
   {
     "code": "2603",
@@ -428751,7 +428751,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.8
+    "pct_change": 0.0
   },
   {
     "code": "2605",
@@ -428770,7 +428770,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.27
+    "pct_change": 0.0
   },
   {
     "code": "2606",
@@ -428787,9 +428787,9 @@
     "k_val": 85.4,
     "bb_low": false,
     "macd_gc": false,
-    "spike_high": true,
+    "spike_high": false,
     "strong_long": false,
-    "pct_change": 7.88
+    "pct_change": 0.0
   },
   {
     "code": "2607",
@@ -428808,7 +428808,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.38
+    "pct_change": 0.0
   },
   {
     "code": "2608",
@@ -428846,7 +428846,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.4
+    "pct_change": 0.0
   },
   {
     "code": "2610",
@@ -428865,7 +428865,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.49
+    "pct_change": 0.0
   },
   {
     "code": "2611",
@@ -428884,7 +428884,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -2.11
+    "pct_change": 0.0
   },
   {
     "code": "2612",
@@ -428901,9 +428901,9 @@
     "k_val": 85.3,
     "bb_low": false,
     "macd_gc": false,
-    "spike_high": true,
+    "spike_high": false,
     "strong_long": false,
-    "pct_change": 5.8
+    "pct_change": 0.0
   },
   {
     "code": "2613",
@@ -428921,8 +428921,8 @@
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
-    "strong_long": true,
-    "pct_change": 2.51
+    "strong_long": false,
+    "pct_change": 0.0
   },
   {
     "code": "2614",
@@ -428941,7 +428941,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.54
+    "pct_change": 0.0
   },
   {
     "code": "2615",
@@ -428960,7 +428960,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.61
+    "pct_change": 0.0
   },
   {
     "code": "2616",
@@ -428979,7 +428979,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.74
+    "pct_change": 0.0
   },
   {
     "code": "2617",
@@ -428998,7 +428998,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.31
+    "pct_change": 0.0
   },
   {
     "code": "2618",
@@ -429017,7 +429017,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.06
+    "pct_change": 0.0
   },
   {
     "code": "2630",
@@ -429036,7 +429036,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -2.47
+    "pct_change": 0.0
   },
   {
     "code": "2633",
@@ -429055,7 +429055,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.38
+    "pct_change": 0.0
   },
   {
     "code": "2634",
@@ -429074,7 +429074,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -2.77
+    "pct_change": 0.0
   },
   {
     "code": "2636",
@@ -429093,7 +429093,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.4
+    "pct_change": 0.0
   },
   {
     "code": "2637",
@@ -429112,7 +429112,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.65
+    "pct_change": 0.0
   },
   {
     "code": "2642",
@@ -429131,7 +429131,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.97
+    "pct_change": 0.0
   },
   {
     "code": "2645",
@@ -429150,7 +429150,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -2.01
+    "pct_change": 0.0
   },
   {
     "code": "2646",
@@ -429169,7 +429169,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.94
+    "pct_change": 0.0
   },
   {
     "code": "2701",
@@ -429188,7 +429188,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.47
+    "pct_change": 0.0
   },
   {
     "code": "2702",
@@ -429207,7 +429207,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.4
+    "pct_change": 0.0
   },
   {
     "code": "2704",
@@ -429226,7 +429226,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.55
+    "pct_change": 0.0
   },
   {
     "code": "2705",
@@ -429245,7 +429245,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.63
+    "pct_change": 0.0
   },
   {
     "code": "2706",
@@ -429264,7 +429264,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.4
+    "pct_change": 0.0
   },
   {
     "code": "2707",
@@ -429321,7 +429321,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.23
+    "pct_change": 0.0
   },
   {
     "code": "2723",
@@ -429340,7 +429340,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.26
+    "pct_change": 0.0
   },
   {
     "code": "2727",
@@ -429359,7 +429359,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.64
+    "pct_change": 0.0
   },
   {
     "code": "2731",
@@ -429454,7 +429454,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.12
+    "pct_change": 0.0
   },
   {
     "code": "2801",
@@ -429473,7 +429473,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.04
+    "pct_change": 0.0
   },
   {
     "code": "2812",
@@ -429492,7 +429492,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.52
+    "pct_change": 0.0
   },
   {
     "code": "2816",
@@ -429511,7 +429511,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.54
+    "pct_change": 0.0
   },
   {
     "code": "2820",
@@ -429530,7 +429530,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.61
+    "pct_change": 0.0
   },
   {
     "code": "2832",
@@ -429549,7 +429549,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.33
+    "pct_change": 0.0
   },
   {
     "code": "2834",
@@ -429587,7 +429587,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.83
+    "pct_change": 0.0
   },
   {
     "code": "2838",
@@ -429606,7 +429606,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.25
+    "pct_change": 0.0
   },
   {
     "code": "2845",
@@ -429625,7 +429625,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.74
+    "pct_change": 0.0
   },
   {
     "code": "2849",
@@ -429644,7 +429644,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.72
+    "pct_change": 0.0
   },
   {
     "code": "2850",
@@ -429663,7 +429663,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.91
+    "pct_change": 0.0
   },
   {
     "code": "2851",
@@ -429682,7 +429682,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 2.1
+    "pct_change": 0.0
   },
   {
     "code": "2852",
@@ -429701,7 +429701,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.68
+    "pct_change": 0.0
   },
   {
     "code": "2855",
@@ -429758,7 +429758,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.4
+    "pct_change": 0.0
   },
   {
     "code": "2881",
@@ -429775,9 +429775,9 @@
     "k_val": 80.0,
     "bb_low": false,
     "macd_gc": false,
-    "spike_high": true,
+    "spike_high": false,
     "strong_long": false,
-    "pct_change": 7.2
+    "pct_change": 0.0
   },
   {
     "code": "2881A",
@@ -429852,8 +429852,8 @@
     "bb_low": false,
     "macd_gc": true,
     "spike_high": false,
-    "strong_long": true,
-    "pct_change": 4.15
+    "strong_long": false,
+    "pct_change": 0.0
   },
   {
     "code": "2882A",
@@ -429910,7 +429910,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 2.26
+    "pct_change": 0.0
   },
   {
     "code": "2883B",
@@ -429948,7 +429948,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 2.23
+    "pct_change": 0.0
   },
   {
     "code": "2885",
@@ -429986,7 +429986,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.32
+    "pct_change": 0.0
   },
   {
     "code": "2887",
@@ -430005,7 +430005,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.78
+    "pct_change": 0.0
   },
   {
     "code": "2887E",
@@ -430100,7 +430100,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.32
+    "pct_change": 0.0
   },
   {
     "code": "2890",
@@ -430119,7 +430119,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.9
+    "pct_change": 0.0
   },
   {
     "code": "2891",
@@ -430138,7 +430138,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.42
+    "pct_change": 0.0
   },
   {
     "code": "2891B",
@@ -430195,7 +430195,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.75
+    "pct_change": 0.0
   },
   {
     "code": "2897",
@@ -430214,7 +430214,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.49
+    "pct_change": 0.0
   },
   {
     "code": "2901",
@@ -430233,7 +430233,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.42
+    "pct_change": 0.0
   },
   {
     "code": "2903",
@@ -430252,7 +430252,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.66
+    "pct_change": 0.0
   },
   {
     "code": "2904",
@@ -430271,7 +430271,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.39
+    "pct_change": 0.0
   },
   {
     "code": "2905",
@@ -430290,7 +430290,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.87
+    "pct_change": 0.0
   },
   {
     "code": "2906",
@@ -430309,7 +430309,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.79
+    "pct_change": 0.0
   },
   {
     "code": "2908",
@@ -430347,7 +430347,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.02
+    "pct_change": 0.0
   },
   {
     "code": "2911",
@@ -430366,7 +430366,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.8
+    "pct_change": 0.0
   },
   {
     "code": "2912",
@@ -430385,7 +430385,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.22
+    "pct_change": 0.0
   },
   {
     "code": "2913",
@@ -430423,7 +430423,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.17
+    "pct_change": 0.0
   },
   {
     "code": "2923",
@@ -430442,7 +430442,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.41
+    "pct_change": 0.0
   },
   {
     "code": "2929",
@@ -430461,7 +430461,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.18
+    "pct_change": 0.0
   },
   {
     "code": "2939",
@@ -430480,7 +430480,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.51
+    "pct_change": 0.0
   },
   {
     "code": "2945",
@@ -430499,7 +430499,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.12
+    "pct_change": 0.0
   },
   {
     "code": "3002",
@@ -430537,7 +430537,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 2.19
+    "pct_change": 0.0
   },
   {
     "code": "3004",
@@ -430556,7 +430556,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.25
+    "pct_change": 0.0
   },
   {
     "code": "3005",
@@ -430575,7 +430575,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.86
+    "pct_change": 0.0
   },
   {
     "code": "3006",
@@ -430594,7 +430594,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -4.26
+    "pct_change": 0.0
   },
   {
     "code": "3008",
@@ -430613,7 +430613,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 6.22
+    "pct_change": 0.0
   },
   {
     "code": "3010",
@@ -430631,8 +430631,8 @@
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
-    "strong_long": true,
-    "pct_change": 2.77
+    "strong_long": false,
+    "pct_change": 0.0
   },
   {
     "code": "3011",
@@ -430651,7 +430651,7 @@
     "macd_gc": true,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.47
+    "pct_change": 0.0
   },
   {
     "code": "3013",
@@ -430670,7 +430670,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.24
+    "pct_change": 0.0
   },
   {
     "code": "3014",
@@ -430689,7 +430689,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.77
+    "pct_change": 0.0
   },
   {
     "code": "3015",
@@ -430708,7 +430708,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.95
+    "pct_change": 0.0
   },
   {
     "code": "3016",
@@ -430727,7 +430727,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -3.2
+    "pct_change": 0.0
   },
   {
     "code": "3017",
@@ -430746,7 +430746,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 3.33
+    "pct_change": 0.0
   },
   {
     "code": "3018",
@@ -430765,7 +430765,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -4.81
+    "pct_change": 0.0
   },
   {
     "code": "3019",
@@ -430803,7 +430803,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.5
+    "pct_change": 0.0
   },
   {
     "code": "3022",
@@ -430822,7 +430822,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.85
+    "pct_change": 0.0
   },
   {
     "code": "3023",
@@ -430841,7 +430841,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.79
+    "pct_change": 0.0
   },
   {
     "code": "3024",
@@ -430879,7 +430879,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.36
+    "pct_change": 0.0
   },
   {
     "code": "3026",
@@ -430898,7 +430898,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -2.33
+    "pct_change": 0.0
   },
   {
     "code": "3027",
@@ -430917,7 +430917,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.83
+    "pct_change": 0.0
   },
   {
     "code": "3028",
@@ -430936,7 +430936,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.05
+    "pct_change": 0.0
   },
   {
     "code": "3029",
@@ -430955,7 +430955,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -2.64
+    "pct_change": 0.0
   },
   {
     "code": "3030",
@@ -430974,7 +430974,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.36
+    "pct_change": 0.0
   },
   {
     "code": "3031",
@@ -430993,7 +430993,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 2.33
+    "pct_change": 0.0
   },
   {
     "code": "3032",
@@ -431012,7 +431012,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.13
+    "pct_change": 0.0
   },
   {
     "code": "3033",
@@ -431031,7 +431031,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.82
+    "pct_change": 0.0
   },
   {
     "code": "3034",
@@ -431049,8 +431049,8 @@
     "bb_low": false,
     "macd_gc": true,
     "spike_high": false,
-    "strong_long": true,
-    "pct_change": 2.4
+    "strong_long": false,
+    "pct_change": 0.0
   },
   {
     "code": "3035",
@@ -431069,7 +431069,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.18
+    "pct_change": 0.0
   },
   {
     "code": "3036",
@@ -431088,7 +431088,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.0
+    "pct_change": 0.0
   },
   {
     "code": "3037",
@@ -431107,7 +431107,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.86
+    "pct_change": 0.0
   },
   {
     "code": "3038",
@@ -431126,7 +431126,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.73
+    "pct_change": 0.0
   },
   {
     "code": "3040",
@@ -431145,7 +431145,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.17
+    "pct_change": 0.0
   },
   {
     "code": "3041",
@@ -431164,7 +431164,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.22
+    "pct_change": 0.0
   },
   {
     "code": "3042",
@@ -431183,7 +431183,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 4.23
+    "pct_change": 0.0
   },
   {
     "code": "3043",
@@ -431202,7 +431202,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.24
+    "pct_change": 0.0
   },
   {
     "code": "3044",
@@ -431221,7 +431221,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 2.89
+    "pct_change": 0.0
   },
   {
     "code": "3045",
@@ -431240,7 +431240,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.43
+    "pct_change": 0.0
   },
   {
     "code": "3046",
@@ -431259,7 +431259,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.35
+    "pct_change": 0.0
   },
   {
     "code": "3047",
@@ -431297,7 +431297,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.18
+    "pct_change": 0.0
   },
   {
     "code": "3049",
@@ -431314,9 +431314,9 @@
     "k_val": 76.6,
     "bb_low": false,
     "macd_gc": false,
-    "spike_high": true,
+    "spike_high": false,
     "strong_long": false,
-    "pct_change": 6.3
+    "pct_change": 0.0
   },
   {
     "code": "3050",
@@ -431335,7 +431335,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.86
+    "pct_change": 0.0
   },
   {
     "code": "3051",
@@ -431354,7 +431354,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.43
+    "pct_change": 0.0
   },
   {
     "code": "3052",
@@ -431373,7 +431373,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.44
+    "pct_change": 0.0
   },
   {
     "code": "3054",
@@ -431392,7 +431392,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.96
+    "pct_change": 0.0
   },
   {
     "code": "3055",
@@ -431411,7 +431411,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 5.48
+    "pct_change": 0.0
   },
   {
     "code": "3056",
@@ -431430,7 +431430,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.35
+    "pct_change": 0.0
   },
   {
     "code": "3057",
@@ -431449,7 +431449,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 2.41
+    "pct_change": 0.0
   },
   {
     "code": "3058",
@@ -431468,7 +431468,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.22
+    "pct_change": 0.0
   },
   {
     "code": "3059",
@@ -431487,7 +431487,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.38
+    "pct_change": 0.0
   },
   {
     "code": "3060",
@@ -431506,7 +431506,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.91
+    "pct_change": 0.0
   },
   {
     "code": "3062",
@@ -431525,7 +431525,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.49
+    "pct_change": 0.0
   },
   {
     "code": "3090",
@@ -431544,7 +431544,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.84
+    "pct_change": 0.0
   },
   {
     "code": "3092",
@@ -431563,7 +431563,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.43
+    "pct_change": 0.0
   },
   {
     "code": "3094",
@@ -431582,7 +431582,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.92
+    "pct_change": 0.0
   },
   {
     "code": "3130",
@@ -431601,7 +431601,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.47
+    "pct_change": 0.0
   },
   {
     "code": "3135",
@@ -431619,8 +431619,8 @@
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
-    "strong_long": true,
-    "pct_change": 1.69
+    "strong_long": false,
+    "pct_change": 0.0
   },
   {
     "code": "3138",
@@ -431639,7 +431639,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.94
+    "pct_change": 0.0
   },
   {
     "code": "3149",
@@ -431658,7 +431658,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.47
+    "pct_change": 0.0
   },
   {
     "code": "3150",
@@ -431696,7 +431696,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.63
+    "pct_change": 0.0
   },
   {
     "code": "3167",
@@ -431715,7 +431715,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.35
+    "pct_change": 0.0
   },
   {
     "code": "3168",
@@ -431734,7 +431734,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.69
+    "pct_change": 0.0
   },
   {
     "code": "3189",
@@ -431753,7 +431753,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 5.16
+    "pct_change": 0.0
   },
   {
     "code": "3209",
@@ -431772,7 +431772,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.38
+    "pct_change": 0.0
   },
   {
     "code": "3229",
@@ -431791,7 +431791,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -3.85
+    "pct_change": 0.0
   },
   {
     "code": "3231",
@@ -431810,7 +431810,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.71
+    "pct_change": 0.0
   },
   {
     "code": "3257",
@@ -431829,7 +431829,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.91
+    "pct_change": 0.0
   },
   {
     "code": "3266",
@@ -431867,7 +431867,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.44
+    "pct_change": 0.0
   },
   {
     "code": "3305",
@@ -431886,7 +431886,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.47
+    "pct_change": 0.0
   },
   {
     "code": "3308",
@@ -431905,7 +431905,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 9.98
+    "pct_change": 0.0
   },
   {
     "code": "3311",
@@ -431924,7 +431924,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.31
+    "pct_change": 0.0
   },
   {
     "code": "3312",
@@ -431943,7 +431943,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.98
+    "pct_change": 0.0
   },
   {
     "code": "3321",
@@ -431962,7 +431962,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.56
+    "pct_change": 0.0
   },
   {
     "code": "3338",
@@ -431981,7 +431981,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.15
+    "pct_change": 0.0
   },
   {
     "code": "3346",
@@ -432000,7 +432000,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.74
+    "pct_change": 0.0
   },
   {
     "code": "3356",
@@ -432019,7 +432019,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.48
+    "pct_change": 0.0
   },
   {
     "code": "3376",
@@ -432038,7 +432038,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.34
+    "pct_change": 0.0
   },
   {
     "code": "3380",
@@ -432057,7 +432057,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.37
+    "pct_change": 0.0
   },
   {
     "code": "3406",
@@ -432076,7 +432076,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 5.02
+    "pct_change": 0.0
   },
   {
     "code": "3413",
@@ -432095,7 +432095,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.35
+    "pct_change": 0.0
   },
   {
     "code": "3416",
@@ -432133,7 +432133,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -2.05
+    "pct_change": 0.0
   },
   {
     "code": "3432",
@@ -432152,7 +432152,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.03
+    "pct_change": 0.0
   },
   {
     "code": "3437",
@@ -432171,7 +432171,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.56
+    "pct_change": 0.0
   },
   {
     "code": "3443",
@@ -432190,7 +432190,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 3.82
+    "pct_change": 0.0
   },
   {
     "code": "3447",
@@ -432209,7 +432209,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.82
+    "pct_change": 0.0
   },
   {
     "code": "3450",
@@ -432228,7 +432228,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 5.13
+    "pct_change": 0.0
   },
   {
     "code": "3481",
@@ -432247,7 +432247,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 2.97
+    "pct_change": 0.0
   },
   {
     "code": "3494",
@@ -432266,7 +432266,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.14
+    "pct_change": 0.0
   },
   {
     "code": "3501",
@@ -432285,7 +432285,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.5
+    "pct_change": 0.0
   },
   {
     "code": "3504",
@@ -432304,7 +432304,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 3.46
+    "pct_change": 0.0
   },
   {
     "code": "3515",
@@ -432342,7 +432342,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.18
+    "pct_change": 0.0
   },
   {
     "code": "3528",
@@ -432378,9 +432378,9 @@
     "k_val": 58.1,
     "bb_low": false,
     "macd_gc": false,
-    "spike_high": true,
+    "spike_high": false,
     "strong_long": false,
-    "pct_change": 5.69
+    "pct_change": 0.0
   },
   {
     "code": "3532",
@@ -432399,7 +432399,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.4
+    "pct_change": 0.0
   },
   {
     "code": "3533",
@@ -432418,7 +432418,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.31
+    "pct_change": 0.0
   },
   {
     "code": "3535",
@@ -432456,7 +432456,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.97
+    "pct_change": 0.0
   },
   {
     "code": "3545",
@@ -432475,7 +432475,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.5
+    "pct_change": 0.0
   },
   {
     "code": "3550",
@@ -432494,7 +432494,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.3
+    "pct_change": 0.0
   },
   {
     "code": "3557",
@@ -432513,7 +432513,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.21
+    "pct_change": 0.0
   },
   {
     "code": "3563",
@@ -432532,7 +432532,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.35
+    "pct_change": 0.0
   },
   {
     "code": "3576",
@@ -432551,7 +432551,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.59
+    "pct_change": 0.0
   },
   {
     "code": "3583",
@@ -432570,7 +432570,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.73
+    "pct_change": 0.0
   },
   {
     "code": "3588",
@@ -432589,7 +432589,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.77
+    "pct_change": 0.0
   },
   {
     "code": "3591",
@@ -432608,7 +432608,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.87
+    "pct_change": 0.0
   },
   {
     "code": "3592",
@@ -432627,7 +432627,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.45
+    "pct_change": 0.0
   },
   {
     "code": "3593",
@@ -432646,7 +432646,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.45
+    "pct_change": 0.0
   },
   {
     "code": "3596",
@@ -432665,7 +432665,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.31
+    "pct_change": 0.0
   },
   {
     "code": "3605",
@@ -432684,7 +432684,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.87
+    "pct_change": 0.0
   },
   {
     "code": "3607",
@@ -432722,7 +432722,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -3.88
+    "pct_change": 0.0
   },
   {
     "code": "3622",
@@ -432741,7 +432741,7 @@
     "macd_gc": true,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.56
+    "pct_change": 0.0
   },
   {
     "code": "3645",
@@ -432760,7 +432760,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.69
+    "pct_change": 0.0
   },
   {
     "code": "3652",
@@ -432779,7 +432779,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.05
+    "pct_change": 0.0
   },
   {
     "code": "3653",
@@ -432798,7 +432798,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.97
+    "pct_change": 0.0
   },
   {
     "code": "3661",
@@ -432817,7 +432817,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 3.48
+    "pct_change": 0.0
   },
   {
     "code": "3665",
@@ -432836,7 +432836,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.22
+    "pct_change": 0.0
   },
   {
     "code": "3669",
@@ -432855,7 +432855,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -3.6
+    "pct_change": 0.0
   },
   {
     "code": "3673",
@@ -432874,7 +432874,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 4.6
+    "pct_change": 0.0
   },
   {
     "code": "3679",
@@ -432912,7 +432912,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.69
+    "pct_change": 0.0
   },
   {
     "code": "3694",
@@ -432931,7 +432931,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.2
+    "pct_change": 0.0
   },
   {
     "code": "3701",
@@ -432950,7 +432950,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 2.39
+    "pct_change": 0.0
   },
   {
     "code": "3702",
@@ -432969,7 +432969,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.9
+    "pct_change": 0.0
   },
   {
     "code": "3703",
@@ -432988,7 +432988,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.76
+    "pct_change": 0.0
   },
   {
     "code": "3704",
@@ -433007,7 +433007,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.19
+    "pct_change": 0.0
   },
   {
     "code": "3705",
@@ -433026,7 +433026,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.36
+    "pct_change": 0.0
   },
   {
     "code": "3706",
@@ -433045,7 +433045,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.76
+    "pct_change": 0.0
   },
   {
     "code": "3708",
@@ -433064,7 +433064,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.46
+    "pct_change": 0.0
   },
   {
     "code": "3711",
@@ -433083,7 +433083,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.17
+    "pct_change": 0.0
   },
   {
     "code": "3712",
@@ -433102,7 +433102,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.48
+    "pct_change": 0.0
   },
   {
     "code": "3714",
@@ -433121,7 +433121,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 4.2
+    "pct_change": 0.0
   },
   {
     "code": "3715",
@@ -433140,7 +433140,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.39
+    "pct_change": 0.0
   },
   {
     "code": "3716",
@@ -433159,7 +433159,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.25
+    "pct_change": 0.0
   },
   {
     "code": "3717",
@@ -433178,7 +433178,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.34
+    "pct_change": 0.0
   },
   {
     "code": "4104",
@@ -433197,7 +433197,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.42
+    "pct_change": 0.0
   },
   {
     "code": "4106",
@@ -433216,7 +433216,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.61
+    "pct_change": 0.0
   },
   {
     "code": "4108",
@@ -433235,7 +433235,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.45
+    "pct_change": 0.0
   },
   {
     "code": "4119",
@@ -433254,7 +433254,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.19
+    "pct_change": 0.0
   },
   {
     "code": "4133",
@@ -433273,7 +433273,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.24
+    "pct_change": 0.0
   },
   {
     "code": "4137",
@@ -433292,7 +433292,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.24
+    "pct_change": 0.0
   },
   {
     "code": "4142",
@@ -433311,7 +433311,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.56
+    "pct_change": 0.0
   },
   {
     "code": "4148",
@@ -433330,7 +433330,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.94
+    "pct_change": 0.0
   },
   {
     "code": "4155",
@@ -433349,7 +433349,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.35
+    "pct_change": 0.0
   },
   {
     "code": "4164",
@@ -433368,7 +433368,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.76
+    "pct_change": 0.0
   },
   {
     "code": "4169",
@@ -433387,7 +433387,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.64
+    "pct_change": 0.0
   },
   {
     "code": "4178",
@@ -433406,7 +433406,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.29
+    "pct_change": 0.0
   },
   {
     "code": "4190",
@@ -433425,7 +433425,7 @@
     "macd_gc": true,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.4
+    "pct_change": 0.0
   },
   {
     "code": "4195",
@@ -433444,7 +433444,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.35
+    "pct_change": 0.0
   },
   {
     "code": "4306",
@@ -433463,7 +433463,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.33
+    "pct_change": 0.0
   },
   {
     "code": "4414",
@@ -433482,7 +433482,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.12
+    "pct_change": 0.0
   },
   {
     "code": "4426",
@@ -433501,7 +433501,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.41
+    "pct_change": 0.0
   },
   {
     "code": "4438",
@@ -433520,7 +433520,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.17
+    "pct_change": 0.0
   },
   {
     "code": "4439",
@@ -433539,7 +433539,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.23
+    "pct_change": 0.0
   },
   {
     "code": "4440",
@@ -433558,7 +433558,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.29
+    "pct_change": 0.0
   },
   {
     "code": "4441",
@@ -433577,7 +433577,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.56
+    "pct_change": 0.0
   },
   {
     "code": "4526",
@@ -433596,7 +433596,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.67
+    "pct_change": 0.0
   },
   {
     "code": "4532",
@@ -433615,7 +433615,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.41
+    "pct_change": 0.0
   },
   {
     "code": "4536",
@@ -433634,7 +433634,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.17
+    "pct_change": 0.0
   },
   {
     "code": "4540",
@@ -433653,7 +433653,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.06
+    "pct_change": 0.0
   },
   {
     "code": "4545",
@@ -433672,7 +433672,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.93
+    "pct_change": 0.0
   },
   {
     "code": "4551",
@@ -433691,7 +433691,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.65
+    "pct_change": 0.0
   },
   {
     "code": "4552",
@@ -433710,7 +433710,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -3.13
+    "pct_change": 0.0
   },
   {
     "code": "4555",
@@ -433729,7 +433729,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.31
+    "pct_change": 0.0
   },
   {
     "code": "4557",
@@ -433748,7 +433748,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.35
+    "pct_change": 0.0
   },
   {
     "code": "4560",
@@ -433767,7 +433767,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.9
+    "pct_change": 0.0
   },
   {
     "code": "4562",
@@ -433786,7 +433786,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.32
+    "pct_change": 0.0
   },
   {
     "code": "4564",
@@ -433805,7 +433805,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.3
+    "pct_change": 0.0
   },
   {
     "code": "4566",
@@ -433824,7 +433824,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.61
+    "pct_change": 0.0
   },
   {
     "code": "4569",
@@ -433843,7 +433843,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 2.8
+    "pct_change": 0.0
   },
   {
     "code": "4571",
@@ -433862,7 +433862,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.32
+    "pct_change": 0.0
   },
   {
     "code": "4572",
@@ -433881,7 +433881,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.71
+    "pct_change": 0.0
   },
   {
     "code": "4576",
@@ -433900,7 +433900,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.51
+    "pct_change": 0.0
   },
   {
     "code": "4581",
@@ -433919,7 +433919,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.94
+    "pct_change": 0.0
   },
   {
     "code": "4582",
@@ -433938,7 +433938,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.06
+    "pct_change": 0.0
   },
   {
     "code": "4583",
@@ -433957,7 +433957,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -2.76
+    "pct_change": 0.0
   },
   {
     "code": "4585",
@@ -433976,7 +433976,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 2.56
+    "pct_change": 0.0
   },
   {
     "code": "4588",
@@ -433995,7 +433995,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.58
+    "pct_change": 0.0
   },
   {
     "code": "4590",
@@ -434014,7 +434014,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.28
+    "pct_change": 0.0
   },
   {
     "code": "4720",
@@ -434033,7 +434033,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.11
+    "pct_change": 0.0
   },
   {
     "code": "4722",
@@ -434052,7 +434052,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.23
+    "pct_change": 0.0
   },
   {
     "code": "4736",
@@ -434071,7 +434071,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -2.49
+    "pct_change": 0.0
   },
   {
     "code": "4737",
@@ -434090,7 +434090,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.71
+    "pct_change": 0.0
   },
   {
     "code": "4739",
@@ -434109,7 +434109,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.95
+    "pct_change": 0.0
   },
   {
     "code": "4746",
@@ -434128,7 +434128,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.9
+    "pct_change": 0.0
   },
   {
     "code": "4755",
@@ -434147,7 +434147,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.29
+    "pct_change": 0.0
   },
   {
     "code": "4763",
@@ -434166,7 +434166,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -3.95
+    "pct_change": 0.0
   },
   {
     "code": "4764",
@@ -434185,7 +434185,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 2.66
+    "pct_change": 0.0
   },
   {
     "code": "4766",
@@ -434204,7 +434204,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -2.83
+    "pct_change": 0.0
   },
   {
     "code": "4770",
@@ -434223,7 +434223,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.24
+    "pct_change": 0.0
   },
   {
     "code": "4771",
@@ -434241,8 +434241,8 @@
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
-    "strong_long": true,
-    "pct_change": 1.75
+    "strong_long": false,
+    "pct_change": 0.0
   },
   {
     "code": "4807",
@@ -434261,7 +434261,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.18
+    "pct_change": 0.0
   },
   {
     "code": "4904",
@@ -434280,7 +434280,7 @@
     "macd_gc": true,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.99
+    "pct_change": 0.0
   },
   {
     "code": "4906",
@@ -434299,7 +434299,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.62
+    "pct_change": 0.0
   },
   {
     "code": "4912",
@@ -434318,7 +434318,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.56
+    "pct_change": 0.0
   },
   {
     "code": "4915",
@@ -434337,7 +434337,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.16
+    "pct_change": 0.0
   },
   {
     "code": "4916",
@@ -434356,7 +434356,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 2.94
+    "pct_change": 0.0
   },
   {
     "code": "4919",
@@ -434375,7 +434375,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.86
+    "pct_change": 0.0
   },
   {
     "code": "4927",
@@ -434393,8 +434393,8 @@
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
-    "strong_long": true,
-    "pct_change": 2.45
+    "strong_long": false,
+    "pct_change": 0.0
   },
   {
     "code": "4930",
@@ -434413,7 +434413,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.25
+    "pct_change": 0.0
   },
   {
     "code": "4934",
@@ -434432,7 +434432,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.7
+    "pct_change": 0.0
   },
   {
     "code": "4935",
@@ -434451,7 +434451,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.88
+    "pct_change": 0.0
   },
   {
     "code": "4938",
@@ -434470,7 +434470,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.56
+    "pct_change": 0.0
   },
   {
     "code": "4942",
@@ -434489,7 +434489,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.3
+    "pct_change": 0.0
   },
   {
     "code": "4949",
@@ -434508,7 +434508,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.43
+    "pct_change": 0.0
   },
   {
     "code": "4952",
@@ -434527,7 +434527,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.19
+    "pct_change": 0.0
   },
   {
     "code": "4956",
@@ -434546,7 +434546,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -4.49
+    "pct_change": 0.0
   },
   {
     "code": "4958",
@@ -434565,7 +434565,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.95
+    "pct_change": 0.0
   },
   {
     "code": "4960",
@@ -434584,7 +434584,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.68
+    "pct_change": 0.0
   },
   {
     "code": "4961",
@@ -434603,7 +434603,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.3
+    "pct_change": 0.0
   },
   {
     "code": "4967",
@@ -434622,7 +434622,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.98
+    "pct_change": 0.0
   },
   {
     "code": "4968",
@@ -434641,7 +434641,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.33
+    "pct_change": 0.0
   },
   {
     "code": "4976",
@@ -434679,7 +434679,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 6.9
+    "pct_change": 0.0
   },
   {
     "code": "4989",
@@ -434698,7 +434698,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.33
+    "pct_change": 0.0
   },
   {
     "code": "4994",
@@ -434717,7 +434717,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.18
+    "pct_change": 0.0
   },
   {
     "code": "4999",
@@ -434736,7 +434736,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.53
+    "pct_change": 0.0
   },
   {
     "code": "5007",
@@ -434755,7 +434755,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.71
+    "pct_change": 0.0
   },
   {
     "code": "5203",
@@ -434774,7 +434774,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.2
+    "pct_change": 0.0
   },
   {
     "code": "5215",
@@ -434793,7 +434793,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.37
+    "pct_change": 0.0
   },
   {
     "code": "5222",
@@ -434812,7 +434812,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.95
+    "pct_change": 0.0
   },
   {
     "code": "5225",
@@ -434831,7 +434831,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.17
+    "pct_change": 0.0
   },
   {
     "code": "5234",
@@ -434850,7 +434850,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.33
+    "pct_change": 0.0
   },
   {
     "code": "5236",
@@ -434869,7 +434869,7 @@
     "macd_gc": true,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.11
+    "pct_change": 0.0
   },
   {
     "code": "5243",
@@ -434888,7 +434888,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.22
+    "pct_change": 0.0
   },
   {
     "code": "5244",
@@ -434926,7 +434926,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.42
+    "pct_change": 0.0
   },
   {
     "code": "5269",
@@ -434945,7 +434945,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.07
+    "pct_change": 0.0
   },
   {
     "code": "5283",
@@ -434964,7 +434964,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.18
+    "pct_change": 0.0
   },
   {
     "code": "5284",
@@ -434983,7 +434983,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.82
+    "pct_change": 0.0
   },
   {
     "code": "5285",
@@ -435002,7 +435002,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.39
+    "pct_change": 0.0
   },
   {
     "code": "5288",
@@ -435021,7 +435021,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.79
+    "pct_change": 0.0
   },
   {
     "code": "5292",
@@ -435040,7 +435040,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.66
+    "pct_change": 0.0
   },
   {
     "code": "5306",
@@ -435059,7 +435059,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.21
+    "pct_change": 0.0
   },
   {
     "code": "5388",
@@ -435078,7 +435078,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.64
+    "pct_change": 0.0
   },
   {
     "code": "5434",
@@ -435116,7 +435116,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.13
+    "pct_change": 0.0
   },
   {
     "code": "5471",
@@ -435135,7 +435135,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.18
+    "pct_change": 0.0
   },
   {
     "code": "5484",
@@ -435154,7 +435154,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.1
+    "pct_change": 0.0
   },
   {
     "code": "5515",
@@ -435192,7 +435192,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.18
+    "pct_change": 0.0
   },
   {
     "code": "5521",
@@ -435211,7 +435211,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.81
+    "pct_change": 0.0
   },
   {
     "code": "5522",
@@ -435230,7 +435230,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.31
+    "pct_change": 0.0
   },
   {
     "code": "5525",
@@ -435249,7 +435249,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.89
+    "pct_change": 0.0
   },
   {
     "code": "5531",
@@ -435268,7 +435268,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.41
+    "pct_change": 0.0
   },
   {
     "code": "5533",
@@ -435306,7 +435306,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.22
+    "pct_change": 0.0
   },
   {
     "code": "5538",
@@ -435325,7 +435325,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.2
+    "pct_change": 0.0
   },
   {
     "code": "5546",
@@ -435344,7 +435344,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.08
+    "pct_change": 0.0
   },
   {
     "code": "5607",
@@ -435363,7 +435363,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -2.88
+    "pct_change": 0.0
   },
   {
     "code": "5608",
@@ -435382,7 +435382,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.56
+    "pct_change": 0.0
   },
   {
     "code": "5706",
@@ -435401,7 +435401,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.88
+    "pct_change": 0.0
   },
   {
     "code": "5871",
@@ -435420,7 +435420,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.43
+    "pct_change": 0.0
   },
   {
     "code": "5871A",
@@ -435458,7 +435458,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.81
+    "pct_change": 0.0
   },
   {
     "code": "5880",
@@ -435477,7 +435477,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.2
+    "pct_change": 0.0
   },
   {
     "code": "5906",
@@ -435496,7 +435496,7 @@
     "macd_gc": true,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 6.58
+    "pct_change": 0.0
   },
   {
     "code": "5907",
@@ -435513,9 +435513,9 @@
     "k_val": 87.5,
     "bb_low": false,
     "macd_gc": false,
-    "spike_high": true,
+    "spike_high": false,
     "strong_long": false,
-    "pct_change": 4.42
+    "pct_change": 0.0
   },
   {
     "code": "6005",
@@ -435534,7 +435534,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.33
+    "pct_change": 0.0
   },
   {
     "code": "6024",
@@ -435553,7 +435553,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.8
+    "pct_change": 0.0
   },
   {
     "code": "6108",
@@ -435572,7 +435572,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -2.35
+    "pct_change": 0.0
   },
   {
     "code": "6112",
@@ -435591,7 +435591,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.9
+    "pct_change": 0.0
   },
   {
     "code": "6115",
@@ -435610,7 +435610,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.68
+    "pct_change": 0.0
   },
   {
     "code": "6116",
@@ -435629,7 +435629,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.7
+    "pct_change": 0.0
   },
   {
     "code": "6117",
@@ -435647,8 +435647,8 @@
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
-    "strong_long": true,
-    "pct_change": 3.28
+    "strong_long": false,
+    "pct_change": 0.0
   },
   {
     "code": "6120",
@@ -435667,7 +435667,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.79
+    "pct_change": 0.0
   },
   {
     "code": "6128",
@@ -435724,7 +435724,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.4
+    "pct_change": 0.0
   },
   {
     "code": "6139",
@@ -435743,7 +435743,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.32
+    "pct_change": 0.0
   },
   {
     "code": "6141",
@@ -435762,7 +435762,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.43
+    "pct_change": 0.0
   },
   {
     "code": "6142",
@@ -435781,7 +435781,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -2.93
+    "pct_change": 0.0
   },
   {
     "code": "6152",
@@ -435838,7 +435838,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.9
+    "pct_change": 0.0
   },
   {
     "code": "6164",
@@ -435857,7 +435857,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.42
+    "pct_change": 0.0
   },
   {
     "code": "6165",
@@ -435876,7 +435876,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.31
+    "pct_change": 0.0
   },
   {
     "code": "6166",
@@ -435895,7 +435895,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -2.52
+    "pct_change": 0.0
   },
   {
     "code": "6168",
@@ -435913,8 +435913,8 @@
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
-    "strong_long": true,
-    "pct_change": 2.21
+    "strong_long": false,
+    "pct_change": 0.0
   },
   {
     "code": "6176",
@@ -435933,7 +435933,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.58
+    "pct_change": 0.0
   },
   {
     "code": "6177",
@@ -435952,7 +435952,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.8
+    "pct_change": 0.0
   },
   {
     "code": "6183",
@@ -435971,7 +435971,7 @@
     "macd_gc": true,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.53
+    "pct_change": 0.0
   },
   {
     "code": "6184",
@@ -435990,7 +435990,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.12
+    "pct_change": 0.0
   },
   {
     "code": "6189",
@@ -436009,7 +436009,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.21
+    "pct_change": 0.0
   },
   {
     "code": "6191",
@@ -436028,7 +436028,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.25
+    "pct_change": 0.0
   },
   {
     "code": "6192",
@@ -436047,7 +436047,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.43
+    "pct_change": 0.0
   },
   {
     "code": "6196",
@@ -436066,7 +436066,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -3.25
+    "pct_change": 0.0
   },
   {
     "code": "6197",
@@ -436085,7 +436085,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 3.1
+    "pct_change": 0.0
   },
   {
     "code": "6201",
@@ -436123,7 +436123,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.89
+    "pct_change": 0.0
   },
   {
     "code": "6205",
@@ -436141,8 +436141,8 @@
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
-    "strong_long": true,
-    "pct_change": 2.84
+    "strong_long": false,
+    "pct_change": 0.0
   },
   {
     "code": "6206",
@@ -436161,7 +436161,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.36
+    "pct_change": 0.0
   },
   {
     "code": "6209",
@@ -436180,7 +436180,7 @@
     "macd_gc": true,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.77
+    "pct_change": 0.0
   },
   {
     "code": "6213",
@@ -436198,8 +436198,8 @@
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
-    "strong_long": true,
-    "pct_change": 9.84
+    "strong_long": false,
+    "pct_change": 0.0
   },
   {
     "code": "6214",
@@ -436218,7 +436218,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.11
+    "pct_change": 0.0
   },
   {
     "code": "6215",
@@ -436237,7 +436237,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.62
+    "pct_change": 0.0
   },
   {
     "code": "6216",
@@ -436256,7 +436256,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.79
+    "pct_change": 0.0
   },
   {
     "code": "6224",
@@ -436275,7 +436275,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 4.04
+    "pct_change": 0.0
   },
   {
     "code": "6225",
@@ -436294,7 +436294,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -7.03
+    "pct_change": 0.0
   },
   {
     "code": "6226",
@@ -436313,7 +436313,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 9.87
+    "pct_change": 0.0
   },
   {
     "code": "6230",
@@ -436332,7 +436332,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.47
+    "pct_change": 0.0
   },
   {
     "code": "6235",
@@ -436351,7 +436351,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.06
+    "pct_change": 0.0
   },
   {
     "code": "6239",
@@ -436370,7 +436370,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.48
+    "pct_change": 0.0
   },
   {
     "code": "6243",
@@ -436389,7 +436389,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -2.03
+    "pct_change": 0.0
   },
   {
     "code": "6257",
@@ -436408,7 +436408,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.51
+    "pct_change": 0.0
   },
   {
     "code": "6269",
@@ -436446,7 +436446,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 3.37
+    "pct_change": 0.0
   },
   {
     "code": "6272",
@@ -436484,7 +436484,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.85
+    "pct_change": 0.0
   },
   {
     "code": "6278",
@@ -436503,7 +436503,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.4
+    "pct_change": 0.0
   },
   {
     "code": "6281",
@@ -436522,7 +436522,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.19
+    "pct_change": 0.0
   },
   {
     "code": "6282",
@@ -436541,7 +436541,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.79
+    "pct_change": 0.0
   },
   {
     "code": "6283",
@@ -436560,7 +436560,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.24
+    "pct_change": 0.0
   },
   {
     "code": "6285",
@@ -436579,7 +436579,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.3
+    "pct_change": 0.0
   },
   {
     "code": "6405",
@@ -436598,7 +436598,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.66
+    "pct_change": 0.0
   },
   {
     "code": "6409",
@@ -436617,7 +436617,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.99
+    "pct_change": 0.0
   },
   {
     "code": "6412",
@@ -436636,7 +436636,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.13
+    "pct_change": 0.0
   },
   {
     "code": "6414",
@@ -436655,7 +436655,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.38
+    "pct_change": 0.0
   },
   {
     "code": "6415",
@@ -436674,7 +436674,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.33
+    "pct_change": 0.0
   },
   {
     "code": "6416",
@@ -436712,7 +436712,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 6.92
+    "pct_change": 0.0
   },
   {
     "code": "6431",
@@ -436731,7 +436731,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -2.54
+    "pct_change": 0.0
   },
   {
     "code": "6438",
@@ -436750,7 +436750,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.35
+    "pct_change": 0.0
   },
   {
     "code": "6442",
@@ -436769,7 +436769,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 9.93
+    "pct_change": 0.0
   },
   {
     "code": "6443",
@@ -436787,8 +436787,8 @@
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
-    "strong_long": true,
-    "pct_change": 2.32
+    "strong_long": false,
+    "pct_change": 0.0
   },
   {
     "code": "6446",
@@ -436807,7 +436807,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.02
+    "pct_change": 0.0
   },
   {
     "code": "6449",
@@ -436826,7 +436826,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 6.41
+    "pct_change": 0.0
   },
   {
     "code": "6451",
@@ -436845,7 +436845,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 5.75
+    "pct_change": 0.0
   },
   {
     "code": "6456",
@@ -436864,7 +436864,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 3.36
+    "pct_change": 0.0
   },
   {
     "code": "6464",
@@ -436883,7 +436883,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.38
+    "pct_change": 0.0
   },
   {
     "code": "6472",
@@ -436901,8 +436901,8 @@
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
-    "strong_long": true,
-    "pct_change": 3.75
+    "strong_long": false,
+    "pct_change": 0.0
   },
   {
     "code": "6477",
@@ -436921,7 +436921,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.83
+    "pct_change": 0.0
   },
   {
     "code": "6491",
@@ -436940,7 +436940,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.78
+    "pct_change": 0.0
   },
   {
     "code": "6504",
@@ -436959,7 +436959,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.13
+    "pct_change": 0.0
   },
   {
     "code": "6505",
@@ -436978,7 +436978,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.57
+    "pct_change": 0.0
   },
   {
     "code": "6515",
@@ -436997,7 +436997,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.79
+    "pct_change": 0.0
   },
   {
     "code": "6525",
@@ -437016,7 +437016,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.73
+    "pct_change": 0.0
   },
   {
     "code": "6526",
@@ -437054,7 +437054,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 3.67
+    "pct_change": 0.0
   },
   {
     "code": "6533",
@@ -437073,7 +437073,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 2.03
+    "pct_change": 0.0
   },
   {
     "code": "6534",
@@ -437092,7 +437092,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.43
+    "pct_change": 0.0
   },
   {
     "code": "6541",
@@ -437111,7 +437111,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.28
+    "pct_change": 0.0
   },
   {
     "code": "6550",
@@ -437130,7 +437130,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -5.17
+    "pct_change": 0.0
   },
   {
     "code": "6552",
@@ -437149,7 +437149,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.6
+    "pct_change": 0.0
   },
   {
     "code": "6558",
@@ -437168,7 +437168,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.0
+    "pct_change": 0.0
   },
   {
     "code": "6573",
@@ -437186,8 +437186,8 @@
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
-    "strong_long": true,
-    "pct_change": 4.68
+    "strong_long": false,
+    "pct_change": 0.0
   },
   {
     "code": "6579",
@@ -437206,7 +437206,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.02
+    "pct_change": 0.0
   },
   {
     "code": "6581",
@@ -437225,7 +437225,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.46
+    "pct_change": 0.0
   },
   {
     "code": "6582",
@@ -437244,7 +437244,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.92
+    "pct_change": 0.0
   },
   {
     "code": "6585",
@@ -437263,7 +437263,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.44
+    "pct_change": 0.0
   },
   {
     "code": "6589",
@@ -437282,7 +437282,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.19
+    "pct_change": 0.0
   },
   {
     "code": "6591",
@@ -437301,7 +437301,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.23
+    "pct_change": 0.0
   },
   {
     "code": "6592",
@@ -437320,7 +437320,7 @@
     "macd_gc": true,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.65
+    "pct_change": 0.0
   },
   {
     "code": "6598",
@@ -437339,7 +437339,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.07
+    "pct_change": 0.0
   },
   {
     "code": "6605",
@@ -437358,7 +437358,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.72
+    "pct_change": 0.0
   },
   {
     "code": "6606",
@@ -437377,7 +437377,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.37
+    "pct_change": 0.0
   },
   {
     "code": "6614",
@@ -437396,7 +437396,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.14
+    "pct_change": 0.0
   },
   {
     "code": "6625",
@@ -437415,7 +437415,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.26
+    "pct_change": 0.0
   },
   {
     "code": "6641",
@@ -437434,7 +437434,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.28
+    "pct_change": 0.0
   },
   {
     "code": "6645",
@@ -437453,7 +437453,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.77
+    "pct_change": 0.0
   },
   {
     "code": "6655",
@@ -437472,7 +437472,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.44
+    "pct_change": 0.0
   },
   {
     "code": "6657",
@@ -437491,7 +437491,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.67
+    "pct_change": 0.0
   },
   {
     "code": "6658",
@@ -437510,7 +437510,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.32
+    "pct_change": 0.0
   },
   {
     "code": "6666",
@@ -437529,7 +437529,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.34
+    "pct_change": 0.0
   },
   {
     "code": "6668",
@@ -437548,7 +437548,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.14
+    "pct_change": 0.0
   },
   {
     "code": "6669",
@@ -437567,7 +437567,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 2.22
+    "pct_change": 0.0
   },
   {
     "code": "6670",
@@ -437586,7 +437586,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.56
+    "pct_change": 0.0
   },
   {
     "code": "6671",
@@ -437605,7 +437605,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.43
+    "pct_change": 0.0
   },
   {
     "code": "6672",
@@ -437624,7 +437624,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 4.44
+    "pct_change": 0.0
   },
   {
     "code": "6674",
@@ -437643,7 +437643,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -2.98
+    "pct_change": 0.0
   },
   {
     "code": "6689",
@@ -437681,7 +437681,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.82
+    "pct_change": 0.0
   },
   {
     "code": "6695",
@@ -437700,7 +437700,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.53
+    "pct_change": 0.0
   },
   {
     "code": "6698",
@@ -437719,7 +437719,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.16
+    "pct_change": 0.0
   },
   {
     "code": "6706",
@@ -437737,8 +437737,8 @@
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
-    "strong_long": true,
-    "pct_change": 7.42
+    "strong_long": false,
+    "pct_change": 0.0
   },
   {
     "code": "6715",
@@ -437757,7 +437757,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -9.91
+    "pct_change": 0.0
   },
   {
     "code": "6719",
@@ -437776,7 +437776,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.26
+    "pct_change": 0.0
   },
   {
     "code": "6722",
@@ -437814,7 +437814,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.58
+    "pct_change": 0.0
   },
   {
     "code": "6743",
@@ -437833,7 +437833,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.4
+    "pct_change": 0.0
   },
   {
     "code": "6753",
@@ -437852,7 +437852,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.06
+    "pct_change": 0.0
   },
   {
     "code": "6754",
@@ -437871,7 +437871,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.94
+    "pct_change": 0.0
   },
   {
     "code": "6756",
@@ -437890,7 +437890,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 3.66
+    "pct_change": 0.0
   },
   {
     "code": "6757",
@@ -437909,7 +437909,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.36
+    "pct_change": 0.0
   },
   {
     "code": "6768",
@@ -437928,7 +437928,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.3
+    "pct_change": 0.0
   },
   {
     "code": "6770",
@@ -437947,7 +437947,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -2.54
+    "pct_change": 0.0
   },
   {
     "code": "6771",
@@ -437966,7 +437966,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.34
+    "pct_change": 0.0
   },
   {
     "code": "6776",
@@ -438003,8 +438003,8 @@
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
-    "strong_long": true,
-    "pct_change": 1.91
+    "strong_long": false,
+    "pct_change": 0.0
   },
   {
     "code": "6782",
@@ -438023,7 +438023,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 9.52
+    "pct_change": 0.0
   },
   {
     "code": "6789",
@@ -438042,7 +438042,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.33
+    "pct_change": 0.0
   },
   {
     "code": "6790",
@@ -438061,7 +438061,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.78
+    "pct_change": 0.0
   },
   {
     "code": "6792",
@@ -438080,7 +438080,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 3.26
+    "pct_change": 0.0
   },
   {
     "code": "6794",
@@ -438099,7 +438099,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.67
+    "pct_change": 0.0
   },
   {
     "code": "6796",
@@ -438118,7 +438118,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.12
+    "pct_change": 0.0
   },
   {
     "code": "6799",
@@ -438137,7 +438137,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.89
+    "pct_change": 0.0
   },
   {
     "code": "6805",
@@ -438156,7 +438156,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 7.89
+    "pct_change": 0.0
   },
   {
     "code": "6807",
@@ -438175,7 +438175,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -2.13
+    "pct_change": 0.0
   },
   {
     "code": "6830",
@@ -438193,8 +438193,8 @@
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
-    "strong_long": true,
-    "pct_change": 9.97
+    "strong_long": false,
+    "pct_change": 0.0
   },
   {
     "code": "6831",
@@ -438213,7 +438213,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 2.37
+    "pct_change": 0.0
   },
   {
     "code": "6834",
@@ -438232,7 +438232,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.22
+    "pct_change": 0.0
   },
   {
     "code": "6835",
@@ -438251,7 +438251,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.48
+    "pct_change": 0.0
   },
   {
     "code": "6838",
@@ -438270,7 +438270,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.43
+    "pct_change": 0.0
   },
   {
     "code": "6854",
@@ -438289,7 +438289,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.54
+    "pct_change": 0.0
   },
   {
     "code": "6861",
@@ -438308,7 +438308,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.27
+    "pct_change": 0.0
   },
   {
     "code": "6862",
@@ -438327,7 +438327,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.73
+    "pct_change": 0.0
   },
   {
     "code": "6863",
@@ -438365,7 +438365,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.5
+    "pct_change": 0.0
   },
   {
     "code": "6873",
@@ -438384,7 +438384,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 3.39
+    "pct_change": 0.0
   },
   {
     "code": "6885",
@@ -438441,7 +438441,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -2.45
+    "pct_change": 0.0
   },
   {
     "code": "6901",
@@ -438460,7 +438460,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.51
+    "pct_change": 0.0
   },
   {
     "code": "6902",
@@ -438479,7 +438479,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.79
+    "pct_change": 0.0
   },
   {
     "code": "6906",
@@ -438498,7 +438498,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.4
+    "pct_change": 0.0
   },
   {
     "code": "6908",
@@ -438517,7 +438517,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.32
+    "pct_change": 0.0
   },
   {
     "code": "6909",
@@ -438536,7 +438536,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.25
+    "pct_change": 0.0
   },
   {
     "code": "6914",
@@ -438555,7 +438555,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.68
+    "pct_change": 0.0
   },
   {
     "code": "6916",
@@ -438574,7 +438574,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.8
+    "pct_change": 0.0
   },
   {
     "code": "6918",
@@ -438593,7 +438593,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.67
+    "pct_change": 0.0
   },
   {
     "code": "6919",
@@ -438612,7 +438612,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -4.52
+    "pct_change": 0.0
   },
   {
     "code": "6921",
@@ -438631,7 +438631,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -2.32
+    "pct_change": 0.0
   },
   {
     "code": "6923",
@@ -438650,7 +438650,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.65
+    "pct_change": 0.0
   },
   {
     "code": "6924",
@@ -438669,7 +438669,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -2.19
+    "pct_change": 0.0
   },
   {
     "code": "6928",
@@ -438688,7 +438688,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.47
+    "pct_change": 0.0
   },
   {
     "code": "6931",
@@ -438707,7 +438707,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.84
+    "pct_change": 0.0
   },
   {
     "code": "6933",
@@ -438726,7 +438726,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.51
+    "pct_change": 0.0
   },
   {
     "code": "6934",
@@ -438745,7 +438745,7 @@
     "macd_gc": true,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.5
+    "pct_change": 0.0
   },
   {
     "code": "6936",
@@ -438783,7 +438783,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.58
+    "pct_change": 0.0
   },
   {
     "code": "6944",
@@ -438802,7 +438802,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.99
+    "pct_change": 0.0
   },
   {
     "code": "6947",
@@ -438821,7 +438821,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.14
+    "pct_change": 0.0
   },
   {
     "code": "6949",
@@ -438840,7 +438840,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 9.72
+    "pct_change": 0.0
   },
   {
     "code": "6951",
@@ -438859,7 +438859,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.84
+    "pct_change": 0.0
   },
   {
     "code": "6952",
@@ -438878,7 +438878,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.92
+    "pct_change": 0.0
   },
   {
     "code": "6955",
@@ -438916,7 +438916,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.62
+    "pct_change": 0.0
   },
   {
     "code": "6958",
@@ -438935,7 +438935,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.85
+    "pct_change": 0.0
   },
   {
     "code": "6962",
@@ -438954,7 +438954,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.32
+    "pct_change": 0.0
   },
   {
     "code": "6965",
@@ -438973,7 +438973,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.79
+    "pct_change": 0.0
   },
   {
     "code": "6969",
@@ -438992,7 +438992,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -3.21
+    "pct_change": 0.0
   },
   {
     "code": "6988",
@@ -439011,7 +439011,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.7
+    "pct_change": 0.0
   },
   {
     "code": "6994",
@@ -439030,7 +439030,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 3.54
+    "pct_change": 0.0
   },
   {
     "code": "7610",
@@ -439049,7 +439049,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -4.39
+    "pct_change": 0.0
   },
   {
     "code": "7631",
@@ -439068,7 +439068,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.73
+    "pct_change": 0.0
   },
   {
     "code": "7689",
@@ -439087,7 +439087,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.28
+    "pct_change": 0.0
   },
   {
     "code": "7705",
@@ -439106,7 +439106,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.65
+    "pct_change": 0.0
   },
   {
     "code": "7711",
@@ -439125,7 +439125,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 3.52
+    "pct_change": 0.0
   },
   {
     "code": "7721",
@@ -439144,7 +439144,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 2.14
+    "pct_change": 0.0
   },
   {
     "code": "7722",
@@ -439163,7 +439163,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.8
+    "pct_change": 0.0
   },
   {
     "code": "7730",
@@ -439181,8 +439181,8 @@
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
-    "strong_long": true,
-    "pct_change": 5.8
+    "strong_long": false,
+    "pct_change": 0.0
   },
   {
     "code": "7732",
@@ -439201,7 +439201,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.43
+    "pct_change": 0.0
   },
   {
     "code": "7736",
@@ -439220,7 +439220,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.14
+    "pct_change": 0.0
   },
   {
     "code": "7740",
@@ -439239,7 +439239,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -3.6
+    "pct_change": 0.0
   },
   {
     "code": "7749",
@@ -439277,7 +439277,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 9.81
+    "pct_change": 0.0
   },
   {
     "code": "7760",
@@ -439296,7 +439296,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.35
+    "pct_change": 0.0
   },
   {
     "code": "7765",
@@ -439334,7 +439334,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -2.41
+    "pct_change": 0.0
   },
   {
     "code": "7769",
@@ -439353,7 +439353,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.72
+    "pct_change": 0.0
   },
   {
     "code": "7780",
@@ -439372,7 +439372,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.3
+    "pct_change": 0.0
   },
   {
     "code": "7786",
@@ -439391,7 +439391,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.41
+    "pct_change": 0.0
   },
   {
     "code": "7788",
@@ -439410,7 +439410,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 2.17
+    "pct_change": 0.0
   },
   {
     "code": "7791",
@@ -439429,7 +439429,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.18
+    "pct_change": 0.0
   },
   {
     "code": "7795",
@@ -439448,7 +439448,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -2.99
+    "pct_change": 0.0
   },
   {
     "code": "7799",
@@ -439467,7 +439467,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.42
+    "pct_change": 0.0
   },
   {
     "code": "7803",
@@ -439486,7 +439486,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.77
+    "pct_change": 0.0
   },
   {
     "code": "7818",
@@ -439505,7 +439505,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.64
+    "pct_change": 0.0
   },
   {
     "code": "7821",
@@ -439524,7 +439524,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.52
+    "pct_change": 0.0
   },
   {
     "code": "7822",
@@ -439543,7 +439543,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.09
+    "pct_change": 0.0
   },
   {
     "code": "7823",
@@ -439562,7 +439562,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.31
+    "pct_change": 0.0
   },
   {
     "code": "7827",
@@ -439619,7 +439619,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.11
+    "pct_change": 0.0
   },
   {
     "code": "8011",
@@ -439638,7 +439638,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.24
+    "pct_change": 0.0
   },
   {
     "code": "8016",
@@ -439657,7 +439657,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.02
+    "pct_change": 0.0
   },
   {
     "code": "8021",
@@ -439676,7 +439676,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 3.99
+    "pct_change": 0.0
   },
   {
     "code": "8028",
@@ -439695,7 +439695,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.21
+    "pct_change": 0.0
   },
   {
     "code": "8033",
@@ -439714,7 +439714,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -3.24
+    "pct_change": 0.0
   },
   {
     "code": "8039",
@@ -439732,8 +439732,8 @@
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
-    "strong_long": true,
-    "pct_change": 10.0
+    "strong_long": false,
+    "pct_change": 0.0
   },
   {
     "code": "8045",
@@ -439752,7 +439752,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -2.07
+    "pct_change": 0.0
   },
   {
     "code": "8046",
@@ -439771,7 +439771,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 2.2
+    "pct_change": 0.0
   },
   {
     "code": "8070",
@@ -439790,7 +439790,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.61
+    "pct_change": 0.0
   },
   {
     "code": "8072",
@@ -439809,7 +439809,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.38
+    "pct_change": 0.0
   },
   {
     "code": "8081",
@@ -439847,7 +439847,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -8.45
+    "pct_change": 0.0
   },
   {
     "code": "8103",
@@ -439864,9 +439864,9 @@
     "k_val": 82.6,
     "bb_low": false,
     "macd_gc": false,
-    "spike_high": true,
+    "spike_high": false,
     "strong_long": false,
-    "pct_change": 6.48
+    "pct_change": 0.0
   },
   {
     "code": "8104",
@@ -439885,7 +439885,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.16
+    "pct_change": 0.0
   },
   {
     "code": "8110",
@@ -439904,7 +439904,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.22
+    "pct_change": 0.0
   },
   {
     "code": "8112",
@@ -439923,7 +439923,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.47
+    "pct_change": 0.0
   },
   {
     "code": "8114",
@@ -439942,7 +439942,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.26
+    "pct_change": 0.0
   },
   {
     "code": "8131",
@@ -439961,7 +439961,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.44
+    "pct_change": 0.0
   },
   {
     "code": "8150",
@@ -439980,7 +439980,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.23
+    "pct_change": 0.0
   },
   {
     "code": "8162",
@@ -439999,7 +439999,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 9.75
+    "pct_change": 0.0
   },
   {
     "code": "8163",
@@ -440018,7 +440018,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.49
+    "pct_change": 0.0
   },
   {
     "code": "8201",
@@ -440037,7 +440037,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.85
+    "pct_change": 0.0
   },
   {
     "code": "8210",
@@ -440056,7 +440056,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.21
+    "pct_change": 0.0
   },
   {
     "code": "8213",
@@ -440094,7 +440094,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.47
+    "pct_change": 0.0
   },
   {
     "code": "8222",
@@ -440113,7 +440113,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.52
+    "pct_change": 0.0
   },
   {
     "code": "8249",
@@ -440132,7 +440132,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.12
+    "pct_change": 0.0
   },
   {
     "code": "8261",
@@ -440170,7 +440170,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -2.34
+    "pct_change": 0.0
   },
   {
     "code": "8341",
@@ -440189,7 +440189,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.39
+    "pct_change": 0.0
   },
   {
     "code": "8367",
@@ -440208,7 +440208,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.73
+    "pct_change": 0.0
   },
   {
     "code": "8374",
@@ -440227,7 +440227,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.61
+    "pct_change": 0.0
   },
   {
     "code": "8404",
@@ -440246,7 +440246,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.62
+    "pct_change": 0.0
   },
   {
     "code": "8411",
@@ -440265,7 +440265,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.55
+    "pct_change": 0.0
   },
   {
     "code": "8422",
@@ -440321,8 +440321,8 @@
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
-    "strong_long": true,
-    "pct_change": 2.26
+    "strong_long": false,
+    "pct_change": 0.0
   },
   {
     "code": "8442",
@@ -440341,7 +440341,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.3
+    "pct_change": 0.0
   },
   {
     "code": "8443",
@@ -440379,7 +440379,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.2
+    "pct_change": 0.0
   },
   {
     "code": "8462",
@@ -440398,7 +440398,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.57
+    "pct_change": 0.0
   },
   {
     "code": "8463",
@@ -440417,7 +440417,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.23
+    "pct_change": 0.0
   },
   {
     "code": "8464",
@@ -440436,7 +440436,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.94
+    "pct_change": 0.0
   },
   {
     "code": "8466",
@@ -440455,7 +440455,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -2.22
+    "pct_change": 0.0
   },
   {
     "code": "8467",
@@ -440474,7 +440474,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -3.79
+    "pct_change": 0.0
   },
   {
     "code": "8473",
@@ -440493,7 +440493,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.01
+    "pct_change": 0.0
   },
   {
     "code": "8476",
@@ -440512,7 +440512,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.75
+    "pct_change": 0.0
   },
   {
     "code": "8478",
@@ -440531,7 +440531,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.35
+    "pct_change": 0.0
   },
   {
     "code": "8481",
@@ -440569,7 +440569,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 2.41
+    "pct_change": 0.0
   },
   {
     "code": "8487",
@@ -440607,7 +440607,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.9
+    "pct_change": 0.0
   },
   {
     "code": "8499",
@@ -440645,7 +440645,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.88
+    "pct_change": 0.0
   },
   {
     "code": "8940",
@@ -440664,7 +440664,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.92
+    "pct_change": 0.0
   },
   {
     "code": "8996",
@@ -440682,8 +440682,8 @@
     "bb_low": false,
     "macd_gc": false,
     "spike_high": false,
-    "strong_long": true,
-    "pct_change": 6.11
+    "strong_long": false,
+    "pct_change": 0.0
   },
   {
     "code": "9103",
@@ -440702,7 +440702,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.39
+    "pct_change": 0.0
   },
   {
     "code": "910322",
@@ -440740,7 +440740,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.43
+    "pct_change": 0.0
   },
   {
     "code": "910861",
@@ -440835,7 +440835,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -3.52
+    "pct_change": 0.0
   },
   {
     "code": "9802",
@@ -440854,7 +440854,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.11
+    "pct_change": 0.0
   },
   {
     "code": "9902",
@@ -440873,7 +440873,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.72
+    "pct_change": 0.0
   },
   {
     "code": "9904",
@@ -440892,7 +440892,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.2
+    "pct_change": 0.0
   },
   {
     "code": "9905",
@@ -440911,7 +440911,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.47
+    "pct_change": 0.0
   },
   {
     "code": "9906",
@@ -440930,7 +440930,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.26
+    "pct_change": 0.0
   },
   {
     "code": "9907",
@@ -440949,7 +440949,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.33
+    "pct_change": 0.0
   },
   {
     "code": "9908",
@@ -440968,7 +440968,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.51
+    "pct_change": 0.0
   },
   {
     "code": "9910",
@@ -440987,7 +440987,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.41
+    "pct_change": 0.0
   },
   {
     "code": "9911",
@@ -441006,7 +441006,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.12
+    "pct_change": 0.0
   },
   {
     "code": "9912",
@@ -441044,7 +441044,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 2.01
+    "pct_change": 0.0
   },
   {
     "code": "9917",
@@ -441063,7 +441063,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.45
+    "pct_change": 0.0
   },
   {
     "code": "9918",
@@ -441082,7 +441082,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.5
+    "pct_change": 0.0
   },
   {
     "code": "9919",
@@ -441120,7 +441120,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 2.27
+    "pct_change": 0.0
   },
   {
     "code": "9924",
@@ -441139,7 +441139,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.13
+    "pct_change": 0.0
   },
   {
     "code": "9925",
@@ -441158,7 +441158,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.62
+    "pct_change": 0.0
   },
   {
     "code": "9926",
@@ -441177,7 +441177,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.91
+    "pct_change": 0.0
   },
   {
     "code": "9927",
@@ -441196,7 +441196,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.43
+    "pct_change": 0.0
   },
   {
     "code": "9928",
@@ -441215,7 +441215,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.82
+    "pct_change": 0.0
   },
   {
     "code": "9929",
@@ -441234,7 +441234,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.88
+    "pct_change": 0.0
   },
   {
     "code": "9930",
@@ -441253,7 +441253,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.25
+    "pct_change": 0.0
   },
   {
     "code": "9931",
@@ -441272,7 +441272,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.44
+    "pct_change": 0.0
   },
   {
     "code": "9933",
@@ -441291,7 +441291,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.56
+    "pct_change": 0.0
   },
   {
     "code": "9934",
@@ -441310,7 +441310,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.44
+    "pct_change": 0.0
   },
   {
     "code": "9935",
@@ -441329,7 +441329,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.74
+    "pct_change": 0.0
   },
   {
     "code": "9937",
@@ -441367,7 +441367,7 @@
     "macd_gc": true,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 0.35
+    "pct_change": 0.0
   },
   {
     "code": "9939",
@@ -441386,7 +441386,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.49
+    "pct_change": 0.0
   },
   {
     "code": "9940",
@@ -441405,7 +441405,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.68
+    "pct_change": 0.0
   },
   {
     "code": "9941",
@@ -441424,7 +441424,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": 1.05
+    "pct_change": 0.0
   },
   {
     "code": "9942",
@@ -441443,7 +441443,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.44
+    "pct_change": 0.0
   },
   {
     "code": "9943",
@@ -441462,7 +441462,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.39
+    "pct_change": 0.0
   },
   {
     "code": "9944",
@@ -441481,7 +441481,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.43
+    "pct_change": 0.0
   },
   {
     "code": "9945",
@@ -441500,7 +441500,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -0.86
+    "pct_change": 0.0
   },
   {
     "code": "9946",
@@ -441538,7 +441538,7 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -1.98
+    "pct_change": 0.0
   },
   {
     "code": "9958",
@@ -441557,6 +441557,6 @@
     "macd_gc": false,
     "spike_high": false,
     "strong_long": false,
-    "pct_change": -2.57
+    "pct_change": 0.0
   }
 ]
